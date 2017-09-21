@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--主色调-->
+    <color name="common_main">#1E87E6</color>
+    <color name="color_press">#55a1e6</color>
+    <!--标题颜色-->
+    <color name="common_title">#1c1c1c</color>
+    <!--辅助色-->
+    <color name="common_title_sub">#999999</color>
+    <!--hint提示颜色-->
+    <color name="common_hint">#cccccc</color>
+    <!--分割线-->
+    <color name="common_line">#ededed</color>
+    <!--导航背景-->
+    <color name="common_navigation">#f9f9f9</color>
+    <!--页面背景颜色-->
+    <color name="common_background">#eeeeee</color>
+
+    <color name="color_79bbf7">#79bbf7</color>
+
+    <color name="common_disable">#febfbf</color>
+    <color name="divider">#20000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_cf">#cfffffff</color>
+    <color name="background_window">#f1f1f1</color>
+    <color name="black">#ff000000</color>
+    <color name="black_cf">#cf000000</color>
+    <color name="black_9f">#9f000000</color>
+    <color name="black_6f">#6f000000</color>
+    <color name="theme_background">#F5F5F5</color>
+    <color name="textColorPrimary">#df000000</color>
+    <color name="black_07">#07000000</color>
+    <color name="black_10">#10000000</color>
+    <color name="black_20">#20000000</color>
+    <color name="black_30">#30000000</color>
+    <color name="black_40">#40000000</color>
+    <color name="black_50">#50000000</color>
+    <color name="black_60">#60000000</color>
+    <color name="black_70">#70000000</color>
+    <color name="black_80">#80000000</color>
+    <color name="black_90">#90000000</color>
+    <color name="black_a0">#a0000000</color>
+    <color name="black_b0">#b0000000</color>
+    <color name="black_c0">#c0000000</color>
+    <color name="black_d0">#d0000000</color>
+    <color name="black_e0">#e0000000</color>
+    <color name="shadow">#5f000000</color>
+    <color name="shadow_blue">#283B97E9</color>
+
+
+    <color name="gray">#cccccc</color>
+    <color name="drop_down_selected">#7B1FA2</color>
+    <color name="drop_down_unselected">#111111</color>
+    <color name="mask_color">#88888888</color>
+    <color name="check_bg">#f2f2f2</color>
+    <color name="un_press_color">#9C27B0</color>
+    <color name="color_f9f9f9">#F9F9F9</color>
+    <color name="color_1c1c1c">#1c1c1c</color>
+    <color name="color_ff782e">#ff782e</color>
+    <color name="color_orange_pressed">#f99a66</color>
+    <color name="color_52b039">#52b039</color>
+    <color name="color_bbbbbb">#bbbbbb</color>
+    <color name="color_dddddd">#DDDDDD</color>
+
+    <color name="color_red_normal">#e94d4a</color>
+    <color name="color_red_pressed">#ef7c7a</color>
+
+    <color name="default_shadow_color">#88757575</color>
+    <color name="default_fill_color">#ffffff</color>
+    <color name="color_cccccc">#cccccc</color>
+    <color name="line_grey">#D7D7D7</color>
+    <color name="color_888888">#888888</color>
+
+    <color name="ios_btntext_blue">#007aff</color>
+    <color name="text_title_11">#111111</color>
+    <color name="text_msg_33">#333333</color>
+    <color name="text_input_44">#444444</color>
+
+    <color name="text_item_33">#333333</color>
+    <color name="btn_alert">#222222</color>
+
+    <color name="line_dd">#cccccc</color>
+
+    <color name="ios_btn_normal">#ffffff</color>
+    <color name="ios_btn_pressed">#eeeeee</color>
+
+    <color name="bg_white">#ffffff</color>
+
+    <color name="text_gray">#999999</color>
+    <color name="text_gray_light">#B3B3B3</color>
+
+    <color name="text_black">#333333</color><!--正式发布时改成666666-->
+    <color name="text_black_light" >#666666</color><!--正式发布时改成666666-->
+
+    <!-- Grayscale -->
+    <color name="bootstrap_gray_dark">#373a3c</color>
+    <color name="bootstrap_gray">#55595c</color>
+    <color name="bootstrap_gray_light">#818a91</color>
+    <color name="bootstrap_gray_lighter">#eceeef</color>
+    <color name="bootstrap_gray_lightest">#f7f7f9</color>
+
+    <!-- Brand -->
+    <color name="bootstrap_brand_primary">#0275d8</color>
+    <color name="bootstrap_brand_success">#5cb85c</color>
+    <color name="bootstrap_brand_info">#5bc0de</color>
+    <color name="bootstrap_brand_warning">#f0ad4e</color>
+    <color name="bootstrap_brand_danger">#d9534f</color>
+
+    <!-- View Specific -->
+
+    <!-- Buttons -->
+    <color name="bootstrap_brand_secondary_fill">#ffffff</color>
+    <color name="bootstrap_brand_secondary_border">#cccccc</color>
+    <color name="bootstrap_brand_secondary_text">#373a3c</color>
+
+    <!-- Misc -->
+    <color name="bootstrap_edittext_disabled">#ffe0e0e0</color>
+    <color name="bootstrap_thumbnail_background">#ffffffff</color>
+    <color name="bootstrap_well_background">#F5F5F5</color>
+    <color name="bootstrap_dropdown_divider">#e7e7e7</color>
+    <color name="bootstrap_well_border_color">#E7E7E7</color>
+    <color name="bootstrap_alert_cross_default">#64818a91</color>
+
+    <color name="cpb_grey">#ffdedede</color>
+    <color name="cpb_blue">#ff0099cc</color>
+    <color name="cpb_blue_dark">#ff00719b</color>
+    <color name="cpb_red">#ffff4444</color>
+    <color name="cpb_red_dark">#ffcd3a3a</color>
+    <color name="cpb_green">#ff99cc00</color>
+    <color name="cpb_green_dark">#ff6d9b00</color>
+    <color name="cpb_white">@android:color/white</color>
+
+    <color name="pickerview_timebtn_nor">#057dff</color>
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+    <color name="pickerview_bgColor_overlay">#60000000</color>
+    <color name="pickerview_bgColor_default">#FFFFFFFF</color>
+
+    <color name="bar_grey">#393a3e</color>
+    <color name="blue">#7D7DFF</color>
+    <color name="color_69">#999999</color>
+    <color name="image_overlay_true">#80000000</color>
+    <color name="image_overlay_false">#20000000</color>
+    <color name="line_color">#EEEEEE</color>
+    <color name="color_fa">#FAFAFA</color>
+    <color name="tab_color_true">#FA632D</color>
+    <color name="tab_color_false">#9b9b9b</color>
+    <color name="color_f2">#F2F2F2</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_white">#F0FFFFFF</color>
+    <color name="transparent_db">#E0DBDBDB</color>
+    <color name="color_53">#53575e</color>
+    <color name="color_f0">#F0F0F0</color>
+    <color name="bar_grey_90">#dd393a3e</color>
+    <color name="color_4d">#4d4d4d</color>
+    <color name="color_orange">#E0FF6100</color>
+
+    <!--uCrop Activity-->
+    <color name="ucrop_color_toolbar">#FF6E40</color>
+    <color name="ucrop_color_statusbar">#CC5833</color>
+    <color name="ucrop_color_toolbar_widget">#fff</color>
+    <color name="ucrop_color_widget">#000</color>
+    <color name="ucrop_color_widget_active">#FF6E40</color>
+    <color name="ucrop_color_widget_background">#fff</color>
+    <color name="ucrop_color_widget_text">#000</color>
+    <color name="ucrop_color_progress_wheel_line">#808080</color>
+    <color name="ucrop_color_crop_background">#000</color>
+
+    <!--Crop View-->
+    <color name="ucrop_color_default_crop_grid">#80ffffff</color>
+    <color name="ucrop_color_default_crop_frame">#ffffff</color>
+    <color name="ucrop_color_default_dimmed">#8c000000</color>
+    <color name="ucrop_color_default_logo">#4f212121</color>
+    <color name="ucrop_color_grey">#999999</color>
+</resources>

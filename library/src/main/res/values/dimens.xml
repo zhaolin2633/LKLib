@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="navigation_bar_height">48dp</dimen>
+    <dimen name="navigation_bar_title_size">18dp</dimen>
+    <dimen name="common_padding">14dp</dimen>
+    <dimen name="default_corner_radius">4dp</dimen>
+    <dimen name="default_shadow_radius">4dp</dimen>
+
+    <dimen name="round_corner">5dp</dimen>
+    <dimen name="line_1px">1px</dimen>
+
+    <dimen name="btn_txt_size">14sp</dimen>
+    <dimen name="title_txt_size">17sp</dimen>
+    <dimen name="msg_txt_size">14sp</dimen>
+    <dimen name="item_txt_size">14sp</dimen>
+    <dimen name="input_txt_size">14sp</dimen>
+
+    <!-- Default button size -->
+    <dimen name="bootstrap_button_default_font_size">14sp</dimen>
+    <dimen name="bootstrap_button_default_vert_padding">5.75dp</dimen>
+    <dimen name="bootstrap_button_default_hori_padding">14dp</dimen>
+    <dimen name="bootstrap_button_default_corner_radius">4dp</dimen>
+    <dimen name="bootstrap_button_default_edge_width">1dp</dimen>
+
+    <!-- Default edit text size -->
+    <dimen name="bootstrap_edit_text_default_font_size">14sp</dimen>
+    <dimen name="bootstrap_edit_text_vert_padding">8dp</dimen>
+    <dimen name="bootstrap_edit_text_hori_padding">5.75dp</dimen>
+    <dimen name="bootstrap_edit_text_corner_radius">6dp</dimen>
+    <dimen name="bootstrap_edit_text_edge_width">1.5dp</dimen>
+
+    <!--Default alert size -->
+    <dimen name="bootstrap_alert_paddings">8dp</dimen>
+    <dimen name="bootstrap_alert_stroke_width">1dp</dimen>
+    <dimen name="bootstrap_alert_default_font_size">14sp</dimen>
+
+    <!-- Thumbnails -->
+    <dimen name="bthumbnail_default_border">8dp</dimen>
+    <dimen name="bthumbnail_rounded_corner">8dp</dimen>
+    <dimen name="bthumbnail_outer_stroke">2dp</dimen>
+
+    <!--Well-->
+    <dimen name="bootstrap_well_corner_radius">8dp</dimen>
+    <dimen name="bootstrap_well_stroke_width">1dp</dimen>
+    <dimen name="bootstrap_well_default_padding">6dp</dimen>
+    <!-- Default dropdown size -->
+    <dimen name="bootstrap_dropdown_default_item_font_size">14sp</dimen>
+    <dimen name="bootstrap_dropdown_default_font_size">14sp</dimen>
+    <dimen name="bootstrap_dropdown_default_item_left_padding">8dp</dimen>
+    <dimen name="bootstrap_dropdown_default_item_right_padding">8dp</dimen>
+    <dimen name="bootstrap_dropdown_default_corner_radius">3dp</dimen>
+    <dimen name="bootstrap_dropdown_default_edge_width">1dp</dimen>
+    <dimen name="bootstrap_dropdown_default_vert_padding">4dp</dimen>
+    <dimen name="bootstrap_dropdown_default_hori_padding">8dp</dimen>
+    <dimen name="bootstrap_dropdown_default_item_height">48dp</dimen>
+
+    <!-- Headings -->
+    <dimen name="bootstrap_h1_text_size">31.5sp</dimen>
+    <dimen name="bootstrap_h1_vert_padding">7.875dp</dimen>
+    <dimen name="bootstrap_h1_hori_padding">12.6dp</dimen>
+
+    <dimen name="bootstrap_h2_text_size">28sp</dimen>
+    <dimen name="bootstrap_h2_vert_padding">7dp</dimen>
+    <dimen name="bootstrap_h2_hori_padding">11.2dp</dimen>
+
+    <dimen name="bootstrap_h3_text_size">24.5sp</dimen>
+    <dimen name="bootstrap_h3_vert_padding">6.125dp</dimen>
+    <dimen name="bootstrap_h3_hori_padding">9.8dp</dimen>
+
+    <dimen name="bootstrap_h4_text_size">21sp</dimen>
+    <dimen name="bootstrap_h4_vert_padding">5.25dp</dimen>
+    <dimen name="bootstrap_h4_hori_padding">8.4dp</dimen>
+
+    <dimen name="bootstrap_h5_text_size">17.5sp</dimen>
+    <dimen name="bootstrap_h5_vert_padding">4.375dp</dimen>
+    <dimen name="bootstrap_h5_hori_padding">7dp</dimen>
+
+    <dimen name="bootstrap_h6_text_size">14dp</dimen>
+    <dimen name="bootstrap_h6_vert_padding">3.5dp</dimen>
+    <dimen name="bootstrap_h6_hori_padding">5.6dp</dimen>
+
+    <!-- Misc -->
+    <dimen name="bootstrap_default_corner_radius">3dp</dimen>
+    <dimen name="bootstrap_progress_bar_height">20dp</dimen>
+    <dimen name="bootstrap_badge_default_size">16dp</dimen>
+    <dimen name="bootstrap_progress_bar_default_font_size">17sp</dimen>
+    <dimen name="cpb_stroke_width">4dp</dimen>
+    <!-- 顶部按钮栏高度 -->
+    <dimen name="pickerview_topbar_height">44dp</dimen>
+    <!-- 顶部按钮padding -->
+    <dimen name="pickerview_topbar_padding">20dp</dimen>
+    <!-- 顶部按钮文字大小 -->
+    <dimen name="pickerview_topbar_btn_textsize">17sp</dimen>
+    <dimen name="pickerview_topbar_title_textsize">18sp</dimen>
+    <!-- 选项文字大小 -->
+    <dimen name="pickerview_textsize">20sp</dimen>
+
+    <!--uCrop Activity-->
+    <dimen name="ucrop_padding_crop_frame">16dp</dimen>
+    <dimen name="ucrop_size_dot_scale_text_view">8dp</dimen>
+    <dimen name="ucrop_height_horizontal_wheel_progress_line">20dp</dimen>
+    <dimen name="ucrop_width_horizontal_wheel_progress_line">2dp</dimen>
+    <dimen name="ucrop_margin_horizontal_wheel_progress_line">10dp</dimen>
+    <dimen name="ucrop_height_wrapper_controls">64dp</dimen>
+    <dimen name="ucrop_height_wrapper_states">72dp</dimen>
+    <dimen name="ucrop_height_divider_shadow">3dp</dimen>
+    <dimen name="ucrop_text_size_widget_text">13sp</dimen>
+    <dimen name="ucrop_margit_top_widget_text">10sp</dimen>
+    <dimen name="ucrop_size_wrapper_rotate_button">50dp</dimen>
+    <dimen name="ucrop_height_crop_aspect_ratio_text">40dp</dimen>
+    <dimen name="ucrop_progress_size">30dp</dimen>
+
+    <!--Crop View-->
+    <dimen name="ucrop_default_crop_grid_stoke_width">1dp</dimen>
+    <dimen name="ucrop_default_crop_frame_stoke_width">1dp</dimen>
+    <dimen name="ucrop_default_crop_rect_corner_touch_threshold">30dp</dimen>
+    <dimen name="ucrop_default_crop_rect_min_size">100dp</dimen>
+    <dimen name="ucrop_default_crop_rect_corner_touch_area_line_length">10dp</dimen>
+</resources>
