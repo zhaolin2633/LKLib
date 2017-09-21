@@ -561,19 +561,19 @@ public final class R {
         public static int abc_textfield_search_default_mtrl_alpha = 0x7f020050;
         public static int abc_textfield_search_material = 0x7f020051;
         public static int abc_vector_test = 0x7f020052;
-        public static int notification_action_background = 0x7f0200b3;
-        public static int notification_bg = 0x7f0200b4;
-        public static int notification_bg_low = 0x7f0200b5;
-        public static int notification_bg_low_normal = 0x7f0200b6;
-        public static int notification_bg_low_pressed = 0x7f0200b7;
-        public static int notification_bg_normal = 0x7f0200b8;
-        public static int notification_bg_normal_pressed = 0x7f0200b9;
-        public static int notification_icon_background = 0x7f0200ba;
-        public static int notification_template_icon_bg = 0x7f020104;
-        public static int notification_template_icon_low_bg = 0x7f020105;
-        public static int notification_tile_bg = 0x7f0200bb;
-        public static int notify_panel_notification_icon_bg = 0x7f0200bc;
-        public static int scan_light = 0x7f0200cf;
+        public static int notification_action_background = 0x7f0200b5;
+        public static int notification_bg = 0x7f0200b6;
+        public static int notification_bg_low = 0x7f0200b7;
+        public static int notification_bg_low_normal = 0x7f0200b8;
+        public static int notification_bg_low_pressed = 0x7f0200b9;
+        public static int notification_bg_normal = 0x7f0200ba;
+        public static int notification_bg_normal_pressed = 0x7f0200bb;
+        public static int notification_icon_background = 0x7f0200bc;
+        public static int notification_template_icon_bg = 0x7f020107;
+        public static int notification_template_icon_low_bg = 0x7f020108;
+        public static int notification_tile_bg = 0x7f0200bd;
+        public static int notify_panel_notification_icon_bg = 0x7f0200be;
+        public static int scan_light = 0x7f0200d2;
     }
     public static final class id {
         public static int action0 = 0x7f10091c;

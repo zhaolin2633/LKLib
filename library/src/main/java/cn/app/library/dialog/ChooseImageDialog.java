@@ -1,12 +1,15 @@
 package cn.app.library.dialog;
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.annotation.Nullable;
+import android.support.v4.content.FileProvider;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,18 +18,17 @@ import java.io.File;
 
 import cn.app.library.R;
 import cn.app.library.base.BaseDialogFragment;
+import cn.app.library.picture.lib.permissions.RxPermissions;
 import cn.app.library.utils.ScreenUtil;
-import cn.app.library.widget.toast.ToastCustomUtils;
+import cn.app.library.widget.toast.ToastUtil;
+import io.reactivex.Observer;
+import io.reactivex.disposables.Disposable;
 
 
 /**
- * Author:xiaohaibin
- * <p>
- * CrateTime:2016-12-20 10:30:07
- * <p>
  * Description:统一选择图片对话框
  */
-public class ChooseImageDialog extends BaseDialogFragment {
+public class ChooseImageDialog extends BaseDialogFragment implements View.OnClickListener {
 
     private final static int REQUEST_CAMERA = 0x123;
     private final static int REQUEST_ALBUM = 0x124;
@@ -46,27 +48,9 @@ public class ChooseImageDialog extends BaseDialogFragment {
         super.onCreate(savedInstanceState);
         init();
         setContentView(R.layout.dialog_choose_image);
-        findView(R.id.choose_image_take).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-                intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(tempFile));
-                startActivityForResult(intent, REQUEST_CAMERA);
-            }
-        });
-        findView(R.id.choose_image_system).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent picture = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
-                startActivityForResult(picture, REQUEST_ALBUM);
-            }
-        });
-        findView(R.id.choose_image_cancel).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                dismiss();
-            }
-        });
+        findView(R.id.choose_image_take).setOnClickListener(this);
+        findView(R.id.choose_image_system).setOnClickListener(this);
+        findView(R.id.choose_image_cancel).setOnClickListener(this);
     }
 
     @Override
@@ -81,7 +65,7 @@ public class ChooseImageDialog extends BaseDialogFragment {
                     break;
                 case REQUEST_ALBUM:
                     if (!getResultFromAlbum(data)) {
-                        ToastCustomUtils.showShort(getContext(), "选取图片失败，请重试！");
+                        ToastUtil.show("选取图片失败，请重试！");
                     }
                     break;
             }
@@ -136,6 +120,70 @@ public class ChooseImageDialog extends BaseDialogFragment {
         return Gravity.BOTTOM;
     }
 
+    @Override
+    public void onClick(View v) {
+        int i = v.getId();
+        if (i == R.id.choose_image_take) {
+            // 清空图片缓存，包括裁剪、压缩后的图片 注意:必须要在上传完成后调用 必须要获取权限
+            RxPermissions permissions = new RxPermissions(getActivity());
+            permissions.request(Manifest.permission.CAMERA).subscribe(new Observer<Boolean>() {
+                @Override
+                public void onSubscribe(Disposable d) {
+                }
+
+                @Override
+                public void onNext(Boolean aBoolean) {
+                    if (aBoolean) {
+                        Intent cameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                        if (cameraIntent.resolveActivity(getActivity().getPackageManager()) != null) {
+                            cameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, parUri(tempFile));
+                            startActivityForResult(cameraIntent, REQUEST_CAMERA);
+                            return;
+                        }
+                    }
+                }
+
+                @Override
+                public void onError(Throwable e) {
+                }
+
+                @Override
+                public void onComplete() {
+                }
+            });
+
+        } else if (i == R.id.choose_image_system) {
+            // 清空图片缓存，包括裁剪、压缩后的图片 注意:必须要在上传完成后调用 必须要获取权限
+            RxPermissions permissions = new RxPermissions(getActivity());
+            permissions.request(Manifest.permission.WRITE_EXTERNAL_STORAGE).subscribe(new Observer<Boolean>() {
+                @Override
+                public void onSubscribe(Disposable d) {
+                }
+
+                @Override
+                public void onNext(Boolean aBoolean) {
+                    if (aBoolean) {
+                        Intent picture = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+                        startActivityForResult(picture, REQUEST_ALBUM);
+                    }
+                }
+
+                @Override
+                public void onError(Throwable e) {
+                }
+
+                @Override
+                public void onComplete() {
+                }
+            });
+
+            return;
+        } else if (i == R.id.choose_image_cancel) {
+            dismiss();
+            return;
+        }
+    }
+
     public void setOperator(Operator operator) {
         this.operator = operator;
     }
@@ -145,5 +193,25 @@ public class ChooseImageDialog extends BaseDialogFragment {
         void onGetImage(String path);
 
     }
+
+
+    /**
+     * 生成uri
+     *
+     * @param cameraFile
+     * @return
+     */
+    private Uri parUri(File cameraFile) {
+        Uri imageUri;
+        String authority = getContext().getPackageName() + ".provider";
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            //通过FileProvider创建一个content类型的Uri
+            imageUri = FileProvider.getUriForFile(getContext(), authority, cameraFile);
+        } else {
+            imageUri = Uri.fromFile(cameraFile);
+        }
+        return imageUri;
+    }
+
 
 }

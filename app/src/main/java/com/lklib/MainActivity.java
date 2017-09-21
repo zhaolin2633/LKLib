@@ -13,9 +13,15 @@ import android.view.View;
 
 import com.lklib.http.ApiService;
 
+import java.io.File;
+
 import cn.app.library.base.BaseAppCompatActivity;
+import cn.app.library.dialog.ChooseImageDialog;
 import cn.app.library.http.HttpResult;
 import cn.app.library.http.HttpResultSubscriber;
+import cn.app.library.picture.lib.compress.OnCompressListener;
+import cn.app.library.utils.PictureUtils;
+import cn.app.library.widget.glideimageview.GlideImageLoader;
 
 
 public class MainActivity extends BaseAppCompatActivity
@@ -92,7 +98,33 @@ public class MainActivity extends BaseAppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
-            // Handle the camera action
+            ChooseImageDialog dialog = ChooseImageDialog.newInstance();
+            dialog.setOperator(new ChooseImageDialog.Operator() {
+                @Override
+                public void onGetImage(final String path) {
+                    PictureUtils.getInstance().CompressImage(MainActivity.this, path, new OnCompressListener() {
+                        @Override
+                        public void onStart() {
+                            showLoding("压缩中...");
+                        }
+
+                        @Override
+                        public void onSuccess(File file) {
+                              dismissLoading();
+//                            ImageLoaderProxy.getInstance().loadImage("file://" + file.getPath(), mIvBusinessImg, R.drawable.icon_add, R.drawable.icon_add);
+//                            imagePath = file.getPath();
+                        }
+
+                        @Override
+                        public void onError(Throwable throwable) {
+                            dismissLoading();
+//                            ImageLoaderProxy.getInstance().loadImage("file://" + path, mIvBusinessImg, R.drawable.icon_add, R.drawable.icon_add);
+//                            imagePath = path;
+                        }
+                    });
+                }
+            });
+            dialog.show(getSupportFragmentManager(), null);
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {

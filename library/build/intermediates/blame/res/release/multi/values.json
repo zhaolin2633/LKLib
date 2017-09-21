@@ -22284,7 +22284,28 @@
                     "startOffset": 330557,
                     "endLine": 5270,
                     "endColumn": 12,
-                    "endOffset": 333165
+                    "endOffset": 333185
+                },
+                "from": {
+                    "file": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 514,
+                        "startColumn": 4,
+                        "startOffset": 23666,
+                        "endLine": 568,
+                        "endColumn": 12,
+                        "endOffset": 26348
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5271,
+                    "startColumn": 4,
+                    "startOffset": 333190,
+                    "endLine": 5325,
+                    "endColumn": 12,
+                    "endOffset": 335798
                 },
                 "from": {
                     "file": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\values\\styles.xml",
@@ -22300,12 +22321,12 @@
             },
             {
                 "to": {
-                    "startLine": 5271,
+                    "startLine": 5326,
                     "startColumn": 4,
-                    "startOffset": 333170,
-                    "endLine": 5280,
+                    "startOffset": 335803,
+                    "endLine": 5335,
                     "endColumn": 12,
-                    "endOffset": 333740
+                    "endOffset": 336373
                 },
                 "from": {
                     "file": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\values\\styles.xml",
@@ -22321,12 +22342,12 @@
             },
             {
                 "to": {
-                    "startLine": 5281,
+                    "startLine": 5336,
                     "startColumn": 4,
-                    "startOffset": 333745,
-                    "endLine": 5284,
+                    "startOffset": 336378,
+                    "endLine": 5339,
                     "endColumn": 12,
-                    "endOffset": 333926
+                    "endOffset": 336559
                 },
                 "from": {
                     "file": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\values\\styles.xml",
@@ -22342,12 +22363,12 @@
             },
             {
                 "to": {
-                    "startLine": 5285,
+                    "startLine": 5340,
                     "startColumn": 4,
-                    "startOffset": 333931,
-                    "endLine": 5291,
+                    "startOffset": 336564,
+                    "endLine": 5346,
                     "endColumn": 12,
-                    "endOffset": 334285
+                    "endOffset": 336918
                 },
                 "from": {
                     "file": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\values\\styles.xml",
@@ -22363,12 +22384,12 @@
             },
             {
                 "to": {
-                    "startLine": 5292,
+                    "startLine": 5347,
                     "startColumn": 4,
-                    "startOffset": 334290,
-                    "endLine": 5298,
+                    "startOffset": 336923,
+                    "endLine": 5353,
                     "endColumn": 12,
-                    "endOffset": 334706
+                    "endOffset": 337339
                 },
                 "from": {
                     "file": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\values\\styles.xml",
@@ -22384,12 +22405,12 @@
             },
             {
                 "to": {
-                    "startLine": 5299,
+                    "startLine": 5354,
                     "startColumn": 4,
-                    "startOffset": 334711,
-                    "endLine": 5306,
+                    "startOffset": 337344,
+                    "endLine": 5361,
                     "endColumn": 12,
-                    "endOffset": 335199
+                    "endOffset": 337832
                 },
                 "from": {
                     "file": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\values\\styles.xml",
@@ -22405,12 +22426,12 @@
             },
             {
                 "to": {
-                    "startLine": 5307,
+                    "startLine": 5362,
                     "startColumn": 4,
-                    "startOffset": 335204,
-                    "endLine": 5313,
+                    "startOffset": 337837,
+                    "endLine": 5368,
                     "endColumn": 12,
-                    "endOffset": 335551
+                    "endOffset": 338184
                 },
                 "from": {
                     "file": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\values\\styles.xml",
@@ -22426,12 +22447,12 @@
             },
             {
                 "to": {
-                    "startLine": 5314,
+                    "startLine": 5369,
                     "startColumn": 4,
-                    "startOffset": 335556,
-                    "endLine": 5319,
+                    "startOffset": 338189,
+                    "endLine": 5374,
                     "endColumn": 12,
-                    "endOffset": 335927
+                    "endOffset": 338560
                 },
                 "from": {
                     "file": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\values\\styles.xml",

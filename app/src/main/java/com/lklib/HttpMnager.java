@@ -2,6 +2,8 @@ package com.lklib;
 
 import android.content.Context;
 
+import com.lklib.http.Api;
+
 import cn.app.library.http.BaseHttpManager;
 import cn.app.library.http.config.Constants;
 import cn.app.library.utils.AppLibInitTools;

@@ -8,7 +8,6 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.net.ConnectivityManager;
 import android.net.Uri;
@@ -16,9 +15,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.provider.Settings;
-import android.support.annotation.NonNull;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -32,12 +28,11 @@ import com.trello.rxlifecycle2.components.support.RxAppCompatActivity;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
-import java.util.ArrayList;
-import java.util.List;
 
 import butterknife.ButterKnife;
 import cn.app.library.dialog.flycoDialog.dialog.listener.OnBtnClickL;
 import cn.app.library.dialog.flycoDialog.dialog.widget.MaterialDialog;
+import cn.app.library.dialog.styleddialog.StyledDialog;
 import cn.app.library.picture.lib.permissions.Permission;
 import cn.app.library.picture.lib.permissions.RxPermissions;
 import cn.app.library.rxeasyhttp.http.utils.Utils;
@@ -261,7 +256,6 @@ public abstract class BaseAppCompatActivity extends RxAppCompatActivity {
     }
 
 
-
     public void showTipsDialog() {
         new AlertDialog.Builder(this)
                 .setTitle("消息")
@@ -385,25 +379,6 @@ public abstract class BaseAppCompatActivity extends RxAppCompatActivity {
         Intent intent = new Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
         intent.setData(Uri.parse("package:" + getPackageName()));
         startActivity(intent);
-    }
-
-    /**
-     * 获取权限成功
-     *
-     * @param requestCode
-     */
-    public void permissionFailing(int requestCode) {
-        Log.d(TAG, "获取权限失败=" + requestCode);
-    }
-
-
-    /**
-     * 获取权限失败
-     *
-     * @param requestCode
-     */
-    public void permissinSucceed(int requestCode) {
-        Log.d(TAG, "获取权限成功=" + requestCode);
     }
 
     /**
@@ -575,6 +550,14 @@ public abstract class BaseAppCompatActivity extends RxAppCompatActivity {
 
     public void showSnackbarToast(String text, View view) {
         ToastUtil.showSnackbar(text, view);
+    }
+
+    public void showLoding(String msg) {
+        StyledDialog.buildLoading(msg);
+    }
+
+    public void dismissLoading() {
+        StyledDialog.dismissLoading();
     }
 
     @Override
