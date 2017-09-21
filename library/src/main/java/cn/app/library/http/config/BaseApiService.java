@@ -12,11 +12,11 @@ import io.reactivex.Observable;
  * desc :
  * </pre>
  */
-public abstract class BaseApiService {
+public interface  BaseApiService {
     /**
      * 获取启动页广告图片
      *
      * @return
      */
-    public abstract Observable<HttpResult<AdEntity>> getStartAdImage();
+    Observable<HttpResult<AdEntity>> getStartAdImage();
 }

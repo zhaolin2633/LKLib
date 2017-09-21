@@ -1,5 +1,6 @@
 package cn.app.library.base;
 
+import android.Manifest;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -19,17 +20,15 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.Toast;
 
-import com.jaeger.library.StatusBarUtil;
 import com.orhanobut.logger.Logger;
-
+import com.trello.rxlifecycle2.LifecycleTransformer;
+import com.trello.rxlifecycle2.components.support.RxAppCompatActivity;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -37,28 +36,57 @@ import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.ButterKnife;
-import cn.app.library.R;
 import cn.app.library.dialog.flycoDialog.dialog.listener.OnBtnClickL;
 import cn.app.library.dialog.flycoDialog.dialog.widget.MaterialDialog;
+import cn.app.library.picture.lib.permissions.Permission;
+import cn.app.library.picture.lib.permissions.RxPermissions;
+import cn.app.library.rxeasyhttp.http.utils.Utils;
 import cn.app.library.ui.zixing.helper.CaptureHelper;
-import cn.app.library.utils.AppLibInitTools;
-import cn.app.library.widget.toast.SnackbarUtil;
 import cn.app.library.widget.toast.ToastCustomUtils;
 import cn.app.library.widget.toast.ToastTextUtil;
 import cn.app.library.widget.toast.ToastUtil;
-import cn.app.library.widget.toast.Toasty;
-
+import io.reactivex.Observable;
+import io.reactivex.ObservableSource;
+import io.reactivex.ObservableTransformer;
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.disposables.Disposable;
+import io.reactivex.functions.Consumer;
+import io.reactivex.schedulers.Schedulers;
 
 
 /**
  * @description： 基类Activity
  */
-public abstract class BaseAppCompatActivity extends AppCompatActivity {
+public abstract class BaseAppCompatActivity extends RxAppCompatActivity {
 
     private static final String TAG = "BaseFragmentActivity";
     private BroadcastReceiver broadcastReceiver;
     public static int REQUEST_CODE = 0;
     private boolean destroyed = false;
+
+    /**
+     * 线程调度
+     */
+    protected <T> ObservableTransformer<T, T> transformer(final LifecycleTransformer<T> lifecycle) {
+        return new ObservableTransformer<T, T>() {
+            @Override
+            public ObservableSource<T> apply(Observable<T> observable) {
+                return observable
+                        .subscribeOn(Schedulers.io())
+                        .doOnSubscribe(new Consumer<Disposable>() {
+                            @Override
+                            public void accept(Disposable disposable) throws Exception {
+                                // 可添加网络连接判断等
+                                if (!Utils.isNetworkAvailable(BaseAppCompatActivity.this)) {
+                                    showToast("网络连接断开");
+                                }
+                            }
+                        })
+                        .observeOn(AndroidSchedulers.mainThread())
+                        .compose(lifecycle);
+            }
+        };
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -74,9 +102,43 @@ public abstract class BaseAppCompatActivity extends AppCompatActivity {
         initData();
         initReceiver();
         setListener();
+        requestPermissions();
     }
 
+    private void requestPermissions() {
+        RxPermissions rxPermission = new RxPermissions(this);
+        rxPermission.requestEach(Manifest.permission.ACCESS_FINE_LOCATION,
+                Manifest.permission.ACCESS_COARSE_LOCATION,
+                Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                Manifest.permission.READ_CALENDAR,
+                Manifest.permission.READ_CALL_LOG,
+                Manifest.permission.READ_CONTACTS,
+                Manifest.permission.READ_PHONE_STATE,
+                Manifest.permission.READ_SMS,
+                Manifest.permission.RECORD_AUDIO,
+                Manifest.permission.CAMERA,
+                Manifest.permission.CALL_PHONE,
+                Manifest.permission.SEND_SMS)
+                .subscribe(new Consumer<Permission>() {
+                    @Override
+                    public void accept(Permission permission) throws Exception {
+                        if (permission.granted) {
+                            // 用户已经同意该权限
+                            Log.d(TAG, permission.name + " is granted.");
+                        } else if (permission.shouldShowRequestPermissionRationale) {
+                            // 用户拒绝了该权限，没有选中『不再询问』（Never ask again）,那么下次再次启动时，还会提示请求权限的对话框
+                            Log.d(TAG, permission.name + " is denied. More info should be provided.");
+                        } else {
+                            // 用户拒绝了该权限，并且选中『不再询问』
+                            Log.d(TAG, permission.name + " is denied.");
+                        }
+                    }
+                });
+    }
+
+
     protected abstract int getContentView();
+
 
     protected void initView() {
     }
@@ -163,7 +225,7 @@ public abstract class BaseAppCompatActivity extends AppCompatActivity {
      */
     protected boolean isConnected() {
         ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
-        if (connectivityManager!=null&&connectivityManager.getActiveNetworkInfo() != null) {
+        if (connectivityManager != null && connectivityManager.getActiveNetworkInfo() != null) {
             return connectivityManager.getActiveNetworkInfo().isAvailable();
         } else {
             return false;
@@ -198,75 +260,6 @@ public abstract class BaseAppCompatActivity extends AppCompatActivity {
         return (T) (findViewById(resId));
     }
 
-
-    public void requestPermission(String[] permissions, int requestCode) {
-        REQUEST_CODE = requestCode;
-
-        //检查权限是否授权
-        if (checkPermissions(permissions)) {
-            permissinSucceed(REQUEST_CODE);
-        } else {
-            List<String> needPermissions = getPermissions(permissions);
-            ActivityCompat.requestPermissions(this, needPermissions.toArray(new String[needPermissions.size()]), REQUEST_CODE);
-        }
-    }
-
-    private List<String> getPermissions(String[] permissions) {
-        List<String> permissionList = new ArrayList<>();
-        for (String permission : permissions) {
-            if (ContextCompat.checkSelfPermission(this, permission) !=
-                    PackageManager.PERMISSION_GRANTED ||
-                    ActivityCompat.shouldShowRequestPermissionRationale(this, permission)) {
-                permissionList.add(permission);
-            }
-        }
-        return permissionList;
-
-    }
-
-    @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        if (requestCode == REQUEST_CODE) {
-            if (verificationPermissions(grantResults)) {
-                permissinSucceed(REQUEST_CODE);
-            } else {
-                permissionFailing(REQUEST_CODE);
-                showTipsDialog();
-            }
-        }
-    }
-
-    private boolean verificationPermissions(int[] results) {
-
-        for (int result : results) {
-            if (result != PackageManager.PERMISSION_GRANTED) {
-                return false;
-            }
-        }
-        return true;
-
-    }
-
-    /**
-     * 检测所有的权限是否都已授权
-     *
-     * @param permissions
-     * @return
-     */
-    private boolean checkPermissions(String[] permissions) {
-        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {
-            return true;
-        }
-
-        for (String permission : permissions) {
-
-            if (ContextCompat.checkSelfPermission(BaseAppCompatActivity.this, permission) != PackageManager.PERMISSION_GRANTED) {
-                return false;
-            }
-        }
-        return true;
-    }
 
 
     public void showTipsDialog() {
@@ -417,7 +410,7 @@ public abstract class BaseAppCompatActivity extends AppCompatActivity {
      * 设置沉浸式状态栏
      */
     protected void setStatusBar() {
-        StatusBarUtil.setColor(this, getResources().getColor(R.color.common_main), 0);
+        //StatusBarUtil.setColor(this, getResources().getColor(R.color.common_main), 0);
     }
 
     @Override
@@ -427,6 +420,7 @@ public abstract class BaseAppCompatActivity extends AppCompatActivity {
         ButterKnife.unbind(this);
         destroyed = true;
     }
+
     private static Handler handler;
 
     protected final Handler getHandler() {
@@ -558,6 +552,7 @@ public abstract class BaseAppCompatActivity extends AppCompatActivity {
     protected void onPause() {
         super.onPause();
     }
+
     public void showToast(ToastUtil.ToastType type, CharSequence text) {
         ToastUtil.show(type, text);
     }

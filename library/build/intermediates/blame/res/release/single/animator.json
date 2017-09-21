@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\release\\animator\\scale_with_alpha.xml",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\animator\\scale_with_alpha.xml"
+    },
+    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\release\\animator\\scale_with_alpha.xml",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\src\\main\\res\\animator\\scale_with_alpha.xml"
     }

@@ -43,7 +43,7 @@
             android:theme="@style/AppTheme" />
 
         <provider
-            android:name="com.luck.picture.lib.PictureFileProvider"
+            android:name="cn.app.library.picture.lib.PictureFileProvider"
             android:authorities="cn.app.library.test.provider"
             android:exported="false"
             android:grantUriPermissions="true" >
@@ -53,33 +53,33 @@
         </provider>
 
         <activity
-            android:name="cn.app.library.PictureSelectorActivity"
+            android:name="cn.app.library.picture.lib.PictureSelectorActivity"
             android:screenOrientation="portrait"
             android:theme="@style/activity.Theme"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="cn.app.library.PictureBaseActivity"
+            android:name="cn.app.library.picture.lib.PictureBaseActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="cn.app.library.PicturePreviewActivity"
+            android:name="cn.app.library.picture.lib.PicturePreviewActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="cn.app.library.PictureVideoPlayActivity"
+            android:name="cn.app.library.picture.lib.PictureVideoPlayActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="sensor" />
         <activity
-            android:name="cn.app.library.PictureExternalPreviewActivity"
+            android:name="cn.app.library.picture.lib.PictureExternalPreviewActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yalantis.ucrop.UCropActivity"
+            android:name="cn.app.library.picture.ucrop.UCropActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name="com.yalantis.ucrop.PictureMultiCuttingActivity"
+            android:name="cn.app.library.picture.ucrop.PictureMultiCuttingActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name="cn.app.library.PicturePlayAudioActivity"
+            android:name="cn.app.library.picture.lib.PicturePlayAudioActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
