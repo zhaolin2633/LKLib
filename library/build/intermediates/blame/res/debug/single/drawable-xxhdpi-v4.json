@@ -8,6 +8,14 @@
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\nim_picker_preview_normal.png",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable-xxhdpi\\nim_picker_preview_normal.png"
+    },
+    {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\color_picker_preview_selector.xml",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable-xxhdpi\\color_picker_preview_selector.xml"
+    },
+    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sel_qq.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\src\\main\\res\\drawable-xxhdpi\\sel_qq.png"
     },
@@ -18,6 +26,10 @@
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\tag_close.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\src\\main\\res\\drawable-xxhdpi\\tag_close.png"
+    },
+    {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\nim_picker_preview_unselected.png",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable-xxhdpi\\nim_picker_preview_unselected.png"
     },
     {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_clear_white_48dp.png",
@@ -36,12 +48,12 @@
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ucrop_vector_ic_crop.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ucrop_vector_ic_crop.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ucrop_vector_ic_crop.png",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ucrop_vector_ic_crop.png"
     },
     {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\picture_audio.png",
@@ -54,6 +66,10 @@
     {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\buybuybuy.png",
         "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable-xxhdpi\\buybuybuy.png"
+    },
+    {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\nim_icon_edit_delete.png",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable-xxhdpi\\nim_icon_edit_delete.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png",
@@ -130,6 +146,10 @@
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\nim_picker_orignal_checked.png",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable-xxhdpi\\nim_picker_orignal_checked.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_must.png",
@@ -218,6 +238,10 @@
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\nim_picker_orignal_normal.png",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable-xxhdpi\\nim_picker_orignal_normal.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
@@ -372,6 +396,10 @@
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\src\\main\\res\\drawable-xxhdpi\\ic_delete_photo.png"
     },
     {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\nim_picker_preview_disable.png",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable-xxhdpi\\nim_picker_preview_disable.png"
+    },
+    {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\shape_rec_round_noramal_border_4dp_blue.xml",
         "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable-xxhdpi\\shape_rec_round_noramal_border_4dp_blue.xml"
     },
@@ -432,6 +460,10 @@
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\nim_picker_image_selected.png",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable-xxhdpi\\nim_picker_image_selected.png"
+    },
+    {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
@@ -452,12 +484,20 @@
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\nim_picker_image_normal.png",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable-xxhdpi\\nim_picker_image_normal.png"
+    },
+    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png",
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\nim_picker_preview_pressed.png",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable-xxhdpi\\nim_picker_preview_pressed.png"
     },
     {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\shape_rec_round_press_border_4dp_blue.xml",
@@ -606,6 +646,10 @@
     {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\nim_image_default.png",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable-xxhdpi\\nim_image_default.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png",

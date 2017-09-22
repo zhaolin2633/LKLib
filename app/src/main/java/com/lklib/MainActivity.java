@@ -1,5 +1,7 @@
 package com.lklib;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
@@ -17,6 +19,8 @@ import java.io.File;
 
 import cn.app.library.base.BaseAppCompatActivity;
 import cn.app.library.dialog.ChooseImageDialog;
+import cn.app.library.dialog.picker.PickImageHelper;
+import cn.app.library.dialog.picker.constant.Extras;
 import cn.app.library.http.HttpResult;
 import cn.app.library.http.HttpResultSubscriber;
 import cn.app.library.picture.lib.compress.OnCompressListener;
@@ -96,7 +100,6 @@ public class MainActivity extends BaseAppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-
         if (id == R.id.nav_camera) {
             ChooseImageDialog dialog = ChooseImageDialog.newInstance();
             dialog.setOperator(new ChooseImageDialog.Operator() {
@@ -126,7 +129,7 @@ public class MainActivity extends BaseAppCompatActivity
             });
             dialog.show(getSupportFragmentManager(), null);
         } else if (id == R.id.nav_gallery) {
-
+            chooseImage();
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
@@ -141,7 +144,27 @@ public class MainActivity extends BaseAppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+    /**
+     * 选择头像
+     */
+    private void chooseImage() {
+        PickImageHelper.PickImageOption option = new PickImageHelper.PickImageOption();
+        option.titleResId=R.string.picture_set_header;
+        option.crop = true;
+        option.multiSelect = false;
+        option.cropOutputImageWidth = 400;
+        option.cropOutputImageHeight = 400;
+        PickImageHelper.pickImage(this, PickImageHelper.PICK_AVATAR_REQUEST, option);
+    }
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
 
+        if (resultCode == Activity.RESULT_OK && requestCode == PickImageHelper.PICK_AVATAR_REQUEST) {
+            String path = data.getStringExtra(Extras.EXTRA_FILE_PATH);
+
+        }
+    }
     public void httpGet() {
         HttpMnager.getInstance()
                 .createService(ApiService.class)

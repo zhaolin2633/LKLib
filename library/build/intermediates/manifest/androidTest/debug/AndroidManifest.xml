@@ -81,6 +81,22 @@
         <activity
             android:name="cn.app.library.picture.lib.PicturePlayAudioActivity"
             android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" /> <!-- 照片选择 -->
+        <activity
+            android:name="cn.app.library.dialog.picker.activity.PickImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="cn.app.library.dialog.picker.activity.CropImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="cn.app.library.dialog.picker.activity.PickerAlbumActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="cn.app.library.dialog.picker.activity.PickerAlbumPreviewActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name="com.uuzuche.lib_zxing.activity.CaptureActivity"

@@ -3,6 +3,11 @@ package cn.app.library.utils;
 
 import android.app.Application;
 
+import com.orhanobut.logger.AndroidLogAdapter;
+import com.orhanobut.logger.Logger;
+
+import cn.app.library.dialog.picker.storage.StorageUtil;
+import cn.app.library.dialog.styleddialog.StyledDialog;
 import cn.app.library.widget.androidbootstrap.TypefaceProvider;
 
 /**
@@ -33,14 +38,14 @@ public final class AppLibInitTools {
     public static String packageName = "";
 
     private void init() {
-//        //相册初始化目录
-//        InitAppDirHelp.getInstance().initAppDir(appContext, packageName);
-//        //日志框架打印
-//        Logger.addLogAdapter(new AndroidLogAdapter());
-//        //dialog大全
-//        StyledDialog.init(appContext);
-//        //http
-//        OkGo.getInstance().init(appContext);
+
+        //日志框架打印
+        Logger.addLogAdapter(new AndroidLogAdapter());
+        //dialog大全
+        StyledDialog.init(appContext);
+        // init tools
+        StorageUtil.init(appContext, null);
+        cn.app.library.dialog.picker.imageview.ScreenUtil.init(appContext);
         TypefaceProvider.registerDefaultIconSets();
     }
 
