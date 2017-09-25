@@ -1,11 +1,11 @@
 [
     {
-        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_ios_roundcorner_all_top_white.xml",
-        "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_ios_roundcorner_all_top_white.xml"
-    },
-    {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\num_oval.xml",
         "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\num_oval.xml"
+    },
+    {
+        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_ios_roundcorner_all_top_white.xml",
+        "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_ios_roundcorner_all_top_white.xml"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_ios_roundcorner_top.xml",
@@ -108,12 +108,12 @@
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_btn_press_no_corner.xml",
-        "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_btn_press_no_corner.xml"
-    },
-    {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_rec_cccccc_corner_4dp.xml",
         "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_rec_cccccc_corner_4dp.xml"
+    },
+    {
+        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_btn_press_no_corner.xml",
+        "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_btn_press_no_corner.xml"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_toast_loading.xml",
@@ -164,20 +164,20 @@
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\picture_layer_progress.xml",
-        "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\picture_layer_progress.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_ios_roundcorner.xml",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_ios_roundcorner.xml"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_tile_bg.xml",
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_ios_roundcorner.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_ios_roundcorner.xml"
+        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\picture_layer_progress.xml",
+        "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\picture_layer_progress.xml"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
@@ -798,6 +798,10 @@
     {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_blue_stroke_2dp.xml",
         "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_blue_stroke_2dp.xml"
+    },
+    {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\nim_align_bottom_green_btn_selector.xml",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_align_bottom_green_btn_selector.xml"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\oval.xml",

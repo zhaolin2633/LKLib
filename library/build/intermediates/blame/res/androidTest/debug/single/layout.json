@@ -36,20 +36,20 @@
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\picture_item_camera.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_empty_view.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_empty_view.xml"
-    },
-    {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ucrop_picture_gf_adapter_edit_list.xml",
         "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\ucrop_picture_gf_adapter_edit_list.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\bga_banner_item_image.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\abc6016a7594b25d3cf28bafc4b1516e3ab84e9f\\output\\res\\layout\\bga_banner_item_image.xml"
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_empty_view.xml",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_empty_view.xml"
     },
     {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\loading_view.xml",
         "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\loading_view.xml"
+    },
+    {
+        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\bga_banner_item_image.xml",
+        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\abc6016a7594b25d3cf28bafc4b1516e3ab84e9f\\output\\res\\layout\\bga_banner_item_image.xml"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_part_chronometer.xml",
@@ -60,16 +60,16 @@
         "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\layout_widget_label_indicator_view.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\layout_basepickerview.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\layout_basepickerview.xml"
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_layout_snackbar.xml",
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\f2f9ba2dc76c95aa0f00f011245fcbca03e7a0cc\\output\\res\\layout\\design_layout_snackbar.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\layout_basepickerview.xml",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\layout_basepickerview.xml"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pickerview_time.xml",
@@ -108,12 +108,12 @@
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_guide.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_guide.xml"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\picture_alert_dialog.xml",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\picture_alert_dialog.xml"
+    },
+    {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_guide.xml",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_guide.xml"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_search_view.xml",
@@ -142,10 +142,6 @@
     {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_bottom_navigation_item.xml",
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\f2f9ba2dc76c95aa0f00f011245fcbca03e7a0cc\\output\\res\\layout\\design_bottom_navigation_item.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nim_preview_image_from_camera_activity.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_preview_image_from_camera_activity.xml"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ucrop_picture_activity_multi_cutting.xml",
@@ -482,10 +478,6 @@
     {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pickerview_options.xml",
         "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\pickerview_options.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nim_preview_image_from_local_activity.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_preview_image_from_local_activity.xml"
     },
     {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\camera.xml",

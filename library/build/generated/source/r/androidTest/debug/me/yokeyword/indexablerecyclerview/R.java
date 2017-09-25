@@ -19,8 +19,8 @@ public final class R {
         public static final int indexBar_textSpace = 0x7f0101e3;
     }
     public static final class color {
-        public static final int default_indexBar_selectedTextColor = 0x7f0e0072;
-        public static final int default_indexBar_textColor = 0x7f0e0073;
+        public static final int default_indexBar_selectedTextColor = 0x7f0e0074;
+        public static final int default_indexBar_textColor = 0x7f0e0075;
     }
     public static final class dimen {
         public static final int default_indexBar_layout_width = 0x7f0a0091;
@@ -28,7 +28,7 @@ public final class R {
         public static final int default_indexBar_textSpace = 0x7f0a0093;
     }
     public static final class drawable {
-        public static final int dafault_indexBar_background = 0x7f020118;
+        public static final int dafault_indexBar_background = 0x7f020119;
         public static final int indexable_bg_center_overlay = 0x7f0200aa;
         public static final int indexable_bg_md_overlay = 0x7f0200ab;
     }

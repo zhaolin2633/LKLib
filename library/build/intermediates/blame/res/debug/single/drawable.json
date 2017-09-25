@@ -1,11 +1,11 @@
 [
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\f2f9ba2dc76c95aa0f00f011245fcbca03e7a0cc\\output\\res\\drawable\\design_snackbar_background.xml"
-    },
-    {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\f2f9ba2dc76c95aa0f00f011245fcbca03e7a0cc\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\num_oval.xml",
@@ -22,6 +22,10 @@
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\f2f9ba2dc76c95aa0f00f011245fcbca03e7a0cc\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_align_bottom_green_btn_selector.xml",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable\\nim_align_bottom_green_btn_selector.xml"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_ios_roundcorner_all_top_gray.xml",
@@ -60,12 +64,12 @@
         "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable\\gif_tag.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_ios_roundcorner_right_bottom_gray.xml",
-        "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\src\\main\\res\\drawable\\bg_ios_roundcorner_right_bottom_gray.xml"
-    },
-    {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_ios_roundcorner_right_bottom_gray.xml",
+        "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\src\\main\\res\\drawable\\bg_ios_roundcorner_right_bottom_gray.xml"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_nomal.xml",
@@ -100,12 +104,12 @@
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\src\\main\\res\\drawable\\item_select_bg.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_pickerview_btn.xml",
         "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable\\selector_pickerview_btn.xml"
+    },
+    {
+        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\white_radius.xml",
@@ -132,12 +136,12 @@
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\f2f9ba2dc76c95aa0f00f011245fcbca03e7a0cc\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\gif_tag.xml",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\src\\main\\res\\drawable\\gif_tag.xml"
+    },
+    {
+        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\picture_warning.png",
@@ -156,12 +160,12 @@
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_collapse_holo_light.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\b2c270ba37bd7ca8446f217cecd3520a21e99632\\output\\res\\drawable\\ic_collapse_holo_light.xml"
-    },
-    {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_back_black.png",
         "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable\\icon_back_black.png"
+    },
+    {
+        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_collapse_holo_light.xml",
+        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\b2c270ba37bd7ca8446f217cecd3520a21e99632\\output\\res\\drawable\\ic_collapse_holo_light.xml"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\image_placeholder.xml",
@@ -224,12 +228,12 @@
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
-    },
-    {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\et_cursor.xml",
         "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable\\et_cursor.xml"
+    },
+    {
+        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_right_bottom_selector.xml",

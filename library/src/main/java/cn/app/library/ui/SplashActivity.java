@@ -68,7 +68,7 @@ public abstract class SplashActivity extends BaseAppCompatActivity {
             @Override
             public void run() {
                 if (isFirstRun()) {
-                    goToActivity(GuideActivity.class, true);
+                    toGuideActivity();
                 } else {
                     jumpMainActivity();
                 }
@@ -169,7 +169,7 @@ public abstract class SplashActivity extends BaseAppCompatActivity {
 
     private void showAndDownSplash() {
         if (getLocalSplash() != null) {
-            goToActivity(StartAdsActivity.class, true);
+            toAdActivity();
         } else {
             toMainActivity();
         }
