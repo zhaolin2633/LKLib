@@ -1,23 +1,7 @@
 [
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_059.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_059.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_014.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_014.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_045.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_045.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_064.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_064.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_062.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_062.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_078.png",
@@ -36,14 +20,6 @@
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_047.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_031.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_031.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_076.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_076.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_052.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_052.png"
     },
@@ -56,32 +32,12 @@
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_016.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_074.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_074.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_088.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_088.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_093.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_093.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_035.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_035.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\search_clear_pressed.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\search_clear_pressed.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_033.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_033.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_047.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_047.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_101.png",
@@ -100,32 +56,16 @@
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_081.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_028.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_028.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_076.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_076.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_060.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_060.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_006.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_006.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_081.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_081.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_037.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_037.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_050.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_050.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_062.png",
@@ -136,32 +76,16 @@
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_059.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_072.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_072.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_012.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_012.png"
+        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_085.png",
+        "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_085.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_040.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_040.png"
     },
     {
-        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_085.png",
-        "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_085.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_018.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_018.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_028.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_028.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_049.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_049.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_097.png",
@@ -176,40 +100,16 @@
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_066.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_021.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_021.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_091.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_091.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_043.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_043.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_088.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_088.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_024.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_024.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_018.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_018.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_002.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_002.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_012.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_012.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_078.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_078.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_050.png",
@@ -220,10 +120,6 @@
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_031.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_097.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_097.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_009.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_009.png"
     },
@@ -232,56 +128,28 @@
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_087.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_084.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_084.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_053.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_053.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_098.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_098.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_042.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_042.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_006.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_006.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_039.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_039.png"
     },
     {
-        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_090.png",
-        "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_090.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_086.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_086.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_054.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_054.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_099.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_099.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\loading_default.png",
-        "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\loading_default.png"
+        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_090.png",
+        "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_090.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_060.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_060.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_007.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_007.png"
+        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\loading_default.png",
+        "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\loading_default.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_024.png",
@@ -296,16 +164,8 @@
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_013.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_082.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_082.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_038.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_038.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_069.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_069.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_043.png",
@@ -314,18 +174,6 @@
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_057.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_057.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_025.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_025.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_055.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_055.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_036.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_036.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_068.png",
@@ -344,36 +192,12 @@
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_014.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_064.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_064.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_067.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_067.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_026.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_026.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_079.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_079.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_073.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_073.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_071.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_071.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_020.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_020.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_035.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_035.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_058.png",
@@ -384,20 +208,12 @@
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\qrcode.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_016.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_016.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_077.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_077.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_080.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_080.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_089.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_089.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_061.png",
@@ -408,10 +224,6 @@
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_004.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_083.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_083.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_029.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_029.png"
     },
@@ -420,16 +232,8 @@
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_023.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_010.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_010.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_048.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_048.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_100.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_100.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_034.png",
@@ -438,10 +242,6 @@
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_017.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_017.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_061.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_061.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_051.png",
@@ -456,36 +256,12 @@
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_096.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_029.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_029.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\qrcode.png",
         "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\qrcode.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_082.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_082.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_001.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_001.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_092.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_092.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_015.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_015.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_077.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_077.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_063.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_063.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_032.png",
@@ -496,24 +272,12 @@
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_019.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_090.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_090.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\search_clear_pressed.png",
         "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\search_clear_pressed.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_030.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_030.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_046.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_046.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_058.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_058.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_065.png",
@@ -524,20 +288,8 @@
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_079.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_044.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_044.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_084.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_084.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_017.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_017.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_087.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_087.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_100.png",
@@ -552,20 +304,8 @@
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_098.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_011.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_011.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_056.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_056.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_022.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_022.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_065.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_065.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_075.png",
@@ -574,10 +314,6 @@
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_044.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_044.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_034.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_034.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_005.png",
@@ -596,36 +332,8 @@
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_094.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_046.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_046.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_072.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_072.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_027.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_027.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_040.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_040.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_008.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_008.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_075.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_075.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_005.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_005.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_094.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_094.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_015.png",
@@ -640,32 +348,12 @@
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_073.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_070.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_070.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_056.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_056.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_011.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_011.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_022.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_022.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_037.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_037.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_067.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_067.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_068.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_068.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_025.png",
@@ -680,24 +368,8 @@
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_055.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_023.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_023.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_010.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_010.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_071.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_071.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_066.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_066.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_085.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_085.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_008.png",
@@ -712,64 +384,24 @@
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_027.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_041.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_041.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_054.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_054.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_039.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_039.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_092.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_092.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_052.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_052.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_045.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_045.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_042.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_042.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_095.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_095.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_009.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_009.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_093.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_093.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_048.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_048.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_003.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_003.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_036.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_036.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_051.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_051.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_096.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_096.png"
     },
     {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\loading_default.png",
@@ -780,40 +412,8 @@
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_089.png"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_004.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_004.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_057.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_057.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_038.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_038.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_101.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_101.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_013.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_013.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_083.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_083.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_032.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_032.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_019.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_019.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_080.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_080.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_099.png",
@@ -822,10 +422,6 @@
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_001.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_001.png"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_086.png",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\sprite_2130002_086.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\sprite_2130002_020.png",

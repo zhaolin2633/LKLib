@@ -15,6 +15,7 @@ import android.util.AttributeSet;
 import cn.app.library.R;
 
 /**
+ * https://github.com/niniloveyou/StateButton/blob/master/app/src/main/res/layout/activity_main.xml
  * zhaolin
  * <cn.app.library.widget.shapeview.StateButton
  * xmlns:app="http://schemas.android.com/apk/res-auto"
