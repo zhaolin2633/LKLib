@@ -1010,4 +1010,8 @@
         <attr name="android:textSize" tools:ignore="ResourceName" />
         <attr name="android:textStyle" tools:ignore="ResourceName" />
     </declare-styleable>
+    <declare-styleable name="DancingNumberView">
+        <attr name="dnv_duration" format="integer"/>
+        <attr name="dnv_format" format="string"/>
+    </declare-styleable>
 </resources>
