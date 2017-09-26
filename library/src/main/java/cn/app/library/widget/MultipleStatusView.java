@@ -59,9 +59,9 @@ public class MultipleStatusView extends FrameLayout {
                 context.obtainStyledAttributes(attrs, R.styleable.MultipleStatusView, defStyleAttr, 0);
 
         mEmptyViewResId =
-                a.getResourceId(R.styleable.MultipleStatusView_emptyView, R.layout.empty_view);
+                a.getResourceId(R.styleable.MultipleStatusView_emptyView, R.layout.view_empty);
         mErrorViewResId =
-                a.getResourceId(R.styleable.MultipleStatusView_errorView, R.layout.error_view);
+                a.getResourceId(R.styleable.MultipleStatusView_errorView, R.layout.view_error);
         mLoadingViewResId =
                 a.getResourceId(R.styleable.MultipleStatusView_loadingView, R.layout.loading_view);
         mNoNetworkViewResId = a.getResourceId(R.styleable.MultipleStatusView_noNetworkView,

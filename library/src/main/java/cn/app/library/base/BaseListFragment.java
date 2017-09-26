@@ -18,26 +18,38 @@ import cn.app.library.R;
 import cn.app.library.utils.ScreenUtil;
 
 
-
 /**
  * <pre>
  * author : zhaolin
- * time : 2017/08/24
+ * time : 2017/08/22
  * desc :列表基类
  * </pre>
  */
-public abstract class BaseListActivity extends BaseAppCompatActivity implements RecyclerArrayAdapter.OnLoadMoreListener, SwipeRefreshLayout.OnRefreshListener {
+public abstract class BaseListFragment extends BaseAppFragment implements RecyclerArrayAdapter.OnLoadMoreListener, SwipeRefreshLayout.OnRefreshListener {
     protected EasyRecyclerView mRecyclerView;
+    protected LinearLayoutManager linearLayoutManager;
     protected int currentpage = 1;//当前页码
     protected int page_size = 15;//页面数据量
+    protected void setEmptyView(String content) {
+        if (mRecyclerView != null) {
+            View view = LayoutInflater.from(getActivity()).inflate(R.layout.view_empty, null);
+            TextView tv_emptyText = (TextView) view.findViewById(R.id.empty_view_tv);
+            if (!TextUtils.isEmpty(content))
+                tv_emptyText.setText(content);
+            mRecyclerView.setEmptyView(view);
+        }
+    }
+
     @Override
-    protected int getContentView() {
+    protected int getContainerId() {
         return R.layout.layout_common_refresh_recyclerview;
     }
 
+
     protected void initRecyclerView() {
         mRecyclerView = findView(getRecyclerViewId());
-        mRecyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
+        linearLayoutManager = new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false);
+        mRecyclerView.setLayoutManager(linearLayoutManager);
         mRecyclerView.setRefreshingColor(Color.rgb(0, 140, 240), Color.rgb(0, 140, 240), Color.rgb(0, 140, 240));
     }
 
@@ -49,24 +61,15 @@ public abstract class BaseListActivity extends BaseAppCompatActivity implements 
 
     protected abstract int getRecyclerViewId();
 
-    protected void setEmptyView(String content) {
-        if (mRecyclerView != null) {
-            View view = LayoutInflater.from(this).inflate(R.layout.view_empty, null);
-            TextView tv_emptyText = (TextView) view.findViewById(R.id.empty_view_tv);
-            if (!TextUtils.isEmpty(content))
-                tv_emptyText.setText(content);
-            mRecyclerView.setEmptyView(view);
-        }
-    }
-
     protected void addRecyclerViewDecoration() {
         DividerDecoration dividerDecoration = new DividerDecoration(getResources().getColor(R.color.color_eeeeee),
-                ScreenUtil.dip2px(this, 1));
+                ScreenUtil.dip2px(getContext(), 1));
         dividerDecoration.setDrawLastItem(false);
         mRecyclerView.addItemDecoration(dividerDecoration);
     }
 
     protected abstract void onRefreshLoadData(int currentpage);
+
 
     protected void setRecyclerViewAdapterAttribute(final RecyclerArrayAdapter adapter, boolean hasRefresh, boolean hasLoadMore) {
         if (mRecyclerView != null && adapter != null) {
@@ -89,12 +92,6 @@ public abstract class BaseListActivity extends BaseAppCompatActivity implements 
                 });
             }
             mRecyclerView.setAdapter(adapter);
-            adapter.setOnItemClickListener(new RecyclerArrayAdapter.OnItemClickListener() {
-                @Override
-                public void onItemClick(int position) {
-                    itemClick(adapter.getItem(position), position);
-                }
-            });
         }
     }
 
@@ -108,10 +105,6 @@ public abstract class BaseListActivity extends BaseAppCompatActivity implements 
         if (mRecyclerView != null) {
             mRecyclerView.setRefreshing(false);
         }
-    }
-
-    protected void itemClick(Object object, int position) {
-
     }
 
     protected void setAdapter(RecyclerArrayAdapter adapter, int page, List list) {
