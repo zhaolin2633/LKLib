@@ -36,7 +36,8 @@ import cn.app.library.widget.tablayout.utils.FragmentChangeManager;
 import cn.app.library.widget.tablayout.utils.UnreadMsgUtils;
 import cn.app.library.widget.tablayout.widget.MsgView;
 
-/** 没有继承HorizontalScrollView不能滑动,对于ViewPager无依赖 */
+/** 没有继承HorizontalScrollView不能滑动,对于ViewPager无依赖
+ *  https://github.com/H07000223/FlycoTabLayout*/
 public class CommonTabLayout extends FrameLayout implements ValueAnimator.AnimatorUpdateListener {
     private Context mContext;
     private ArrayList<CustomTabEntity> mTabEntitys = new ArrayList<>();
