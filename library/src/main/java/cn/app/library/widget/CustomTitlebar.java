@@ -79,6 +79,7 @@ public class CustomTitlebar extends RelativeLayout {
      * 标题栏的显示的标题文字大小
      */
     private int title_textSize;
+    private boolean lineVisibility;
 
     /**
      * 标题栏的顶部分割线
@@ -168,7 +169,7 @@ public class CustomTitlebar extends RelativeLayout {
         right_button_textSize = typedArray.getDimensionPixelSize(R.styleable.CustomTitlebar_right_button_textSize, sp2px(context, 14));
 
         /**分割线*/
-        typedArray.getBoolean(R.styleable.CustomTitlebar_show_line, true);
+        lineVisibility = typedArray.getBoolean(R.styleable.CustomTitlebar_show_line, false);
 
         /**设置值*/
         setTitleBarBackground(title_background_color);
@@ -185,7 +186,7 @@ public class CustomTitlebar extends RelativeLayout {
         setTvRight(right_button_text);
         setTvRightTextColor(right_button_textColor);
         setTvRightTextSize(right_button_textSize);
-
+        setLineIsVisible(lineVisibility);
         typedArray.recycle();
     }
 
@@ -339,8 +340,8 @@ public class CustomTitlebar extends RelativeLayout {
      *
      * @param visibility
      */
-    public void setLineIsVisible(int visibility) {
-        line.setVisibility(visibility);
+    public void setLineIsVisible(boolean visibility) {
+        line.setVisibility(visibility ? VISIBLE : GONE);
     }
 
     /**
