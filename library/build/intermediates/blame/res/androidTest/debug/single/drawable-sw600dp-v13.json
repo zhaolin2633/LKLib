@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-sw600dp-v13\\ic_expand_holo_light.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7f71ebcf14521e0bff02af7cb090f9a457e0a278\\output\\res\\drawable-sw600dp\\ic_expand_holo_light.xml"
+    },
+    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-sw600dp-v13\\ic_expand_holo_light.xml",
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\b2c270ba37bd7ca8446f217cecd3520a21e99632\\output\\res\\drawable-sw600dp\\ic_expand_holo_light.xml"
     },
@@ -14,5 +18,9 @@
     {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-sw600dp-v13\\ic_expand_holo_light.xml",
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\b2c270ba37bd7ca8446f217cecd3520a21e99632\\output\\res\\drawable-sw600dp\\ic_expand_holo_light.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-sw600dp-v13\\ic_collapse_holo_light.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7f71ebcf14521e0bff02af7cb090f9a457e0a278\\output\\res\\drawable-sw600dp\\ic_collapse_holo_light.xml"
     }
 ]

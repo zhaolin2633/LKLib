@@ -1,7 +1,15 @@
 [
     {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\xml\\file_paths.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\xml\\file_paths.xml"
+    },
+    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\xml\\provider_paths.xml",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\xml\\provider_paths.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\xml\\provider_paths.xml"
     },
     {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\xml\\file_paths.xml",

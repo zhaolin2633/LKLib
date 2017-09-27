@@ -12328,6 +12328,8 @@ containing a value of this type.
         public static final int Animation_AppCompat_DropDownUp=0x7f0b00a4;
         public static final int Animation_Design_BottomSheetDialog=0x7f0b00a5;
         public static final int AppBaseTheme=0x7f0b00a6;
+        /**  Customize your theme here. 
+         */
         public static final int AppTheme=0x7f0b00a7;
         public static final int AppTheme_AppBarOverlay=0x7f0b00a8;
         public static final int Base_AlertDialog_AppCompat=0x7f0b00a9;
