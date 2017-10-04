@@ -28,6 +28,9 @@ import cn.app.library.dialog.flycoDialog.dialog.listener.OnOperItemClickL;
 import cn.app.library.dialog.flycoDialog.dialog.utils.CornerUtils;
 import cn.app.library.dialog.flycoDialog.dialog.widget.base.BaseDialog;
 
+/**
+ * https://github.com/hss01248/DialogUtil
+ */
 public class NormalListDialog extends BaseDialog<NormalListDialog> {
     /** ListView */
     private ListView mLv;

@@ -46,7 +46,7 @@
                 android:layout_centerInParent="true"
                 android:clickable="false"
                 android:text="取消"
-                android:textColor="@color/common_main"
+                android:textColor="@color/white"
                 android:textSize="17sp" />
 
         </RelativeLayout>
@@ -74,7 +74,7 @@
                 android:layout_centerInParent="true"
                 android:clickable="false"
                 android:text="@string/choose"
-                android:textColor="@color/common_main"
+                android:textColor="@color/white"
                 android:textSize="17sp" />
         </RelativeLayout>
     </LinearLayout>

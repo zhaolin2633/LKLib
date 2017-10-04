@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Context;
 import android.view.View;
 
-
 import java.util.List;
 
 import cn.app.library.dialog.styleddialog.config.ConfigBean;
@@ -17,13 +16,14 @@ public interface Assignable {
     ConfigBean assignProgress(Context context, CharSequence msg, boolean isHorizontal);
 
     ConfigBean assignMdLoading(Context context, CharSequence msg, boolean cancleable, boolean outsideTouchable);
-    
+
     ConfigBean assignMdAlert(Activity activity, CharSequence title, CharSequence msg, final MyDialogListener listener);
 
     ConfigBean assignMdSingleChoose(Activity context, CharSequence title, int defaultChosen, CharSequence[] words, MyItemDialogListener listener);
 
     ConfigBean assignMdMultiChoose(Activity context, CharSequence title, final CharSequence[] words, final boolean[] checkedItems,
                                    final MyDialogListener btnListener);
+
     ConfigBean assignMdMultiChoose(Activity context, CharSequence title, CharSequence[] words, List<Integer> selectedIndexs, MyDialogListener btnListener);
 
     ConfigBean assignIosAlert(Context activity, CharSequence title, CharSequence msg, final MyDialogListener listener);
@@ -38,7 +38,10 @@ public interface Assignable {
     ConfigBean assignNormalInput(Context context, CharSequence title, CharSequence hint1, CharSequence hint2,
                                  CharSequence firstTxt, CharSequence secondTxt, final MyDialogListener listener);
 
-   ConfigBean assignCustom(Context context, View contentView, int gravity);
+    ConfigBean assignNormalInput(Context context, CharSequence title, CharSequence hint,
+                                 CharSequence firstTxt, CharSequence secondTxt, final MyDialogListener listener);
+
+    ConfigBean assignCustom(Context context, View contentView, int gravity);
 
     ConfigBean assignCustomBottomSheet(Activity context, View contentView);
 
@@ -51,8 +54,4 @@ public interface Assignable {
     ConfigBean assignBottomSheetGv(Context context, CharSequence title, List datas, CharSequence bottomTxt, int columnsNum, MyItemDialogListener listener);
 
 
-
-
-
-    
 }
