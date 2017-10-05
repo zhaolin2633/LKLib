@@ -224,7 +224,7 @@ public class CommonTabLayout extends FrameLayout implements ValueAnimator.Animat
         if (tabEntitys == null || tabEntitys.size() == 0) {
             throw new IllegalStateException("TabEntitys can not be NULL or EMPTY !");
         }
-
+        this.isSingleLine=isSingleLine;
         this.mTabEntitys.clear();
         this.mTabEntitys.addAll(tabEntitys);
 
