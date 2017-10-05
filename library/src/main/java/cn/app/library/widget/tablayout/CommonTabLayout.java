@@ -117,7 +117,7 @@ public class CommonTabLayout extends FrameLayout implements ValueAnimator.Animat
     private float mIconMargin;
 
     private int mHeight;
-    private boolean isSingleLine;
+    private boolean isShowFirtText;
     /**
      * anim
      */
@@ -220,11 +220,11 @@ public class CommonTabLayout extends FrameLayout implements ValueAnimator.Animat
         notifyDataSetChanged();
     }
 
-    public void setTabData(ArrayList<CustomTabEntity> tabEntitys, boolean isSingleLine) {
+    public void setTabData(ArrayList<CustomTabEntity> tabEntitys, boolean isShowFirtText) {
         if (tabEntitys == null || tabEntitys.size() == 0) {
             throw new IllegalStateException("TabEntitys can not be NULL or EMPTY !");
         }
-        this.isSingleLine=isSingleLine;
+        this.isShowFirtText = isShowFirtText;
         this.mTabEntitys.clear();
         this.mTabEntitys.addAll(tabEntitys);
 
@@ -269,10 +269,13 @@ public class CommonTabLayout extends FrameLayout implements ValueAnimator.Animat
      */
     private void addTab(final int position, View tabView) {
         TextView tv_tab_title = (TextView) tabView.findViewById(R.id.tv_tab_title);
-        if (isSingleLine) {
-            tv_tab_title.setSingleLine(isSingleLine);
+        TextView tv_tab_firstTitle = (TextView) tabView.findViewById(R.id.tv_tab_firstTitle);
+        if (isShowFirtText) {
+            tv_tab_firstTitle.setVisibility(VISIBLE);
         }
+
         tv_tab_title.setText(mTabEntitys.get(position).getTabTitle());
+        tv_tab_firstTitle.setText(mTabEntitys.get(position).getTabFirstTitle());
         ImageView iv_tab_icon = (ImageView) tabView.findViewById(R.id.iv_tab_icon);
         iv_tab_icon.setImageResource(mTabEntitys.get(position).getTabUnselectedIcon());
 
@@ -308,20 +311,31 @@ public class CommonTabLayout extends FrameLayout implements ValueAnimator.Animat
             View tabView = mTabsContainer.getChildAt(i);
             tabView.setPadding((int) mTabPadding, 0, (int) mTabPadding, 0);
             TextView tv_tab_title = (TextView) tabView.findViewById(R.id.tv_tab_title);
-            if (isSingleLine) {
-                tv_tab_title.setSingleLine(isSingleLine);
+            TextView tv_tab_firstTitle = (TextView) tabView.findViewById(R.id.tv_tab_firstTitle);
+            if (isShowFirtText) {
+                tv_tab_firstTitle.setVisibility(VISIBLE);
             }
             tv_tab_title.setTextColor(i == mCurrentTab ? mTextSelectColor : mTextUnselectColor);
             tv_tab_title.setTextSize(TypedValue.COMPLEX_UNIT_PX, mTextsize);
+            tv_tab_firstTitle.setTextColor(i == mCurrentTab ? mTextSelectColor : mTextUnselectColor);
+            tv_tab_firstTitle.setTextSize(TypedValue.COMPLEX_UNIT_PX, mTextsize);
 //            tv_tab_title.setPadding((int) mTabPadding, 0, (int) mTabPadding, 0);
             if (mTextAllCaps) {
                 tv_tab_title.setText(tv_tab_title.getText().toString().toUpperCase());
+            }
+            if (mTextAllCaps) {
+                tv_tab_firstTitle.setText(tv_tab_firstTitle.getText().toString().toUpperCase());
             }
 
             if (mTextBold == TEXT_BOLD_BOTH) {
                 tv_tab_title.getPaint().setFakeBoldText(true);
             } else if (mTextBold == TEXT_BOLD_NONE) {
                 tv_tab_title.getPaint().setFakeBoldText(false);
+            }
+            if (mTextBold == TEXT_BOLD_BOTH) {
+                tv_tab_firstTitle.getPaint().setFakeBoldText(true);
+            } else if (mTextBold == TEXT_BOLD_NONE) {
+                tv_tab_firstTitle.getPaint().setFakeBoldText(false);
             }
 
             ImageView iv_tab_icon = (ImageView) tabView.findViewById(R.id.iv_tab_icon);
@@ -354,15 +368,20 @@ public class CommonTabLayout extends FrameLayout implements ValueAnimator.Animat
             View tabView = mTabsContainer.getChildAt(i);
             final boolean isSelect = i == position;
             TextView tab_title = (TextView) tabView.findViewById(R.id.tv_tab_title);
-            if (isSingleLine) {
-                tab_title.setSingleLine(isSingleLine);
+            TextView tv_tab_firstTitle = (TextView) tabView.findViewById(R.id.tv_tab_firstTitle);
+            if (isShowFirtText) {
+                tv_tab_firstTitle.setVisibility(VISIBLE);
             }
             tab_title.setTextColor(isSelect ? mTextSelectColor : mTextUnselectColor);
+            tv_tab_firstTitle.setTextColor(isSelect ? mTextSelectColor : mTextUnselectColor);
             ImageView iv_tab_icon = (ImageView) tabView.findViewById(R.id.iv_tab_icon);
             CustomTabEntity tabEntity = mTabEntitys.get(i);
             iv_tab_icon.setImageResource(isSelect ? tabEntity.getTabSelectedIcon() : tabEntity.getTabUnselectedIcon());
             if (mTextBold == TEXT_BOLD_WHEN_SELECT) {
                 tab_title.getPaint().setFakeBoldText(isSelect);
+            }
+            if (mTextBold == TEXT_BOLD_WHEN_SELECT) {
+                tv_tab_firstTitle.getPaint().setFakeBoldText(isSelect);
             }
         }
     }
