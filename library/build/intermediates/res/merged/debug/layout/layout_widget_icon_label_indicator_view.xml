@@ -39,10 +39,11 @@
 
     <ImageView
         android:id="@+id/indicator"
-        android:layout_width="40dp"
-        android:layout_height="match_parent"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
         android:layout_gravity="center_vertical"
-        android:padding="10dp"
-        android:scaleType="fitCenter"/>
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="5dp"
+        />
 
 </LinearLayout>

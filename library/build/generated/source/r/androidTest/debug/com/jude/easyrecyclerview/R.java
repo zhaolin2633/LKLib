@@ -8,17 +8,17 @@ package com.jude.easyrecyclerview;
 
 public final class R {
     public static final class attr {
-        public static final int layout_empty = 0x7f010190;
-        public static final int layout_error = 0x7f010192;
-        public static final int layout_progress = 0x7f010191;
-        public static final int recyclerClipToPadding = 0x7f010193;
-        public static final int recyclerPadding = 0x7f010194;
-        public static final int recyclerPaddingBottom = 0x7f010196;
-        public static final int recyclerPaddingLeft = 0x7f010197;
-        public static final int recyclerPaddingRight = 0x7f010198;
-        public static final int recyclerPaddingTop = 0x7f010195;
-        public static final int scrollbarStyle = 0x7f010199;
-        public static final int scrollbars = 0x7f01019a;
+        public static final int layout_empty = 0x7f010191;
+        public static final int layout_error = 0x7f010193;
+        public static final int layout_progress = 0x7f010192;
+        public static final int recyclerClipToPadding = 0x7f010194;
+        public static final int recyclerPadding = 0x7f010195;
+        public static final int recyclerPaddingBottom = 0x7f010197;
+        public static final int recyclerPaddingLeft = 0x7f010198;
+        public static final int recyclerPaddingRight = 0x7f010199;
+        public static final int recyclerPaddingTop = 0x7f010196;
+        public static final int scrollbarStyle = 0x7f01019a;
+        public static final int scrollbars = 0x7f01019b;
     }
     public static final class id {
         public static final int empty = 0x7f10090b;
@@ -37,7 +37,7 @@ public final class R {
         public static final int layout_progress_recyclerview = 0x7f040052;
     }
     public static final class styleable {
-        public static final int[] EasyRecyclerView = { 0x7f010190, 0x7f010191, 0x7f010192, 0x7f010193, 0x7f010194, 0x7f010195, 0x7f010196, 0x7f010197, 0x7f010198, 0x7f010199, 0x7f01019a };
+        public static final int[] EasyRecyclerView = { 0x7f010191, 0x7f010192, 0x7f010193, 0x7f010194, 0x7f010195, 0x7f010196, 0x7f010197, 0x7f010198, 0x7f010199, 0x7f01019a, 0x7f01019b };
         public static final int EasyRecyclerView_layout_empty = 0;
         public static final int EasyRecyclerView_layout_error = 2;
         public static final int EasyRecyclerView_layout_progress = 1;

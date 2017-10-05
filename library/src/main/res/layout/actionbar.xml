@@ -44,7 +44,7 @@
             android:id="@+id/iv_left"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:padding="16dp"
+            android:padding="15dp"
             android:scaleType="centerInside"
             android:src="@drawable/icon_back_black"
             android:visibility="visible"/>
@@ -71,7 +71,7 @@
             android:id="@+id/iv_right"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:padding="16dp"
+            android:padding="15dp"
             android:visibility="gone"/>
 
         <TextView

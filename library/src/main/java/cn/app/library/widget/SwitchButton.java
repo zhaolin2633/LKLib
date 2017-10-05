@@ -18,8 +18,7 @@ import cn.app.library.R;
 
 /**
  * 仿iphone 开关按钮
- * 
- * @author sunyoujun
+
  * 
  */
 public class SwitchButton extends View implements OnTouchListener {
