@@ -73,7 +73,7 @@ public abstract class BaseFragment extends RxFragment {
                             public void accept(Disposable disposable) throws Exception {
                                 // 可添加网络连接判断等
                                 if (!Utils.isNetworkAvailable(getActivity())) {
-                                    showToast("网络连接断开");
+                                    //showToast("网络连接断开");
                                 }
                             }
                         })

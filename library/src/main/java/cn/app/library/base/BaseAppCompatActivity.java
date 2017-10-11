@@ -73,7 +73,7 @@ public abstract class BaseAppCompatActivity extends RxAppCompatActivity {
                             public void accept(Disposable disposable) throws Exception {
                                 // 可添加网络连接判断等
                                 if (!Utils.isNetworkAvailable(BaseAppCompatActivity.this)) {
-                                    showToast("网络连接断开");
+                                    //showToast("网络连接断开");
                                 }
                             }
                         })

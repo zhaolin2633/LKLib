@@ -1,5 +1,6 @@
 package cn.app.library.http;
 
+import android.accounts.NetworkErrorException;
 import android.net.ParseException;
 import android.util.Log;
 
@@ -52,17 +53,21 @@ public abstract class HttpResultSubscriber<T> implements Observer<HttpResult<T>>
             _onError(t.getMsg(), t.getCode());
         }
     }
+
     @Override
     public void onError(Throwable e) {
         LogUtil.logError("==error==", e.getMessage() + "===");
         //在这里做全局的错误处理
         if (e instanceof HttpException ||
-                e instanceof ConnectException ||
                 e instanceof SocketTimeoutException ||
                 e instanceof TimeoutException ||
                 e instanceof UnknownHostException) {
             //网络错误
-            _onError("服务器连接失败，请稍后再试", NETWORK_ERROR);
+            _onError("服务器连接失败", NETWORK_ERROR);
+        } else if (e instanceof ConnectException ||
+                e instanceof NetworkErrorException) {
+            //网络错误
+            _onError("网络连接异常", NETWORK_ERROR);
         } else if (e instanceof JsonParseException
                 || e instanceof JSONException
                 || e instanceof ParseException) {
