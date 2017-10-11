@@ -42,23 +42,16 @@ public abstract class HttpResultSubscriber<T> implements Observer<HttpResult<T>>
     @Override
     public void onNext(HttpResult<T> t) {
         if (t.isHttpSuccess()) {
-            HttpResult<T>.ResponseData<T> response_data = t.getResponse_data();
-            if (response_data.isSuccess()) {
-                T data = response_data.getData();
-                if (data != null) {
-                    onSuccess(data);
-                } else {
-                    onSuccess((T) response_data.getMsg());
-                }
+            T data = t.getData();
+            if (data != null) {
+                onSuccess(data);
             } else {
-                _onError(response_data.getMsg(), response_data.getCode());
+                onSuccess((T) t.getMsg());
             }
         } else {
             _onError(t.getMsg(), t.getCode());
         }
-
     }
-
     @Override
     public void onError(Throwable e) {
         LogUtil.logError("==error==", e.getMessage() + "===");

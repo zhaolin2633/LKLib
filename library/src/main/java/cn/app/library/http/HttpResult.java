@@ -11,19 +11,19 @@ import java.io.Serializable;
  */
 public class HttpResult<T> implements Serializable {
 
-    public int code;
+    public int status;
 
-    private String msg;
+    private String info;
 
-    private ResponseData<T> response_data;
+    private T data;
 
 
     public String getMsg() {
-        return msg;
+        return info;
     }
 
     public int getCode() {
-        return code;
+        return status;
     }
 
     /**
@@ -32,41 +32,10 @@ public class HttpResult<T> implements Serializable {
      * @return
      */
     public boolean isHttpSuccess() {
-        return code == 200;
+        return status == 1;
     }
 
-    public ResponseData getResponse_data() {
-        return response_data;
-    }
-
-    public class ResponseData<T> {
-
-        private int code;
-
-        private String msg;
-
-        private T data;
-
-
-        public int getCode() {
-            return code;
-        }
-
-        public String getMsg() {
-            return msg;
-        }
-
-        public T getData() {
-            return data;
-        }
-
-        /**
-         * 连接接口是否成功，返回码为2开头则表示成功
-         *
-         * @return
-         */
-        public boolean isSuccess() {
-            return String.valueOf(code).startsWith("2");
-        }
+    public T getData() {
+        return data;
     }
 }
