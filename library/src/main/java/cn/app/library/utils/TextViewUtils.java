@@ -1,6 +1,7 @@
 package cn.app.library.utils;
 
 import android.content.Context;
+import android.graphics.Paint;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.text.Spanned;
@@ -52,17 +53,17 @@ public class TextViewUtils {
     /**
      * 关键字高亮显示
      *
-     * @param target 需要高亮的关键字
-     * @param text   需要显示的文字
+     * @param target    需要高亮的关键字
+     * @param text      需要显示的文字
      * @param textColor 高亮显示的字体颜色
      * @return spannable 处理完后的结果，记得不要toString()，否则没有效果
      */
-    public static SpannableStringBuilder highlight(String text, String target,int textColor) {
-        if(TextUtils.isEmpty(text)){
+    public static SpannableStringBuilder highlight(String text, String target, int textColor) {
+        if (TextUtils.isEmpty(text)) {
             return new SpannableStringBuilder();
         }
         SpannableStringBuilder spannable = new SpannableStringBuilder(text);
-        if(TextUtils.isEmpty(target)){
+        if (TextUtils.isEmpty(target)) {
             return spannable;
         }
         CharacterStyle span = null;
@@ -79,6 +80,30 @@ public class TextViewUtils {
         // 调用
         // SpannableStringBuilder textString = TextViewUtils.highlight(item.getItemName(), KnowledgeActivity.searchKey);
         // vHolder.tv_itemName_search.setText(textString);
+    }
+
+    /**
+     * 设置View中间横线
+     *
+     * @param textView
+     */
+    public static void setTextViewMidlleLine(TextView textView) {
+        if (textView == null)
+            return;
+        textView.setEllipsize(TextUtils.TruncateAt.END); // 收缩
+        textView.getPaint().setFlags(Paint.STRIKE_THRU_TEXT_FLAG);
+    }
+
+    /**
+     * 设置View底部横线
+     *
+     * @param textView
+     */
+    public static void setTextViewBottomLine(TextView textView) {
+        if (textView == null)
+            return;
+        textView.setEllipsize(TextUtils.TruncateAt.END); // 收缩
+        textView.getPaint().setFlags(Paint.UNDERLINE_TEXT_FLAG);
     }
 
 }

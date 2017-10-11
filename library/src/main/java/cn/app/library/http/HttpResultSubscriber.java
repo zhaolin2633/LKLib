@@ -6,6 +6,7 @@ import android.util.Log;
 import com.google.gson.JsonParseException;
 
 import org.json.JSONException;
+import org.reactivestreams.Subscriber;
 
 import java.net.ConnectException;
 import java.net.SocketTimeoutException;
@@ -21,7 +22,7 @@ import retrofit2.HttpException;
  * BaseObserver
  * Created by jaycee on 2017/6/23.
  */
-public abstract class HttpResultSubscriber<T> implements Observer<HttpResult<T>> {
+public abstract class HttpResultSubscriber<T> implements Subscriber<HttpResult<T>> {
 
     private static final String TAG = "BaseObserver";
     /**
@@ -34,10 +35,6 @@ public abstract class HttpResultSubscriber<T> implements Observer<HttpResult<T>>
      */
     public static final int SSL_ERROR = 1005;
 
-    @Override
-    public void onSubscribe(Disposable d) {
-
-    }
 
     @Override
     public void onNext(HttpResult<T> t) {

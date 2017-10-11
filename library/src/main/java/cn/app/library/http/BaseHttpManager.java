@@ -1,9 +1,6 @@
 package cn.app.library.http;
 
-import android.content.Context;
 import android.text.TextUtils;
-
-import com.orhanobut.logger.Logger;
 
 import java.io.File;
 import java.io.IOException;
@@ -12,6 +9,7 @@ import java.util.concurrent.TimeUnit;
 import cn.app.library.http.https.HttpsUtils;
 import cn.app.library.utils.AppLibInitTools;
 import cn.app.library.utils.AppUtils;
+import cn.app.library.utils.LogUtil;
 import cn.app.library.utils.NetworkUtil;
 import okhttp3.Cache;
 import okhttp3.CacheControl;
@@ -43,6 +41,8 @@ public abstract class BaseHttpManager {
     public abstract Request.Builder getAppInitRequestBuilder(Request.Builder requestBuilder);
 
     public abstract Request.Builder getWithCacheRequestBuilder(Request.Builder requestBuilder);
+
+    public abstract HttpLoggingInterceptor getHttpLoggingInterceptor();
 
     /**
      * 无缓存模式
@@ -104,13 +104,15 @@ public abstract class BaseHttpManager {
         public void log(String message) {
             //打印retrofit日志
             if (isDebug)
-                Logger.i(message);
+                LogUtil.logInfo("httpLog", message);
         }
     });
 
     private static final long DEFAULT_TIMEOUT = 5;
 
     private OkHttpClient getOkHttpClient() {
+        if (getHttpLoggingInterceptor() != null)
+            loggingInterceptor = getHttpLoggingInterceptor();
         loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
         HttpsUtils.SSLParams sslParams = HttpsUtils.getSslSocketFactory(null, null, null);
         //定制OkHttp
@@ -141,6 +143,8 @@ public abstract class BaseHttpManager {
      * @return
      */
     private OkHttpClient getAppInitOkHttpClient() {
+        if (getHttpLoggingInterceptor() != null)
+            loggingInterceptor = getHttpLoggingInterceptor();
         loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
         HttpsUtils.SSLParams sslParams = HttpsUtils.getSslSocketFactory(null, null, null);
         //定制OkHttp
@@ -182,6 +186,8 @@ public abstract class BaseHttpManager {
         builder.writeTimeout(DEFAULT_TIMEOUT, TimeUnit.SECONDS);
         builder.retryOnConnectionFailure(true);
         //debug模式开启日志输出
+        if (getHttpLoggingInterceptor() != null)
+            loggingInterceptor = getHttpLoggingInterceptor();
         loggingInterceptor.setLevel(isDebug ? HttpLoggingInterceptor.Level.BODY : HttpLoggingInterceptor.Level.NONE);
         builder.addInterceptor(loggingInterceptor);
 
