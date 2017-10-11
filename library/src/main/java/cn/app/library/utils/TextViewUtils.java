@@ -91,7 +91,8 @@ public class TextViewUtils {
         if (textView == null)
             return;
         textView.setEllipsize(TextUtils.TruncateAt.END); // 收缩
-        textView.getPaint().setFlags(Paint.STRIKE_THRU_TEXT_FLAG);
+        textView.getPaint().setAntiAlias(true);//抗锯齿
+        textView.getPaint().setFlags(Paint.STRIKE_THRU_TEXT_FLAG|Paint.ANTI_ALIAS_FLAG);
     }
 
     /**
@@ -103,7 +104,8 @@ public class TextViewUtils {
         if (textView == null)
             return;
         textView.setEllipsize(TextUtils.TruncateAt.END); // 收缩
-        textView.getPaint().setFlags(Paint.UNDERLINE_TEXT_FLAG);
+        textView.getPaint().setAntiAlias(true);//抗锯齿
+        textView.getPaint().setFlags(Paint.UNDERLINE_TEXT_FLAG|Paint.ANTI_ALIAS_FLAG);
     }
 
 }
