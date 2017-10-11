@@ -248,6 +248,9 @@ public class StyledDialog  {
         return DialogAssigner.getInstance().assignNormalInput(null,title,hint1,hint2,firstTxt,secondTxt,listener);
     }
 
+    public static ConfigBean buildNormalInput( CharSequence title, CharSequence hint,  CharSequence firstTxt, CharSequence secondTxt, MyDialogListener listener) {
+        return DialogAssigner.getInstance().assignNormalInput(null,title,hint,firstTxt,secondTxt,listener);
+    }
     public static ConfigBean buildCustom( View contentView, int gravity) {
         return DialogAssigner.getInstance().assignCustom(null,contentView,gravity);
     }

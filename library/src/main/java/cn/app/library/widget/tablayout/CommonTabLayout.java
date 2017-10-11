@@ -26,7 +26,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-
 import java.util.ArrayList;
 
 import cn.app.library.R;
@@ -36,8 +35,10 @@ import cn.app.library.widget.tablayout.utils.FragmentChangeManager;
 import cn.app.library.widget.tablayout.utils.UnreadMsgUtils;
 import cn.app.library.widget.tablayout.widget.MsgView;
 
-/** 没有继承HorizontalScrollView不能滑动,对于ViewPager无依赖
- *  https://github.com/H07000223/FlycoTabLayout*/
+/**
+ * 没有继承HorizontalScrollView不能滑动,对于ViewPager无依赖
+ * https://github.com/H07000223/FlycoTabLayout
+ */
 public class CommonTabLayout extends FrameLayout implements ValueAnimator.AnimatorUpdateListener {
     private Context mContext;
     private ArrayList<CustomTabEntity> mTabEntitys = new ArrayList<>();
@@ -45,7 +46,9 @@ public class CommonTabLayout extends FrameLayout implements ValueAnimator.Animat
     private int mCurrentTab;
     private int mLastTab;
     private int mTabCount;
-    /** 用于绘制显示器 */
+    /**
+     * 用于绘制显示器
+     */
     private Rect mIndicatorRect = new Rect();
     private GradientDrawable mIndicatorDrawable = new GradientDrawable();
 
@@ -62,7 +65,9 @@ public class CommonTabLayout extends FrameLayout implements ValueAnimator.Animat
     private boolean mTabSpaceEqual;
     private float mTabWidth;
 
-    /** indicator */
+    /**
+     * indicator
+     */
     private int mIndicatorColor;
     private float mIndicatorHeight;
     private float mIndicatorWidth;
@@ -76,17 +81,23 @@ public class CommonTabLayout extends FrameLayout implements ValueAnimator.Animat
     private boolean mIndicatorBounceEnable;
     private int mIndicatorGravity;
 
-    /** underline */
+    /**
+     * underline
+     */
     private int mUnderlineColor;
     private float mUnderlineHeight;
     private int mUnderlineGravity;
 
-    /** divider */
+    /**
+     * divider
+     */
     private int mDividerColor;
     private float mDividerWidth;
     private float mDividerPadding;
 
-    /** title */
+    /**
+     * title
+     */
     private static final int TEXT_BOLD_NONE = 0;
     private static final int TEXT_BOLD_WHEN_SELECT = 1;
     private static final int TEXT_BOLD_BOTH = 2;
@@ -96,7 +107,9 @@ public class CommonTabLayout extends FrameLayout implements ValueAnimator.Animat
     private int mTextBold;
     private boolean mTextAllCaps;
 
-    /** icon */
+    /**
+     * icon
+     */
     private boolean mIconVisible;
     private int mIconGravity;
     private float mIconWidth;
@@ -104,8 +117,10 @@ public class CommonTabLayout extends FrameLayout implements ValueAnimator.Animat
     private float mIconMargin;
 
     private int mHeight;
-
-    /** anim */
+    private boolean isShowFirtText;
+    /**
+     * anim
+     */
     private ValueAnimator mValueAnimator;
     private OvershootInterpolator mInterpolator = new OvershootInterpolator(1.5f);
 
@@ -205,13 +220,28 @@ public class CommonTabLayout extends FrameLayout implements ValueAnimator.Animat
         notifyDataSetChanged();
     }
 
-    /** 关联数据支持同时切换fragments */
+    public void setTabData(ArrayList<CustomTabEntity> tabEntitys, boolean isShowFirtText) {
+        if (tabEntitys == null || tabEntitys.size() == 0) {
+            throw new IllegalStateException("TabEntitys can not be NULL or EMPTY !");
+        }
+        this.isShowFirtText = isShowFirtText;
+        this.mTabEntitys.clear();
+        this.mTabEntitys.addAll(tabEntitys);
+
+        notifyDataSetChanged();
+    }
+
+    /**
+     * 关联数据支持同时切换fragments
+     */
     public void setTabData(ArrayList<CustomTabEntity> tabEntitys, FragmentActivity fa, int containerViewId, ArrayList<Fragment> fragments) {
         mFragmentChangeManager = new FragmentChangeManager(fa.getSupportFragmentManager(), containerViewId, fragments);
         setTabData(tabEntitys);
     }
 
-    /** 更新数据 */
+    /**
+     * 更新数据
+     */
     public void notifyDataSetChanged() {
         mTabsContainer.removeAllViews();
         this.mTabCount = mTabEntitys.size();
@@ -234,10 +264,18 @@ public class CommonTabLayout extends FrameLayout implements ValueAnimator.Animat
         updateTabStyles();
     }
 
-    /** 创建并添加tab */
+    /**
+     * 创建并添加tab
+     */
     private void addTab(final int position, View tabView) {
         TextView tv_tab_title = (TextView) tabView.findViewById(R.id.tv_tab_title);
+        TextView tv_tab_firstTitle = (TextView) tabView.findViewById(R.id.tv_tab_firstTitle);
+        if (isShowFirtText) {
+            tv_tab_firstTitle.setVisibility(VISIBLE);
+        }
+
         tv_tab_title.setText(mTabEntitys.get(position).getTabTitle());
+        tv_tab_firstTitle.setText(mTabEntitys.get(position).getTabFirstTitle());
         ImageView iv_tab_icon = (ImageView) tabView.findViewById(R.id.iv_tab_icon);
         iv_tab_icon.setImageResource(mTabEntitys.get(position).getTabUnselectedIcon());
 
@@ -273,17 +311,31 @@ public class CommonTabLayout extends FrameLayout implements ValueAnimator.Animat
             View tabView = mTabsContainer.getChildAt(i);
             tabView.setPadding((int) mTabPadding, 0, (int) mTabPadding, 0);
             TextView tv_tab_title = (TextView) tabView.findViewById(R.id.tv_tab_title);
+            TextView tv_tab_firstTitle = (TextView) tabView.findViewById(R.id.tv_tab_firstTitle);
+            if (isShowFirtText) {
+                tv_tab_firstTitle.setVisibility(VISIBLE);
+            }
             tv_tab_title.setTextColor(i == mCurrentTab ? mTextSelectColor : mTextUnselectColor);
             tv_tab_title.setTextSize(TypedValue.COMPLEX_UNIT_PX, mTextsize);
+            tv_tab_firstTitle.setTextColor(i == mCurrentTab ? mTextSelectColor : mTextUnselectColor);
+            tv_tab_firstTitle.setTextSize(TypedValue.COMPLEX_UNIT_PX, mTextsize);
 //            tv_tab_title.setPadding((int) mTabPadding, 0, (int) mTabPadding, 0);
             if (mTextAllCaps) {
                 tv_tab_title.setText(tv_tab_title.getText().toString().toUpperCase());
+            }
+            if (mTextAllCaps) {
+                tv_tab_firstTitle.setText(tv_tab_firstTitle.getText().toString().toUpperCase());
             }
 
             if (mTextBold == TEXT_BOLD_BOTH) {
                 tv_tab_title.getPaint().setFakeBoldText(true);
             } else if (mTextBold == TEXT_BOLD_NONE) {
                 tv_tab_title.getPaint().setFakeBoldText(false);
+            }
+            if (mTextBold == TEXT_BOLD_BOTH) {
+                tv_tab_firstTitle.getPaint().setFakeBoldText(true);
+            } else if (mTextBold == TEXT_BOLD_NONE) {
+                tv_tab_firstTitle.getPaint().setFakeBoldText(false);
             }
 
             ImageView iv_tab_icon = (ImageView) tabView.findViewById(R.id.iv_tab_icon);
@@ -316,12 +368,20 @@ public class CommonTabLayout extends FrameLayout implements ValueAnimator.Animat
             View tabView = mTabsContainer.getChildAt(i);
             final boolean isSelect = i == position;
             TextView tab_title = (TextView) tabView.findViewById(R.id.tv_tab_title);
+            TextView tv_tab_firstTitle = (TextView) tabView.findViewById(R.id.tv_tab_firstTitle);
+            if (isShowFirtText) {
+                tv_tab_firstTitle.setVisibility(VISIBLE);
+            }
             tab_title.setTextColor(isSelect ? mTextSelectColor : mTextUnselectColor);
+            tv_tab_firstTitle.setTextColor(isSelect ? mTextSelectColor : mTextUnselectColor);
             ImageView iv_tab_icon = (ImageView) tabView.findViewById(R.id.iv_tab_icon);
             CustomTabEntity tabEntity = mTabEntitys.get(i);
             iv_tab_icon.setImageResource(isSelect ? tabEntity.getTabSelectedIcon() : tabEntity.getTabUnselectedIcon());
             if (mTextBold == TEXT_BOLD_WHEN_SELECT) {
                 tab_title.getPaint().setFakeBoldText(isSelect);
+            }
+            if (mTextBold == TEXT_BOLD_WHEN_SELECT) {
+                tv_tab_firstTitle.getPaint().setFakeBoldText(isSelect);
             }
         }
     }
@@ -889,7 +949,9 @@ public class CommonTabLayout extends FrameLayout implements ValueAnimator.Animat
         }
     }
 
-    /** 当前类只提供了少许设置未读消息属性的方法,可以通过该方法获取MsgView对象从而各种设置 */
+    /**
+     * 当前类只提供了少许设置未读消息属性的方法,可以通过该方法获取MsgView对象从而各种设置
+     */
     public MsgView getMsgView(int position) {
         if (position >= mTabCount) {
             position = mTabCount - 1;

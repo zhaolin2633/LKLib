@@ -5,26 +5,32 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.IdRes;
 import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
-import android.widget.Toast;
+
+import com.trello.rxlifecycle2.LifecycleTransformer;
+import com.trello.rxlifecycle2.components.support.RxFragment;
 
 import butterknife.ButterKnife;
+import cn.app.library.rxeasyhttp.http.utils.Utils;
 import cn.app.library.ui.zixing.helper.CaptureHelper;
-import cn.app.library.utils.AppLibInitTools;
-import cn.app.library.widget.toast.SnackbarUtil;
 import cn.app.library.widget.toast.ToastCustomUtils;
 import cn.app.library.widget.toast.ToastTextUtil;
 import cn.app.library.widget.toast.ToastUtil;
-import cn.app.library.widget.toast.Toasty;
+import io.reactivex.Observable;
+import io.reactivex.ObservableSource;
+import io.reactivex.ObservableTransformer;
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.disposables.Disposable;
+import io.reactivex.functions.Consumer;
+import io.reactivex.schedulers.Schedulers;
 
 /**
  * @description： 基类Fragment
  */
-public abstract class BaseFragment extends Fragment {
+public abstract class BaseFragment extends RxFragment {
 
     //是否可见
     protected boolean isViable = false;
@@ -51,6 +57,30 @@ public abstract class BaseFragment extends Fragment {
         ButterKnife.bind(this, mInflate);
         initView(mInflate, savedInstanceState);
         return mInflate;
+    }
+
+    /**
+     * 线程调度
+     */
+    protected <T> ObservableTransformer<T, T> transformer(final LifecycleTransformer<T> lifecycle) {
+        return new ObservableTransformer<T, T>() {
+            @Override
+            public ObservableSource<T> apply(Observable<T> observable) {
+                return observable
+                        .subscribeOn(Schedulers.io())
+                        .doOnSubscribe(new Consumer<Disposable>() {
+                            @Override
+                            public void accept(Disposable disposable) throws Exception {
+                                // 可添加网络连接判断等
+                                if (!Utils.isNetworkAvailable(getActivity())) {
+                                    showToast("网络连接断开");
+                                }
+                            }
+                        })
+                        .observeOn(AndroidSchedulers.mainThread())
+                        .compose(lifecycle);
+            }
+        };
     }
 
     @Override
@@ -241,6 +271,7 @@ public abstract class BaseFragment extends Fragment {
         }
 
     }
+
     public void showToast(ToastUtil.ToastType type, CharSequence text) {
         ToastUtil.show(type, text);
     }
@@ -264,6 +295,7 @@ public abstract class BaseFragment extends Fragment {
     public void showSnackbarToast(String text, View view) {
         ToastUtil.showSnackbar(text, view);
     }
+
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent intent) {
         super.onActivityResult(requestCode, resultCode, intent);

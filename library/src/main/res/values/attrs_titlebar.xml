@@ -2,6 +2,7 @@
 <resources>
     <declare-styleable name="CustomTitlebar">
         <attr name="title_background" format="color"/>
+        <attr name="title_background_reference" format="reference"/>
         <attr name="left_button_image" format="reference"/>
         <attr name="left_button_text" format="string"/>
         <attr name="left_button_textColor" format="color"/>

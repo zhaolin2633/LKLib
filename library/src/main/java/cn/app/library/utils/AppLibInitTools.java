@@ -45,6 +45,7 @@ public final class AppLibInitTools {
         StyledDialog.init(appContext);
         // init tools
         StorageUtil.init(appContext, null);
+        Utils.init(appContext);
         cn.app.library.dialog.picker.imageview.ScreenUtil.init(appContext);
         TypefaceProvider.registerDefaultIconSets();
     }

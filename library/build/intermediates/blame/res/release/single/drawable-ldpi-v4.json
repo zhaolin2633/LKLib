@@ -4,6 +4,10 @@
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\ic_arrow_back_black_24dp.png"
     },
     {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\mrb_star_icon_black_36dp.png",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\mrb_star_icon_black_36dp.png"
+    },
+    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\mrb_star_icon_black_36dp.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\mrb_star_icon_black_36dp.png"
     },
@@ -12,8 +16,16 @@
         "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\mrb_star_border_icon_black_36dp.png"
     },
     {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_arrow_back_black_24dp.png",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\ic_arrow_back_black_24dp.png"
+    },
+    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ucrop_vector_loader.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\ucrop_vector_loader.png"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ucrop_vector_ic_crop.png",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\ucrop_vector_ic_crop.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\mrb_star_border_icon_black_36dp.png",
@@ -40,11 +52,23 @@
         "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable-ldpi\\toast_frame.9.png"
     },
     {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ucrop_vector_loader.png",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\ucrop_vector_loader.png"
+    },
+    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\toast_frame.9.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\src\\main\\res\\drawable-ldpi\\toast_frame.9.png"
     },
     {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_arrow_back_black_24dp.png",
         "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\ic_arrow_back_black_24dp.png"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\mrb_star_border_icon_black_36dp.png",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\mrb_star_border_icon_black_36dp.png"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\toast_frame.9.png",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\drawable-ldpi\\toast_frame.9.png"
     }
 ]

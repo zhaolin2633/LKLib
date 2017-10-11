@@ -21,6 +21,8 @@ import cn.app.library.base.BaseAppCompatActivity;
 import cn.app.library.dialog.ChooseImageDialog;
 import cn.app.library.dialog.picker.PickImageHelper;
 import cn.app.library.dialog.picker.constant.Extras;
+import cn.app.library.dialog.styleddialog.StyledDialog;
+import cn.app.library.dialog.styleddialog.interfaces.MyDialogListener;
 import cn.app.library.http.HttpResult;
 import cn.app.library.http.HttpResultSubscriber;
 import cn.app.library.picture.lib.compress.OnCompressListener;
@@ -131,6 +133,17 @@ public class MainActivity extends BaseAppCompatActivity
         } else if (id == R.id.nav_gallery) {
             chooseImage();
         } else if (id == R.id.nav_slideshow) {
+            StyledDialog.buildNormalInput("Title", "输入名字", "确定", "取消", new MyDialogListener() {
+                @Override
+                public void onFirst() {
+
+                }
+
+                @Override
+                public void onSecond() {
+
+                }
+            }).show();
 
         } else if (id == R.id.nav_manage) {
 

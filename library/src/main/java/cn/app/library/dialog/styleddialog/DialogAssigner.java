@@ -190,6 +190,19 @@ public class DialogAssigner implements Assignable {
     }
 
     @Override
+    public ConfigBean assignNormalInput(Context context, CharSequence title, CharSequence hint, CharSequence firstTxt, CharSequence secondTxt, MyDialogListener listener) {
+        ConfigBean bean = new ConfigBean();
+        bean.context = context;
+        bean.listener = listener;
+        bean.title = title;
+        bean.hint1 = hint;
+        bean.text1 = firstTxt;
+        bean.text2 = secondTxt;
+        bean.type = DefaultConfig.TYPE_IOS_INPUT;
+        return bean;
+    }
+
+    @Override
     public ConfigBean assignCustom(Context context, View contentView, int gravity) {
         ConfigBean bean = new ConfigBean();
         bean.context = context;

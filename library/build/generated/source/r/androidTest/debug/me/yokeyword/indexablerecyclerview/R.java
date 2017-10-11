@@ -11,12 +11,12 @@ public final class R {
         public static final int indexable_letter = 0x7f0f0001;
     }
     public static final class attr {
-        public static final int indexBar_background = 0x7f0101e6;
-        public static final int indexBar_layout_width = 0x7f0101e7;
-        public static final int indexBar_selectedTextColor = 0x7f0101e2;
-        public static final int indexBar_textColor = 0x7f0101e3;
-        public static final int indexBar_textSize = 0x7f0101e4;
-        public static final int indexBar_textSpace = 0x7f0101e5;
+        public static final int indexBar_background = 0x7f0101e7;
+        public static final int indexBar_layout_width = 0x7f0101e8;
+        public static final int indexBar_selectedTextColor = 0x7f0101e3;
+        public static final int indexBar_textColor = 0x7f0101e4;
+        public static final int indexBar_textSize = 0x7f0101e5;
+        public static final int indexBar_textSpace = 0x7f0101e6;
     }
     public static final class color {
         public static final int default_indexBar_selectedTextColor = 0x7f0e00b4;
@@ -33,7 +33,7 @@ public final class R {
         public static final int indexable_bg_md_overlay = 0x7f0200ac;
     }
     public static final class styleable {
-        public static final int[] IndexableRecyclerView = { 0x7f0101e2, 0x7f0101e3, 0x7f0101e4, 0x7f0101e5, 0x7f0101e6, 0x7f0101e7 };
+        public static final int[] IndexableRecyclerView = { 0x7f0101e3, 0x7f0101e4, 0x7f0101e5, 0x7f0101e6, 0x7f0101e7, 0x7f0101e8 };
         public static final int IndexableRecyclerView_indexBar_background = 4;
         public static final int IndexableRecyclerView_indexBar_layout_width = 5;
         public static final int IndexableRecyclerView_indexBar_selectedTextColor = 0;

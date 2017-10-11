@@ -69,6 +69,7 @@ public abstract class MainTabActitvity extends BaseAppCompatActivity {
         for (int i = 0; i < mTitles.length; i++) {
             mTabEntities.add(new TabEntity(mTitles[i], mIconSelectIds[i], mIconUnselectIds[i]));
         }
+        viewPager.setOffscreenPageLimit(mTitles.length);
         viewPager.setAdapter(new TabViewPagerAdapter(getSupportFragmentManager()));
         mainTabLayout.setTabData(mTabEntities);
         mainTabLayout.setOnTabSelectListener(new OnTabSelectListener() {

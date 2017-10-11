@@ -3,6 +3,7 @@ package cn.app.library.widget;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.support.annotation.DrawableRes;
 import android.text.TextUtils;
 import android.util.AttributeSet;
@@ -61,6 +62,7 @@ public class CustomTitlebar extends RelativeLayout {
      * 标题栏的背景颜色
      */
     private int title_background_color;
+    private Drawable title_background_reference;
 
     /**
      * 标题栏的显示的标题文字
@@ -158,6 +160,7 @@ public class CustomTitlebar extends RelativeLayout {
 
         /**标题相关*/
         title_background_color = typedArray.getColor(R.styleable.CustomTitlebar_title_background, Color.WHITE);
+        title_background_reference = typedArray.getDrawable(R.styleable.CustomTitlebar_title_background_reference);
         title_text = typedArray.getString(R.styleable.CustomTitlebar_title_text);
         title_textColor = typedArray.getColor(R.styleable.CustomTitlebar_title_textColor, Color.GRAY);
         title_textSize = typedArray.getDimensionPixelSize(R.styleable.CustomTitlebar_title_textSize, sp2px(context, 14));
@@ -172,7 +175,10 @@ public class CustomTitlebar extends RelativeLayout {
         lineVisibility = typedArray.getBoolean(R.styleable.CustomTitlebar_show_line, false);
 
         /**设置值*/
-        setTitleBarBackground(title_background_color);
+        if (title_background_reference != null) {
+            setTitleBackgroundResource(title_background_reference);
+        } else
+            setTitleBarBackground(title_background_color);
         setTilte(title_text);
         setTitleTextSize(title_textSize);
         setTitle_textColor(title_textColor);
@@ -382,6 +388,14 @@ public class CustomTitlebar extends RelativeLayout {
         mRelativeLayout.setBackgroundColor(resId);
     }
 
+    /**
+     * 设置标题栏背景色
+     *
+     * @param resId
+     */
+    public void setTitleBackgroundResource(Drawable resId) {
+        mRelativeLayout.setBackgroundDrawable(resId);
+    }
 
     public static int dp2px(Context context, float dpValue) {
         return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dpValue, context.getResources().getDisplayMetrics());
