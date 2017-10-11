@@ -4,32 +4,32 @@
         "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\anim\\dd_menu_in.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\release\\anim\\modal_in.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\anim\\modal_in.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\anim\\fade_out.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\anim\\fade_out.xml"
     },
     {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\anim\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\release\\anim\\dialog_exit_center.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\anim\\dialog_exit_center.xml"
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\release\\anim\\modal_in.xml",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\anim\\modal_in.xml"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\release\\anim\\down_out.xml",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\src\\main\\res\\anim\\down_out.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\release\\anim\\anim_top_in.xml",
-        "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\src\\main\\res\\anim\\anim_top_in.xml"
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\release\\anim\\dialog_exit_center.xml",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\anim\\dialog_exit_center.xml"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\release\\anim\\dd_mask_in.xml",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\src\\main\\res\\anim\\dd_mask_in.xml"
+    },
+    {
+        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\release\\anim\\anim_top_in.xml",
+        "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\src\\main\\res\\anim\\anim_top_in.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\anim\\anim_fade_in.xml",

@@ -8,17 +8,17 @@ package com.jude.easyrecyclerview;
 
 public final class R {
     public static final class attr {
-        public static int layout_empty = 0x7f010190;
-        public static int layout_error = 0x7f010192;
-        public static int layout_progress = 0x7f010191;
-        public static int recyclerClipToPadding = 0x7f010193;
-        public static int recyclerPadding = 0x7f010194;
-        public static int recyclerPaddingBottom = 0x7f010196;
-        public static int recyclerPaddingLeft = 0x7f010197;
-        public static int recyclerPaddingRight = 0x7f010198;
-        public static int recyclerPaddingTop = 0x7f010195;
-        public static int scrollbarStyle = 0x7f010199;
-        public static int scrollbars = 0x7f01019a;
+        public static int layout_empty = 0x7f010191;
+        public static int layout_error = 0x7f010193;
+        public static int layout_progress = 0x7f010192;
+        public static int recyclerClipToPadding = 0x7f010194;
+        public static int recyclerPadding = 0x7f010195;
+        public static int recyclerPaddingBottom = 0x7f010197;
+        public static int recyclerPaddingLeft = 0x7f010198;
+        public static int recyclerPaddingRight = 0x7f010199;
+        public static int recyclerPaddingTop = 0x7f010196;
+        public static int scrollbarStyle = 0x7f01019a;
+        public static int scrollbars = 0x7f01019b;
     }
     public static final class id {
         public static int empty = 0x7f10090b;
@@ -37,7 +37,7 @@ public final class R {
         public static int layout_progress_recyclerview = 0x7f040052;
     }
     public static final class styleable {
-        public static int[] EasyRecyclerView = { 0x7f010190, 0x7f010191, 0x7f010192, 0x7f010193, 0x7f010194, 0x7f010195, 0x7f010196, 0x7f010197, 0x7f010198, 0x7f010199, 0x7f01019a };
+        public static int[] EasyRecyclerView = { 0x7f010191, 0x7f010192, 0x7f010193, 0x7f010194, 0x7f010195, 0x7f010196, 0x7f010197, 0x7f010198, 0x7f010199, 0x7f01019a, 0x7f01019b };
         public static int EasyRecyclerView_layout_empty = 0;
         public static int EasyRecyclerView_layout_error = 2;
         public static int EasyRecyclerView_layout_progress = 1;

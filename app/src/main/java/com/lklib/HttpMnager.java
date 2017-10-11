@@ -12,6 +12,7 @@ import cn.app.library.utils.DeviceUuidFactory;
 import cn.app.library.utils.LogUtil;
 import cn.app.library.utils.SignatureUtil;
 import okhttp3.Request;
+import okhttp3.logging.HttpLoggingInterceptor;
 
 /**
  * <pre>
@@ -73,6 +74,11 @@ public class HttpMnager extends BaseHttpManager{
                 .addHeader("key-signature", SignatureUtil.NoSignUtil(Constants.APP_RANDOM, String.valueOf(currentTimeMillis)));
         LogUtil.logInfo("Header=====>access-token", "");
         return requestBuilder;
+    }
+
+    @Override
+    public HttpLoggingInterceptor getHttpLoggingInterceptor() {
+        return null;
     }
 
 }
