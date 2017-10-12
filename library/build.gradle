@@ -49,7 +49,6 @@ dependencies {
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.github.siyamed:android-shape-imageview:0.9.+@aar'
     compile 'com.jude:easyrecyclerview:4.4.0'
-    compile 'com.github.zcweng:switch-button:0.0.2@aar'
     compile 'me.yokeyword:indexablerecyclerview:1.2.3'
     //zxing二维码扫描
     compile 'cn.yipianfengye.android:zxing-library:2.2'

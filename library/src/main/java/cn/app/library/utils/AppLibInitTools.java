@@ -5,7 +5,9 @@ import android.app.Application;
 
 import com.orhanobut.logger.AndroidLogAdapter;
 import com.orhanobut.logger.Logger;
+import com.uuzuche.lib_zxing.activity.ZXingLibrary;
 
+import cn.app.library.BuildConfig;
 import cn.app.library.dialog.picker.storage.StorageUtil;
 import cn.app.library.dialog.styleddialog.StyledDialog;
 import cn.app.library.widget.androidbootstrap.TypefaceProvider;
@@ -38,7 +40,8 @@ public final class AppLibInitTools {
     public static String packageName = "";
 
     private void init() {
-
+        //初始化二维码扫描库
+        ZXingLibrary.initDisplayOpinion(appContext);
         //日志框架打印
         Logger.addLogAdapter(new AndroidLogAdapter());
         //dialog大全
@@ -46,6 +49,9 @@ public final class AppLibInitTools {
         // init tools
         StorageUtil.init(appContext, null);
         Utils.init(appContext);
+        //日志打印开关，正式发布上线时，关闭日志
+        LogUtil.setLogEnable(BuildConfig.DEBUG);
+
         cn.app.library.dialog.picker.imageview.ScreenUtil.init(appContext);
         TypefaceProvider.registerDefaultIconSets();
     }
