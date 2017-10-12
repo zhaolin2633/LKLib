@@ -6,12 +6,9 @@ import android.net.Uri;
 import android.provider.Settings;
 import android.support.v7.app.AlertDialog;
 
-import com.tbruyelle.rxpermissions.RxPermissions;
-
 import cn.app.library.dialog.flycoDialog.dialog.listener.OnBtnClickL;
 import cn.app.library.dialog.flycoDialog.dialog.widget.MaterialDialog;
 import cn.app.library.dialog.styleddialog.StyledDialog;
-import cn.app.library.utils.AppUtils;
 
 
 

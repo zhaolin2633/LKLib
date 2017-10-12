@@ -7,9 +7,6 @@ import android.view.View;
 import android.view.ViewStub;
 import android.widget.LinearLayout;
 
-
-import com.tbruyelle.rxpermissions.RxPermissions;
-
 import cn.app.library.R;
 import cn.app.library.dialog.flycoDialog.dialog.listener.OnBtnClickL;
 import cn.app.library.dialog.flycoDialog.dialog.widget.MaterialDialog;

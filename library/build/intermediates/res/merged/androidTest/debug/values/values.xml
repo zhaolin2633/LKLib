@@ -2983,6 +2983,7 @@
     <declare-styleable name="StateButton"><attr format="color|reference" name="normalTextColor"/><attr format="color|reference" name="pressedTextColor"/><attr format="color|reference" name="unableTextColor"/><attr format="dimension|reference" name="strokeDashWidth"/><attr format="dimension|reference" name="strokeDashGap"/><attr format="dimension|reference" name="normalStrokeWidth"/><attr format="dimension|reference" name="pressedStrokeWidth"/><attr format="dimension|reference" name="unableStrokeWidth"/><attr format="color|reference" name="normalStrokeColor"/><attr format="color|reference" name="pressedStrokeColor"/><attr format="color|reference" name="unableStrokeColor"/><attr format="color|reference" name="normalBackgroundColor"/><attr format="color|reference" name="pressedBackgroundColor"/><attr format="color|reference" name="unableBackgroundColor"/><attr format="dimension|reference" name="radius"/><attr format="boolean|reference" name="round"/><attr format="integer|reference" name="animationDuration"/></declare-styleable>
     <declare-styleable name="StateImageView"><attr format="color|reference" name="normalBackground"/><attr format="color|reference" name="pressedBackground"/><attr format="color|reference" name="unableBackground"/><attr format="integer|reference" name="AnimationDuration"/></declare-styleable>
     <declare-styleable name="StickNavLayout"><attr format="boolean" name="isStickNav"/><attr format="dimension" name="stickOffset"/></declare-styleable>
+    <declare-styleable name="SwitchButton"><attr format="reference|dimension" name="sb_shadow_radius"/><attr format="reference|dimension" name="sb_shadow_offset"/><attr format="reference|color" name="sb_shadow_color"/><attr format="reference|color" name="sb_uncheck_color"/><attr format="reference|color" name="sb_checked_color"/><attr format="reference|dimension" name="sb_border_width"/><attr format="reference|color" name="sb_checkline_color"/><attr format="reference|dimension" name="sb_checkline_width"/><attr format="reference|color" name="sb_uncheckcircle_color"/><attr format="reference|dimension" name="sb_uncheckcircle_width"/><attr format="reference|dimension" name="sb_uncheckcircle_radius"/><attr format="reference|boolean" name="sb_checked"/><attr format="reference|boolean" name="sb_shadow_effect"/><attr format="reference|integer" name="sb_effect_duration"/><attr format="reference|color" name="sb_button_color"/><attr format="reference|boolean" name="sb_show_indicator"/><attr format="reference|color" name="sb_background"/><attr format="reference|boolean" name="sb_enable_effect"/></declare-styleable>
     <declare-styleable name="SwitchCompat"><attr name="android:thumb"/><attr format="color" name="thumbTint"/><attr name="thumbTintMode">
             
             <enum name="src_over" value="3"/>
@@ -4566,8 +4567,8 @@
         <item name="android:windowExitAnimation">@anim/a3</item>
     </style>
     <style name="LibraryTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!--<item name="android:windowTranslucentStatus">true</item>-->
-        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+        
+        
         <item name="android:windowBackground">@color/common_background</item>
         <item name="colorPrimaryDark">@color/black</item>
         <item name="colorAccent">@color/common_main</item>
@@ -4584,7 +4585,7 @@
     <style name="MyDialog" parent="AlertDialog.AppCompat.Light">
         <item name="android:windowFrame">@null</item>
         <item name="android:windowNoTitle">true</item>
-        <!--<item name="android:windowBackground">@drawable/hint_img</item>-->
+        
         <item name="android:windowIsFloating">true</item>
         <item name="android:windowContentOverlay">@null</item>
     </style>
@@ -5043,19 +5044,19 @@
     <style name="ThemeOverlay.AppCompat.Light" parent="Base.ThemeOverlay.AppCompat.Light"/>
     <style name="Theme_dialog" parent="@android:style/Theme.Dialog">
 
-        <!-- 边框 -->
+        
         <item name="android:windowFrame">@android:color/transparent</item>
-        <!-- 是否浮现在activity之上 -->
+        
         <item name="android:windowIsFloating">true</item>
-        <!-- 半透明 -->
+        
         <item name="android:windowIsTranslucent">false</item>
-        <!-- 无标题 -->
+        
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
         <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
 
-        <!-- 自己想要的背景 -->
+        
         <item name="android:windowBackground">@android:color/transparent</item>
     </style>
     <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
@@ -5221,7 +5222,7 @@
     <style name="Widget.GifMoviewView" parent="@android:style/Widget"/>
     <style name="Widget.MaterialProgressBar.ProgressBar" parent="android:Widget.ProgressBar">
         <item name="android:indeterminateDrawable">@null</item>
-        <!-- We have support for determinate circular progress drawable. -->
+        
         <item name="android:indeterminateOnly">false</item>
         <item name="android:minWidth">48dp</item>
         <item name="android:maxWidth">48dp</item>
@@ -5229,11 +5230,7 @@
         <item name="android:maxHeight">48dp</item>
     </style>
     <style name="Widget.MaterialProgressBar.ProgressBar.Horizontal" parent="android:Widget.ProgressBar.Horizontal">
-        <!--
-        Disabled for correct behavior on Android 4.x, see
-        https://github.com/android/platform_frameworks_base/commit/911743652b597057a1bd7ef8a921e9ff8dce0f4a#diff-149f45c5ff2d3185bb79688ba17bc432L536
-        <item name="android:progressDrawable">@null</item>
-        -->
+        
         <item name="android:indeterminateDrawable">@null</item>
         <item name="android:minHeight">16dp</item>
         <item name="android:maxHeight">16dp</item>
@@ -5273,11 +5270,7 @@
         <item name="android:maxHeight">14dp</item>
     </style>
     <style name="Widget.MaterialRatingBar.RatingBar" parent="android:Widget.RatingBar">
-        <!--
-        Disabled for correct behavior on Android 4.x, see
-        https://github.com/android/platform_frameworks_base/commit/911743652b597057a1bd7ef8a921e9ff8dce0f4a#diff-149f45c5ff2d3185bb79688ba17bc432L536
-        <item name="android:progressDrawable">@null</item>
-        -->
+        
         <item name="android:indeterminateDrawable">@null</item>
         <item name="android:minHeight">36dp</item>
         <item name="android:maxHeight">36dp</item>
@@ -5305,18 +5298,18 @@
     </style>
     <style name="custom_dialog2" parent="@android:style/Theme.Dialog">
         <item name="android:windowFrame">@null</item>
-        <!-- Dialog的windowFrame框为无 -->
+        
         <item name="android:windowIsFloating">true</item>
-        <!-- 是否漂现在activity上 -->
+        
         <item name="android:windowIsTranslucent">true</item>
-        <!-- 是否半透明 -->
+        
         <item name="android:windowNoTitle">true</item>
         <item name="android:background">@null</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowContentOverlay">@null</item>
-        <!-- 去除黑色边框的关键设置项 -->
+        
         <item name="android:backgroundDimEnabled">true</item>
-        <!-- 屏幕背景是否变暗 -->
+        
         <item name="android:backgroundDimAmount">0.3</item>
     </style>
     <style name="dialog_center" parent="android:Animation">
@@ -5338,113 +5331,113 @@
         <item name="android:windowExitAnimation">@anim/pickerview_dialog_scale_out</item>
     </style>
     <style name="picture.Sina.style" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <!--标题栏背景色-->
+        
+        
         <item name="colorPrimary">@color/common_main</item>
-        <!--状态栏背景色-->
+        
         <item name="colorPrimaryDark">@color/common_main</item>
-        <!--是否改变图片列表界面状态栏字体颜色为黑色-->
+        
         <item name="picture.statusFontColor">true</item>
-        <!--返回键图标-->
+        
         <item name="picture.leftBack.icon">@drawable/icon_back_black</item>
-        <!--标题下拉箭头-->
+        
         <item name="picture.arrow_down.icon">@drawable/icon_arrow_down</item>
-        <!--标题上拉箭头-->
+        
         <item name="picture.arrow_up.icon">@drawable/icon_arrow_up</item>
-        <!--标题文字颜色-->
+        
         <item name="picture.title.textColor">@color/white</item>
-        <!--标题栏右边文字-->
+        
         <item name="picture.right.textColor">@color/white</item>
-        <!--图片列表勾选样式-->
+        
         <item name="picture.checked.style">@drawable/checkbox_selector</item>
-        <!--开启图片列表勾选数字模式,开启的话勾选样式要换-->
+        
         <item name="picture.style.checkNumMode">false</item>
-        <!--选择图片样式0/9-->
+        
         <item name="picture.style.numComplete">false</item>
-        <!--图片列表底部背景色-->
+        
         <item name="picture.bottom.bg">@color/color_fa</item>
-        <!--图片列表预览文字颜色-->
+        
         <item name="picture.preview.textColor">@color/color_orange</item>
-        <!--图片列表已完成文字颜色-->
+        
         <item name="picture.complete.textColor">@color/color_orange</item>
-        <!--图片已选数量圆点背景色-->
+        
         <item name="picture.num.style">@drawable/num_oval_orange</item>
-        <!--预览界面标题文字颜色-->
+        
         <item name="picture.ac_preview.title.textColor">@color/color_53</item>
-        <!--预览界面已完成文字颜色-->
+        
         <item name="picture.ac_preview.complete.textColor">@color/color_orange</item>
-        <!--预览界面标题栏背景色-->
+        
         <item name="picture.ac_preview.title.bg">@color/white</item>
-        <!--预览界面底部背景色-->
+        
         <item name="picture.ac_preview.bottom.bg">@color/color_fa</item>
-        <!--预览界面状态栏颜色-->
+        
         <item name="picture.status.color">@color/white</item>
-        <!--预览界面返回箭头-->
+        
         <item name="picture.preview.leftBack.icon">@drawable/icon_back_black</item>
-        <!--是否改变预览界面状态栏字体颜色为黑色-->
+        
         <item name="picture.preview.statusFontColor">true</item>
-        <!--裁剪页面标题背景色-->
+        
         <item name="picture.crop.toolbar.bg">@color/bar_grey</item>
-        <!--裁剪页面状态栏颜色-->
+        
         <item name="picture.crop.status.color">@color/bar_grey</item>
-        <!--裁剪页面标题文字颜色-->
+        
         <item name="picture.crop.title.color">@color/white</item>
-        <!--相册文件夹列表选中图标-->
+        
         <item name="picture.folder_checked_dot">@drawable/orange_oval</item>
     </style>
     <style name="picture.default.style" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <!--标题栏背景色-->
+        
+        
         <item name="colorPrimary">@color/bar_grey</item>
-        <!--状态栏背景色-->
+        
         <item name="colorPrimaryDark">@color/bar_grey</item>
-        <!--是否改变图片列表界面状态栏字体颜色为黑色-->
+        
         <item name="picture.statusFontColor">false</item>
-        <!--返回键图标-->
+        
         <item name="picture.leftBack.icon">@drawable/picture_back</item>
-        <!--标题下拉箭头-->
+        
         <item name="picture.arrow_down.icon">@drawable/arrow_down</item>
-        <!--标题上拉箭头-->
+        
         <item name="picture.arrow_up.icon">@drawable/arrow_up</item>
-        <!--标题文字颜色-->
+        
         <item name="picture.title.textColor">@color/white</item>
-        <!--标题栏右边文字-->
+        
         <item name="picture.right.textColor">@color/white</item>
-        <!--图片列表勾选样式-->
+        
         <item name="picture.checked.style">@drawable/checkbox_selector</item>
-        <!--开启图片列表勾选数字模式-->
+        
         <item name="picture.style.checkNumMode">false</item>
-        <!--选择图片样式0/9-->
+        
         <item name="picture.style.numComplete">false</item>
-        <!--图片列表底部背景色-->
+        
         <item name="picture.bottom.bg">@color/color_fa</item>
-        <!--图片列表预览文字颜色-->
+        
         <item name="picture.preview.textColor">@color/tab_color_true</item>
-        <!--图片列表已完成文字颜色-->
+        
         <item name="picture.complete.textColor">@color/tab_color_true</item>
-        <!--图片已选数量圆点背景色-->
+        
         <item name="picture.num.style">@drawable/num_oval</item>
-        <!--预览界面标题文字颜色-->
+        
         <item name="picture.ac_preview.title.textColor">@color/white</item>
-        <!--预览界面已完成文字颜色-->
+        
         <item name="picture.ac_preview.complete.textColor">@color/tab_color_true</item>
-        <!--预览界面标题栏背景色-->
+        
         <item name="picture.ac_preview.title.bg">@color/bar_grey</item>
-        <!--预览界面底部背景色-->
+        
         <item name="picture.ac_preview.bottom.bg">@color/bar_grey_90</item>
-        <!--预览界面状态栏颜色-->
+        
         <item name="picture.status.color">@color/bar_grey_90</item>
-        <!--预览界面返回箭头-->
+        
         <item name="picture.preview.leftBack.icon">@drawable/picture_back</item>
-        <!--是否改变预览界面状态栏字体颜色为黑色-->
+        
         <item name="picture.preview.statusFontColor">false</item>
-        <!--裁剪页面标题背景色-->
+        
         <item name="picture.crop.toolbar.bg">@color/bar_grey</item>
-        <!--裁剪页面状态栏颜色-->
+        
         <item name="picture.crop.status.color">@color/bar_grey</item>
-        <!--裁剪页面标题文字颜色-->
+        
         <item name="picture.crop.title.color">@color/white</item>
-        <!--相册文件夹列表选中图标-->
+        
         <item name="picture.folder_checked_dot">@drawable/orange_oval</item>
     </style>
     <style name="picture_alert_dialog" parent="android:Theme.Dialog">
