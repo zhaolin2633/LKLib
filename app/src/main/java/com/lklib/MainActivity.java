@@ -148,7 +148,7 @@ public class MainActivity extends BaseAppCompatActivity
         } else if (id == R.id.nav_manage) {
 
         } else if (id == R.id.nav_share) {
-
+                        showLoding("SS");
         } else if (id == R.id.nav_send) {
 
         }

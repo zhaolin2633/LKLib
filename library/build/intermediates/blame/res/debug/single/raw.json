@@ -40,12 +40,12 @@
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\fe40d2a10ed62fbfca8515b84f13ad7393b42aec\\output\\res\\raw\\imgview_heart.svg"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\raw\\beep.ogg",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\2e27794b873ef88895a8f0c3a040deeb52d2a72d\\output\\res\\raw\\beep.ogg"
-    },
-    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\raw\\imgview_pentagon.svg",
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\e97594381dbb0659ec27c9f54f5de1558ce463cc\\output\\res\\raw\\imgview_pentagon.svg"
+    },
+    {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\raw\\beep.ogg",
+        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\2e27794b873ef88895a8f0c3a040deeb52d2a72d\\output\\res\\raw\\beep.ogg"
     },
     {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\raw\\imgview_pentagon.svg",
