@@ -553,7 +553,7 @@ public abstract class BaseAppCompatActivity extends RxAppCompatActivity {
     }
 
     public void showLoding(String msg) {
-        StyledDialog.buildLoading(msg);
+        StyledDialog.buildLoading(msg).show();
     }
 
     public void dismissLoading() {
