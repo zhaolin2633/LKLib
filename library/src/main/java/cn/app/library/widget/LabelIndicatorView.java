@@ -19,7 +19,7 @@ import cn.app.library.R;
 public class LabelIndicatorView extends ViewGroup {
 
     private View contentView;
-    private TextView labelTextView,tipTextView;
+    private TextView labelTextView, tipTextView;
     private ImageView indicatorImageView;
 
     public LabelIndicatorView(Context context) {
@@ -68,6 +68,24 @@ public class LabelIndicatorView extends ViewGroup {
     public void setTipColor(@ColorRes int color) {
         if (tipTextView != null) {
             tipTextView.setTextColor(getResources().getColor(color));
+        }
+    }
+
+    public void setLabelText(String text) {
+        if (labelTextView != null) {
+            labelTextView.setText(text);
+        }
+    }
+
+    public void setLabelColor(@ColorRes int color) {
+        if (labelTextView != null) {
+            labelTextView.setTextColor(getResources().getColor(color));
+        }
+    }
+
+    public void setIndicatorImage(int resId) {
+        if (indicatorImageView != null) {
+            indicatorImageView.setImageResource(resId);
         }
     }
 
