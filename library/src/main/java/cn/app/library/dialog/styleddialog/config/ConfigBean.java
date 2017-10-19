@@ -9,8 +9,6 @@ import android.support.v7.app.AlertDialog;
 import android.view.Gravity;
 import android.view.View;
 
-
-
 import java.util.List;
 import java.util.Map;
 
@@ -56,7 +54,6 @@ public class ConfigBean extends MyDialogBuilder implements Styleable {
     public boolean isTransparentBehind;
 
 
-
     public MyDialogListener listener;
     public MyItemDialogListener itemListener;
 
@@ -77,19 +74,18 @@ public class ConfigBean extends MyDialogBuilder implements Styleable {
     public boolean hasShadow = true;
 
 
-
     public int viewHeight;
 
 
     //各类对话框特有的参数
     public CharSequence[] wordsMd;
-    public  int defaultChosen;//
+    public int defaultChosen;//
     public boolean[] checkedItems;
 
 
     public List<? extends CharSequence> wordsIos;
     //bottom sheet
-    public  CharSequence bottomTxt = "取消";
+    public CharSequence bottomTxt = "取消";
 
     //bottomsheet
     public SuperLvAdapter mAdapter;
@@ -97,29 +93,34 @@ public class ConfigBean extends MyDialogBuilder implements Styleable {
     public int gridColumns = 4;
 
 
-
     //样式
 
     //三个以下按钮,颜色按此顺序
-    public  @ColorRes
+    public
+    @ColorRes
     int btn1Color = DefaultConfig.iosBtnColor;
-    public  @ColorRes
-    int btn2Color= DefaultConfig.iosBtnColor;
-    public  @ColorRes
-    int btn3Color= DefaultConfig.iosBtnColor;
+    public
+    @ColorRes
+    int btn2Color = DefaultConfig.iosBtnColor;
+    public
+    @ColorRes
+    int btn3Color = DefaultConfig.iosBtnColor;
 
 
-
-    public @ColorRes
+    public
+    @ColorRes
     int titleTxtColor = DefaultConfig.titleTxtColor;
-    public @ColorRes
+    public
+    @ColorRes
     int msgTxtColor = DefaultConfig.msgTxtColor;
 
-    public  @ColorRes
+    public
+    @ColorRes
     int lvItemTxtColor = DefaultConfig.lvItemTxtColor;
-    public Map<Integer,Integer> colorOfPosition;//listview 的item的特殊颜色:ColorRes
+    public Map<Integer, Integer> colorOfPosition;//listview 的item的特殊颜色:ColorRes
 
-    public  @ColorRes
+    public
+    @ColorRes
     int inputTxtColor = DefaultConfig.inputTxtColor;
 
 
@@ -128,29 +129,29 @@ public class ConfigBean extends MyDialogBuilder implements Styleable {
 支持gridview 或者recylerview*/
 
     //字体大小
-    public  int btnTxtSize = DefaultConfig.btnTxtSize;// in sp
-    public  int titleTxtSize = DefaultConfig.titleTxtSize;
-    public  int msgTxtSize = DefaultConfig.msgTxtSize;
-    public  int itemTxtSize = DefaultConfig.itemTxtSize;
-    public  int inputTxtSize = DefaultConfig.inputTxtSize;
+    public int btnTxtSize = DefaultConfig.btnTxtSize;// in sp
+    public int titleTxtSize = DefaultConfig.titleTxtSize;
+    public int msgTxtSize = DefaultConfig.msgTxtSize;
+    public int itemTxtSize = DefaultConfig.itemTxtSize;
+    public int inputTxtSize = DefaultConfig.inputTxtSize;
 
 
     @Override
     public ConfigBean setBtnColor(@ColorRes int btn1Color, @ColorRes int btn2Color, @ColorRes int btn3Color) {
-        if (btn1Color>0)
-        this.btn1Color = btn1Color;
-        if (btn2Color>0)
-        this.btn2Color = btn2Color;
-        if (btn3Color>0)
+        if (btn1Color > 0)
+            this.btn1Color = btn1Color;
+        if (btn2Color > 0)
+            this.btn2Color = btn2Color;
+        if (btn3Color > 0)
             this.btn3Color = btn3Color;
         return this;
     }
 
     @Override
     public ConfigBean setListItemColor(@ColorRes int lvItemTxtColor, Map<Integer, Integer> colorOfPosition) {
-        if (lvItemTxtColor>0)
+        if (lvItemTxtColor > 0)
             this.lvItemTxtColor = lvItemTxtColor;
-        if (colorOfPosition  != null && colorOfPosition.size()>0){
+        if (colorOfPosition != null && colorOfPosition.size() > 0) {
             this.colorOfPosition = colorOfPosition;
         }
         return this;
@@ -158,7 +159,7 @@ public class ConfigBean extends MyDialogBuilder implements Styleable {
 
     @Override
     public ConfigBean setTitleColor(@ColorRes int colorRes) {
-        if (colorRes>0){
+        if (colorRes > 0) {
             this.titleTxtColor = colorRes;
         }
         return this;
@@ -166,20 +167,20 @@ public class ConfigBean extends MyDialogBuilder implements Styleable {
 
     @Override
     public ConfigBean setMsgColor(@ColorRes int colorRes) {
-        if (colorRes >0){
+        if (colorRes > 0) {
             this.msgTxtColor = colorRes;
         }
         return this;
     }
 
-    public ConfigBean setActivity(Activity activity){
+    public ConfigBean setActivity(Activity activity) {
         this.context = activity;
         return this;
     }
 
     @Override
     public ConfigBean seInputColor(@ColorRes int colorRes) {
-        if (colorRes >0){
+        if (colorRes > 0) {
             this.inputTxtColor = colorRes;
         }
         return this;
@@ -187,7 +188,7 @@ public class ConfigBean extends MyDialogBuilder implements Styleable {
 
     @Override
     public ConfigBean setTitleSize(int sizeInSp) {
-        if (sizeInSp >0 && sizeInSp < 30){
+        if (sizeInSp > 0 && sizeInSp < 30) {
             this.titleTxtSize = sizeInSp;
         }
         return this;
@@ -195,7 +196,7 @@ public class ConfigBean extends MyDialogBuilder implements Styleable {
 
     @Override
     public ConfigBean setMsgSize(int sizeInSp) {
-        if (sizeInSp >0 && sizeInSp < 30){
+        if (sizeInSp > 0 && sizeInSp < 30) {
             this.msgTxtSize = sizeInSp;
         }
         return this;
@@ -203,12 +204,13 @@ public class ConfigBean extends MyDialogBuilder implements Styleable {
 
     /**
      * 最大30sp
+     *
      * @param sizeInSp
      * @return
      */
     @Override
     public ConfigBean setBtnSize(int sizeInSp) {
-        if (sizeInSp >0 && sizeInSp < 30){
+        if (sizeInSp > 0 && sizeInSp < 30) {
             this.btnTxtSize = sizeInSp;
         }
         return this;
@@ -216,7 +218,7 @@ public class ConfigBean extends MyDialogBuilder implements Styleable {
 
     @Override
     public ConfigBean setLvItemSize(int sizeInSp) {
-        if (sizeInSp >0 && sizeInSp < 30){
+        if (sizeInSp > 0 && sizeInSp < 30) {
             this.itemTxtSize = sizeInSp;
         }
         return this;
@@ -224,7 +226,7 @@ public class ConfigBean extends MyDialogBuilder implements Styleable {
 
     @Override
     public ConfigBean setInputSize(int sizeInSp) {
-        if (sizeInSp >0 && sizeInSp < 30){
+        if (sizeInSp > 0 && sizeInSp < 30) {
             this.inputTxtSize = sizeInSp;
         }
         return this;
@@ -236,26 +238,24 @@ public class ConfigBean extends MyDialogBuilder implements Styleable {
         //Build dialog by tyle :
 
 
-
-
         buildByType(this);
         //内部保存loadingdialog对象
 
 
-        if(type ==DefaultConfig.TYPE_PROGRESS){
+        if (type == DefaultConfig.TYPE_PROGRESS) {
 
         }
 
 
-        if (dialog != null && !dialog.isShowing()){
-            Tool.showDialog(dialog,this);
-            if(type == DefaultConfig.TYPE_IOS_LOADING || type == DefaultConfig.TYPE_MD_LOADING){
+        if (dialog != null && !dialog.isShowing()) {
+            Tool.showDialog(dialog, this);
+            if (type == DefaultConfig.TYPE_IOS_LOADING || type == DefaultConfig.TYPE_MD_LOADING) {
                 StyledDialog.setLoadingObj(dialog);
             }
             return dialog;
-        }else if (alertDialog != null && !alertDialog.isShowing()){
-            Tool.showDialog(alertDialog,this);
-            if(type == DefaultConfig.TYPE_IOS_LOADING || type == DefaultConfig.TYPE_MD_LOADING){
+        } else if (alertDialog != null && !alertDialog.isShowing()) {
+            Tool.showDialog(alertDialog, this);
+            if (type == DefaultConfig.TYPE_IOS_LOADING || type == DefaultConfig.TYPE_MD_LOADING) {
                 StyledDialog.setLoadingObj(dialog);
             }
             return alertDialog;
@@ -274,12 +274,12 @@ public class ConfigBean extends MyDialogBuilder implements Styleable {
 
     @Override
     public ConfigBean setBtnText(CharSequence positiveTxt, @Nullable CharSequence negtiveText) {
-        return setBtnText(positiveTxt,negtiveText,"");
+        return setBtnText(positiveTxt, negtiveText, "");
     }
 
     @Override
     public ConfigBean setListener(MyDialogListener listener) {
-        if (listener!= null){
+        if (listener != null) {
             this.listener = listener;
         }
         return this;

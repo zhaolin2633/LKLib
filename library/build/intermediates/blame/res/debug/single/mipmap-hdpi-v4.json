@@ -24,12 +24,12 @@
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\mipmap-hdpi\\spinner_10.png"
     },
     {
-        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\spinner_2.png",
-        "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\src\\main\\res\\mipmap-hdpi\\spinner_2.png"
-    },
-    {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\spinner_3.png",
         "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\mipmap-hdpi\\spinner_3.png"
+    },
+    {
+        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\spinner_2.png",
+        "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\src\\main\\res\\mipmap-hdpi\\spinner_2.png"
     },
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\spinner_5.png",
