@@ -4,8 +4,6 @@ import android.app.Dialog;
 import android.support.annotation.ColorRes;
 import android.support.annotation.Nullable;
 
-
-
 import java.util.Map;
 
 import cn.app.library.dialog.styleddialog.config.ConfigBean;
@@ -20,16 +18,27 @@ public interface Styleable {
     ConfigBean setListItemColor(@ColorRes int lvItemTxtColor, Map<Integer, Integer> colorOfPosition);
 
     ConfigBean setTitleColor(@ColorRes int colorRes);
+
     ConfigBean setMsgColor(@ColorRes int colorRes);
+
     ConfigBean seInputColor(@ColorRes int colorRes);
 
 
-
     ConfigBean setTitleSize(int sizeInSp);
+
     ConfigBean setMsgSize(int sizeInSp);
+
     ConfigBean setBtnSize(int sizeInSp);
+
     ConfigBean setLvItemSize(int sizeInSp);
+
     ConfigBean setInputSize(int sizeInSp);
+
+    ConfigBean setInputTxtLeng(int leng);
+
+    ConfigBean setInputTxtLine(int line);
+
+    ConfigBean setInputTxtType(int inputType);
 
     Dialog show();
 
@@ -41,13 +50,7 @@ public interface Styleable {
     ConfigBean setListener(MyDialogListener listener);
 
 
-
     ConfigBean setCancelable(boolean cancelable, boolean outsideCancelable);
-
-
-
-
-
 
 
 }

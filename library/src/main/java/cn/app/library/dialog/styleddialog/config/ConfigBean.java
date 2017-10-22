@@ -134,6 +134,9 @@ public class ConfigBean extends MyDialogBuilder implements Styleable {
     public int msgTxtSize = DefaultConfig.msgTxtSize;
     public int itemTxtSize = DefaultConfig.itemTxtSize;
     public int inputTxtSize = DefaultConfig.inputTxtSize;
+    public int inputTxtLeng = DefaultConfig.inputTxtLeng;
+    public int inputTxtLine = DefaultConfig.inputTxtLine;
+    public int inputTxtType = DefaultConfig.inputTxtType;
 
 
     @Override
@@ -229,6 +232,24 @@ public class ConfigBean extends MyDialogBuilder implements Styleable {
         if (sizeInSp > 0 && sizeInSp < 30) {
             this.inputTxtSize = sizeInSp;
         }
+        return this;
+    }
+
+    @Override
+    public ConfigBean setInputTxtLeng(int leng) {
+        inputTxtLeng = leng;
+        return this;
+    }
+
+    @Override
+    public ConfigBean setInputTxtLine(int line) {
+        inputTxtLine = line;
+        return this;
+    }
+
+    @Override
+    public ConfigBean setInputTxtType(int inputType) {
+        inputTxtType = inputType;
         return this;
     }
 

@@ -1,6 +1,7 @@
 package cn.app.library.dialog.styleddialog.config;
 
 import android.support.annotation.ColorRes;
+import android.text.InputType;
 
 import cn.app.library.R;
 
@@ -10,34 +11,42 @@ import cn.app.library.R;
  */
 public class DefaultConfig {
 
-    public static  @ColorRes
+    public static
+    @ColorRes
     int iosBtnColor = R.color.ios_btntext_blue;
 
 
-
-    public  static @ColorRes
+    public static
+    @ColorRes
     int lvItemTxtColor = R.color.text_item_33;
 
-    public static  @ColorRes
+    public static
+    @ColorRes
     int mdBtnColor = R.color.ios_btntext_blue;
 
-    public static @ColorRes
+    public static
+    @ColorRes
     int titleTxtColor = R.color.text_title_11;
-    public static @ColorRes
+    public static
+    @ColorRes
     int msgTxtColor = R.color.text_title_11;
-    public static @ColorRes
+    public static
+    @ColorRes
     int inputTxtColor = R.color.text_input_44;
 
 
-/* <dimen name="btn_txt_size">14sp</dimen>
-    <dimen name="title_txt_size">17sp</dimen>
-    <dimen name="msg_txt_size">14sp</dimen>
-    <dimen name="item_txt_size">14sp</dimen>*/
+    /* <dimen name="btn_txt_size">14sp</dimen>
+        <dimen name="title_txt_size">17sp</dimen>
+        <dimen name="msg_txt_size">14sp</dimen>
+        <dimen name="item_txt_size">14sp</dimen>*/
     public static int btnTxtSize = 14;// in sp
     public static int titleTxtSize = 17;
     public static int msgTxtSize = 14;
     public static int itemTxtSize = 14;
     public static int inputTxtSize = 14;
+    public static int inputTxtLeng = 30;
+    public static int inputTxtLine = 1;
+    public static int inputTxtType = InputType.TYPE_CLASS_TEXT;
 
 
     public static CharSequence btnTxt1 = "确定";
@@ -51,27 +60,23 @@ public class DefaultConfig {
     public static final int TYPE_MD_MULTI_CHOOSE = 4;
 
 
-
     public static final int TYPE_IOS_HORIZONTAL = 5;
     public static final int TYPE_IOS_VERTICAL = 6;
     public static final int TYPE_IOS_BOTTOM = 7;
     public static final int TYPE_IOS_CENTER_LIST = 8;
     public static final int TYPE_IOS_INPUT = 9;
 
-    public static final int TYPE_CUSTOM_VIEW =10;
+    public static final int TYPE_CUSTOM_VIEW = 10;
 
-    public static final int TYPE_BOTTOM_SHEET_CUSTOM =11;
+    public static final int TYPE_BOTTOM_SHEET_CUSTOM = 11;
 
-    public static final int TYPE_BOTTOM_SHEET_LIST =12;
+    public static final int TYPE_BOTTOM_SHEET_LIST = 12;
 
-    public static final int TYPE_BOTTOM_SHEET_GRID =13;
+    public static final int TYPE_BOTTOM_SHEET_GRID = 13;
 
     public static final int TYPE_IOS_LOADING = 14;
 
     public static final int TYPE_PROGRESS = 15;
-
-
-
 
 
 }

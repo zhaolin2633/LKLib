@@ -6,6 +6,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.jude.easyrecyclerview.EasyRecyclerView;
@@ -16,7 +17,6 @@ import java.util.List;
 
 import cn.app.library.R;
 import cn.app.library.utils.ScreenUtil;
-
 
 
 /**
@@ -30,6 +30,7 @@ public abstract class BaseListActivity extends BaseAppCompatActivity implements 
     protected EasyRecyclerView mRecyclerView;
     protected int currentpage = 1;//当前页码
     protected int page_size = 15;//页面数据量
+
     @Override
     protected int getContentView() {
         return R.layout.layout_common_refresh_recyclerview;
@@ -55,6 +56,19 @@ public abstract class BaseListActivity extends BaseAppCompatActivity implements 
             TextView tv_emptyText = (TextView) view.findViewById(R.id.empty_view_tv);
             if (!TextUtils.isEmpty(content))
                 tv_emptyText.setText(content);
+            mRecyclerView.setEmptyView(view);
+        }
+    }
+
+    protected void setEmptyView(String content, int resId) {
+        if (mRecyclerView != null) {
+            View view = LayoutInflater.from(this).inflate(R.layout.view_empty, null);
+            ImageView iv_nodata = (ImageView) view.findViewById(R.id.iv_nodata);
+            TextView tv_emptyText = (TextView) view.findViewById(R.id.empty_view_tv);
+            if (!TextUtils.isEmpty(content))
+                tv_emptyText.setText(content);
+            if (resId > 0)
+                iv_nodata.setImageResource(resId);
             mRecyclerView.setEmptyView(view);
         }
     }
