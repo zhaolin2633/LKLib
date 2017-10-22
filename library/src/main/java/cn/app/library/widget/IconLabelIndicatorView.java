@@ -58,7 +58,7 @@ public class IconLabelIndicatorView extends ViewGroup {
             iconImageView.setImageResource(typedArray.getResourceId(R.styleable.IconLabelIndicatorView_viewIcon, 0));
             labelTextView.setText(typedArray.getString(R.styleable.IconLabelIndicatorView_viewLabel));
             tvTip.setText(typedArray.getString(R.styleable.IconLabelIndicatorView_viewTip));
-            tvTip.setTextColor(typedArray.getColor(R.styleable.IconLabelIndicatorView_viewTipColor,getResources().getColor(R.color.mask_color)));
+            tvTip.setTextColor(typedArray.getColor(R.styleable.IconLabelIndicatorView_viewTipColor, getResources().getColor(R.color.mask_color)));
             indicatorImageView.setImageResource(typedArray.getResourceId(R.styleable.IconLabelIndicatorView_viewIndicator, 0));
             typedArray.recycle();
         }
@@ -82,4 +82,29 @@ public class IconLabelIndicatorView extends ViewGroup {
         }
         return "";
     }
+
+    public void setLabelText(String text) {
+        if (labelTextView != null) {
+            labelTextView.setText(text);
+        }
+    }
+
+    public void setLabelColor(@ColorRes int color) {
+        if (labelTextView != null) {
+            labelTextView.setTextColor(getResources().getColor(color));
+        }
+    }
+
+    public void setIndicatorImage(int resId) {
+        if (indicatorImageView != null) {
+            indicatorImageView.setImageResource(resId);
+        }
+    }
+
+    public void setIconImage(int resId) {
+        if (iconImageView != null) {
+            iconImageView.setImageResource(resId);
+        }
+    }
+
 }

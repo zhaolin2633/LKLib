@@ -20,8 +20,8 @@ import cn.bingoogolapple.bgabanner.BGABanner;
  */
 public abstract class GuideActivity extends BaseAppCompatActivity implements View.OnClickListener {
 
-    private BGABanner bgaBanner;
-    private TextView btnEnter;
+    protected BGABanner bgaBanner;
+    protected TextView btnEnter;
     private static final String TAG = "GuideActivity";
 
     @Override
@@ -36,11 +36,14 @@ public abstract class GuideActivity extends BaseAppCompatActivity implements Vie
 
     public abstract ArrayList getArraysImg();
 
+    public abstract void setBtnEnterAttr();
+
     @Override
     protected void initView() {
         bgaBanner = (BGABanner) findViewById(R.id.banner_guide_foreground);
         btnEnter = (TextView) findViewById(R.id.btn_enter);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        setBtnEnterAttr();
     }
 
     @Override
