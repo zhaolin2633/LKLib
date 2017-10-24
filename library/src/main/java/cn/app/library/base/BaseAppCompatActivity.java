@@ -5,7 +5,6 @@ import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.res.Resources;
@@ -15,7 +14,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.provider.Settings;
-import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -256,25 +254,6 @@ public abstract class BaseAppCompatActivity extends RxAppCompatActivity {
     }
 
 
-    public void showTipsDialog() {
-        new AlertDialog.Builder(this)
-                .setTitle("消息")
-                .setMessage("当前应用无此权限，该功能暂时无法使用。如若需要，请单击确定按钮进行权限授权！")
-                .setNegativeButton("取消", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        return;
-                    }
-                })
-                .setPositiveButton("确定", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        startSettings();
-                    }
-                }).show();
-
-    }
-
     /**
      * 展示对话框
      *
@@ -370,6 +349,43 @@ public abstract class BaseAppCompatActivity extends RxAppCompatActivity {
                     }
                 }
         );
+    }
+
+    /**
+     * 展示对话框
+     * 单个按钮
+     *
+     * @param message   提示信息
+     * @param strRight
+     * @param btnClickL 确定功能按钮事件监听
+     */
+    protected void showDialogSingle(String message, String strRight, OnBtnClickL btnClickL) {
+        MaterialDialog materialDialog = new MaterialDialog(this);
+        materialDialog
+                .isTitleShow(false)
+                .titleTextSize(17)
+                .content(message)
+                .btnText(strRight)
+                .show();
+        materialDialog.setOnBtnClickL(btnClickL);
+    }
+    /**
+     * 展示对话框
+     * 单个按钮
+     *
+     * @param message   提示信息
+     * @param strRight
+     * @param btnClickL 确定功能按钮事件监听
+     */
+    protected void showDialogSingle(String title,String message, String strRight, OnBtnClickL btnClickL) {
+        MaterialDialog materialDialog = new MaterialDialog(this);
+        materialDialog
+                .title(title)
+                .titleTextSize(17)
+                .content(message)
+                .btnText(strRight)
+                .show();
+        materialDialog.setOnBtnClickL(btnClickL);
     }
 
     /**
