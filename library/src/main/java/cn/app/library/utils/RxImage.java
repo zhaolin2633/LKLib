@@ -20,41 +20,54 @@
 package cn.app.library.utils;
 
 import android.content.Context;
-import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
-import android.os.Environment;
 
-import com.squareup.picasso.Picasso;
-
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-
+import io.reactivex.Observable;
+import io.reactivex.ObservableEmitter;
+import io.reactivex.ObservableOnSubscribe;
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.functions.Consumer;
+import io.reactivex.schedulers.Schedulers;
 
 
 /**
-
  * @describe:保存网络图片到本地
  */
 public class RxImage {
 
-//    public static Observable<Uri> saveImageAndGetPathObservable(final Context context, final String url) {
-//        return Observable.create(new Observable.OnSubscribe<Bitmap>() {
+  //  public static Observable<Uri> saveImageAndGetPathObservable(final Context context, final String url) {
+//       return Observable.create(new ObservableOnSubscribe<Bitmap>() {
 //            @Override
-//            public void call(Subscriber<? super Bitmap> subscriber) {
+//            public void subscribe(ObservableEmitter<Bitmap> e) throws Exception {
+//
+//            }
+//        }).subscribeOn(Schedulers.io())
+//                .observeOn(AndroidSchedulers.mainThread())
+//                .subscribe(new Consumer<Bitmap>() {
+//                    @Override
+//                    public void accept(Bitmap bitmap) throws Exception {
+//
+//                    }
+//                });
+
+
+//        return Observable.create(new ObservableOnSubscribe<Bitmap>() {
+//            @Override
+//            public void subscribe(@NonNull ObservableEmitter<Bitmap> subscribe) throws Exception {
 //                Bitmap bitmap = null;
 //                try {
 //                    bitmap = Picasso.with(context).load(url).get();
 //                } catch (IOException e) {
-//                    subscriber.onError(e);
+//                    subscribe.onError(e);
 //                }
 //                if (bitmap == null) {
-//                    subscriber.onError(new Exception("无法下载到图片"));
+//                    subscribe.onError(new Exception("无法下载到图片"));
 //                }
-//                subscriber.onNext(bitmap);
-//                subscriber.onCompleted();
+//                subscribe.onNext(bitmap);
+//                subscribe.onComplete();
 //            }
+//
 //        }).flatMap(new Func1<Bitmap, Observable<Uri>>() {
 //            @Override
 //            public Observable<Uri> call(Bitmap bitmap) {
@@ -81,5 +94,6 @@ public class RxImage {
 //                return Observable.just(uri);
 //            }
 //        }).subscribeOn(Schedulers.io());
-//    }
+
+ //   }
 }

@@ -36,11 +36,11 @@
         <activity
             android:name="cn.app.library.ui.zixing.CaptureActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme" />
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="cn.app.library.ui.bigimg.BigImageActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme" />
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <provider
             android:name="cn.app.library.picture.lib.PictureFileProvider"

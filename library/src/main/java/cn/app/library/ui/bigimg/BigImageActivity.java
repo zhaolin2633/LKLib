@@ -106,7 +106,7 @@ public class BigImageActivity extends BaseAppCompatActivity {
 //                .subscribe(new Action1<Uri>() {
 //                    @Override
 //                    public void call(Uri uri) {
-//                        File appDir = new File(Environment.getExternalStorageDirectory(), "TxfApp");
+//                        File appDir = new File(Environment.getExternalStorageDirectory(),"App");
 //                        String msg = String.format(getString(R.string.picture_has_save_to),
 //                                appDir.getAbsolutePath());
 //                        ToastUtil.show(msg);
