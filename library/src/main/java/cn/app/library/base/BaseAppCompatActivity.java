@@ -357,17 +357,21 @@ public abstract class BaseAppCompatActivity extends RxAppCompatActivity {
      *
      * @param message   提示信息
      * @param strRight
-     * @param btnClickL 确定功能按钮事件监听
      */
-    protected MaterialDialog showDialogSingle(String message, String strRight, OnBtnClickL btnClickL) {
-        MaterialDialog materialDialog = new MaterialDialog(this);
+    protected MaterialDialog showDialogSingle(String message, String strRight) {
+        final MaterialDialog materialDialog = new MaterialDialog(this);
         materialDialog
                 .isTitleShow(false)
                 .titleTextSize(17)
                 .content(message)
                 .btnText(strRight)
                 .show();
-        materialDialog.setOnBtnClickL(btnClickL);
+        materialDialog.setOnBtnClickL(new OnBtnClickL() {
+            @Override
+            public void onBtnClick() {
+                materialDialog.dismiss();
+            }
+        });
         return materialDialog;
     }
 
@@ -377,17 +381,21 @@ public abstract class BaseAppCompatActivity extends RxAppCompatActivity {
      *
      * @param message   提示信息
      * @param strRight
-     * @param btnClickL 确定功能按钮事件监听
      */
-    protected MaterialDialog showDialogSingle(String title, String message, String strRight, OnBtnClickL btnClickL) {
-        MaterialDialog materialDialog = new MaterialDialog(this);
+    protected MaterialDialog showDialogSingle(String title, String message, String strRight) {
+        final MaterialDialog materialDialog = new MaterialDialog(this);
         materialDialog
                 .title(title)
                 .titleTextSize(17)
                 .content(message)
                 .btnText(strRight)
                 .show();
-        materialDialog.setOnBtnClickL(btnClickL);
+        materialDialog.setOnBtnClickL(new OnBtnClickL() {
+            @Override
+            public void onBtnClick() {
+                materialDialog.dismiss();
+            }
+        });
         return materialDialog;
     }
 

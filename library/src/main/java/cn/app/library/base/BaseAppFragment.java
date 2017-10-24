@@ -153,17 +153,21 @@ public abstract class BaseAppFragment extends BaseFragment {
      *
      * @param message   提示信息
      * @param strRight
-     * @param btnClickL 确定功能按钮事件监听
      */
-    protected MaterialDialog showDialogSingle(String message, String strRight, OnBtnClickL btnClickL) {
-        MaterialDialog materialDialog = new MaterialDialog(getActivity());
+    protected MaterialDialog showDialogSingle(String message, String strRight) {
+        final MaterialDialog materialDialog = new MaterialDialog(getActivity());
         materialDialog
                 .isTitleShow(false)
                 .titleTextSize(17)
                 .content(message)
                 .btnText(strRight)
                 .show();
-        materialDialog.setOnBtnClickL(btnClickL);
+        materialDialog.setOnBtnClickL(new OnBtnClickL() {
+            @Override
+            public void onBtnClick() {
+                materialDialog.dismiss();
+            }
+        });
         return materialDialog;
     }
 
@@ -173,17 +177,21 @@ public abstract class BaseAppFragment extends BaseFragment {
      *
      * @param message   提示信息
      * @param strRight
-     * @param btnClickL 确定功能按钮事件监听
      */
-    protected MaterialDialog showDialogSingle(String title, String message, String strRight, OnBtnClickL btnClickL) {
-        MaterialDialog materialDialog = new MaterialDialog(getActivity());
+    protected MaterialDialog showDialogSingle(String title, String message, String strRight) {
+        final MaterialDialog materialDialog = new MaterialDialog(getActivity());
         materialDialog
                 .title(title)
                 .titleTextSize(17)
                 .content(message)
                 .btnText(strRight)
                 .show();
-        materialDialog.setOnBtnClickL(btnClickL);
+        materialDialog.setOnBtnClickL(new OnBtnClickL() {
+            @Override
+            public void onBtnClick() {
+                materialDialog.dismiss();
+            }
+        });
         return materialDialog;
     }
 
