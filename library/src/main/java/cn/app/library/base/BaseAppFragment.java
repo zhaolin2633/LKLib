@@ -155,7 +155,7 @@ public abstract class BaseAppFragment extends BaseFragment {
      * @param strRight
      * @param btnClickL 确定功能按钮事件监听
      */
-    protected void showDialogSingle(String message, String strRight, OnBtnClickL btnClickL) {
+    protected MaterialDialog showDialogSingle(String message, String strRight, OnBtnClickL btnClickL) {
         MaterialDialog materialDialog = new MaterialDialog(getActivity());
         materialDialog
                 .isTitleShow(false)
@@ -164,6 +164,7 @@ public abstract class BaseAppFragment extends BaseFragment {
                 .btnText(strRight)
                 .show();
         materialDialog.setOnBtnClickL(btnClickL);
+        return materialDialog;
     }
 
     /**
@@ -174,7 +175,7 @@ public abstract class BaseAppFragment extends BaseFragment {
      * @param strRight
      * @param btnClickL 确定功能按钮事件监听
      */
-    protected void showDialogSingle(String title, String message, String strRight, OnBtnClickL btnClickL) {
+    protected MaterialDialog showDialogSingle(String title, String message, String strRight, OnBtnClickL btnClickL) {
         MaterialDialog materialDialog = new MaterialDialog(getActivity());
         materialDialog
                 .title(title)
@@ -183,6 +184,7 @@ public abstract class BaseAppFragment extends BaseFragment {
                 .btnText(strRight)
                 .show();
         materialDialog.setOnBtnClickL(btnClickL);
+        return materialDialog;
     }
 
 }

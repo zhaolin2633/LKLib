@@ -359,7 +359,7 @@ public abstract class BaseAppCompatActivity extends RxAppCompatActivity {
      * @param strRight
      * @param btnClickL 确定功能按钮事件监听
      */
-    protected void showDialogSingle(String message, String strRight, OnBtnClickL btnClickL) {
+    protected MaterialDialog showDialogSingle(String message, String strRight, OnBtnClickL btnClickL) {
         MaterialDialog materialDialog = new MaterialDialog(this);
         materialDialog
                 .isTitleShow(false)
@@ -368,7 +368,9 @@ public abstract class BaseAppCompatActivity extends RxAppCompatActivity {
                 .btnText(strRight)
                 .show();
         materialDialog.setOnBtnClickL(btnClickL);
+        return materialDialog;
     }
+
     /**
      * 展示对话框
      * 单个按钮
@@ -377,7 +379,7 @@ public abstract class BaseAppCompatActivity extends RxAppCompatActivity {
      * @param strRight
      * @param btnClickL 确定功能按钮事件监听
      */
-    protected void showDialogSingle(String title,String message, String strRight, OnBtnClickL btnClickL) {
+    protected MaterialDialog showDialogSingle(String title, String message, String strRight, OnBtnClickL btnClickL) {
         MaterialDialog materialDialog = new MaterialDialog(this);
         materialDialog
                 .title(title)
@@ -386,6 +388,7 @@ public abstract class BaseAppCompatActivity extends RxAppCompatActivity {
                 .btnText(strRight)
                 .show();
         materialDialog.setOnBtnClickL(btnClickL);
+        return materialDialog;
     }
 
     /**
