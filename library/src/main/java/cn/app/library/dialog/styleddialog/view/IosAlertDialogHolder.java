@@ -130,6 +130,7 @@ public class IosAlertDialogHolder extends SuperHolder {
             et1.setVisibility(View.VISIBLE);
             et1.setHint(bean.hint1);
             et1.setInputType(bean.inputTxtType);
+
             et1.setMaxLines(bean.inputTxtLine);
             et1.setFilters(new InputFilter[]{new InputFilter.LengthFilter(bean.inputTxtLeng)});
             et1.setTextColor(Tool.getColor(et1.getContext(), bean.inputTxtColor));
