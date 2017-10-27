@@ -3,21 +3,16 @@ package cn.app.library.ui.bigimg;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
-import android.os.Environment;
 import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.widget.TextView;
 
-import java.io.File;
 import java.util.ArrayList;
 
 import cn.app.library.R;
 import cn.app.library.base.BaseAppCompatActivity;
 import cn.app.library.utils.RxImage;
-import cn.app.library.widget.toast.ToastUtil;
-
 
 
 /**
@@ -101,23 +96,7 @@ public class BigImageActivity extends BaseAppCompatActivity {
 
 
     public void onClick() {
-//        Subscription subscribe = RxImage.saveImageAndGetPathObservable(BigImageActivity.this, mImages.get(mVpBigImg.getCurrentItem()))
-//                .observeOn(AndroidSchedulers.mainThread())
-//                .subscribe(new Action1<Uri>() {
-//                    @Override
-//                    public void call(Uri uri) {
-//                        File appDir = new File(Environment.getExternalStorageDirectory(),"App");
-//                        String msg = String.format(getString(R.string.picture_has_save_to),
-//                                appDir.getAbsolutePath());
-//                        ToastUtil.show(msg);
-//                    }
-//                }, new Action1<Throwable>() {
-//                    @Override
-//                    public void call(Throwable throwable) {
-//                        ToastUtil.show("图片保存失败，请重试");
-//                    }
-//                });
-//        addSubscription(subscribe);
+        RxImage.saveImageAndGetPathObservable(BigImageActivity.this, mImages.get(mVpBigImg.getCurrentItem()));
     }
 
     @Override

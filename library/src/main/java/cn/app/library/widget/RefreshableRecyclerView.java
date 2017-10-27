@@ -190,6 +190,10 @@ public class RefreshableRecyclerView extends ViewGroup {
         return onLoadMoreListener.getLoadState() == OnLoadMoreListener.STATE_LOADING;
     }
 
+    public void enabledRefresh(boolean enabled) {
+        swipeRefreshLayout.setEnabled(enabled);
+    }
+
     private void startLoadMore() {
         if (onLoadMoreListener == null) {
             return;
@@ -199,7 +203,7 @@ public class RefreshableRecyclerView extends ViewGroup {
         onLoadMoreListener.startLoadMore();
     }
 
-    private void setScrollDistance(int scrollDistance) {
+    public void setScrollDistance(int scrollDistance) {
         this.scrollDistance = scrollDistance;
         if (mOnScrollListener != null) {
             mOnScrollListener.onScroll(scrollDistance);
@@ -233,6 +237,10 @@ public class RefreshableRecyclerView extends ViewGroup {
 
     public void setShowTopButton(boolean showTopButton) {
         this.showTopButton = showTopButton;
+    }
+
+    public void setTopButtonImg(int resId) {
+        topButton.setImageResource(resId);
     }
 
     public void setCanLoadMore(boolean canLoadMore) {
