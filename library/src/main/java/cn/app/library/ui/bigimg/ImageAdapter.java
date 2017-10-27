@@ -7,6 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.ArrayList;
 
 import cn.app.library.R;
@@ -55,7 +57,7 @@ public class ImageAdapter extends PagerAdapter {
                 }
             }
         });
-        GlideImageLoader.create(imageView).loadImage(ImageUtils.getBigImageUrl(imageList.get(position)),R.drawable.loading_default);
+        Picasso.with(mContext).load(ImageUtils.getBigImageUrl(imageList.get(position))).into(imageView);
         return imageLayout;
     }
 
