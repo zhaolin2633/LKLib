@@ -16,6 +16,8 @@ import android.view.View;
 import com.lklib.http.ApiService;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 
 import cn.app.library.base.BaseAppCompatActivity;
 import cn.app.library.dialog.ChooseImageDialog;
@@ -26,6 +28,7 @@ import cn.app.library.dialog.styleddialog.interfaces.MyDialogListener;
 import cn.app.library.http.HttpResult;
 import cn.app.library.http.HttpResultSubscriber;
 import cn.app.library.picture.lib.compress.OnCompressListener;
+import cn.app.library.ui.bigimg.BigImageActivity;
 import cn.app.library.utils.PictureUtils;
 import cn.app.library.widget.glideimageview.GlideImageLoader;
 
@@ -148,7 +151,9 @@ public class MainActivity extends BaseAppCompatActivity
         } else if (id == R.id.nav_manage) {
 
         } else if (id == R.id.nav_share) {
-                        showLoding("SS");
+            List<String> list=new ArrayList<>();
+            list.add("http://img.alicdn.com/tfscom/i4/2934912349/TB2AKs1cbsTMeJjy1zbXXchlVXa_!!2934912349.jpg");
+            BigImageActivity.start(MainActivity.this,0, (ArrayList<String>) list);
         } else if (id == R.id.nav_send) {
 
         }

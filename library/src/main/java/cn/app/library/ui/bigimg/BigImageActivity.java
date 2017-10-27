@@ -67,7 +67,7 @@ public class BigImageActivity extends BaseAppCompatActivity {
         tv_save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onClick(v);
+                RxImage.saveImageAndGetPathObservable(BigImageActivity.this, mImages.get(mVpBigImg.getCurrentItem()));
             }
         });
     }
@@ -93,12 +93,6 @@ public class BigImageActivity extends BaseAppCompatActivity {
             }
         });
     }
-
-
-    public void onClick() {
-        RxImage.saveImageAndGetPathObservable(BigImageActivity.this, mImages.get(mVpBigImg.getCurrentItem()));
-    }
-
     @Override
     protected void setListener() {
         mVpBigImg.addOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
