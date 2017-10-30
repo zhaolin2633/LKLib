@@ -9,6 +9,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.text.TextUtils;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.View;
@@ -124,7 +125,7 @@ public class WebViewFragment extends BaseNormalFragment implements View.OnClickL
 
     private int dataType;
     private String data;
-    private String title;
+    private String mTitle;
     private String imageUrl;
     private String share_content;
     private boolean isHtml = false;
@@ -230,7 +231,11 @@ public class WebViewFragment extends BaseNormalFragment implements View.OnClickL
             @Override
             public void onReceivedTitle(WebView view, String title) {
                 if (!isHtml && !finished) {
-                    mTvTitle.setText(title);
+                    if (!TextUtils.isEmpty(mTitle)) {
+                        mTvTitle.setText(mTitle);
+                    } else {
+                        mTvTitle.setText(title);
+                    }
                 }
             }
 
@@ -321,7 +326,7 @@ public class WebViewFragment extends BaseNormalFragment implements View.OnClickL
                 data = bundle.getString("data");
             }
             if (bundle.containsKey("title")) {
-                title = bundle.getString("title");
+                mTitle = bundle.getString("title");
             }
             if (bundle.containsKey("share_content")) {
                 share_content = bundle.getString("share_content");
