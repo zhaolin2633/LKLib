@@ -3,6 +3,7 @@ package cn.app.library.base;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
 import android.text.TextUtils;
 import android.util.TypedValue;
 import android.view.Gravity;
@@ -114,13 +115,13 @@ public class ContainerFragmentActivity extends BaseFragmentActivity {
 
     @Override
     protected void initViews() {
-        navigationBar.setBackgroundColor(getResources().getColor(R.color.common_navigation));
-
+        setTitleBarBg(getResources().getColor(R.color.white));
         navigationBarTitle.setText(title);
         if (fragment != null) {
             getSupportFragmentManager().beginTransaction().replace(R.id.container_fragment, fragment).commit();
         }
     }
+
 
     @Override
     protected void registerViews() {
@@ -221,12 +222,28 @@ public class ContainerFragmentActivity extends BaseFragmentActivity {
         return actionLayout;
     }
 
-    public void setNavigationBarTitle(String title) {
-        if (navigationBarTitle != null&&!TextUtils.isEmpty(title)) {
+    public void setNavigationBarTitle(String title, int textColorId, float textSize) {
+        if (navigationBarTitle != null && !TextUtils.isEmpty(title)) {
             this.title = title;
             navigationBarTitle.setText(title);
         }
+        if (navigationBarTitle != null && textColorId > 0) {
+            navigationBarTitle.setTextColor(ContextCompat.getColor(this, textColorId));
+        }
+        if (navigationBarTitle != null && textSize > 0) {
+            navigationBarTitle.setTextSize(textSize);
+        }
     }
 
+    public void setTitleBarBg(int resId) {
+        if (navigationBar != null && resId > 0) {
+            navigationBar.setBackgroundColor(resId);
+        }
+    }
 
+    public void setBackButtonImg(int resId) {
+        if (backButton != null && resId > 0) {
+            backButton.setImageResource(resId);
+        }
+    }
 }
