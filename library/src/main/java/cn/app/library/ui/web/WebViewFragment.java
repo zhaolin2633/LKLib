@@ -190,6 +190,9 @@ public class WebViewFragment extends BaseNormalFragment implements View.OnClickL
             mTvTitle.setLayoutParams(layoutParams);
             mTvTitle.setGravity(Gravity.CENTER);
         }
+        if (!TextUtils.isEmpty(mTitle)) {
+            mTvTitle.setText(mTitle);
+        }
         registerViews();
     }
 
