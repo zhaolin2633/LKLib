@@ -3,10 +3,15 @@ package cn.app.library.base;
 import android.content.Intent;
 import android.net.Uri;
 import android.provider.Settings;
+import android.support.v4.content.ContextCompat;
+import android.view.View;
+
+import com.jaeger.library.StatusBarUtil;
 
 import cn.app.library.dialog.flycoDialog.dialog.listener.OnBtnClickL;
 import cn.app.library.dialog.flycoDialog.dialog.widget.MaterialDialog;
 import cn.app.library.dialog.styleddialog.StyledDialog;
+import cn.app.library.utils.ScreenUtil;
 
 
 /**
@@ -194,5 +199,6 @@ public abstract class BaseAppFragment extends BaseFragment {
         });
         return materialDialog;
     }
+    protected View statusBarView;
 
 }

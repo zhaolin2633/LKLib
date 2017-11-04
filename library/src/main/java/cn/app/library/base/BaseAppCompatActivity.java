@@ -14,6 +14,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.provider.Settings;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -29,6 +30,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 import butterknife.ButterKnife;
+import cn.app.library.R;
 import cn.app.library.dialog.flycoDialog.dialog.listener.OnBtnClickL;
 import cn.app.library.dialog.flycoDialog.dialog.widget.MaterialDialog;
 import cn.app.library.dialog.styleddialog.StyledDialog;
@@ -36,6 +38,7 @@ import cn.app.library.picture.lib.permissions.Permission;
 import cn.app.library.picture.lib.permissions.RxPermissions;
 import cn.app.library.rxeasyhttp.http.utils.Utils;
 import cn.app.library.ui.zixing.helper.CaptureHelper;
+import cn.app.library.utils.ScreenUtil;
 import cn.app.library.widget.toast.ToastCustomUtils;
 import cn.app.library.widget.toast.ToastTextUtil;
 import cn.app.library.widget.toast.ToastUtil;
@@ -356,7 +359,7 @@ public abstract class BaseAppCompatActivity extends RxAppCompatActivity {
      * 展示对话框
      * 单个按钮
      *
-     * @param message   提示信息
+     * @param message  提示信息
      * @param strRight
      */
     protected MaterialDialog showDialogSingle(String message, String strRight) {
@@ -380,7 +383,7 @@ public abstract class BaseAppCompatActivity extends RxAppCompatActivity {
      * 展示对话框
      * 单个按钮
      *
-     * @param message   提示信息
+     * @param message  提示信息
      * @param strRight
      */
     protected MaterialDialog showDialogSingle(String title, String message, String strRight) {
@@ -409,12 +412,24 @@ public abstract class BaseAppCompatActivity extends RxAppCompatActivity {
         startActivity(intent);
     }
 
+    protected View statusBarView;
+
     /**
      * 设置沉浸式状态栏
      */
     protected void setStatusBar() {
-        //StatusBarUtil.setColor(this, getResources().getColor(R.color.common_main), 0);
+        if (getStatusBarId() > 0) {
+            statusBarView = findView(getStatusBarId());
+            statusBarView.getLayoutParams().height = ScreenUtil.getStatusHeight(this);
+            statusBarView.getLayoutParams().width = ScreenUtil.getScreenWidth(this);
+        } else {
+            StatusBarUtil.setColor(this, ContextCompat.getColor(this, getStatusBarBgId()), 0);
+        }
     }
+
+    protected abstract int getStatusBarId();
+
+    protected abstract int getStatusBarBgId();
 
     @Override
     protected void onDestroy() {
