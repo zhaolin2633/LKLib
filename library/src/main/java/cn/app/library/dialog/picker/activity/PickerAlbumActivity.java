@@ -77,6 +77,16 @@ public class PickerAlbumActivity extends BaseAppCompatActivity implements Picker
 	}
 
 	@Override
+	protected int getStatusBarId() {
+		return 0;
+	}
+
+	@Override
+	protected int getStatusBarBgId() {
+		return 0;
+	}
+
+	@Override
 	protected void initVariable() {
 		proceedExtra();
 	}

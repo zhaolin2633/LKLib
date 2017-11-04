@@ -199,6 +199,4 @@ public abstract class BaseAppFragment extends BaseFragment {
         });
         return materialDialog;
     }
-    protected View statusBarView;
-
 }

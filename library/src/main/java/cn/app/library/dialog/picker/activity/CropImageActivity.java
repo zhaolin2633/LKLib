@@ -62,6 +62,16 @@ public class CropImageActivity extends BaseAppCompatActivity {
     }
 
     @Override
+    protected int getStatusBarId() {
+        return 0;
+    }
+
+    @Override
+    protected int getStatusBarBgId() {
+        return 0;
+    }
+
+    @Override
     protected void initVariable() {
         processIntent();
     }

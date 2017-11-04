@@ -64,6 +64,16 @@ public class MainActivity extends BaseAppCompatActivity
     }
 
     @Override
+    protected int getStatusBarId() {
+        return 0;
+    }
+
+    @Override
+    protected int getStatusBarBgId() {
+        return 0;
+    }
+
+    @Override
     protected int getContentView() {
         return R.layout.activity_main;
     }

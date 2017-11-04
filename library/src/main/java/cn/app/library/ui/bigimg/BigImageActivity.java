@@ -59,6 +59,16 @@ public class BigImageActivity extends BaseAppCompatActivity {
     }
 
     @Override
+    protected int getStatusBarId() {
+        return 0;
+    }
+
+    @Override
+    protected int getStatusBarBgId() {
+        return 0;
+    }
+
+    @Override
     protected void initView() {
         super.initView();
         mVpBigImg = findView(R.id.vp_big_img);

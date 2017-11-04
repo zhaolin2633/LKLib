@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.app.Application;
 import android.content.Context;
 import android.os.Bundle;
+import android.support.multidex.MultiDex;
+import android.support.multidex.MultiDexApplication;
 
 import cn.app.library.BuildConfig;
 import cn.app.library.utils.AppLibInitTools;
@@ -16,7 +18,7 @@ import cn.app.library.utils.AppManager;
  * Github：https://github.com/xiaohaibin/
  * Describe：
  */
-public abstract class BaseApplication extends Application {
+public abstract class BaseApplication extends MultiDexApplication {
     private static BaseApplication instance;
     private Context context;
     public static BaseApplication getInstance() {
