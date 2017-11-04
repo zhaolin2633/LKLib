@@ -422,8 +422,9 @@ public abstract class BaseAppCompatActivity extends RxAppCompatActivity {
             statusBarView = findView(getStatusBarId());
             statusBarView.getLayoutParams().height = ScreenUtil.getStatusHeight(this);
             statusBarView.getLayoutParams().width = ScreenUtil.getScreenWidth(this);
+            StatusBarUtil.setTransparent(this);
         } else {
-            StatusBarUtil.setColor(this, ContextCompat.getColor(this, getStatusBarBgId()), 0);
+            StatusBarUtil.setColor(this, ContextCompat.getColor(this, getStatusBarBgId() > 0 ? getStatusBarBgId() : R.color.black), 0);
         }
     }
 
