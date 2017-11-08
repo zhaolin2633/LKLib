@@ -38,7 +38,7 @@ import cn.app.library.widget.toast.ToastUtil;
 /**
  * Description:网页加载器
  */
-public class WebViewFragment extends BaseNormalFragment implements View.OnClickListener {
+public abstract class WebViewFragment extends BaseNormalFragment implements View.OnClickListener {
 
     public TextView mTvTitle;
     public ImageView mIvBack;
@@ -391,9 +391,7 @@ public class WebViewFragment extends BaseNormalFragment implements View.OnClickL
         }
     }
 
-    public void share(String url, String cotent) {
-
-    }
+    public abstract void share(String url, String cotent);
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent intent) {
