@@ -51,9 +51,9 @@ public class WebViewFragment extends BaseNormalFragment implements View.OnClickL
     public ValueCallback<Uri[]> uploadMessage;
     public static final int REQUEST_SELECT_FILE = 100;
     private final static int FILECHOOSER_RESULTCODE = 2;
-    private boolean isShare = false;//是否可以分享
-    private boolean isClose = true;//是否有关闭按钮
-    private String currentUrl = "";
+    public boolean isShare = false;//是否可以分享
+    public boolean isClose = true;//是否有关闭按钮
+    public String currentUrl = "";
 
     /**
      * 打开网页链接
@@ -123,13 +123,13 @@ public class WebViewFragment extends BaseNormalFragment implements View.OnClickL
     private WebView webView;
     private ProgressBar progressBar;
 
-    private int dataType;
-    private String data;
-    private String mTitle;
-    private String imageUrl;
-    private String share_content;
-    private boolean isHtml = false;
-    private boolean finished = false;
+    public int dataType;
+    public String data;
+    public String mTitle;
+    public String imageUrl;
+    public String share_content;
+    public boolean isHtml = false;
+    public boolean finished = false;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
