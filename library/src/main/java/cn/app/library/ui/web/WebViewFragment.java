@@ -43,10 +43,10 @@ import cn.app.library.widget.toast.ToastUtil;
  */
 public class WebViewFragment extends BaseNormalFragment implements View.OnClickListener {
 
-    private TextView mTvTitle;
-    private ImageView mIvBack;
-    private ImageView mIvClose;
-    private ImageView mIvShare;
+    public TextView mTvTitle;
+    public ImageView mIvBack;
+    public ImageView mIvClose;
+    public ImageView mIvShare;
     private ValueCallback<Uri> mUploadMessage;
     public ValueCallback<Uri[]> uploadMessage;
     public static final int REQUEST_SELECT_FILE = 100;
@@ -302,7 +302,7 @@ public class WebViewFragment extends BaseNormalFragment implements View.OnClickL
         settings.setDisplayZoomControls(true);
         //设置webview的浏览器标识 User-Agent
         String ua = settings.getUserAgentString();
-        settings.setUserAgentString(ua + ";txf_app");
+        //settings.setUserAgentString(ua + ";_app");
         //不显示webview缩放按钮
         settings.setDisplayZoomControls(false);
         // 解决HTTPS协议下出现的mixed content问题
@@ -362,11 +362,6 @@ public class WebViewFragment extends BaseNormalFragment implements View.OnClickL
     public Map<String, String> getMapHeader() {
         final long currentTimeMillis = System.currentTimeMillis();
         Map<String, String> hashMap = new HashMap<>();
-        hashMap.put("key-random", Constants.APP_RANDOM);
-        hashMap.put("key-time", String.valueOf(currentTimeMillis));
-        hashMap.put("key-id", Constants.KEY_ID);
-        hashMap.put("app-id", new DeviceUuidFactory(getContext()).getDeviceUuid().toString());
-        hashMap.put("key-signature", SignatureUtil.NoSignUtil(Constants.APP_RANDOM, String.valueOf(currentTimeMillis)));
         return hashMap;
     }
 
