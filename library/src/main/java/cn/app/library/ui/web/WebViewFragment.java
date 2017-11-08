@@ -146,7 +146,6 @@ public class WebViewFragment extends BaseNormalFragment implements View.OnClickL
         getContainerActivity().hideNavigationBar();
         mIvBack.setOnClickListener(this);
         mIvClose.setOnClickListener(this);
-        mIvShare.setOnClickListener(this);
     }
 
     @Override
@@ -387,9 +386,6 @@ public class WebViewFragment extends BaseNormalFragment implements View.OnClickL
 
         } else if (i == R.id.iv_close) {
             finish();
-            return;
-        } else if (i == R.id.iv_share) {
-
             return;
         }
     }
