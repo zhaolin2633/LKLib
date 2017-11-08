@@ -30,11 +30,8 @@ import java.util.Map;
 import cn.app.library.R;
 import cn.app.library.base.BaseNormalFragment;
 import cn.app.library.base.OnKeyDownListener;
-import cn.app.library.http.config.Constants;
-import cn.app.library.utils.DeviceUuidFactory;
 import cn.app.library.utils.JumpUtil;
 import cn.app.library.utils.ScreenUtil;
-import cn.app.library.utils.SignatureUtil;
 import cn.app.library.widget.toast.ToastUtil;
 
 
@@ -146,6 +143,7 @@ public class WebViewFragment extends BaseNormalFragment implements View.OnClickL
         getContainerActivity().hideNavigationBar();
         mIvBack.setOnClickListener(this);
         mIvClose.setOnClickListener(this);
+        mIvShare.setOnClickListener(this);
     }
 
     @Override
@@ -387,7 +385,14 @@ public class WebViewFragment extends BaseNormalFragment implements View.OnClickL
         } else if (i == R.id.iv_close) {
             finish();
             return;
+        } else if (i == R.id.iv_share) {
+            share(data, share_content);
+            return;
         }
+    }
+
+    public void share(String url, String cotent) {
+
     }
 
     @Override
