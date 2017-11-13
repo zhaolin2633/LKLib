@@ -70,6 +70,7 @@
         <enum name="checkbox" value="2"/>
         <enum name="radio" value="3"/>
     </attr>
+    <attr format="boolean" name="centered"/>
     <attr format="boolean" name="checked"/>
     <attr format="reference" name="checkedButton"/>
     <attr format="boolean" name="dismissible"/>
@@ -1742,6 +1743,7 @@
     <attr format="boolean" name="picture.style.numComplete"/>
     <attr format="reference|color" name="picture.title.textColor"/>
     <attr format="boolean" name="roundedCorners"/>
+    <attr format="color" name="selectedColor"/>
     <attr format="boolean" name="showOutline"/>
     <attr name="siArrowPosition">
         <enum name="left" value="0"/>
@@ -1761,6 +1763,7 @@
         <enum name="miter" value="1"/>
         <enum name="round" value="2"/>
     </attr>
+    <attr format="dimension" name="strokeWidth"/>
     <attr format="string" name="strongText"/>
     <attr format="string" name="title"/>
     <attr format="color" name="tl_divider_color"/>
@@ -2143,11 +2146,17 @@
         <enum name="ty_zoom_out_outline" value="334"/>
         <enum name="ty_zoom_outline" value="335"/>
     </attr>
+    <attr format="color" name="unselectedColor"/>
     <bool name="abc_action_bar_embed_tabs">true</bool>
     <bool name="abc_allow_stacked_button_bar">true</bool>
     <bool name="abc_config_actionMenuItemAllCaps">true</bool>
     <bool name="abc_config_closeDialogWhenTouchOutside">true</bool>
     <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="default_line_indicator_centered">true</bool>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <bool name="default_underline_indicator_fades">true</bool>
     <color name="GreyWhite">#F7F7F7</color>
     <color name="abc_input_method_navigation_guard">@android:color/black</color>
     <color name="abc_search_url_text_normal">#7fa87f</color>
@@ -2326,10 +2335,19 @@
     <color name="cpb_white">@android:color/white</color>
     <color name="deep_gray">#afaeae</color>
     <color name="defaultTagsTextColor">#FFFFFF</color>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
     <color name="default_fill_color">#ffffff</color>
     <color name="default_indexBar_selectedTextColor">#f33737</color>
     <color name="default_indexBar_textColor">#8c8c8c</color>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
     <color name="default_shadow_color">#88757575</color>
+    <color name="default_title_indicator_footer_color">#FF33B5E5</color>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>
     <color name="design_fab_shadow_mid_color">#14000000</color>
@@ -2480,6 +2498,14 @@
     <color name="viewfinder_frame">#ff000000</color>
     <color name="viewfinder_laser">#ffff0000</color>
     <color name="viewfinder_mask">#60000000</color>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
     <color name="white">#FFFFFF</color>
     <color name="white_cf">#cfffffff</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode">
@@ -2594,6 +2620,7 @@
         </attr><attr format="boolean" name="behavior_hideable"/><attr format="boolean" name="behavior_skipCollapsed"/></declare-styleable>
     <declare-styleable name="ButtonBarLayout"><attr format="boolean" name="allowStacking"/></declare-styleable>
     <declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/></declare-styleable>
+    <declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="vp_radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable>
     <declare-styleable name="CircleProgressView"><attr format="color" name="cpv_progressNormalColor"/><attr format="color" name="cpv_progressReachColor"/><attr format="color" name="cpv_progressTextColor"/><attr format="dimension" name="cpv_progressTextSize"/><attr format="dimension" name="cpv_progressTextOffset"/><attr format="dimension" name="cpv_progressNormalSize"/><attr format="dimension" name="cpv_progressReachSize"/><attr format="dimension" name="cpv_radius"/><attr format="boolean" name="cpv_progressTextVisible"/><attr format="integer" name="cpv_progressStartArc"/><attr format="dimension" name="cpv_progressTextSkewX"/><attr format="string" name="cpv_progressTextPrefix"/><attr format="string" name="cpv_progressTextSuffix"/><attr format="color" name="cpv_innerBackgroundColor"/><attr format="enum" name="cpv_progressStyle">
             <enum name="Normal" value="0"/>
             <enum name="FillInner" value="1"/>
@@ -2834,6 +2861,7 @@
     <declare-styleable name="InputDecimalEditText"><attr format="integer" name="decimal_length"/></declare-styleable>
     <declare-styleable name="InputLimitEditText"><attr format="string" name="input_limit_hint"/><attr format="integer" name="input_limit_max_length"/></declare-styleable>
     <declare-styleable name="LabelIndicatorView"><attr format="string" name="label_title"/><attr format="string" name="label_tips"/><attr format="reference" name="label_Indicator"/></declare-styleable>
+    <declare-styleable name="LinePageIndicator"><attr name="centered"/><attr name="unselectedColor"/><attr name="selectedColor"/><attr format="dimension" name="lineWidth"/><attr name="strokeWidth"/><attr format="dimension" name="gapWidth"/><attr name="android:background"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="measureWithLargestChild"/><attr name="divider"/><attr name="showDividers">
             <flag name="none" value="0"/>
             <flag name="beginning" value="1"/>
@@ -3038,12 +3066,21 @@
             <enum name="screen" value="15"/>
         </attr></declare-styleable>
     <declare-styleable name="Themes"><attr format="reference" name="numberProgressBarStyle"/></declare-styleable>
+    <declare-styleable name="TitlePageIndicator"><attr format="dimension" name="clipPadding"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerLineHeight"/><attr name="footerIndicatorStyle">
+            <enum name="none" value="0"/>
+            <enum name="triangle" value="1"/>
+            <enum name="underline" value="2"/>
+        </attr><attr format="dimension" name="footerIndicatorHeight"/><attr format="dimension" name="footerIndicatorUnderlinePadding"/><attr format="dimension" name="footerPadding"/><attr name="linePosition">
+            <enum name="bottom" value="0"/>
+            <enum name="top" value="1"/>
+        </attr><attr name="selectedColor"/><attr format="boolean" name="selectedBold"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="titlePadding"/><attr format="dimension" name="topPadding"/><attr name="android:background"/></declare-styleable>
     <declare-styleable name="Toolbar"><attr format="reference" name="titleTextAppearance"/><attr format="reference" name="subtitleTextAppearance"/><attr name="title"/><attr name="subtitle"/><attr name="android:gravity"/><attr format="dimension" name="titleMargin"/><attr format="dimension" name="titleMarginStart"/><attr format="dimension" name="titleMarginEnd"/><attr format="dimension" name="titleMarginTop"/><attr format="dimension" name="titleMarginBottom"/><attr format="dimension" name="titleMargins"/><attr name="contentInsetStart"/><attr name="contentInsetEnd"/><attr name="contentInsetLeft"/><attr name="contentInsetRight"/><attr name="contentInsetStartWithNavigation"/><attr name="contentInsetEndWithActions"/><attr format="dimension" name="maxButtonHeight"/><attr name="buttonGravity">
             
             <flag name="top" value="0x30"/>
             
             <flag name="bottom" value="0x50"/>
         </attr><attr format="reference" name="collapseIcon"/><attr format="string" name="collapseContentDescription"/><attr name="popupTheme"/><attr format="reference" name="navigationIcon"/><attr format="string" name="navigationContentDescription"/><attr name="logo"/><attr format="string" name="logoDescription"/><attr format="color" name="titleTextColor"/><attr format="color" name="subtitleTextColor"/><attr name="android:minHeight"/></declare-styleable>
+    <declare-styleable name="UnderlinePageIndicator"><attr format="boolean" name="fades"/><attr format="integer" name="fadeDelay"/><attr format="integer" name="fadeLength"/><attr name="selectedColor"/><attr name="android:background"/></declare-styleable>
     <declare-styleable name="VerticalInfiniteCycleViewPager"><attr name="icvp_min_page_scale_offset"/><attr name="icvp_center_page_scale_offset"/><attr name="icvp_min_page_scale"/><attr name="icvp_max_page_scale"/><attr name="icvp_medium_scaled"/><attr name="icvp_scroll_duration"/><attr name="icvp_page_duration"/><attr name="icvp_interpolator"/></declare-styleable>
     <declare-styleable name="VerticalRollingTextView"><attr name="android:textColor"/><attr name="android:textSize"/><attr name="android:duration"/><attr format="integer" name="animInterval"/></declare-styleable>
     <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/><attr format="reference" name="theme"/><attr name="android:theme"/></declare-styleable>
@@ -3059,6 +3096,7 @@
             
             <enum name="screen" value="15"/>
         </attr></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
     <declare-styleable name="ViewfinderView"><attr format="dimension" name="inner_width"/><attr format="dimension" name="inner_height"/><attr format="dimension" name="inner_margintop"/><attr format="color" name="inner_corner_color"/><attr format="dimension" name="inner_corner_length"/><attr format="dimension" name="inner_corner_width"/><attr format="reference" name="inner_scan_bitmap"/><attr format="integer" name="inner_scan_speed"/><attr format="boolean" name="inner_scan_iscircle"/></declare-styleable>
     <declare-styleable name="pickerview"><attr name="pickerview_gravity">
@@ -3201,11 +3239,24 @@
     <dimen name="defaultTagsCloseImagePadding">10dp</dimen>
     <dimen name="defaultTagsPadding">0dp</dimen>
     <dimen name="defaultTagsTextSize">16sp</dimen>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
     <dimen name="default_corner_radius">4dp</dimen>
     <dimen name="default_indexBar_layout_width">24dp</dimen>
     <dimen name="default_indexBar_textSize">14sp</dimen>
     <dimen name="default_indexBar_textSpace">4dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
     <dimen name="default_shadow_radius">4dp</dimen>
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
     <dimen name="design_appbar_elevation">4dp</dimen>
     <dimen name="design_bottom_navigation_active_item_max_width">168dp</dimen>
     <dimen name="design_bottom_navigation_active_text_size">14sp</dimen>
@@ -3369,6 +3420,11 @@
     <integer name="app_bar_elevation_anim_duration">150</integer>
     <integer name="bottom_sheet_slide_duration">150</integer>
     <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
     <integer name="design_snackbar_text_max_lines">2</integer>
     <integer name="hide_password_duration">320</integer>
     <integer name="show_password_duration">200</integer>
@@ -4980,6 +5036,10 @@
     <style name="TextAppearance.StatusBar.EventContent.Line2" parent=""/>
     <style name="TextAppearance.StatusBar.EventContent.Time" parent=""/>
     <style name="TextAppearance.StatusBar.EventContent.Title" parent=""/>
+    <style name="TextAppearance.TabPageIndicator" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vpi__dark_theme</item>
+    </style>
     <style name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item">
     </style>
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
@@ -5039,6 +5099,10 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+    <style name="Theme.PageIndicatorDefaults" parent="android:Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>
@@ -5066,6 +5130,8 @@
     <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">#FFFF</item>
+    </style>
+    <style name="Widget">
     </style>
     <style name="Widget.AppCompat.ActionBar" parent="Base.Widget.AppCompat.ActionBar">
     </style>
@@ -5224,6 +5290,10 @@
         <item name="passwordToggleContentDescription">@string/password_toggle_content_description</item>
     </style>
     <style name="Widget.GifMoviewView" parent="@android:style/Widget"/>
+    <style name="Widget.IconPageIndicator" parent="Widget">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
     <style name="Widget.MaterialProgressBar.ProgressBar" parent="android:Widget.ProgressBar">
         <item name="android:indeterminateDrawable">@null</item>
         <!-- We have support for determinate circular progress drawable. -->
@@ -5297,6 +5367,17 @@
     <style name="Widget.MaterialRatingBar.RatingBar.Small">
         <item name="android:minHeight">16dp</item>
         <item name="android:maxHeight">16dp</item>
+    </style>
+    <style name="Widget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
     </style>
     <style name="WindowStyle">
         <item name="android:windowEnterAnimation">@anim/fade_in</item>

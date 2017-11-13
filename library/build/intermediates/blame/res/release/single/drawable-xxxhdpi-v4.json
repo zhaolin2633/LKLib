@@ -4,6 +4,10 @@
         "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable-xxxhdpi\\picture_warning.png"
     },
     {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\vpi__tab_selected_pressed_holo.9.png",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable-xxxhdpi\\vpi__tab_selected_pressed_holo.9.png"
+    },
+    {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\tab_speech_select.png",
         "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable-xxxhdpi\\tab_speech_select.png"
     },
@@ -88,6 +92,10 @@
         "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\generated\\res\\pngs\\release\\drawable-xxxhdpi\\mrb_star_border_icon_black_36dp.png"
     },
     {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\vpi__tab_unselected_focused_holo.9.png",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable-xxxhdpi\\vpi__tab_unselected_focused_holo.9.png"
+    },
+    {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\ucrop_ic_next.png",
         "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable-xxxhdpi\\ucrop_ic_next.png"
     },
@@ -166,6 +174,10 @@
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\ic_clear_white_48dp.png",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\drawable-xxxhdpi\\ic_clear_white_48dp.png"
+    },
+    {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\vpi__tab_unselected_pressed_holo.9.png",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable-xxxhdpi\\vpi__tab_unselected_pressed_holo.9.png"
     },
     {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png",
@@ -364,6 +376,10 @@
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\vpi__tab_selected_holo.9.png",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable-xxxhdpi\\vpi__tab_selected_holo.9.png"
+    },
+    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\ic_arrow_back_black_24dp.png",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\generated\\res\\pngs\\release\\drawable-xxxhdpi\\ic_arrow_back_black_24dp.png"
     },
@@ -374,6 +390,10 @@
     {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\nim_slide_toggle.png",
         "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable-xxxhdpi\\nim_slide_toggle.png"
+    },
+    {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\vpi__tab_unselected_holo.9.png",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable-xxxhdpi\\vpi__tab_unselected_holo.9.png"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\ucrop_ic_angle.png",
@@ -678,6 +698,10 @@
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\ic_placeholder.png",
         "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\src\\main\\res\\drawable-xxxhdpi\\ic_placeholder.png"
+    },
+    {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\vpi__tab_selected_focused_holo.9.png",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\drawable-xxxhdpi\\vpi__tab_selected_focused_holo.9.png"
     },
     {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png",

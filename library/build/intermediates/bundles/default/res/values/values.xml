@@ -42,6 +42,7 @@
         <enum name="checkbox" value="2"/>
         <enum name="radio" value="3"/>
     </attr>
+    <attr format="boolean" name="centered"/>
     <attr format="boolean" name="checked"/>
     <attr format="reference" name="checkedButton"/>
     <attr format="boolean" name="dismissible"/>
@@ -1711,7 +1712,9 @@
     <attr format="boolean" name="picture.style.numComplete"/>
     <attr format="reference|color" name="picture.title.textColor"/>
     <attr format="boolean" name="roundedCorners"/>
+    <attr format="color" name="selectedColor"/>
     <attr format="boolean" name="showOutline"/>
+    <attr format="dimension" name="strokeWidth"/>
     <attr format="string" name="strongText"/>
     <attr format="color" name="tl_divider_color"/>
     <attr format="dimension" name="tl_divider_padding"/>
@@ -2093,6 +2096,12 @@
         <enum name="ty_zoom_out_outline" value="334"/>
         <enum name="ty_zoom_outline" value="335"/>
     </attr>
+    <attr format="color" name="unselectedColor"/>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="default_line_indicator_centered">true</bool>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <bool name="default_underline_indicator_fades">true</bool>
     <color name="GreyWhite">#F7F7F7</color>
     <color name="action_bar_tittle_color_555555">#555555</color>
     <color name="background_window">#f1f1f1</color>
@@ -2250,8 +2259,17 @@
     <color name="cpb_white">@android:color/white</color>
     <color name="deep_gray">#afaeae</color>
     <color name="defaultTagsTextColor">#FFFFFF</color>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
     <color name="default_fill_color">#ffffff</color>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
     <color name="default_shadow_color">#88757575</color>
+    <color name="default_title_indicator_footer_color">#FF33B5E5</color>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
     <color name="divider">#20000000</color>
     <color name="drop_down_selected">#7B1FA2</color>
     <color name="drop_down_unselected">#111111</color>
@@ -2326,6 +2344,14 @@
     <color name="ucrop_color_widget_background">#fff</color>
     <color name="ucrop_color_widget_text">#000</color>
     <color name="un_press_color">#9C27B0</color>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
     <color name="white">#FFFFFF</color>
     <color name="white_cf">#cfffffff</color>
     <declare-styleable name="AmountView"><attr format="dimension" name="amount_textsize"/><attr format="boolean" name="amount_isInput"/><attr format="integer" name="min_amonut"/></declare-styleable>
@@ -2353,6 +2379,7 @@
     <declare-styleable name="BootstrapThumbnail"><attr name="bootstrapBrand"/><attr name="roundedCorners"/><attr name="hasBorder"/><attr name="bootstrapSize"/></declare-styleable>
     <declare-styleable name="BootstrapWell"><attr name="bootstrapSize"/></declare-styleable>
     <declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/></declare-styleable>
+    <declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="vp_radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable>
     <declare-styleable name="CircleProgressView"><attr format="color" name="cpv_progressNormalColor"/><attr format="color" name="cpv_progressReachColor"/><attr format="color" name="cpv_progressTextColor"/><attr format="dimension" name="cpv_progressTextSize"/><attr format="dimension" name="cpv_progressTextOffset"/><attr format="dimension" name="cpv_progressNormalSize"/><attr format="dimension" name="cpv_progressReachSize"/><attr format="dimension" name="cpv_radius"/><attr format="boolean" name="cpv_progressTextVisible"/><attr format="integer" name="cpv_progressStartArc"/><attr format="dimension" name="cpv_progressTextSkewX"/><attr format="string" name="cpv_progressTextPrefix"/><attr format="string" name="cpv_progressTextSuffix"/><attr format="color" name="cpv_innerBackgroundColor"/><attr format="enum" name="cpv_progressStyle">
             <enum name="Normal" value="0"/>
             <enum name="FillInner" value="1"/>
@@ -2387,6 +2414,7 @@
     <declare-styleable name="InputDecimalEditText"><attr format="integer" name="decimal_length"/></declare-styleable>
     <declare-styleable name="InputLimitEditText"><attr format="string" name="input_limit_hint"/><attr format="integer" name="input_limit_max_length"/></declare-styleable>
     <declare-styleable name="LabelIndicatorView"><attr format="string" name="label_title"/><attr format="string" name="label_tips"/><attr format="reference" name="label_Indicator"/></declare-styleable>
+    <declare-styleable name="LinePageIndicator"><attr name="centered"/><attr name="unselectedColor"/><attr name="selectedColor"/><attr format="dimension" name="lineWidth"/><attr name="strokeWidth"/><attr format="dimension" name="gapWidth"/><attr name="android:background"/></declare-styleable>
     <declare-styleable name="MarqueeViewStyle"><attr format="integer|reference" name="mvInterval"/><attr format="integer|reference" name="mvAnimDuration"/><attr format="dimension|reference" name="mvTextSize"/><attr format="color|reference" name="mvTextColor"/><attr format="boolean" name="mvSingleLine"/><attr name="mvGravity">
             <enum name="left" value="0"/>
             <enum name="center" value="1"/>
@@ -2510,8 +2538,18 @@
         </attr><attr format="integer" name="maxSelectionCount"/></declare-styleable>
     <declare-styleable name="TagsEditText"><attr format="boolean" name="allowSpaceInTag"/><attr format="color" name="tagsTextColor"/><attr format="dimension" name="tagsTextSize"/><attr format="integer" name="tagsBackground"/><attr format="integer" name="tagsCloseImageLeft"/><attr format="integer" name="tagsCloseImageRight"/><attr format="dimension" name="tagsCloseImagePadding"/><attr format="dimension" name="tagsPaddingLeft"/><attr format="dimension" name="tagsPaddingRight"/><attr format="dimension" name="tagsPaddingTop"/><attr format="dimension" name="tagsPaddingBottom"/></declare-styleable>
     <declare-styleable name="Themes"><attr format="reference" name="numberProgressBarStyle"/></declare-styleable>
+    <declare-styleable name="TitlePageIndicator"><attr format="dimension" name="clipPadding"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerLineHeight"/><attr name="footerIndicatorStyle">
+            <enum name="none" value="0"/>
+            <enum name="triangle" value="1"/>
+            <enum name="underline" value="2"/>
+        </attr><attr format="dimension" name="footerIndicatorHeight"/><attr format="dimension" name="footerIndicatorUnderlinePadding"/><attr format="dimension" name="footerPadding"/><attr name="linePosition">
+            <enum name="bottom" value="0"/>
+            <enum name="top" value="1"/>
+        </attr><attr name="selectedColor"/><attr format="boolean" name="selectedBold"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="titlePadding"/><attr format="dimension" name="topPadding"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="UnderlinePageIndicator"><attr format="boolean" name="fades"/><attr format="integer" name="fadeDelay"/><attr format="integer" name="fadeLength"/><attr name="selectedColor"/><attr name="android:background"/></declare-styleable>
     <declare-styleable name="VerticalInfiniteCycleViewPager"><attr name="icvp_min_page_scale_offset"/><attr name="icvp_center_page_scale_offset"/><attr name="icvp_min_page_scale"/><attr name="icvp_max_page_scale"/><attr name="icvp_medium_scaled"/><attr name="icvp_scroll_duration"/><attr name="icvp_page_duration"/><attr name="icvp_interpolator"/></declare-styleable>
     <declare-styleable name="VerticalRollingTextView"><attr name="android:textColor"/><attr name="android:textSize"/><attr name="android:duration"/><attr format="integer" name="animInterval"/></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
     <declare-styleable name="pickerview"><attr name="pickerview_gravity">
             <enum name="center" value="17"/>
             <enum name="left" value="3"/>
@@ -2578,8 +2616,21 @@
     <dimen name="defaultTagsCloseImagePadding">10dp</dimen>
     <dimen name="defaultTagsPadding">0dp</dimen>
     <dimen name="defaultTagsTextSize">16sp</dimen>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
     <dimen name="default_corner_radius">4dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
     <dimen name="default_shadow_radius">4dp</dimen>
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
     <dimen name="input_txt_size">14sp</dimen>
     <dimen name="item_txt_size">14sp</dimen>
     <dimen name="line_1px">1px</dimen>
@@ -2638,6 +2689,11 @@
     <item name="numIndicatorInside" type="id"/>
     <item name="titleView" type="id"/>
     <integer name="animation_default_duration">300</integer>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
     <integer name="ucrop_progress_loading_anim_time">1500</integer>
     <string name="app_name">Library</string>
     <string name="cancle">取消</string>
@@ -2756,8 +2812,8 @@
         <item name="android:windowExitAnimation">@anim/a3</item>
     </style>
     <style name="LibraryTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!--<item name="android:windowTranslucentStatus">true</item>-->
-        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+        
+        
         <item name="android:windowBackground">@color/common_background</item>
         <item name="colorPrimaryDark">@color/black</item>
         <item name="colorAccent">@color/common_main</item>
@@ -2774,7 +2830,7 @@
     <style name="MyDialog" parent="AlertDialog.AppCompat.Light">
         <item name="android:windowFrame">@null</item>
         <item name="android:windowNoTitle">true</item>
-        <!--<item name="android:windowBackground">@drawable/hint_img</item>-->
+        
         <item name="android:windowIsFloating">true</item>
         <item name="android:windowContentOverlay">@null</item>
     </style>
@@ -2909,31 +2965,45 @@
         </item>
         <item name="android:progressDrawable">@drawable/progress_horizontal</item>
     </style>
+    <style name="TextAppearance.TabPageIndicator" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vpi__dark_theme</item>
+    </style>
+    <style name="Theme.PageIndicatorDefaults" parent="android:Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
     <style name="Theme_dialog" parent="@android:style/Theme.Dialog">
 
-        <!-- 边框 -->
+        
         <item name="android:windowFrame">@android:color/transparent</item>
-        <!-- 是否浮现在activity之上 -->
+        
         <item name="android:windowIsFloating">true</item>
-        <!-- 半透明 -->
+        
         <item name="android:windowIsTranslucent">false</item>
-        <!-- 无标题 -->
+        
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
         <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
 
-        <!-- 自己想要的背景 -->
+        
         <item name="android:windowBackground">@android:color/transparent</item>
     </style>
     <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">#FFFF</item>
     </style>
+    <style name="Widget">
+    </style>
     <style name="Widget.GifMoviewView" parent="@android:style/Widget"/>
+    <style name="Widget.IconPageIndicator" parent="Widget">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
     <style name="Widget.MaterialProgressBar.ProgressBar" parent="android:Widget.ProgressBar">
         <item name="android:indeterminateDrawable">@null</item>
-        <!-- We have support for determinate circular progress drawable. -->
+        
         <item name="android:indeterminateOnly">false</item>
         <item name="android:minWidth">48dp</item>
         <item name="android:maxWidth">48dp</item>
@@ -2941,11 +3011,7 @@
         <item name="android:maxHeight">48dp</item>
     </style>
     <style name="Widget.MaterialProgressBar.ProgressBar.Horizontal" parent="android:Widget.ProgressBar.Horizontal">
-        <!--
-        Disabled for correct behavior on Android 4.x, see
-        https://github.com/android/platform_frameworks_base/commit/911743652b597057a1bd7ef8a921e9ff8dce0f4a#diff-149f45c5ff2d3185bb79688ba17bc432L536
-        <item name="android:progressDrawable">@null</item>
-        -->
+        
         <item name="android:indeterminateDrawable">@null</item>
         <item name="android:minHeight">16dp</item>
         <item name="android:maxHeight">16dp</item>
@@ -2985,11 +3051,7 @@
         <item name="android:maxHeight">14dp</item>
     </style>
     <style name="Widget.MaterialRatingBar.RatingBar" parent="android:Widget.RatingBar">
-        <!--
-        Disabled for correct behavior on Android 4.x, see
-        https://github.com/android/platform_frameworks_base/commit/911743652b597057a1bd7ef8a921e9ff8dce0f4a#diff-149f45c5ff2d3185bb79688ba17bc432L536
-        <item name="android:progressDrawable">@null</item>
-        -->
+        
         <item name="android:indeterminateDrawable">@null</item>
         <item name="android:minHeight">36dp</item>
         <item name="android:maxHeight">36dp</item>
@@ -3005,6 +3067,17 @@
         <item name="android:minHeight">16dp</item>
         <item name="android:maxHeight">16dp</item>
     </style>
+    <style name="Widget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
     <style name="WindowStyle">
         <item name="android:windowEnterAnimation">@anim/fade_in</item>
         <item name="android:windowExitAnimation">@anim/fade_out</item>
@@ -3017,18 +3090,18 @@
     </style>
     <style name="custom_dialog2" parent="@android:style/Theme.Dialog">
         <item name="android:windowFrame">@null</item>
-        <!-- Dialog的windowFrame框为无 -->
+        
         <item name="android:windowIsFloating">true</item>
-        <!-- 是否漂现在activity上 -->
+        
         <item name="android:windowIsTranslucent">true</item>
-        <!-- 是否半透明 -->
+        
         <item name="android:windowNoTitle">true</item>
         <item name="android:background">@null</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowContentOverlay">@null</item>
-        <!-- 去除黑色边框的关键设置项 -->
+        
         <item name="android:backgroundDimEnabled">true</item>
-        <!-- 屏幕背景是否变暗 -->
+        
         <item name="android:backgroundDimAmount">0.3</item>
     </style>
     <style name="dialog_center" parent="android:Animation">
@@ -3047,113 +3120,113 @@
         <item name="android:windowExitAnimation">@anim/pickerview_dialog_scale_out</item>
     </style>
     <style name="picture.Sina.style" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <!--标题栏背景色-->
+        
+        
         <item name="colorPrimary">@color/common_main</item>
-        <!--状态栏背景色-->
+        
         <item name="colorPrimaryDark">@color/common_main</item>
-        <!--是否改变图片列表界面状态栏字体颜色为黑色-->
+        
         <item name="picture.statusFontColor">true</item>
-        <!--返回键图标-->
+        
         <item name="picture.leftBack.icon">@drawable/icon_back_black</item>
-        <!--标题下拉箭头-->
+        
         <item name="picture.arrow_down.icon">@drawable/icon_arrow_down</item>
-        <!--标题上拉箭头-->
+        
         <item name="picture.arrow_up.icon">@drawable/icon_arrow_up</item>
-        <!--标题文字颜色-->
+        
         <item name="picture.title.textColor">@color/white</item>
-        <!--标题栏右边文字-->
+        
         <item name="picture.right.textColor">@color/white</item>
-        <!--图片列表勾选样式-->
+        
         <item name="picture.checked.style">@drawable/checkbox_selector</item>
-        <!--开启图片列表勾选数字模式,开启的话勾选样式要换-->
+        
         <item name="picture.style.checkNumMode">false</item>
-        <!--选择图片样式0/9-->
+        
         <item name="picture.style.numComplete">false</item>
-        <!--图片列表底部背景色-->
+        
         <item name="picture.bottom.bg">@color/color_fa</item>
-        <!--图片列表预览文字颜色-->
+        
         <item name="picture.preview.textColor">@color/color_orange</item>
-        <!--图片列表已完成文字颜色-->
+        
         <item name="picture.complete.textColor">@color/color_orange</item>
-        <!--图片已选数量圆点背景色-->
+        
         <item name="picture.num.style">@drawable/num_oval_orange</item>
-        <!--预览界面标题文字颜色-->
+        
         <item name="picture.ac_preview.title.textColor">@color/color_53</item>
-        <!--预览界面已完成文字颜色-->
+        
         <item name="picture.ac_preview.complete.textColor">@color/color_orange</item>
-        <!--预览界面标题栏背景色-->
+        
         <item name="picture.ac_preview.title.bg">@color/white</item>
-        <!--预览界面底部背景色-->
+        
         <item name="picture.ac_preview.bottom.bg">@color/color_fa</item>
-        <!--预览界面状态栏颜色-->
+        
         <item name="picture.status.color">@color/white</item>
-        <!--预览界面返回箭头-->
+        
         <item name="picture.preview.leftBack.icon">@drawable/icon_back_black</item>
-        <!--是否改变预览界面状态栏字体颜色为黑色-->
+        
         <item name="picture.preview.statusFontColor">true</item>
-        <!--裁剪页面标题背景色-->
+        
         <item name="picture.crop.toolbar.bg">@color/bar_grey</item>
-        <!--裁剪页面状态栏颜色-->
+        
         <item name="picture.crop.status.color">@color/bar_grey</item>
-        <!--裁剪页面标题文字颜色-->
+        
         <item name="picture.crop.title.color">@color/white</item>
-        <!--相册文件夹列表选中图标-->
+        
         <item name="picture.folder_checked_dot">@drawable/orange_oval</item>
     </style>
     <style name="picture.default.style" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <!--标题栏背景色-->
+        
+        
         <item name="colorPrimary">@color/bar_grey</item>
-        <!--状态栏背景色-->
+        
         <item name="colorPrimaryDark">@color/bar_grey</item>
-        <!--是否改变图片列表界面状态栏字体颜色为黑色-->
+        
         <item name="picture.statusFontColor">false</item>
-        <!--返回键图标-->
+        
         <item name="picture.leftBack.icon">@drawable/picture_back</item>
-        <!--标题下拉箭头-->
+        
         <item name="picture.arrow_down.icon">@drawable/arrow_down</item>
-        <!--标题上拉箭头-->
+        
         <item name="picture.arrow_up.icon">@drawable/arrow_up</item>
-        <!--标题文字颜色-->
+        
         <item name="picture.title.textColor">@color/white</item>
-        <!--标题栏右边文字-->
+        
         <item name="picture.right.textColor">@color/white</item>
-        <!--图片列表勾选样式-->
+        
         <item name="picture.checked.style">@drawable/checkbox_selector</item>
-        <!--开启图片列表勾选数字模式-->
+        
         <item name="picture.style.checkNumMode">false</item>
-        <!--选择图片样式0/9-->
+        
         <item name="picture.style.numComplete">false</item>
-        <!--图片列表底部背景色-->
+        
         <item name="picture.bottom.bg">@color/color_fa</item>
-        <!--图片列表预览文字颜色-->
+        
         <item name="picture.preview.textColor">@color/tab_color_true</item>
-        <!--图片列表已完成文字颜色-->
+        
         <item name="picture.complete.textColor">@color/tab_color_true</item>
-        <!--图片已选数量圆点背景色-->
+        
         <item name="picture.num.style">@drawable/num_oval</item>
-        <!--预览界面标题文字颜色-->
+        
         <item name="picture.ac_preview.title.textColor">@color/white</item>
-        <!--预览界面已完成文字颜色-->
+        
         <item name="picture.ac_preview.complete.textColor">@color/tab_color_true</item>
-        <!--预览界面标题栏背景色-->
+        
         <item name="picture.ac_preview.title.bg">@color/bar_grey</item>
-        <!--预览界面底部背景色-->
+        
         <item name="picture.ac_preview.bottom.bg">@color/bar_grey_90</item>
-        <!--预览界面状态栏颜色-->
+        
         <item name="picture.status.color">@color/bar_grey_90</item>
-        <!--预览界面返回箭头-->
+        
         <item name="picture.preview.leftBack.icon">@drawable/picture_back</item>
-        <!--是否改变预览界面状态栏字体颜色为黑色-->
+        
         <item name="picture.preview.statusFontColor">false</item>
-        <!--裁剪页面标题背景色-->
+        
         <item name="picture.crop.toolbar.bg">@color/bar_grey</item>
-        <!--裁剪页面状态栏颜色-->
+        
         <item name="picture.crop.status.color">@color/bar_grey</item>
-        <!--裁剪页面标题文字颜色-->
+        
         <item name="picture.crop.title.color">@color/white</item>
-        <!--相册文件夹列表选中图标-->
+        
         <item name="picture.folder_checked_dot">@drawable/orange_oval</item>
     </style>
     <style name="picture_alert_dialog" parent="android:Theme.Dialog">

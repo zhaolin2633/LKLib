@@ -8,21 +8,21 @@ package android.support.v7.recyclerview;
 
 public final class R {
     public static final class attr {
-        public static int layoutManager = 0x7f010263;
-        public static int reverseLayout = 0x7f010265;
-        public static int spanCount = 0x7f010264;
-        public static int stackFromEnd = 0x7f010266;
+        public static int layoutManager = 0x7f01026e;
+        public static int reverseLayout = 0x7f010270;
+        public static int spanCount = 0x7f01026f;
+        public static int stackFromEnd = 0x7f010271;
     }
     public static final class dimen {
-        public static int item_touch_helper_max_drag_scroll_per_frame = 0x7f0a00bd;
-        public static int item_touch_helper_swipe_escape_max_velocity = 0x7f0a00be;
-        public static int item_touch_helper_swipe_escape_velocity = 0x7f0a00bf;
+        public static int item_touch_helper_max_drag_scroll_per_frame = 0x7f0a00ca;
+        public static int item_touch_helper_swipe_escape_max_velocity = 0x7f0a00cb;
+        public static int item_touch_helper_swipe_escape_velocity = 0x7f0a00cc;
     }
     public static final class id {
         public static int item_touch_helper_previous_elevation = 0x7f10001e;
     }
     public static final class styleable {
-        public static int[] RecyclerView = { 0x010100c4, 0x010100f1, 0x7f010263, 0x7f010264, 0x7f010265, 0x7f010266 };
+        public static int[] RecyclerView = { 0x010100c4, 0x010100f1, 0x7f01026e, 0x7f01026f, 0x7f010270, 0x7f010271 };
         public static int RecyclerView_android_descendantFocusability = 1;
         public static int RecyclerView_android_orientation = 0;
         public static int RecyclerView_layoutManager = 2;
