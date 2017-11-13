@@ -21,16 +21,16 @@ public final class R {
         public static int scrollbars = 0x7f0101a4;
     }
     public static final class id {
-        public static int empty = 0x7f10090d;
-        public static int error = 0x7f10090f;
+        public static int empty = 0x7f10090e;
+        public static int error = 0x7f100910;
         public static int horizontal = 0x7f100848;
         public static int insideInset = 0x7f100844;
         public static int insideOverlay = 0x7f100845;
         public static int none = 0x7f10080b;
         public static int outsideInset = 0x7f100846;
         public static int outsideOverlay = 0x7f100847;
-        public static int progress = 0x7f10090e;
-        public static int ptr_layout = 0x7f10090c;
+        public static int progress = 0x7f10090f;
+        public static int ptr_layout = 0x7f10090d;
         public static int vertical = 0x7f100849;
     }
     public static final class layout {

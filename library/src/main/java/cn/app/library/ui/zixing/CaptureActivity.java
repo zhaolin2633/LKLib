@@ -5,8 +5,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 
 import com.jaeger.library.StatusBarUtil;
 import com.uuzuche.lib_zxing.activity.CaptureFragment;
@@ -23,9 +25,10 @@ import cn.app.library.base.BaseAppCompatActivity;
 public class CaptureActivity extends BaseAppCompatActivity implements View.OnClickListener {
 
     private static final String TAG = "CaptureActivity";
-    private LinearLayout llBack;
+    public RelativeLayout llBack;
+    public LinearLayout ll_bottom;
     public static final int INTENT_REQUEST_CODE_CAPTURE = 11000;
-    private CaptureFragment captureFragment;
+    public CaptureFragment captureFragment;
 
     public static void start(Context ct) {
         ((Activity) ct).startActivityForResult(new Intent(ct, CaptureActivity.class), CaptureActivity.INTENT_REQUEST_CODE_CAPTURE);
@@ -39,6 +42,12 @@ public class CaptureActivity extends BaseAppCompatActivity implements View.OnCli
     @Override
     protected void initView() {
         llBack = findView(R.id.capture_title);
+        ll_bottom = findView(R.id.ll_bottom);
+    }
+
+    public void setLlBottomView(boolean isShow) {
+        if (ll_bottom != null)
+            ll_bottom.setVisibility(isShow ? View.VISIBLE : View.GONE);
     }
 
     @Override
@@ -65,6 +74,17 @@ public class CaptureActivity extends BaseAppCompatActivity implements View.OnCli
         }
     }
 
+    public void setLlBackColor(int coloriD) {
+        if (llBack != null) {
+            llBack.setBackgroundColor(ContextCompat.getColor(this, coloriD));
+        }
+    }
+
+    public void setLlBackResource(int resiD) {
+        if (llBack != null) {
+            llBack.setBackgroundResource(resiD);
+        }
+    }
 
     @Override
     protected void setStatusBar() {

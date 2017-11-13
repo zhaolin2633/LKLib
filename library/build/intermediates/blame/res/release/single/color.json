@@ -148,6 +148,10 @@
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\color\\abc_tint_default.xml"
     },
     {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\color\\vpi__dark_theme.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\color\\vpi__dark_theme.xml"
+    },
+    {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\release\\color\\design_tint_password_toggle.xml",
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\f2f9ba2dc76c95aa0f00f011245fcbca03e7a0cc\\output\\res\\color\\design_tint_password_toggle.xml"
     },
@@ -302,6 +306,10 @@
     {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\release\\color\\switch_thumb_material_light.xml",
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\color\\vpi__light_theme.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\color\\vpi__light_theme.xml"
     },
     {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\release\\color\\ucrop_scale_text_view_selector.xml",

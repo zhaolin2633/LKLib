@@ -29,6 +29,7 @@ import cn.app.library.http.HttpResult;
 import cn.app.library.http.HttpResultSubscriber;
 import cn.app.library.picture.lib.compress.OnCompressListener;
 import cn.app.library.ui.bigimg.BigImageActivity;
+import cn.app.library.ui.zixing.CaptureActivity;
 import cn.app.library.utils.PictureUtils;
 import cn.app.library.widget.glideimageview.GlideImageLoader;
 
@@ -104,6 +105,7 @@ public class MainActivity extends BaseAppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            startActivityForResult(new Intent(MainActivity.this, CaptureActivity.class), CaptureActivity.INTENT_REQUEST_CODE_CAPTURE);
             return true;
         }
 
