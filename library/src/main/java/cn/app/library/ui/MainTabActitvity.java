@@ -64,7 +64,7 @@ public abstract class MainTabActitvity extends BaseAppCompatActivity {
         }
         initTabViewPager();
     }
-
+ public abstract void setSelectPage(int position);
     private void initTabViewPager() {
         for (int i = 0; i < mTitles.length; i++) {
             mTabEntities.add(new TabEntity(mTitles[i], mIconSelectIds[i], mIconUnselectIds[i]));
@@ -75,6 +75,7 @@ public abstract class MainTabActitvity extends BaseAppCompatActivity {
         mainTabLayout.setOnTabSelectListener(new OnTabSelectListener() {
             @Override
             public void onTabSelect(int position) {
+                setSelectPage(position);
                 viewPager.setCurrentItem(position);
             }
 
@@ -93,6 +94,7 @@ public abstract class MainTabActitvity extends BaseAppCompatActivity {
             @Override
             public void onPageSelected(int position) {
                 mainTabLayout.setCurrentTab(position);
+                setSelectPage(position);
             }
 
             @Override

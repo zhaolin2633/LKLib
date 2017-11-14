@@ -48,6 +48,10 @@
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\color\\abc_tint_seek_thumb.xml"
     },
     {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\vpi__dark_theme.xml",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\color\\vpi__dark_theme.xml"
+    },
+    {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_search_url_text.xml",
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\color\\abc_search_url_text.xml"
     },
@@ -166,6 +170,10 @@
     {
         "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_hint_foreground_material_dark.xml",
         "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\vpi__light_theme.xml",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\color\\vpi__light_theme.xml"
     },
     {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\color_picker_preview_selector.xml",
