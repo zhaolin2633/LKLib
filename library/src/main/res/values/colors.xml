@@ -2,7 +2,7 @@
 <resources>
 
     <!--主色调-->
-    <color name="common_main">#1E87E6</color>
+    <color name="common_main">#53ccc4</color>
     <color name="color_press">#55a1e6</color>
     <!--标题颜色-->
     <color name="common_title">#1c1c1c</color>

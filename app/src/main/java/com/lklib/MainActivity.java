@@ -29,9 +29,7 @@ import cn.app.library.http.HttpResult;
 import cn.app.library.http.HttpResultSubscriber;
 import cn.app.library.picture.lib.compress.OnCompressListener;
 import cn.app.library.ui.bigimg.BigImageActivity;
-import cn.app.library.ui.zixing.CaptureActivity;
 import cn.app.library.utils.PictureUtils;
-import cn.app.library.widget.glideimageview.GlideImageLoader;
 
 
 public class MainActivity extends BaseAppCompatActivity
@@ -105,7 +103,7 @@ public class MainActivity extends BaseAppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            startActivityForResult(new Intent(MainActivity.this, CaptureActivity.class), CaptureActivity.INTENT_REQUEST_CODE_CAPTURE);
+            startActivity(new Intent(MainActivity.this, SacnActivity.class));
             return true;
         }
 
@@ -130,7 +128,7 @@ public class MainActivity extends BaseAppCompatActivity
 
                         @Override
                         public void onSuccess(File file) {
-                              dismissLoading();
+                            dismissLoading();
 //                            ImageLoaderProxy.getInstance().loadImage("file://" + file.getPath(), mIvBusinessImg, R.drawable.icon_add, R.drawable.icon_add);
 //                            imagePath = file.getPath();
                         }
@@ -163,9 +161,9 @@ public class MainActivity extends BaseAppCompatActivity
         } else if (id == R.id.nav_manage) {
 
         } else if (id == R.id.nav_share) {
-            List<String> list=new ArrayList<>();
+            List<String> list = new ArrayList<>();
             list.add("http://img.alicdn.com/tfscom/i4/2934912349/TB2AKs1cbsTMeJjy1zbXXchlVXa_!!2934912349.jpg");
-            BigImageActivity.start(MainActivity.this,0, (ArrayList<String>) list);
+            BigImageActivity.start(MainActivity.this, 0, (ArrayList<String>) list);
         } else if (id == R.id.nav_send) {
 
         }
@@ -174,18 +172,20 @@ public class MainActivity extends BaseAppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
     /**
      * 选择头像
      */
     private void chooseImage() {
         PickImageHelper.PickImageOption option = new PickImageHelper.PickImageOption();
-        option.titleResId=R.string.picture_set_header;
+        option.titleResId = R.string.picture_set_header;
         option.crop = true;
         option.multiSelect = false;
         option.cropOutputImageWidth = 400;
         option.cropOutputImageHeight = 400;
         PickImageHelper.pickImage(this, PickImageHelper.PICK_AVATAR_REQUEST, option);
     }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -195,6 +195,7 @@ public class MainActivity extends BaseAppCompatActivity
 
         }
     }
+
     public void httpGet() {
         HttpMnager.getInstance()
                 .createService(ApiService.class)
@@ -208,7 +209,7 @@ public class MainActivity extends BaseAppCompatActivity
 
                     @Override
                     public void _onError(String msg, int code) {
-                           showToast(msg);
+                        showToast(msg);
                     }
 
                     @Override

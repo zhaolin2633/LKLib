@@ -35,25 +35,25 @@ public final class R {
         public static int bga_banner_selector_point_solid = 0x7f02006b;
     }
     public static final class id {
-        public static int accordion = 0x7f10081f;
-        public static int alpha = 0x7f100820;
+        public static int accordion = 0x7f100820;
+        public static int alpha = 0x7f100821;
         public static int banner_indicatorId = 0x7f10000a;
-        public static int bottom = 0x7f10081c;
-        public static int center_horizontal = 0x7f10081d;
-        public static int cube = 0x7f100821;
-        public static int defaultEffect = 0x7f100822;
-        public static int depth = 0x7f100823;
-        public static int fade = 0x7f100824;
-        public static int flip = 0x7f100825;
-        public static int left = 0x7f1006a5;
-        public static int right = 0x7f1006a6;
-        public static int rotate = 0x7f100826;
-        public static int stack = 0x7f100827;
-        public static int top = 0x7f10081e;
-        public static int zoom = 0x7f100828;
-        public static int zoomCenter = 0x7f100829;
-        public static int zoomFade = 0x7f10082a;
-        public static int zoomStack = 0x7f10082b;
+        public static int bottom = 0x7f10081d;
+        public static int center_horizontal = 0x7f10081e;
+        public static int cube = 0x7f100822;
+        public static int defaultEffect = 0x7f100823;
+        public static int depth = 0x7f100824;
+        public static int fade = 0x7f100825;
+        public static int flip = 0x7f100826;
+        public static int left = 0x7f1006a6;
+        public static int right = 0x7f1006a7;
+        public static int rotate = 0x7f100827;
+        public static int stack = 0x7f100828;
+        public static int top = 0x7f10081f;
+        public static int zoom = 0x7f100829;
+        public static int zoomCenter = 0x7f10082a;
+        public static int zoomFade = 0x7f10082b;
+        public static int zoomStack = 0x7f10082c;
     }
     public static final class layout {
         public static int bga_banner_item_image = 0x7f040026;

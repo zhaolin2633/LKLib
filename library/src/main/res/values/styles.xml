@@ -41,7 +41,7 @@
     </style>
 
     <!--多种状态视图-->
-    <style name="MultipleStatusView"/>
+    <style name="MultipleStatusView" />
 
     <style name="MultipleStatusView.Content">
         <item name="android:layout_width">wrap_content</item>
@@ -56,54 +56,61 @@
     <style name="CircularProgress" parent="Theme.AppCompat.Light">
         <item name="colorAccent">@color/common_main</item>
     </style>
+
     <declare-styleable name="ShapeImageViewStyle">
-        <attr name="siv_border_width" format="dimension"/>
-        <attr name="siv_border_color" format="color"/>
-        <attr name="siv_radius" format="dimension"/>
-        <attr name="siv_pressed_alpha" format="float"/>
-        <attr name="siv_pressed_color" format="color"/>
+        <attr name="siv_border_width" format="dimension" />
+        <attr name="siv_border_color" format="color" />
+        <attr name="siv_radius" format="dimension" />
+        <attr name="siv_pressed_alpha" format="float" />
+        <attr name="siv_pressed_color" format="color" />
         <attr name="siv_shape_type" format="enum">
-            <enum name="rectangle" value="0"/>
-            <enum name="circle" value="1"/>
+            <enum name="rectangle" value="0" />
+            <enum name="circle" value="1" />
         </attr>
     </declare-styleable>
 
     <declare-styleable name="CircleProgressView">
-        <attr name="cpv_progressNormalColor" format="color"/>
-        <attr name="cpv_progressReachColor" format="color"/>
-        <attr name="cpv_progressTextColor" format="color"/>
-        <attr name="cpv_progressTextSize" format="dimension"/>
-        <attr name="cpv_progressTextOffset" format="dimension"/>
-        <attr name="cpv_progressNormalSize" format="dimension"/>
-        <attr name="cpv_progressReachSize" format="dimension"/>
-        <attr name="cpv_radius" format="dimension"/>
-        <attr name="cpv_progressTextVisible" format="boolean"/>
-        <attr name="cpv_progressStartArc" format="integer"/>
-        <attr name="cpv_progressTextSkewX" format="dimension"/>
-        <attr name="cpv_progressTextPrefix" format="string"/>
-        <attr name="cpv_progressTextSuffix" format="string"/>
-        <attr name="cpv_innerBackgroundColor" format="color"/>
+        <attr name="cpv_progressNormalColor" format="color" />
+        <attr name="cpv_progressReachColor" format="color" />
+        <attr name="cpv_progressTextColor" format="color" />
+        <attr name="cpv_progressTextSize" format="dimension" />
+        <attr name="cpv_progressTextOffset" format="dimension" />
+        <attr name="cpv_progressNormalSize" format="dimension" />
+        <attr name="cpv_progressReachSize" format="dimension" />
+        <attr name="cpv_radius" format="dimension" />
+        <attr name="cpv_progressTextVisible" format="boolean" />
+        <attr name="cpv_progressStartArc" format="integer" />
+        <attr name="cpv_progressTextSkewX" format="dimension" />
+        <attr name="cpv_progressTextPrefix" format="string" />
+        <attr name="cpv_progressTextSuffix" format="string" />
+        <attr name="cpv_innerBackgroundColor" format="color" />
         <attr name="cpv_progressStyle" format="enum">
-            <enum name="Normal" value="0"/>
-            <enum name="FillInner" value="1"/>
-            <enum name="FillInnerArc" value="2"/>
+            <enum name="Normal" value="0" />
+            <enum name="FillInner" value="1" />
+            <enum name="FillInnerArc" value="2" />
         </attr>
-        <attr name="cpv_innerProgressColor" format="color"/>
-        <attr name="cpv_innerPadding" format="dimension"/>
-        <attr name="cpv_outerColor" format="color"/>
-        <attr name="cpv_outerSize" format="dimension"/>
-        <attr name="cpv_reachCapRound" format="boolean"/>
+        <attr name="cpv_innerProgressColor" format="color" />
+        <attr name="cpv_innerPadding" format="dimension" />
+        <attr name="cpv_outerColor" format="color" />
+        <attr name="cpv_outerSize" format="dimension" />
+        <attr name="cpv_reachCapRound" format="boolean" />
     </declare-styleable>
+
     <style name="mystyle" parent="android:Animation">
-        <item name="@android:windowEnterAnimation">@anim/dialog_enter</item>  //进入时的动画
-        <item name="@android:windowExitAnimation">@anim/dialog_exit</item>    //退出时的动画
+        <item name="@android:windowEnterAnimation">@anim/dialog_enter</item>
+        //进入时的动画
+        <item name="@android:windowExitAnimation">@anim/dialog_exit</item>
+        //退出时的动画
     </style>
 
     <style name="dialog_center" parent="android:Animation">
-        <item name="@android:windowEnterAnimation">@anim/dialog_enter_center</item>  //进入时的动画
-        <item name="@android:windowExitAnimation">@anim/dialog_exit_center</item>    //退出时的动画
+        <item name="@android:windowEnterAnimation">@anim/dialog_enter_center</item>
+        //进入时的动画
+        <item name="@android:windowExitAnimation">@anim/dialog_exit_center</item>
+        //退出时的动画
     </style>
-    <style name="notitle" >
+
+    <style name="notitle">
         <item name="android:windowNoTitle">true</item>
     </style>
 
@@ -116,22 +123,24 @@
         <item name="android:windowIsFloating">true</item>
         <item name="android:windowContentOverlay">@null</item>
     </style>
+
     <declare-styleable name="CircularProgressButton">
-        <attr name="cpb_selectorIdle" format="reference"/>
-        <attr name="cpb_selectorComplete" format="reference"/>
-        <attr name="cpb_selectorError" format="reference"/>
-        <attr name="cpb_textComplete" format="string"/>
-        <attr name="cpb_textIdle" format="string"/>
-        <attr name="cpb_textError" format="string"/>
-        <attr name="cpb_textProgress" format="string"/>
-        <attr name="cpb_colorProgress" format="color"/>
-        <attr name="cpb_colorIndicator" format="color"/>
-        <attr name="cpb_colorIndicatorBackground" format="color"/>
-        <attr name="cpb_iconError" format="reference"/>
-        <attr name="cpb_iconComplete" format="reference"/>
-        <attr name="cpb_cornerRadius" format="dimension"/>
-        <attr name="cpb_paddingProgress" format="dimension"/>
+        <attr name="cpb_selectorIdle" format="reference" />
+        <attr name="cpb_selectorComplete" format="reference" />
+        <attr name="cpb_selectorError" format="reference" />
+        <attr name="cpb_textComplete" format="string" />
+        <attr name="cpb_textIdle" format="string" />
+        <attr name="cpb_textError" format="string" />
+        <attr name="cpb_textProgress" format="string" />
+        <attr name="cpb_colorProgress" format="color" />
+        <attr name="cpb_colorIndicator" format="color" />
+        <attr name="cpb_colorIndicatorBackground" format="color" />
+        <attr name="cpb_iconError" format="reference" />
+        <attr name="cpb_iconComplete" format="reference" />
+        <attr name="cpb_cornerRadius" format="dimension" />
+        <attr name="cpb_paddingProgress" format="dimension" />
     </declare-styleable>
+
     <style name="custom_dialog2" parent="@android:style/Theme.Dialog">
         <item name="android:windowFrame">@null</item>
         <!-- Dialog的windowFrame框为无 -->
@@ -178,6 +187,7 @@
         <item name="android:minHeight">16dp</item>
         <item name="android:maxHeight">16dp</item>
     </style>
+
     <style name="Widget.MaterialProgressBar.ProgressBar.Horizontal" parent="android:Widget.ProgressBar.Horizontal">
         <!--
         Disabled for correct behavior on Android 4.x, see
@@ -238,6 +248,7 @@
         <item name="android:minHeight">14dp</item>
         <item name="android:maxHeight">14dp</item>
     </style>
+
     <style name="NumberProgressBar_Default">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">match_parent</item>
@@ -367,6 +378,7 @@
         <item name="progress_reached_bar_height">1.5dp</item>
         <item name="progress_unreached_bar_height">0.75dp</item>
     </style>
+
     <style name="picture_alert_dialog" parent="android:Theme.Dialog">
         <item name="android:windowIsFloating">true</item>
         <item name="android:windowIsTranslucent">false</item>
@@ -433,6 +445,7 @@
         <!--相册文件夹列表选中图标-->
         <item name="picture.folder_checked_dot">@drawable/orange_oval</item>
     </style>
+
     <style name="Theme_dialog" parent="@android:style/Theme.Dialog">
 
         <!-- 边框 -->
@@ -450,6 +463,7 @@
         <!-- 自己想要的背景 -->
         <item name="android:windowBackground">@android:color/transparent</item>
     </style>
+
     <style name="WindowStyle">
         <item name="android:windowEnterAnimation">@anim/fade_in</item>
         <item name="android:windowExitAnimation">@anim/fade_out</item>
@@ -519,9 +533,9 @@
         <!--状态栏背景色-->
         <item name="colorPrimaryDark">@color/common_main</item>
         <!--是否改变图片列表界面状态栏字体颜色为黑色-->
-        <item name="picture.statusFontColor">true</item>
+        <item name="picture.statusFontColor">false</item>
         <!--返回键图标-->
-        <item name="picture.leftBack.icon">@drawable/icon_back_black</item>
+        <item name="picture.leftBack.icon">@drawable/icon_back</item>
         <!--标题下拉箭头-->
         <item name="picture.arrow_down.icon">@drawable/icon_arrow_down</item>
         <!--标题上拉箭头-->
@@ -545,19 +559,19 @@
         <!--图片已选数量圆点背景色-->
         <item name="picture.num.style">@drawable/num_oval_orange</item>
         <!--预览界面标题文字颜色-->
-        <item name="picture.ac_preview.title.textColor">@color/color_53</item>
+        <item name="picture.ac_preview.title.textColor">@color/white</item>
         <!--预览界面已完成文字颜色-->
         <item name="picture.ac_preview.complete.textColor">@color/color_orange</item>
         <!--预览界面标题栏背景色-->
-        <item name="picture.ac_preview.title.bg">@color/white</item>
+        <item name="picture.ac_preview.title.bg">@color/common_main</item>
         <!--预览界面底部背景色-->
         <item name="picture.ac_preview.bottom.bg">@color/color_fa</item>
         <!--预览界面状态栏颜色-->
-        <item name="picture.status.color">@color/white</item>
+        <item name="picture.status.color">@color/common_main</item>
         <!--预览界面返回箭头-->
-        <item name="picture.preview.leftBack.icon">@drawable/icon_back_black</item>
+        <item name="picture.preview.leftBack.icon">@drawable/icon_back</item>
         <!--是否改变预览界面状态栏字体颜色为黑色-->
-        <item name="picture.preview.statusFontColor">true</item>
+        <item name="picture.preview.statusFontColor">false</item>
         <!--裁剪页面标题背景色-->
         <item name="picture.crop.toolbar.bg">@color/bar_grey</item>
         <!--裁剪页面状态栏颜色-->
@@ -572,9 +586,11 @@
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">#FFFF</item>
     </style>
+
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar">
         <item name="android:itemTextAppearance">?android:attr/actionMenuTextAppearance</item>
     </style>
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>

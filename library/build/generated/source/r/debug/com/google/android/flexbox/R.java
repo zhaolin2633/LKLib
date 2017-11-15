@@ -31,25 +31,25 @@ public final class R {
         public static int showDividerVertical = 0x7f0101b6;
     }
     public static final class id {
-        public static int auto = 0x7f100834;
-        public static int baseline = 0x7f100855;
-        public static int beginning = 0x7f100857;
-        public static int center = 0x7f10082c;
-        public static int column = 0x7f10084a;
-        public static int column_reverse = 0x7f10084b;
-        public static int end = 0x7f100839;
-        public static int flex_end = 0x7f100851;
-        public static int flex_start = 0x7f100852;
-        public static int middle = 0x7f100858;
-        public static int none = 0x7f10080b;
-        public static int nowrap = 0x7f10084e;
-        public static int row = 0x7f10084c;
-        public static int row_reverse = 0x7f10084d;
-        public static int space_around = 0x7f100853;
-        public static int space_between = 0x7f100854;
-        public static int stretch = 0x7f100856;
-        public static int wrap = 0x7f10084f;
-        public static int wrap_reverse = 0x7f100850;
+        public static int auto = 0x7f100835;
+        public static int baseline = 0x7f100856;
+        public static int beginning = 0x7f100858;
+        public static int center = 0x7f10082d;
+        public static int column = 0x7f10084b;
+        public static int column_reverse = 0x7f10084c;
+        public static int end = 0x7f10083a;
+        public static int flex_end = 0x7f100852;
+        public static int flex_start = 0x7f100853;
+        public static int middle = 0x7f100859;
+        public static int none = 0x7f10080c;
+        public static int nowrap = 0x7f10084f;
+        public static int row = 0x7f10084d;
+        public static int row_reverse = 0x7f10084e;
+        public static int space_around = 0x7f100854;
+        public static int space_between = 0x7f100855;
+        public static int stretch = 0x7f100857;
+        public static int wrap = 0x7f100850;
+        public static int wrap_reverse = 0x7f100851;
     }
     public static final class styleable {
         public static int[] FlexboxLayout = { 0x7f0101ac, 0x7f0101ad, 0x7f0101ae, 0x7f0101af, 0x7f0101b0, 0x7f0101b1, 0x7f0101b2, 0x7f0101b3, 0x7f0101b4, 0x7f0101b5, 0x7f0101b6 };

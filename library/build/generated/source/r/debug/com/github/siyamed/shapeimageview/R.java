@@ -9,29 +9,29 @@ package com.github.siyamed.shapeimageview;
 public final class R {
     public static final class attr {
         public static int siArrowPosition = 0x7f010036;
-        public static int siBorderAlpha = 0x7f010291;
-        public static int siBorderColor = 0x7f01028f;
+        public static int siBorderAlpha = 0x7f0102b0;
+        public static int siBorderColor = 0x7f0102ae;
         public static int siBorderType = 0x7f010037;
-        public static int siBorderWidth = 0x7f010290;
-        public static int siForeground = 0x7f010292;
-        public static int siRadius = 0x7f010293;
-        public static int siShape = 0x7f010295;
-        public static int siSquare = 0x7f01028e;
+        public static int siBorderWidth = 0x7f0102af;
+        public static int siForeground = 0x7f0102b1;
+        public static int siRadius = 0x7f0102b2;
+        public static int siShape = 0x7f0102b4;
+        public static int siSquare = 0x7f0102ad;
         public static int siStrokeCap = 0x7f010038;
         public static int siStrokeJoin = 0x7f010039;
-        public static int siStrokeMiter = 0x7f010296;
-        public static int siTriangleHeight = 0x7f010294;
+        public static int siStrokeMiter = 0x7f0102b5;
+        public static int siTriangleHeight = 0x7f0102b3;
     }
     public static final class id {
-        public static int bevel = 0x7f1006ac;
-        public static int butt = 0x7f1006a9;
-        public static int fill = 0x7f1006a7;
-        public static int left = 0x7f1006a5;
-        public static int miter = 0x7f1006ad;
-        public static int right = 0x7f1006a6;
-        public static int round = 0x7f1006aa;
-        public static int square = 0x7f1006ab;
-        public static int stroke = 0x7f1006a8;
+        public static int bevel = 0x7f1006ad;
+        public static int butt = 0x7f1006aa;
+        public static int fill = 0x7f1006a8;
+        public static int left = 0x7f1006a6;
+        public static int miter = 0x7f1006ae;
+        public static int right = 0x7f1006a7;
+        public static int round = 0x7f1006ab;
+        public static int square = 0x7f1006ac;
+        public static int stroke = 0x7f1006a9;
     }
     public static final class raw {
         public static int imgview_diamond = 0x7f080001;
@@ -42,7 +42,7 @@ public final class R {
         public static int imgview_star = 0x7f080006;
     }
     public static final class styleable {
-        public static int[] ShaderImageView = { 0x7f010036, 0x7f010037, 0x7f010038, 0x7f010039, 0x7f01028e, 0x7f01028f, 0x7f010290, 0x7f010291, 0x7f010292, 0x7f010293, 0x7f010294, 0x7f010295, 0x7f010296 };
+        public static int[] ShaderImageView = { 0x7f010036, 0x7f010037, 0x7f010038, 0x7f010039, 0x7f0102ad, 0x7f0102ae, 0x7f0102af, 0x7f0102b0, 0x7f0102b1, 0x7f0102b2, 0x7f0102b3, 0x7f0102b4, 0x7f0102b5 };
         public static int ShaderImageView_siArrowPosition = 0;
         public static int ShaderImageView_siBorderAlpha = 7;
         public static int ShaderImageView_siBorderColor = 5;

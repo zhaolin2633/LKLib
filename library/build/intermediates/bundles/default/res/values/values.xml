@@ -2242,7 +2242,7 @@
     <color name="common_disable">#febfbf</color>
     <color name="common_hint">#cccccc</color>
     <color name="common_line">#ededed</color>
-    <color name="common_main">#1E87E6</color>
+    <color name="common_main">#53ccc4</color>
     <color name="common_navigation">#f9f9f9</color>
     <color name="common_title">#1c1c1c</color>
     <color name="common_title_sub">#999999</color>
@@ -2515,6 +2515,7 @@
         </attr></declare-styleable>
     <declare-styleable name="PriceTextView"><attr format="integer" name="symbolSize"/><attr format="integer" name="leftSize"/><attr format="integer" name="rightSize"/><attr format="float" name="price"/><attr format="color" name="priceColor"/></declare-styleable>
     <declare-styleable name="ProgressWheel"><attr format="boolean" name="matProg_progressIndeterminate"/><attr format="color" name="matProg_barColor"/><attr format="color" name="matProg_rimColor"/><attr format="dimension" name="matProg_rimWidth"/><attr format="float" name="matProg_spinSpeed"/><attr format="integer" name="matProg_barSpinCycleTime"/><attr format="dimension" name="matProg_circleRadius"/><attr format="boolean" name="matProg_fillRadius"/><attr format="dimension" name="matProg_barWidth"/><attr format="boolean" name="matProg_linearProgress"/></declare-styleable>
+    <declare-styleable name="QRCodeView"><attr format="dimension|reference" name="qrcv_topOffset"/><attr format="dimension|reference" name="qrcv_cornerSize"/><attr format="dimension|reference" name="qrcv_cornerLength"/><attr format="color|reference" name="qrcv_cornerColor"/><attr format="dimension|reference" name="qrcv_rectWidth"/><attr format="dimension|reference" name="qrcv_barcodeRectHeight"/><attr format="color|reference" name="qrcv_maskColor"/><attr format="dimension|reference" name="qrcv_scanLineSize"/><attr format="color|reference" name="qrcv_scanLineColor"/><attr format="dimension|reference" name="qrcv_scanLineMargin"/><attr format="boolean" name="qrcv_isShowDefaultScanLineDrawable"/><attr format="reference" name="qrcv_customScanLineDrawable"/><attr format="dimension|reference" name="qrcv_borderSize"/><attr format="color|reference" name="qrcv_borderColor"/><attr format="integer" name="qrcv_animTime"/><attr format="boolean" name="qrcv_isCenterVertical"/><attr format="dimension|reference" name="qrcv_toolbarHeight"/><attr format="boolean" name="qrcv_isBarcode"/><attr format="string|reference" name="qrcv_qrCodeTipText"/><attr format="string|reference" name="qrcv_barCodeTipText"/><attr format="dimension|reference" name="qrcv_tipTextSize"/><attr format="color|reference" name="qrcv_tipTextColor"/><attr format="boolean" name="qrcv_isTipTextBelowRect"/><attr format="dimension|reference" name="qrcv_tipTextMargin"/><attr format="boolean" name="qrcv_isShowTipTextAsSingleLine"/><attr format="boolean" name="qrcv_isShowTipBackground"/><attr format="color|reference" name="qrcv_tipBackgroundColor"/><attr format="boolean" name="qrcv_isScanLineReverse"/><attr format="boolean" name="qrcv_isShowDefaultGridScanLineDrawable"/><attr format="reference" name="qrcv_customGridScanLineDrawable"/><attr format="boolean" name="qrcv_isOnlyDecodeScanBoxArea"/></declare-styleable>
     <declare-styleable name="RippleView"><attr format="integer" name="rv_alpha"/><attr format="integer" name="rv_framerate"/><attr format="integer" name="rv_rippleDuration"/><attr format="integer" name="rv_zoomDuration"/><attr format="color" name="rv_color"/><attr format="boolean" name="rv_centered"/><attr format="enum" name="rv_type">
             <enum name="simpleRipple" value="0"/>
             <enum name="doubleRipple" value="1"/>
@@ -2671,6 +2672,7 @@
     <item name="bannerDefaultImage" type="id"/>
     <item name="bannerTitle" type="id"/>
     <item name="bannerViewPager" type="id"/>
+    <item name="bgaqrcode_camera_preview" type="id"/>
     <item name="circleIndicator" type="id"/>
     <item name="content_view" type="id"/>
     <item name="empty_retry_view" type="id"/>
@@ -3113,12 +3115,16 @@
         <item name="android:backgroundDimAmount">0.3</item>
     </style>
     <style name="dialog_center" parent="android:Animation">
-        <item name="@android:windowEnterAnimation">@anim/dialog_enter_center</item>  //进入时的动画
-        <item name="@android:windowExitAnimation">@anim/dialog_exit_center</item>    //退出时的动画
+        <item name="@android:windowEnterAnimation">@anim/dialog_enter_center</item>
+        //进入时的动画
+        <item name="@android:windowExitAnimation">@anim/dialog_exit_center</item>
+        //退出时的动画
     </style>
     <style name="mystyle" parent="android:Animation">
-        <item name="@android:windowEnterAnimation">@anim/dialog_enter</item>  //进入时的动画
-        <item name="@android:windowExitAnimation">@anim/dialog_exit</item>    //退出时的动画
+        <item name="@android:windowEnterAnimation">@anim/dialog_enter</item>
+        //进入时的动画
+        <item name="@android:windowExitAnimation">@anim/dialog_exit</item>
+        //退出时的动画
     </style>
     <style name="notitle">
         <item name="android:windowNoTitle">true</item>
@@ -3134,9 +3140,9 @@
         <!--状态栏背景色-->
         <item name="colorPrimaryDark">@color/common_main</item>
         <!--是否改变图片列表界面状态栏字体颜色为黑色-->
-        <item name="picture.statusFontColor">true</item>
+        <item name="picture.statusFontColor">false</item>
         <!--返回键图标-->
-        <item name="picture.leftBack.icon">@drawable/icon_back_black</item>
+        <item name="picture.leftBack.icon">@drawable/icon_back</item>
         <!--标题下拉箭头-->
         <item name="picture.arrow_down.icon">@drawable/icon_arrow_down</item>
         <!--标题上拉箭头-->
@@ -3160,19 +3166,19 @@
         <!--图片已选数量圆点背景色-->
         <item name="picture.num.style">@drawable/num_oval_orange</item>
         <!--预览界面标题文字颜色-->
-        <item name="picture.ac_preview.title.textColor">@color/color_53</item>
+        <item name="picture.ac_preview.title.textColor">@color/white</item>
         <!--预览界面已完成文字颜色-->
         <item name="picture.ac_preview.complete.textColor">@color/color_orange</item>
         <!--预览界面标题栏背景色-->
-        <item name="picture.ac_preview.title.bg">@color/white</item>
+        <item name="picture.ac_preview.title.bg">@color/common_main</item>
         <!--预览界面底部背景色-->
         <item name="picture.ac_preview.bottom.bg">@color/color_fa</item>
         <!--预览界面状态栏颜色-->
-        <item name="picture.status.color">@color/white</item>
+        <item name="picture.status.color">@color/common_main</item>
         <!--预览界面返回箭头-->
-        <item name="picture.preview.leftBack.icon">@drawable/icon_back_black</item>
+        <item name="picture.preview.leftBack.icon">@drawable/icon_back</item>
         <!--是否改变预览界面状态栏字体颜色为黑色-->
-        <item name="picture.preview.statusFontColor">true</item>
+        <item name="picture.preview.statusFontColor">false</item>
         <!--裁剪页面标题背景色-->
         <item name="picture.crop.toolbar.bg">@color/bar_grey</item>
         <!--裁剪页面状态栏颜色-->

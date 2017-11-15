@@ -37,11 +37,11 @@ public class PictureUtils {
         return sPickPhotoUtils;
     }
 
-    public void init(Activity activity) {
+    public void init(Activity activity,int maxSelectNum,int themeStyleId) {
         PictureSelector.create(activity)
                 .openGallery(PictureMimeType.ofImage())
-                .theme(R.style.picture_Sina_style)// 主题样式设置
-                .maxSelectNum(9)// 最大图片选择数量
+                .theme(themeStyleId)// 主题样式设置
+                .maxSelectNum(maxSelectNum)// 最大图片选择数量
                 .minSelectNum(1)// 最小选择数量
                 .selectionMode(PictureConfig.MULTIPLE)
                 .previewImage(false)// 是否可预览图片

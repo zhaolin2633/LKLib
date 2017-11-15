@@ -69,4 +69,5 @@ dependencies {
     compile 'cn.bingoogolapple:bga-banner:2.1.7@aar'
     compile 'com.android.support:multidex:1.0.1'
 
+    compile 'com.google.zxing:core:3.3.0'
 }

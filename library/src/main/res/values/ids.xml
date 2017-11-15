@@ -9,4 +9,6 @@
     <item name="numIndicatorInside" type="id"/>
     <item name="indicatorInside" type="id"/>
     <item name="bannerDefaultImage" type="id"/>
+
+    <item type="id" name="bgaqrcode_camera_preview" />
 </resources>
