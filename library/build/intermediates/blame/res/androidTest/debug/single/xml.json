@@ -1,23 +1,7 @@
 [
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\provider_paths.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\xml\\provider_paths.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\file_paths.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\xml\\file_paths.xml"
-    },
-    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\provider_paths.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\xml\\provider_paths.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\provider_paths.xml",
-        "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\xml\\provider_paths.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\file_paths.xml",
-        "source": "E:\\androidstudioproject_zl_project\\zl_project\\library\\build\\intermediates\\bundles\\debug\\res\\xml\\file_paths.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\file_paths.xml",

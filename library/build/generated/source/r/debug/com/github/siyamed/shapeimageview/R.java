@@ -23,23 +23,23 @@ public final class R {
         public static int siTriangleHeight = 0x7f0102b3;
     }
     public static final class id {
-        public static int bevel = 0x7f1006ad;
-        public static int butt = 0x7f1006aa;
-        public static int fill = 0x7f1006a8;
-        public static int left = 0x7f1006a6;
-        public static int miter = 0x7f1006ae;
-        public static int right = 0x7f1006a7;
-        public static int round = 0x7f1006ab;
-        public static int square = 0x7f1006ac;
-        public static int stroke = 0x7f1006a9;
+        public static int bevel = 0x7f1006a1;
+        public static int butt = 0x7f10069e;
+        public static int fill = 0x7f10069c;
+        public static int left = 0x7f10069a;
+        public static int miter = 0x7f1006a2;
+        public static int right = 0x7f10069b;
+        public static int round = 0x7f10069f;
+        public static int square = 0x7f1006a0;
+        public static int stroke = 0x7f10069d;
     }
     public static final class raw {
-        public static int imgview_diamond = 0x7f080001;
-        public static int imgview_heart = 0x7f080002;
-        public static int imgview_hexagon = 0x7f080003;
-        public static int imgview_octogon = 0x7f080004;
-        public static int imgview_pentagon = 0x7f080005;
-        public static int imgview_star = 0x7f080006;
+        public static int imgview_diamond = 0x7f080000;
+        public static int imgview_heart = 0x7f080001;
+        public static int imgview_hexagon = 0x7f080002;
+        public static int imgview_octogon = 0x7f080003;
+        public static int imgview_pentagon = 0x7f080004;
+        public static int imgview_star = 0x7f080005;
     }
     public static final class styleable {
         public static int[] ShaderImageView = { 0x7f010036, 0x7f010037, 0x7f010038, 0x7f010039, 0x7f0102ad, 0x7f0102ae, 0x7f0102af, 0x7f0102b0, 0x7f0102b1, 0x7f0102b2, 0x7f0102b3, 0x7f0102b4, 0x7f0102b5 };

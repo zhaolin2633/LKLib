@@ -2172,7 +2172,6 @@
     <color name="background_window">#f1f1f1</color>
     <color name="bar_grey">#393a3e</color>
     <color name="bar_grey_90">#dd393a3e</color>
-    <color name="bg_color">#EDEDED</color>
     <color name="bg_white">#ffffff</color>
     <color name="black">#ff000000</color>
     <color name="black_07">#07000000</color>
@@ -2232,7 +2231,6 @@
     <color name="cardShadowColor_6">#19222222</color>
     <color name="cardShadowColor_7">#1b222222</color>
     <color name="cardShadowColor_8">#20222222</color>
-    <color name="cc">#59a9ff</color>
     <color name="check_bg">#f2f2f2</color>
     <color name="colorAccent">#999999</color>
     <color name="colorPrimary">#1E87E6</color>
@@ -2324,7 +2322,6 @@
     <color name="contact_letter_idx_bg">#33000000</color>
     <color name="contact_list_hover">#d9d9d9</color>
     <color name="contacts_letters_color">#80807c</color>
-    <color name="contents_text">#ff000000</color>
     <color name="cpb_blue">#ff0099cc</color>
     <color name="cpb_blue_dark">#ff00719b</color>
     <color name="cpb_green">#ff99cc00</color>
@@ -2367,7 +2364,6 @@
     <color name="drop_down_selected">#7B1FA2</color>
     <color name="drop_down_unselected">#111111</color>
     <color name="edit_lable_back">#05000000</color>
-    <color name="encode_view">#ffffffff</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
     <color name="g_child_page_bg_color">#FFFFFF</color>
@@ -2378,11 +2374,7 @@
     <color name="grey">#333333</color>
     <color name="grey_white">#F7F7F7</color>
     <color name="grey_white_has_alpha">#66FAFAFA</color>
-    <color name="grgray">#686868</color>
-    <color name="header">#58567D</color>
-    <color name="help_button_view">#ffcccccc</color>
     <color name="help_color">#ff999999</color>
-    <color name="help_view">#ff404040</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="im_list_select_hover">#dbdbdb</color>
@@ -2423,7 +2415,6 @@
     <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
     <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
     <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
-    <color name="possible_result_points">#c0ffff00</color>
     <color name="press_mask">#33000000</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
@@ -2433,30 +2424,15 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
-    <color name="result_image_border">#ffffffff</color>
-    <color name="result_minor_text">#ffc0c0c0</color>
-    <color name="result_points">#c000ff00</color>
-    <color name="result_text">#ffffffff</color>
-    <color name="result_view">#b0000000</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
-    <color name="sbc_header_text">#ff808080</color>
-    <color name="sbc_header_view">#ffffffff</color>
-    <color name="sbc_layout_view">#ffffffff</color>
-    <color name="sbc_list_item">#fffff0e0</color>
-    <color name="sbc_page_number_text">#ff000000</color>
-    <color name="sbc_snippet_text">#ff4b4b4b</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
     <color name="shadow">#5f000000</color>
     <color name="shadow_blue">#283B97E9</color>
-    <color name="share_text">#ff000000</color>
-    <color name="share_view">#ffffffff</color>
     <color name="split_line_grey_color_d9d9d9">#D9D9D9</color>
-    <color name="status_text">#ffffffff</color>
-    <color name="status_view">#50000000</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
@@ -2495,9 +2471,6 @@
     <color name="ucrop_color_widget_background">#fff</color>
     <color name="ucrop_color_widget_text">#000</color>
     <color name="un_press_color">#9C27B0</color>
-    <color name="viewfinder_frame">#ff000000</color>
-    <color name="viewfinder_laser">#ffff0000</color>
-    <color name="viewfinder_mask">#60000000</color>
     <color name="vpi__background_holo_dark">#ff000000</color>
     <color name="vpi__background_holo_light">#fff3f3f3</color>
     <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
@@ -3099,7 +3072,6 @@
         </attr></declare-styleable>
     <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
-    <declare-styleable name="ViewfinderView"><attr format="dimension" name="inner_width"/><attr format="dimension" name="inner_height"/><attr format="dimension" name="inner_margintop"/><attr format="color" name="inner_corner_color"/><attr format="dimension" name="inner_corner_length"/><attr format="dimension" name="inner_corner_width"/><attr format="reference" name="inner_scan_bitmap"/><attr format="integer" name="inner_scan_speed"/><attr format="boolean" name="inner_scan_iscircle"/></declare-styleable>
     <declare-styleable name="pickerview"><attr name="pickerview_gravity">
             <enum name="center" value="17"/>
             <enum name="left" value="3"/>
@@ -3366,7 +3338,6 @@
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
-    <item name="auto_focus" type="id"/>
     <item name="bannerContainer" type="id"/>
     <item name="bannerDefaultImage" type="id"/>
     <item name="bannerTitle" type="id"/>
@@ -3375,13 +3346,8 @@
     <item name="bgaqrcode_camera_preview" type="id"/>
     <item name="circleIndicator" type="id"/>
     <item name="content_view" type="id"/>
-    <item name="decode" type="id"/>
-    <item name="decode_failed" type="id"/>
-    <item name="decode_succeeded" type="id"/>
     <item name="empty_retry_view" type="id"/>
     <item name="empty_view" type="id"/>
-    <item name="encode_failed" type="id"/>
-    <item name="encode_succeeded" type="id"/>
     <item name="error_retry_view" type="id"/>
     <item name="error_view" type="id"/>
     <item name="expand_collapse" type="id"/>
@@ -3393,7 +3359,6 @@
     <item name="id_stickynavlayout_viewpager" type="id"/>
     <item name="indicatorInside" type="id"/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
-    <item name="launch_product_query" type="id"/>
     <item name="loading_view" type="id"/>
     <item name="no_network_retry_view" type="id"/>
     <item name="no_network_view" type="id"/>
@@ -3401,11 +3366,6 @@
     <item name="numIndicatorInside" type="id"/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
-    <item name="quit" type="id"/>
-    <item name="restart_preview" type="id"/>
-    <item name="return_scan_result" type="id"/>
-    <item name="search_book_contents_failed" type="id"/>
-    <item name="search_book_contents_succeeded" type="id"/>
     <item name="split_action_bar" type="id"/>
     <item name="statusbarutil_fake_status_bar_view" type="id"/>
     <item name="statusbarutil_translucent_view" type="id"/>
@@ -3478,7 +3438,6 @@
     <string name="expand">查看全部</string>
     <string name="gallery_invalid">你的手机没有图库程序</string>
     <string name="gif_tag">动图</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="image_compressed_size">该原始图片大小为: %1$s,</string>
     <string name="image_show_error">图片显示异常</string>
     <string name="is_send_image">是否发送该原始图片？</string>
@@ -3571,19 +3530,8 @@
         <item name="android:windowEnterAnimation">@anim/design_bottom_sheet_slide_in</item>
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
     </style>
-    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
-        <!-- API 14 theme customizations can go here. -->
-        <item name="android:actionBarStyle">@style/my_actionbar_style</item>
-    </style>
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-    </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar">
         <item name="android:itemTextAppearance">?android:attr/actionMenuTextAppearance</item>
-    </style>
-    <style name="AppTheme.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -5412,9 +5360,6 @@
         //进入时的动画
         <item name="@android:windowExitAnimation">@anim/dialog_exit_center</item>
         //退出时的动画
-    </style>
-    <style name="my_actionbar_style" parent="@android:style/Widget.Holo.Light.ActionBar">
-        <item name="android:background">#FFFFFF</item>
     </style>
     <style name="mystyle" parent="android:Animation">
         <item name="@android:windowEnterAnimation">@anim/dialog_enter</item>

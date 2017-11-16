@@ -40,7 +40,7 @@
         app:qrcv_barcodeRectHeight="120dp"
         app:qrcv_borderColor="@android:color/white"
         app:qrcv_borderSize="1dp"
-        app:qrcv_cornerColor="@color/colorPrimaryDark"
+        app:qrcv_cornerColor="@color/common_main"
         app:qrcv_cornerLength="20dp"
         app:qrcv_cornerSize="3dp"
         app:qrcv_customScanLineDrawable="@drawable/qrcode_default_scan_line"
@@ -62,7 +62,7 @@
         app:qrcv_tipTextColor="@android:color/white"
         app:qrcv_tipTextSize="12sp"
         app:qrcv_toolbarHeight="56dp"
-        app:qrcv_topOffset="5dp"/>
+      />
 
     <LinearLayout
         android:id="@+id/ll_bottom"
@@ -85,7 +85,7 @@
                 android:id="@+id/iv_scan"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:src="@drawable/icon_sacn" />
+                android:src="@drawable/icon_sacn_h" />
 
             <TextView
                 android:id="@+id/tv_scan"
@@ -93,7 +93,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="二维码"
-                android:textColor="@color/white"
+                android:textColor="@color/common_main"
                 android:textSize="14sp" />
         </LinearLayout>
 
@@ -110,7 +110,7 @@
                 android:id="@+id/iv_photo"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:src="@drawable/ic_placeholder" />
+                android:src="@drawable/icon_photo_n" />
 
             <TextView
                 android:id="@+id/tv_photo"
@@ -118,7 +118,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="相册"
-                android:textColor="@color/white"
+                android:textColor="@color/color_888888"
                 android:textSize="14sp" />
         </LinearLayout>
     </LinearLayout>

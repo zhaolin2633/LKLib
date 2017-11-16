@@ -23,8 +23,8 @@ public final class R {
         public static final int ic_expand_small_holo_light = 0x7f02009b;
     }
     public static final class id {
-        public static final int expand_collapse = 0x7f100017;
-        public static final int expandable_text = 0x7f100018;
+        public static final int expand_collapse = 0x7f100011;
+        public static final int expandable_text = 0x7f100012;
     }
     public static final class styleable {
         public static final int[] ExpandableTextView = { 0x7f0101a7, 0x7f0101a8, 0x7f0101a9, 0x7f0101aa, 0x7f0101ab };

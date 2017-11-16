@@ -35,25 +35,25 @@ public final class R {
         public static final int bga_banner_selector_point_solid = 0x7f02006b;
     }
     public static final class id {
-        public static final int accordion = 0x7f100820;
-        public static final int alpha = 0x7f100821;
-        public static final int banner_indicatorId = 0x7f10000a;
-        public static final int bottom = 0x7f10081d;
-        public static final int center_horizontal = 0x7f10081e;
-        public static final int cube = 0x7f100822;
-        public static final int defaultEffect = 0x7f100823;
-        public static final int depth = 0x7f100824;
-        public static final int fade = 0x7f100825;
-        public static final int flip = 0x7f100826;
-        public static final int left = 0x7f1006a6;
-        public static final int right = 0x7f1006a7;
-        public static final int rotate = 0x7f100827;
-        public static final int stack = 0x7f100828;
-        public static final int top = 0x7f10081f;
-        public static final int zoom = 0x7f100829;
-        public static final int zoomCenter = 0x7f10082a;
-        public static final int zoomFade = 0x7f10082b;
-        public static final int zoomStack = 0x7f10082c;
+        public static final int accordion = 0x7f100814;
+        public static final int alpha = 0x7f100815;
+        public static final int banner_indicatorId = 0x7f100009;
+        public static final int bottom = 0x7f100811;
+        public static final int center_horizontal = 0x7f100812;
+        public static final int cube = 0x7f100816;
+        public static final int defaultEffect = 0x7f100817;
+        public static final int depth = 0x7f100818;
+        public static final int fade = 0x7f100819;
+        public static final int flip = 0x7f10081a;
+        public static final int left = 0x7f10069a;
+        public static final int right = 0x7f10069b;
+        public static final int rotate = 0x7f10081b;
+        public static final int stack = 0x7f10081c;
+        public static final int top = 0x7f100813;
+        public static final int zoom = 0x7f10081d;
+        public static final int zoomCenter = 0x7f10081e;
+        public static final int zoomFade = 0x7f10081f;
+        public static final int zoomStack = 0x7f100820;
     }
     public static final class layout {
         public static final int bga_banner_item_image = 0x7f040026;

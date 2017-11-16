@@ -3,9 +3,7 @@ package cn.app.library.ui.zixing;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.os.AsyncTask;
-import android.os.Bundle;
 import android.os.Vibrator;
 import android.support.v4.content.ContextCompat;
 import android.text.TextUtils;
@@ -17,7 +15,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.uuzuche.lib_zxing.activity.CodeUtils;
 
 import java.util.List;
 
@@ -258,30 +255,4 @@ public abstract class CaptureActivity extends BaseAppCompatActivity implements V
         super.onPause();
     }
 
-    /**
-     * 二维码解析回调函数
-     */
-    CodeUtils.AnalyzeCallback analyzeCallback = new CodeUtils.AnalyzeCallback() {
-        @Override
-        public void onAnalyzeSuccess(Bitmap mBitmap, String result) {
-            Intent resultIntent = new Intent();
-            Bundle bundle = new Bundle();
-            bundle.putInt(CodeUtils.RESULT_TYPE, CodeUtils.RESULT_SUCCESS);
-            bundle.putString(CodeUtils.RESULT_STRING, result);
-            resultIntent.putExtras(bundle);
-            CaptureActivity.this.setResult(RESULT_OK, resultIntent);
-            CaptureActivity.this.finish();
-        }
-
-        @Override
-        public void onAnalyzeFailed() {
-            Intent resultIntent = new Intent();
-            Bundle bundle = new Bundle();
-            bundle.putInt(CodeUtils.RESULT_TYPE, CodeUtils.RESULT_FAILED);
-            bundle.putString(CodeUtils.RESULT_STRING, "");
-            resultIntent.putExtras(bundle);
-            CaptureActivity.this.setResult(RESULT_OK, resultIntent);
-            CaptureActivity.this.finish();
-        }
-    };
 }
