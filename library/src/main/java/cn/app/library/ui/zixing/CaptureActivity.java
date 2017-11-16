@@ -156,11 +156,13 @@ public abstract class CaptureActivity extends BaseAppCompatActivity implements V
 
         @Override
         protected String doInBackground(Void... params) {
+            showLoding("正在识别");
             return QRCodeDecoder.syncDecodeQRCode(picturePath);
         }
 
         @Override
         protected void onPostExecute(String result) {
+            dismissLoading();
             if (TextUtils.isEmpty(result)) {
                 showToast("未发现二维码");
             } else {
