@@ -52,7 +52,7 @@
     </RelativeLayout>
 
 
-    <com.luck.picture.lib.widget.PreviewViewPager
+    <cn.app.library.picture.lib.widget.PreviewViewPager
         android:id="@+id/preview_pager"
         android:layout_width="match_parent"
         android:layout_height="0dp"

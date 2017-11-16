@@ -85,7 +85,7 @@
                 android:id="@+id/iv_scan"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:src="@drawable/icon_sacn" />
+                android:src="@drawable/icon_sacn_h" />
 
             <TextView
                 android:id="@+id/tv_scan"
@@ -93,7 +93,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="二维码"
-                android:textColor="@color/white"
+                android:textColor="@color/common_main"
                 android:textSize="14sp" />
         </LinearLayout>
 
@@ -110,7 +110,7 @@
                 android:id="@+id/iv_photo"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:src="@drawable/ic_placeholder" />
+                android:src="@drawable/icon_photo_n" />
 
             <TextView
                 android:id="@+id/tv_photo"

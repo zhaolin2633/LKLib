@@ -2242,7 +2242,7 @@
     <color name="common_disable">#febfbf</color>
     <color name="common_hint">#cccccc</color>
     <color name="common_line">#ededed</color>
-    <color name="common_main">#1E87E6</color>
+    <color name="common_main">#53ccc4</color>
     <color name="common_navigation">#f9f9f9</color>
     <color name="common_title">#1c1c1c</color>
     <color name="common_title_sub">#999999</color>
@@ -3115,12 +3115,16 @@
         <item name="android:backgroundDimAmount">0.3</item>
     </style>
     <style name="dialog_center" parent="android:Animation">
-        <item name="@android:windowEnterAnimation">@anim/dialog_enter_center</item>  //进入时的动画
-        <item name="@android:windowExitAnimation">@anim/dialog_exit_center</item>    //退出时的动画
+        <item name="@android:windowEnterAnimation">@anim/dialog_enter_center</item>
+        //进入时的动画
+        <item name="@android:windowExitAnimation">@anim/dialog_exit_center</item>
+        //退出时的动画
     </style>
     <style name="mystyle" parent="android:Animation">
-        <item name="@android:windowEnterAnimation">@anim/dialog_enter</item>  //进入时的动画
-        <item name="@android:windowExitAnimation">@anim/dialog_exit</item>    //退出时的动画
+        <item name="@android:windowEnterAnimation">@anim/dialog_enter</item>
+        //进入时的动画
+        <item name="@android:windowExitAnimation">@anim/dialog_exit</item>
+        //退出时的动画
     </style>
     <style name="notitle">
         <item name="android:windowNoTitle">true</item>
@@ -3136,9 +3140,9 @@
         <!--状态栏背景色-->
         <item name="colorPrimaryDark">@color/common_main</item>
         <!--是否改变图片列表界面状态栏字体颜色为黑色-->
-        <item name="picture.statusFontColor">true</item>
+        <item name="picture.statusFontColor">false</item>
         <!--返回键图标-->
-        <item name="picture.leftBack.icon">@drawable/icon_back_black</item>
+        <item name="picture.leftBack.icon">@drawable/icon_back</item>
         <!--标题下拉箭头-->
         <item name="picture.arrow_down.icon">@drawable/icon_arrow_down</item>
         <!--标题上拉箭头-->
@@ -3162,19 +3166,19 @@
         <!--图片已选数量圆点背景色-->
         <item name="picture.num.style">@drawable/num_oval_orange</item>
         <!--预览界面标题文字颜色-->
-        <item name="picture.ac_preview.title.textColor">@color/color_53</item>
+        <item name="picture.ac_preview.title.textColor">@color/white</item>
         <!--预览界面已完成文字颜色-->
         <item name="picture.ac_preview.complete.textColor">@color/color_orange</item>
         <!--预览界面标题栏背景色-->
-        <item name="picture.ac_preview.title.bg">@color/white</item>
+        <item name="picture.ac_preview.title.bg">@color/common_main</item>
         <!--预览界面底部背景色-->
         <item name="picture.ac_preview.bottom.bg">@color/color_fa</item>
         <!--预览界面状态栏颜色-->
-        <item name="picture.status.color">@color/white</item>
+        <item name="picture.status.color">@color/common_main</item>
         <!--预览界面返回箭头-->
-        <item name="picture.preview.leftBack.icon">@drawable/icon_back_black</item>
+        <item name="picture.preview.leftBack.icon">@drawable/icon_back</item>
         <!--是否改变预览界面状态栏字体颜色为黑色-->
-        <item name="picture.preview.statusFontColor">true</item>
+        <item name="picture.preview.statusFontColor">false</item>
         <!--裁剪页面标题背景色-->
         <item name="picture.crop.toolbar.bg">@color/bar_grey</item>
         <!--裁剪页面状态栏颜色-->
