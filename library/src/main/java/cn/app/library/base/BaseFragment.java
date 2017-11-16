@@ -15,7 +15,6 @@ import com.trello.rxlifecycle2.components.support.RxFragment;
 
 import butterknife.ButterKnife;
 import cn.app.library.rxeasyhttp.http.utils.Utils;
-import cn.app.library.ui.zixing.helper.CaptureHelper;
 import cn.app.library.widget.toast.ToastCustomUtils;
 import cn.app.library.widget.toast.ToastTextUtil;
 import cn.app.library.widget.toast.ToastUtil;
@@ -299,11 +298,5 @@ public abstract class BaseFragment extends RxFragment {
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent intent) {
         super.onActivityResult(requestCode, resultCode, intent);
-
-        if (resultCode == Activity.RESULT_OK) {
-            CaptureHelper.onActivityResult(getActivity(), requestCode, intent);
-        } else if (resultCode == Activity.RESULT_CANCELED) {
-            // Handle cancel
-        }
     }
 }

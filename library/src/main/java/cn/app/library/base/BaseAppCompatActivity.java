@@ -37,7 +37,6 @@ import cn.app.library.dialog.styleddialog.StyledDialog;
 import cn.app.library.picture.lib.permissions.Permission;
 import cn.app.library.picture.lib.permissions.RxPermissions;
 import cn.app.library.rxeasyhttp.http.utils.Utils;
-import cn.app.library.ui.zixing.helper.CaptureHelper;
 import cn.app.library.utils.ScreenUtil;
 import cn.app.library.widget.toast.ToastCustomUtils;
 import cn.app.library.widget.toast.ToastTextUtil;
@@ -607,11 +606,5 @@ public abstract class BaseAppCompatActivity extends RxAppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent intent) {
         super.onActivityResult(requestCode, resultCode, intent);
-
-        if (resultCode == Activity.RESULT_OK) {
-            CaptureHelper.onActivityResult(this, requestCode, intent);
-        } else if (resultCode == Activity.RESULT_CANCELED) {
-            // Handle cancel
-        }
     }
 }
