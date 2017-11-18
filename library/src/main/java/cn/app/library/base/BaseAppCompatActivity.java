@@ -2,7 +2,6 @@ package cn.app.library.base;
 
 import android.Manifest;
 import android.annotation.TargetApi;
-import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -72,10 +71,7 @@ public abstract class BaseAppCompatActivity extends RxAppCompatActivity {
                         .doOnSubscribe(new Consumer<Disposable>() {
                             @Override
                             public void accept(Disposable disposable) throws Exception {
-                                // 可添加网络连接判断等
-                                if (!Utils.isNetworkAvailable(BaseAppCompatActivity.this)) {
-                                    //showToast("网络连接断开");
-                                }
+
                             }
                         })
                         .observeOn(AndroidSchedulers.mainThread())
@@ -220,12 +216,17 @@ public abstract class BaseAppCompatActivity extends RxAppCompatActivity {
      * @return
      */
     protected boolean isConnected() {
-        ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
-        if (connectivityManager != null && connectivityManager.getActiveNetworkInfo() != null) {
-            return connectivityManager.getActiveNetworkInfo().isAvailable();
-        } else {
-            return false;
+        try {
+            ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+            if (connectivityManager != null && connectivityManager.getActiveNetworkInfo() != null) {
+                return connectivityManager.getActiveNetworkInfo().isAvailable();
+            } else {
+                return false;
+            }
+        } catch (Exception e) {
+
         }
+        return false;
     }
 
     private void initReceiver() {
@@ -233,7 +234,7 @@ public abstract class BaseAppCompatActivity extends RxAppCompatActivity {
 
             @Override
             public void onReceive(Context context, Intent intent) {
-                if (intent.getAction().equals(ConnectivityManager.CONNECTIVITY_ACTION)) {
+                if (intent!=null&&intent.getAction().equals(ConnectivityManager.CONNECTIVITY_ACTION)) {
                     if (!isConnected()) {
                         ToastCustomUtils.showShort(BaseAppCompatActivity.this, "网络连接断开，请检查网络设置");
                     }
