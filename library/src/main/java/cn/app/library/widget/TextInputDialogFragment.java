@@ -53,6 +53,7 @@ public class TextInputDialogFragment extends BaseDialogFragment {
 
     public interface OnItemClickLisnner {
         public void onItemClick(View v, TextType bean);
+        public void onCancelClick(View v, TextType bean);
     }
 
     @Override
@@ -78,6 +79,11 @@ public class TextInputDialogFragment extends BaseDialogFragment {
         tv_cancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if (text == null)
+                    text = new TextType();
+                text.inputText = ed_input.getText().toString().trim();
+                if (onItemClickLisnner != null)
+                    onItemClickLisnner.onCancelClick(v, text);
                 dismiss();
             }
         });
@@ -93,6 +99,7 @@ public class TextInputDialogFragment extends BaseDialogFragment {
                 text.inputText = ed_input.getText().toString().trim();
                 if (onItemClickLisnner != null)
                     onItemClickLisnner.onItemClick(v, text);
+
                 dismiss();
             }
         });

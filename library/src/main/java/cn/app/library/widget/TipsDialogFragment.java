@@ -51,7 +51,9 @@ public class TipsDialogFragment extends BaseDialogFragment {
     OnItemClickLisnner onItemClickLisnner;
 
     public interface OnItemClickLisnner {
-        public void onItemClick(View v, TextType bean);
+        public void onLeftClick(View v, TextType bean);
+
+        public void onRightClick(View v, TextType bean);
     }
 
     @Override
@@ -68,10 +70,10 @@ public class TipsDialogFragment extends BaseDialogFragment {
             tv_cancel.setVisibility(text.isHindLeftBtn ? View.VISIBLE : View.GONE);
             tv_ok.setVisibility(text.isHindRghitBtn ? View.VISIBLE : View.GONE);
         }
-        if (text!=null&&text.leftTextColor > 0) {
+        if (text != null && text.leftTextColor > 0) {
             tv_cancel.setTextColor(ContextCompat.getColor(getActivity(), text.leftTextColor));
         }
-        if (text!=null&&text.rghitTextColor > 0) {
+        if (text != null && text.rghitTextColor > 0) {
             tv_ok.setTextColor(ContextCompat.getColor(getActivity(), text.rghitTextColor));
         }
         tv_ok.setText(text != null && !TextUtils.isEmpty(text.rghitText) ? text.rghitText : "完成");
@@ -79,6 +81,8 @@ public class TipsDialogFragment extends BaseDialogFragment {
         tv_cancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if (onItemClickLisnner != null)
+                    onItemClickLisnner.onLeftClick(v, text);
                 dismiss();
             }
         });
@@ -86,7 +90,7 @@ public class TipsDialogFragment extends BaseDialogFragment {
             @Override
             public void onClick(View v) {
                 if (onItemClickLisnner != null)
-                    onItemClickLisnner.onItemClick(v, text);
+                    onItemClickLisnner.onRightClick(v, text);
                 dismiss();
             }
         });
