@@ -2,7 +2,7 @@ package cn.app.library.widget;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.text.InputType;
+import android.support.v4.content.ContextCompat;
 import android.text.TextUtils;
 import android.view.Gravity;
 import android.view.View;
@@ -14,7 +14,6 @@ import java.io.Serializable;
 import cn.app.library.R;
 import cn.app.library.base.BaseDialogFragment;
 import cn.app.library.utils.ScreenUtil;
-import cn.app.library.widget.toast.ToastUtil;
 
 
 /**
@@ -22,17 +21,17 @@ import cn.app.library.widget.toast.ToastUtil;
  * 文字输入弹出框
  */
 
-public class TextInputDialogFragment extends BaseDialogFragment {
-    ClearEditText ed_input;
+public class TipsDialogFragment extends BaseDialogFragment {
+    TextView ed_input;
     TextView tv_title;
     TextView tv_cancel;
     TextView tv_ok;
     TextType text;
 
-    public static TextInputDialogFragment newInstance(TextType text) {
+    public static TipsDialogFragment newInstance(TextType text) {
         Bundle args = new Bundle();
         args.putSerializable("data", text);
-        TextInputDialogFragment fragment = new TextInputDialogFragment();
+        TipsDialogFragment fragment = new TipsDialogFragment();
         fragment.setArguments(args);
         return fragment;
     }
@@ -41,7 +40,7 @@ public class TextInputDialogFragment extends BaseDialogFragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.dialog_input_text);
+        setContentView(R.layout.dialog_tips);
         init();
     }
 
@@ -69,12 +68,14 @@ public class TextInputDialogFragment extends BaseDialogFragment {
             tv_cancel.setVisibility(text.isHindLeftBtn ? View.VISIBLE : View.GONE);
             tv_ok.setVisibility(text.isHindRghitBtn ? View.VISIBLE : View.GONE);
         }
-        tv_ok.setText(text != null && !TextUtils.isEmpty(text.rghitText) ? text.rghitText : "完成");
-        ed_input.setHint(text != null && !TextUtils.isEmpty(text.inputHintText) ? text.inputHintText : "请输入内容");
-        if (text != null && !TextUtils.isEmpty(text.inputText)) {
-            ed_input.setText(text.inputText);
+        if (text!=null&&text.leftTextColor > 0) {
+            tv_cancel.setTextColor(ContextCompat.getColor(getActivity(), text.leftTextColor));
         }
-        ed_input.setInputType(text != null && text.inputType > 0 ? text.inputType : InputType.TYPE_CLASS_TEXT);
+        if (text!=null&&text.rghitTextColor > 0) {
+            tv_ok.setTextColor(ContextCompat.getColor(getActivity(), text.rghitTextColor));
+        }
+        tv_ok.setText(text != null && !TextUtils.isEmpty(text.rghitText) ? text.rghitText : "完成");
+        ed_input.setText(text.inputText);
         tv_cancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -84,13 +85,6 @@ public class TextInputDialogFragment extends BaseDialogFragment {
         tv_ok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (TextUtils.isEmpty(ed_input.getText().toString().trim())) {
-                    ToastUtil.show("请输入内容");
-                    return;
-                }
-                if (text == null)
-                    text = new TextType();
-                text.inputText = ed_input.getText().toString().trim();
                 if (onItemClickLisnner != null)
                     onItemClickLisnner.onItemClick(v, text);
                 dismiss();
@@ -119,8 +113,8 @@ public class TextInputDialogFragment extends BaseDialogFragment {
         public String title;
         public String leftText;
         public String rghitText;
-        public String inputHintText;
-        public int inputType;
+        public int rghitTextColor;
+        public int leftTextColor;
         public boolean isHindLeftBtn = true;
         public boolean isHindRghitBtn = true;
 
