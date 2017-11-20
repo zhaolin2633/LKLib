@@ -21,6 +21,15 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
 
     <meta-data
         android:name="android.support.VERSION"
@@ -31,11 +40,7 @@
         android:supportsRtl="true" >
         <uses-library android:name="android.test.runner" />
 
-        <activity android:name="cn.app.library.base.ContainerFragmentActivity" /> <!-- 二维码扫描 -->
-        <activity
-            android:name="cn.app.library.ui.zixing.CaptureActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name="cn.app.library.base.ContainerFragmentActivity" />
         <activity
             android:name="cn.app.library.ui.bigimg.BigImageActivity"
             android:screenOrientation="portrait"

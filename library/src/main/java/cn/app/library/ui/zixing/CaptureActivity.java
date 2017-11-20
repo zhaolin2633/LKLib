@@ -15,7 +15,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
 import java.util.List;
 
 import cn.app.library.R;
@@ -33,7 +32,7 @@ import cn.app.library.utils.PictureUtils;
  * @describe: ZiXing二维码扫描
  */
 
-public abstract class CaptureActivity extends BaseAppCompatActivity implements View.OnClickListener, QRCodeView.Delegate {
+public abstract class CaptureActivity extends BaseAppCompatActivity implements View.OnClickListener, QRCodeView.Delegate{
 
     private static final String TAG = "CaptureActivity";
     public RelativeLayout llBack;
@@ -149,11 +148,17 @@ public abstract class CaptureActivity extends BaseAppCompatActivity implements V
 
         public SacnAsyncTask(String picturePath) {
             this.picturePath = picturePath;
+            showLoding("正在识别");
+        }
+
+        @Override
+        protected void onProgressUpdate(Void... values) {
+
+            super.onProgressUpdate(values);
         }
 
         @Override
         protected String doInBackground(Void... params) {
-            showLoding("正在识别");
             return QRCodeDecoder.syncDecodeQRCode(picturePath);
         }
 
@@ -200,8 +205,8 @@ public abstract class CaptureActivity extends BaseAppCompatActivity implements V
     protected void onStart() {
         super.onStart();
         mQRCodeView.startCamera();
-//        mQRCodeView.startCamera(Camera.CameraInfo.CAMERA_FACING_FRONT);
         mQRCodeView.showScanRect();
+        mQRCodeView.startSpot();
     }
 
     @Override
@@ -223,10 +228,9 @@ public abstract class CaptureActivity extends BaseAppCompatActivity implements V
 
     @Override
     public void onScanQRCodeSuccess(String result) {
-        Log.i(TAG, "result:" + result);
-        Toast.makeText(this, result, Toast.LENGTH_SHORT).show();
         vibrate();
         mQRCodeView.startSpot();
+        scanResult(result);
     }
 
     @Override

@@ -24,6 +24,6 @@ public class SacnActivity extends CaptureActivity {
 
     @Override
     public void scanResult(String result) {
-
+         showToast(result);
     }
 }

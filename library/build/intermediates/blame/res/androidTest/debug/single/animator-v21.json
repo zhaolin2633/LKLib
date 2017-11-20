@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
+        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\f2f9ba2dc76c95aa0f00f011245fcbca03e7a0cc\\output\\res\\animator-v21\\design_appbar_state_list_animator.xml"
+    },
+    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\animator-v21\\design_appbar_state_list_animator.xml"
     }
