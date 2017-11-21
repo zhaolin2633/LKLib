@@ -28,9 +28,9 @@ public final class R {
         public static int default_indexBar_textSpace = 0x7f0a0095;
     }
     public static final class drawable {
-        public static int dafault_indexBar_background = 0x7f02012c;
-        public static int indexable_bg_center_overlay = 0x7f0200b5;
-        public static int indexable_bg_md_overlay = 0x7f0200b6;
+        public static int dafault_indexBar_background = 0x7f02012b;
+        public static int indexable_bg_center_overlay = 0x7f0200b4;
+        public static int indexable_bg_md_overlay = 0x7f0200b5;
     }
     public static final class styleable {
         public static int[] IndexableRecyclerView = { 0x7f0101ec, 0x7f0101ed, 0x7f0101ee, 0x7f0101ef, 0x7f0101f0, 0x7f0101f1 };

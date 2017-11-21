@@ -316,6 +316,10 @@
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\nim_preview_image_layout_zoom_control.xml"
     },
     {
+        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_input_content.xml",
+        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\dialog_input_content.xml"
+    },
+    {
         "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\activity_capture.xml",
         "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\activity_capture.xml"
     },

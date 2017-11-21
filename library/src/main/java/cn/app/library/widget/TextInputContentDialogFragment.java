@@ -22,17 +22,17 @@ import cn.app.library.widget.toast.ToastUtil;
  * 文字输入弹出框
  */
 
-public class TextInputDialogFragment extends BaseDialogFragment {
-    public  ClearEditText ed_input;
-    public  TextView tv_title;
-    public  TextView tv_cancel;
-    public  TextView tv_ok;
-    public  TextType text;
+public class TextInputContentDialogFragment extends BaseDialogFragment {
+    public ClearEditText ed_input;
+    public   TextView tv_title;
+    public TextView tv_cancel;
+    public TextView tv_ok;
+    public TextType text;
 
-    public static TextInputDialogFragment newInstance(TextType text) {
+    public static TextInputContentDialogFragment newInstance(TextType text) {
         Bundle args = new Bundle();
         args.putSerializable("data", text);
-        TextInputDialogFragment fragment = new TextInputDialogFragment();
+        TextInputContentDialogFragment fragment = new TextInputContentDialogFragment();
         fragment.setArguments(args);
         return fragment;
     }
@@ -41,7 +41,7 @@ public class TextInputDialogFragment extends BaseDialogFragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.dialog_input_text);
+        setContentView(R.layout.dialog_input_content);
         init();
     }
 
@@ -53,6 +53,7 @@ public class TextInputDialogFragment extends BaseDialogFragment {
 
     public interface OnItemClickLisnner {
         public void onItemClick(View v, TextType bean);
+
         public void onCancelClick(View v, TextType bean);
     }
 
@@ -74,15 +75,14 @@ public class TextInputDialogFragment extends BaseDialogFragment {
         ed_input.setHint(text != null && !TextUtils.isEmpty(text.inputHintText) ? text.inputHintText : "请输入内容");
         if (text != null && !TextUtils.isEmpty(text.inputText)) {
             ed_input.setText(text.inputText);
-            if(text.inputBg>0){
+            if (text.inputBg > 0) {
                 ed_input.setBackgroundResource(text.inputBg);
             }
-            if(text.inputTextLeng>0){
+            if (text.inputTextLeng > 0) {
                 ed_input.setMaxEms(text.inputTextLeng);
             }
         }
         ed_input.setInputType(text != null && text.inputType > 0 ? text.inputType : InputType.TYPE_CLASS_TEXT);
-
         tv_cancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -119,7 +119,7 @@ public class TextInputDialogFragment extends BaseDialogFragment {
 
     @Override
     public ViewGroup.LayoutParams getLayoutParams() {
-        return new ViewGroup.LayoutParams(ScreenUtil.getScreenWidth(getActivity()) / 5 * 4, ScreenUtil.getScreenWidth(getActivity()) / 2);
+        return new ViewGroup.LayoutParams(ScreenUtil.getScreenWidth(getActivity()) / 5 * 4, ViewGroup.LayoutParams.WRAP_CONTENT);
     }
 
     @Override
@@ -135,10 +135,10 @@ public class TextInputDialogFragment extends BaseDialogFragment {
         public String rghitText;
         public String inputHintText;
         public int inputType;
-        public int inputTextLeng;
-        public int inputBg;
         public boolean isHindLeftBtn = true;
         public boolean isHindRghitBtn = true;
+        public int inputTextLeng;
+        public int inputBg;
 
         public TextType() {
         }

@@ -34,7 +34,7 @@ public final class R {
         public static final int vertical = 0x7f10083e;
     }
     public static final class layout {
-        public static final int layout_progress_recyclerview = 0x7f040052;
+        public static final int layout_progress_recyclerview = 0x7f040053;
     }
     public static final class styleable {
         public static final int[] EasyRecyclerView = { 0x7f01019a, 0x7f01019b, 0x7f01019c, 0x7f01019d, 0x7f01019e, 0x7f01019f, 0x7f0101a0, 0x7f0101a1, 0x7f0101a2, 0x7f0101a3, 0x7f0101a4 };

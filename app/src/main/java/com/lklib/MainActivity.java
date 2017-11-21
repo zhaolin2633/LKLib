@@ -30,6 +30,7 @@ import cn.app.library.http.HttpResultSubscriber;
 import cn.app.library.picture.lib.compress.OnCompressListener;
 import cn.app.library.ui.bigimg.BigImageActivity;
 import cn.app.library.utils.PictureUtils;
+import cn.app.library.widget.TextInputContentDialogFragment;
 
 
 public class MainActivity extends BaseAppCompatActivity
@@ -159,7 +160,7 @@ public class MainActivity extends BaseAppCompatActivity
             }).show();
 
         } else if (id == R.id.nav_manage) {
-
+            TextInputContentDialogFragment.newInstance(new TextInputContentDialogFragment.TextType()).show(getSupportFragmentManager(),"");
         } else if (id == R.id.nav_share) {
             List<String> list = new ArrayList<>();
             list.add("http://img.alicdn.com/tfscom/i4/2934912349/TB2AKs1cbsTMeJjy1zbXXchlVXa_!!2934912349.jpg");
