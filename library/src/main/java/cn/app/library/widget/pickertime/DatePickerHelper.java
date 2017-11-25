@@ -11,7 +11,7 @@ import static android.media.CamcorderProfile.get;
 /**
  * Created by codbking on 2016/8/10.
  */
-class DatePickerHelper {
+public class DatePickerHelper {
 
     //开始年
     private int YEAR_START;
