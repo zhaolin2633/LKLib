@@ -9,10 +9,10 @@
         android:id="@+id/tv_title"
         android:layout_width="match_parent"
         android:layout_height="44dp"
-        android:background="@color/main_bg"
+        android:background="#fcfcfc"
         android:gravity="center"
         android:text="选择"
-        android:textColor="@color/main_text_color"
+        android:textColor="@color/color_888888"
         android:textSize="18dp" />
 
 
