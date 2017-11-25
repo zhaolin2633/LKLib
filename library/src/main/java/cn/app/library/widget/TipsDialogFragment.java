@@ -67,8 +67,8 @@ public class TipsDialogFragment extends BaseDialogFragment {
         tv_title.setText(text != null && !TextUtils.isEmpty(text.title) ? text.title : "提示");
         tv_cancel.setText(text != null && !TextUtils.isEmpty(text.leftText) ? text.leftText : "取消");
         if (text != null) {
-            tv_cancel.setVisibility(text.isHindLeftBtn ? View.VISIBLE : View.GONE);
-            tv_ok.setVisibility(text.isHindRghitBtn ? View.VISIBLE : View.GONE);
+            tv_cancel.setVisibility(text.isHindLeftBtn ? View.GONE : View.VISIBLE);
+            tv_ok.setVisibility(text.isHindRghitBtn ? View.GONE : View.VISIBLE);
         }
         if (text != null && text.leftTextColor > 0) {
             tv_cancel.setTextColor(ContextCompat.getColor(getActivity(), text.leftTextColor));
@@ -119,8 +119,8 @@ public class TipsDialogFragment extends BaseDialogFragment {
         public String rghitText;
         public int rghitTextColor;
         public int leftTextColor;
-        public boolean isHindLeftBtn = true;
-        public boolean isHindRghitBtn = true;
+        public boolean isHindLeftBtn = false;
+        public boolean isHindRghitBtn = false;
 
         public TextType() {
         }

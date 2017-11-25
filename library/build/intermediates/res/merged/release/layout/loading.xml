@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/bg_toast_loading"
+    android:minHeight="70dp"
+    android:minWidth="80dp"
+    android:orientation="vertical">
+
+    <cn.app.library.dialog.styleddialog.view.GifMovieView
+        android:id="@+id/iv_loading"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onGifClick"
+        custom:gif="@drawable/loading_large" />
+
+    <TextView
+        android:id="@+id/loading_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingTop="5dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="加载中..."
+        android:textColor="#ffffff"
+        android:textSize="12sp" />
+
+    <!--http://loadingapng.com/-->
+    <!-- <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_centerInParent="true"
+         android:orientation="vertical"
+         android:layout_height="wrap_content">
+
+
+        &lt;!&ndash; <ImageView
+            android:id="@+id/iv_loading"
+             android:layout_gravity="center_horizontal"
+             android:src="@drawable/loading_large"
+             android:layout_width="25dp"
+             android:layout_height="25dp"/>&ndash;&gt;
+
+
+     </LinearLayout>-->
+
+</LinearLayout>
