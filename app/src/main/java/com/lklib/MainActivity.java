@@ -17,7 +17,6 @@ import com.lklib.http.ApiService;
 
 import java.io.File;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import cn.app.library.base.BaseAppCompatActivity;
@@ -31,9 +30,7 @@ import cn.app.library.http.HttpResultSubscriber;
 import cn.app.library.picture.lib.compress.OnCompressListener;
 import cn.app.library.ui.bigimg.BigImageActivity;
 import cn.app.library.utils.PictureUtils;
-import cn.app.library.widget.pickertime.DatePickDialog;
-import cn.app.library.widget.pickertime.bean.DateType;
-import cn.app.library.widget.pickerview.TimePickerView;
+import cn.app.library.widget.TextInputContentDialogFragment;
 
 
 public class MainActivity extends BaseAppCompatActivity
@@ -163,14 +160,7 @@ public class MainActivity extends BaseAppCompatActivity
             }).show();
 
         } else if (id == R.id.nav_manage) {
-//            TimePickerView timePickerView=new TimePickerView.Builder(MainActivity.this, new TimePickerView.OnTimeSelectListener() {
-//                @Override
-//                public void onTimeSelect(Date date, View view) {
-//
-//                }
-//            }).setType(new boolean[]{false, true, true, true, false, false}).build();
-//            timePickerView.show(true);
-            showDatePickDialog(DateType.TYPE_ALL);
+            TextInputContentDialogFragment.newInstance(new TextInputContentDialogFragment.TextType()).show(getSupportFragmentManager(),"");
         } else if (id == R.id.nav_share) {
             List<String> list = new ArrayList<>();
             list.add("http://img.alicdn.com/tfscom/i4/2934912349/TB2AKs1cbsTMeJjy1zbXXchlVXa_!!2934912349.jpg");
@@ -182,22 +172,6 @@ public class MainActivity extends BaseAppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
-    }
-    private void showDatePickDialog(DateType type) {
-        DatePickDialog dialog = new DatePickDialog(this);
-        //设置上下年分限制
-        dialog.setYearLimt(5);
-        //设置标题
-        dialog.setTitle("选择时间");
-        //设置类型
-        dialog.setType(type);
-        //设置消息体的显示格式，日期格式
-        dialog.setMessageFormat("yyyy-MM-dd HH:mm");
-        //设置选择回调
-        dialog.setOnChangeLisener(null);
-        //设置点击确定按钮回调
-        dialog.setOnSureLisener(null);
-        dialog.show();
     }
 
     /**
