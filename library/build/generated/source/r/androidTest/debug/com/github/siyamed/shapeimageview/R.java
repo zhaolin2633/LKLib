@@ -9,18 +9,18 @@ package com.github.siyamed.shapeimageview;
 public final class R {
     public static final class attr {
         public static final int siArrowPosition = 0x7f010036;
-        public static final int siBorderAlpha = 0x7f0102b0;
-        public static final int siBorderColor = 0x7f0102ae;
+        public static final int siBorderAlpha = 0x7f0102b4;
+        public static final int siBorderColor = 0x7f0102b2;
         public static final int siBorderType = 0x7f010037;
-        public static final int siBorderWidth = 0x7f0102af;
-        public static final int siForeground = 0x7f0102b1;
-        public static final int siRadius = 0x7f0102b2;
-        public static final int siShape = 0x7f0102b4;
-        public static final int siSquare = 0x7f0102ad;
+        public static final int siBorderWidth = 0x7f0102b3;
+        public static final int siForeground = 0x7f0102b5;
+        public static final int siRadius = 0x7f0102b6;
+        public static final int siShape = 0x7f0102b8;
+        public static final int siSquare = 0x7f0102b1;
         public static final int siStrokeCap = 0x7f010038;
         public static final int siStrokeJoin = 0x7f010039;
-        public static final int siStrokeMiter = 0x7f0102b5;
-        public static final int siTriangleHeight = 0x7f0102b3;
+        public static final int siStrokeMiter = 0x7f0102b9;
+        public static final int siTriangleHeight = 0x7f0102b7;
     }
     public static final class id {
         public static final int bevel = 0x7f1006a1;
@@ -42,7 +42,7 @@ public final class R {
         public static final int imgview_star = 0x7f080005;
     }
     public static final class styleable {
-        public static final int[] ShaderImageView = { 0x7f010036, 0x7f010037, 0x7f010038, 0x7f010039, 0x7f0102ad, 0x7f0102ae, 0x7f0102af, 0x7f0102b0, 0x7f0102b1, 0x7f0102b2, 0x7f0102b3, 0x7f0102b4, 0x7f0102b5 };
+        public static final int[] ShaderImageView = { 0x7f010036, 0x7f010037, 0x7f010038, 0x7f010039, 0x7f0102b1, 0x7f0102b2, 0x7f0102b3, 0x7f0102b4, 0x7f0102b5, 0x7f0102b6, 0x7f0102b7, 0x7f0102b8, 0x7f0102b9 };
         public static final int ShaderImageView_siArrowPosition = 0;
         public static final int ShaderImageView_siBorderAlpha = 7;
         public static final int ShaderImageView_siBorderColor = 5;

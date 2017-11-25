@@ -4,688 +4,16 @@
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\fragment_base.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab_left.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\layout_tab_left.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\custom_no_network_view.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\custom_no_network_view.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_ios_alert.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\dialog_ios_alert.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\popup_base.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\popup_base.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\view_amount.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\view_amount.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_picker_image_preview_activity.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\nim_picker_image_preview_activity.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_common_refresh_recyclerview.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\layout_common_refresh_recyclerview.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\f2f9ba2dc76c95aa0f00f011245fcbca03e7a0cc\\output\\res\\layout\\design_navigation_item_header.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_progress_recyclerview.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\711a4f5932efd45a9b95a43038a7ab0f788b4d44\\output\\res\\layout\\layout_progress_recyclerview.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_empty.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\picture_empty.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_input_limit_edit_text.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\layout_input_limit_edit_text.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_picture_activity_multi_cutting.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\ucrop_picture_activity_multi_cutting.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\layout_tab.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\notification_action.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\line_layout_v.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\line_layout_v.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_basepickerview.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\layout_basepickerview.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\foot_custom_listview.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\foot_custom_listview.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\bottomsheet_lv.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\bottomsheet_lv.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\view_nomore.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\view_nomore.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\item_btn_bottomalert.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\item_btn_bottomalert.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\loading_view.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\loading_view.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_sticker_picker_view.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\nim_sticker_picker_view.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\item_bottomsheet_lv.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\item_bottomsheet_lv.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\layout\\design_layout_snackbar.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\activity_big_image.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\activity_big_image.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_layout_scale_wheel.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\ucrop_layout_scale_wheel.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_preview.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\picture_preview.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_layout_scale_wheel.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\ucrop_layout_scale_wheel.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_picker_photo_grid_item.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\nim_picker_photo_grid_item.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\f2f9ba2dc76c95aa0f00f011245fcbca03e7a0cc\\output\\res\\layout\\design_layout_snackbar_include.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\loading_view.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\loading_view.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_common_refresh_recyclerview.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\layout_common_refresh_recyclerview.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\layout\\design_layout_tab_text.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_picker_images_fragment.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\nim_picker_images_fragment.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\layout\\design_navigation_menu_item.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_camera_pop_layout.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\picture_camera_pop_layout.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_input_text.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\dialog_input_text.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\actionbar.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\actionbar.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\foot_custom_listview.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\foot_custom_listview.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_base.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\fragment_base.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_ads.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\activity_start_ads.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_choose_image.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\dialog_choose_image.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_picker_image_folder_activity.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\nim_picker_image_folder_activity.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_action_bar_custom_view.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\nim_action_bar_custom_view.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\layout\\design_layout_snackbar_include.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_tab.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\activity_main_tab.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\popup_base.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\popup_base.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_aspect_ratio.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\ucrop_aspect_ratio.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_base_empty.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\fragment_base_empty.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\activity_base.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\activity_base.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_ios_alert.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\dialog_ios_alert.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_title_bar.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\picture_title_bar.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\view_empty.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\view_empty.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_camera_pop_layout.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\picture_camera_pop_layout.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_activity_external_preview.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\picture_activity_external_preview.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\actionbar.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\actionbar.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\layout\\design_navigation_item_separator.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\custom_error_view.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\custom_error_view.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\toast_layout.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\toast_layout.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\activity_base.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\activity_base.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\loading.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\loading.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\f2f9ba2dc76c95aa0f00f011245fcbca03e7a0cc\\output\\res\\layout\\design_menu_item_action_area.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\item_bottomsheet_gv.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\item_bottomsheet_gv.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\f2f9ba2dc76c95aa0f00f011245fcbca03e7a0cc\\output\\res\\layout\\design_bottom_navigation_item.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_preview_image_layout_zoom_control.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\nim_preview_image_layout_zoom_control.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\activity_capture.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\activity_capture.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_preview_image_layout_zoom_control.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\nim_preview_image_layout_zoom_control.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_ios_alert_vertical.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\dialog_ios_alert_vertical.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_web.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\fragment_web.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\view_toast.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\view_toast.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\layout\\design_navigation_item_subheader.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_ios_alert_bottom.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\dialog_ios_alert_bottom.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_album_folder_item.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\picture_album_folder_item.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar_item.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\toolbar_item.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_item_camera.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\picture_item_camera.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_ads.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\activity_start_ads.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\banner.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\banner.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\activity_splash.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab_bottom.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\layout_tab_bottom.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab_right.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\layout_tab_right.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_picker_photofolder_item.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\nim_picker_photofolder_item.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\view_amount.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\view_amount.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_album_folder_item.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\picture_album_folder_item.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_window_folder.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\picture_window_folder.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_widget_icon_label_indicator_view.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\layout_widget_icon_label_indicator_view.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\progressview_wrapconent.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\progressview_wrapconent.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\view_error.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\view_error.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_base_loading.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\fragment_base_loading.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_ios_alert_vertical.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\dialog_ios_alert_vertical.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\loading.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\loading.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab_top.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\layout_tab_top.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_title_common_refresh_recyclerview.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\layout_title_common_refresh_recyclerview.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_widget_label_indicator_view.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\layout_widget_label_indicator_view.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_common_recyclervew.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\layout_common_recyclervew.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\custom_loading_view.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\custom_loading_view.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\notification_template_icon_group.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_ios_center_item.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\dialog_ios_center_item.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\f2f9ba2dc76c95aa0f00f011245fcbca03e7a0cc\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_controls.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\ucrop_controls.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\bottomsheet_lv.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\bottomsheet_lv.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_preview_image_layout_multi_touch.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\nim_preview_image_layout_multi_touch.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_pick_image_activity.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\nim_pick_image_activity.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\include_layout_line_panding.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\include_layout_line_panding.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_base_loading.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\fragment_base_loading.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\activity_big_image.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\activity_big_image.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_recyclerview.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\layout_recyclerview.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\notification_template_icon_group.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_widget_label_indicator_view.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\layout_widget_label_indicator_view.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\f2f9ba2dc76c95aa0f00f011245fcbca03e7a0cc\\output\\res\\layout\\design_layout_snackbar.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\notification_template_lines_media.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_ios_center_item.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\dialog_ios_center_item.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_picker_images_fragment.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\nim_picker_images_fragment.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_activity_photobox.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\ucrop_activity_photobox.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\view_error.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\view_error.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\line_layout_v.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\line_layout_v.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_wind_base_dialog_xml.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\picture_wind_base_dialog_xml.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_view.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\ucrop_view.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_pick_image_activity.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\nim_pick_image_activity.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_aspect_ratio.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\ucrop_aspect_ratio.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_activity_video_play.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\picture_activity_video_play.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\custom_error_view.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\custom_error_view.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_action_bar_right_clickable_tv.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\nim_action_bar_right_clickable_tv.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_progress_recyclerview.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\b00f133e4ef19fe93100faac2d3dbbc2ff329f6e\\output\\res\\layout\\layout_progress_recyclerview.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\include_layout_line.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\include_layout_line.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\layout\\design_menu_item_action_area.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\layout\\design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\f2f9ba2dc76c95aa0f00f011245fcbca03e7a0cc\\output\\res\\layout\\design_navigation_menu_item.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\view_toast.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\view_toast.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_title_bar.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\picture_title_bar.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_picker_image_folder_activity.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\nim_picker_image_folder_activity.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_crop_image_activity.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\nim_crop_image_activity.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\layout_tab.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\custom_no_network_view.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\custom_no_network_view.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_empty.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\picture_empty.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_selector.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\picture_selector.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\view_tips_loading.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\view_tips_loading.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\f2f9ba2dc76c95aa0f00f011245fcbca03e7a0cc\\output\\res\\layout\\design_navigation_item_subheader.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\layout\\design_text_input_password_icon.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\notification_action_tombstone.xml"
-    },
-    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\include_pickerview_topbar.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\include_pickerview_topbar.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\widegt_refershable_recyclerview.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\widegt_refershable_recyclerview.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\bga_banner_item_image.xml",
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\d0abff41ac69a6c93b07d48bc0850db9f4fadf24\\output\\res\\layout\\bga_banner_item_image.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\custom_no_network_view.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\custom_no_network_view.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab_segment.xml",
@@ -700,6 +28,14 @@
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\notification_template_custom_big.xml"
     },
     {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\view_amount.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\view_amount.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_picker_image_preview_activity.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\nim_picker_image_preview_activity.xml"
+    },
+    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\progressview_wrapconent.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\progressview_wrapconent.xml"
     },
@@ -708,44 +44,44 @@
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\include_layout_line.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_ios_alert_bottom.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\dialog_ios_alert_bottom.xml"
-    },
-    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab_right.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\layout_tab_right.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\f2f9ba2dc76c95aa0f00f011245fcbca03e7a0cc\\output\\res\\layout\\design_navigation_item.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_input_limit_edit_text.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\layout_input_limit_edit_text.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_picture_activity_multi_cutting.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\ucrop_picture_activity_multi_cutting.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_search_view.xml"
     },
     {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\cbk_wheel_default_inner_text.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\cbk_wheel_default_inner_text.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\layout_tab.xml"
+    },
+    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_action_bar_right_clickable_tv.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\nim_action_bar_right_clickable_tv.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\notification_action.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\pickerview_time.xml",
@@ -756,36 +92,32 @@
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\nim_picker_album_activity.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_tips.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\dialog_tips.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\line_layout_v.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\line_layout_v.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_base_empty.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\fragment_base_empty.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\f2f9ba2dc76c95aa0f00f011245fcbca03e7a0cc\\output\\res\\layout\\design_text_input_password_icon.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab_bottom.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\layout_tab_bottom.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\include_pickerview_topbar.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\include_pickerview_topbar.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\notification_template_media.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\activity_picture_play_audio.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\activity_picture_play_audio.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\foot_custom_listview.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\foot_custom_listview.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\bottomsheet_lv.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\bottomsheet_lv.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\item_btn_bottomalert.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\item_btn_bottomalert.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\view_nomore.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\view_nomore.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
@@ -796,12 +128,12 @@
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\layout\\design_navigation_item_header.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\activity_splash.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\cbk_dialog_pick_time.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\cbk_dialog_pick_time.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_activity_external_preview.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\picture_activity_external_preview.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\loading_view.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\loading_view.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\popup_bubble.xml",
@@ -812,8 +144,8 @@
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\custom_empty_view.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_action_mode_bar.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\layout\\design_layout_snackbar.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
@@ -824,28 +156,24 @@
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\no_network_view.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_layout_scale_wheel.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\ucrop_layout_scale_wheel.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\activity_container.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\activity_container.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\notification_action.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_picker_photo_grid_item.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\nim_picker_photo_grid_item.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar_item.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\toolbar_item.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_picture_activity_multi_cutting.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\ucrop_picture_activity_multi_cutting.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_common_refresh_recyclerview.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\layout_common_refresh_recyclerview.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\layout\\design_layout_tab_text.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_window_folder.xml",
@@ -876,64 +204,96 @@
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\line_layout.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\activity_picture_play_audio.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\activity_picture_play_audio.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_input_text.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\dialog_input_text.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\actionbar.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\actionbar.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\f2f9ba2dc76c95aa0f00f011245fcbca03e7a0cc\\output\\res\\layout\\design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_big_image.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\layout_big_image.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_picker_album_activity.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\nim_picker_album_activity.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_ads.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\activity_start_ads.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_picker_image_folder_activity.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\nim_picker_image_folder_activity.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_common_recyclervew.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\layout_common_recyclervew.xml"
     },
     {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_action_bar_custom_view.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\nim_action_bar_custom_view.xml"
+    },
+    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_layout_rotate_wheel.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\ucrop_layout_rotate_wheel.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_crop_image_activity.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\nim_crop_image_activity.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_layout_rotate_wheel.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\ucrop_layout_rotate_wheel.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\popup_base.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\popup_base.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\no_network_view.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\no_network_view.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_aspect_ratio.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\ucrop_aspect_ratio.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\include_layout_line_panding.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\include_layout_line_panding.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_base_empty.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\fragment_base_empty.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\pickerview_time.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\pickerview_time.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\activity_base.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\activity_base.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_ios_alert.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\dialog_ios_alert.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_title_bar.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\picture_title_bar.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\view_empty.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\view_empty.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_camera_pop_layout.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\picture_camera_pop_layout.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_activity_external_preview.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\picture_activity_external_preview.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_wind_base_dialog_xml.xml",
@@ -944,6 +304,10 @@
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\custom_error_view.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\custom_error_view.xml"
+    },
+    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
@@ -952,28 +316,16 @@
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\fragment_web.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\view_layout_toast.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\view_layout_toast.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_image_grid_item.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\picture_image_grid_item.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_action_bar_right_picker_preview.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\nim_action_bar_right_picker_preview.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_dialog_title_material.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\toast_layout.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\toast_layout.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_selector.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\picture_selector.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\loading.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\loading.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
@@ -988,20 +340,20 @@
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\picture_activity_video_play.xml"
     },
     {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\layout\\design_bottom_navigation_item.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_view.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\ucrop_view.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_picker_image_preview_activity.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\nim_picker_image_preview_activity.xml"
-    },
-    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\activity_guide.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\activity_guide.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_preview_image_layout_zoom_control.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\nim_preview_image_layout_zoom_control.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\view_tips_loading.xml",
@@ -1010,10 +362,6 @@
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_sticker_picker_view.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\nim_sticker_picker_view.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_picker_photo_grid_item.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\nim_picker_photo_grid_item.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\include_line.xml",
@@ -1028,12 +376,16 @@
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\ucrop_activity_photobox.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\view_more.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\view_more.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\include_line.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\include_line.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_ios_alert_vertical.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\dialog_ios_alert_vertical.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_tips.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\dialog_tips.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
@@ -1052,10 +404,6 @@
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\layout_recyclerview.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\custom_loading_view.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\custom_loading_view.xml"
-    },
-    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
@@ -1064,152 +412,172 @@
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\activity_capture.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\f2f9ba2dc76c95aa0f00f011245fcbca03e7a0cc\\output\\res\\layout\\design_navigation_menu.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_screen_simple.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab_left.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\layout_tab_left.xml"
     },
     {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_ios_alert_bottom.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\dialog_ios_alert_bottom.xml"
+    },
+    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_image_grid_item.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\picture_image_grid_item.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\custom_empty_view.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\custom_empty_view.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_album_folder_item.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\picture_album_folder_item.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_item_camera.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\picture_item_camera.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_title_common_refresh_recyclerview.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\layout_title_common_refresh_recyclerview.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_big_image.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\layout_big_image.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\banner.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\banner.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab_bottom.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\layout_tab_bottom.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_item_camera.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\picture_item_camera.xml"
-    },
-    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_basepickerview.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\layout_basepickerview.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\f2f9ba2dc76c95aa0f00f011245fcbca03e7a0cc\\output\\res\\layout\\design_layout_tab_text.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_widget_icon_label_indicator_view.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\layout_widget_icon_label_indicator_view.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_image_preview.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\picture_image_preview.xml"
-    },
-    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_action_bar_right_picker_preview.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\nim_action_bar_right_picker_preview.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab_top.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\layout_tab_top.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\view_error.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\view_error.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\cbk_wheel_picker.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\cbk_wheel_picker.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_base_loading.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\fragment_base_loading.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\widegt_refershable_recyclerview.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\widegt_refershable_recyclerview.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\pickerview_options.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\pickerview_options.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab_top.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\layout_tab_top.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\custom_loading_view.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\custom_loading_view.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\view_more.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\view_more.xml"
     },
     {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_controls.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\ucrop_controls.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\popup_bubble.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\popup_bubble.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\include_layout_line_panding.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\include_layout_line_panding.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\item_bottomsheet_lv.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\item_bottomsheet_lv.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_audio_dialog.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\picture_audio_dialog.xml"
-    },
-    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_audio_dialog.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\picture_audio_dialog.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab_segment.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\layout_tab_segment.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\view_nomore.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\view_nomore.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\activity_container.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\activity_container.xml"
     },
     {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\activity_big_image.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\activity_big_image.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_widget_label_indicator_view.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\layout_widget_label_indicator_view.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_widget_icon_label_indicator_view.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\layout_widget_icon_label_indicator_view.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\notification_template_media_custom.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\f2f9ba2dc76c95aa0f00f011245fcbca03e7a0cc\\output\\res\\layout\\design_navigation_item_separator.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_ios_center_item.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\dialog_ios_center_item.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_action_bar_custom_view.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\nim_action_bar_custom_view.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\item_btn_bottomalert.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\item_btn_bottomalert.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_controls.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\ucrop_controls.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_picker_images_fragment.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\nim_picker_images_fragment.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
@@ -1220,28 +588,24 @@
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_alert_dialog.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\picture_alert_dialog.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\notification_template_custom_big.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_view.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\ucrop_view.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_pick_image_activity.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\nim_pick_image_activity.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_input_limit_edit_text.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\layout_input_limit_edit_text.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\line_layout.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\line_layout.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_screen_toolbar.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
@@ -1252,59 +616,55 @@
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\view_layout_toast.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_picture_gf_adapter_edit_list.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\ucrop_picture_gf_adapter_edit_list.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\activity_guide.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\activity_guide.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\layout_progress_recyclerview.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\b00f133e4ef19fe93100faac2d3dbbc2ff329f6e\\output\\res\\layout\\layout_progress_recyclerview.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\banner.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\banner.xml"
-    },
-    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\toast_layout.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\toast_layout.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\view_empty.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\view_empty.xml"
-    },
-    {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\bga_banner_item_image.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\abc6016a7594b25d3cf28bafc4b1516e3ab84e9f\\output\\res\\layout\\bga_banner_item_image.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\view_toast.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\view_toast.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_input_text.xml",
-        "source": "E:\\androidstudioproject_lklib\\lklib\\library\\src\\main\\res\\layout\\dialog_input_text.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\nim_crop_image_activity.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\nim_crop_image_activity.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_image_preview.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\picture_image_preview.xml"
     },
     {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_picture_gf_adapter_edit_list.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\ucrop_picture_gf_adapter_edit_list.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\picture_empty.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\picture_empty.xml"
     },
     {
-        "merged": "E:\\androidstudioproject_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\xuzhu\\.android\\build-cache\\7101e3d0966f99720a0e5aebb9753f0e939656b1\\output\\res\\layout\\abc_screen_content_include.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_picture_gf_adapter_edit_list.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\layout\\ucrop_picture_gf_adapter_edit_list.xml"
     }
 ]

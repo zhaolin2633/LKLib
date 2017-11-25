@@ -8,11 +8,11 @@ package com.ms.square.android.expandabletextview;
 
 public final class R {
     public static final class attr {
-        public static int animAlphaStart = 0x7f0101a9;
-        public static int animDuration = 0x7f0101a8;
-        public static int collapseDrawable = 0x7f0101ab;
-        public static int expandDrawable = 0x7f0101aa;
-        public static int maxCollapsedLines = 0x7f0101a7;
+        public static int animAlphaStart = 0x7f0101ad;
+        public static int animDuration = 0x7f0101ac;
+        public static int collapseDrawable = 0x7f0101af;
+        public static int expandDrawable = 0x7f0101ae;
+        public static int maxCollapsedLines = 0x7f0101ab;
     }
     public static final class drawable {
         public static int ic_collapse_holo_light = 0x7f020094;
@@ -27,7 +27,7 @@ public final class R {
         public static int expandable_text = 0x7f100012;
     }
     public static final class styleable {
-        public static int[] ExpandableTextView = { 0x7f0101a7, 0x7f0101a8, 0x7f0101a9, 0x7f0101aa, 0x7f0101ab };
+        public static int[] ExpandableTextView = { 0x7f0101ab, 0x7f0101ac, 0x7f0101ad, 0x7f0101ae, 0x7f0101af };
         public static int ExpandableTextView_animAlphaStart = 2;
         public static int ExpandableTextView_animDuration = 1;
         public static int ExpandableTextView_collapseDrawable = 4;
