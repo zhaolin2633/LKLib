@@ -1,19 +1,19 @@
 [
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\avd_show_password.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\drawable-v21\\avd_show_password.xml"
+        "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.1.aar\\2648b072947b9a0c70e9b35eaed3f25c\\res\\drawable-v21\\avd_show_password.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\notification_action_background.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\drawable-v21\\notification_action_background.xml"
+        "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.1.aar\\e49abf5ce7a0425ac57868947eefe3f2\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\design_password_eye.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\drawable-v21\\design_password_eye.xml"
+        "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.1.aar\\2648b072947b9a0c70e9b35eaed3f25c\\res\\drawable-v21\\design_password_eye.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+        "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.1.aar\\2648b072947b9a0c70e9b35eaed3f25c\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\touch_bg.xml",
@@ -21,18 +21,18 @@
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+        "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\a347823b4a92fcdcdae533441fdfc45f\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+        "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\a347823b4a92fcdcdae533441fdfc45f\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\avd_hide_password.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\drawable-v21\\avd_hide_password.xml"
+        "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.1.aar\\2648b072947b9a0c70e9b35eaed3f25c\\res\\drawable-v21\\avd_hide_password.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+        "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\a347823b4a92fcdcdae533441fdfc45f\\res\\drawable-v21\\abc_edit_text_material.xml"
     }
 ]

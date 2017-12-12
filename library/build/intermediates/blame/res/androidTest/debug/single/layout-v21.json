@@ -1,18 +1,18 @@
 [
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+        "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.1.aar\\e49abf5ce7a0425ac57868947eefe3f2\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+        "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.1.aar\\e49abf5ce7a0425ac57868947eefe3f2\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout-v21\\notification_action.xml"
+        "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.1.aar\\e49abf5ce7a0425ac57868947eefe3f2\\res\\layout-v21\\notification_action.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+        "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.1.aar\\e49abf5ce7a0425ac57868947eefe3f2\\res\\layout-v21\\notification_template_custom_big.xml"
     }
 ]

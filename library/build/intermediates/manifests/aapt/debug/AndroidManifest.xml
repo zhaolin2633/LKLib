@@ -4,7 +4,7 @@
 
     <uses-sdk
         android:minSdkVersion="15"
-        android:targetSdkVersion="25" />
+        android:targetSdkVersion="26" />
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -36,7 +36,7 @@
 
         <provider
             android:name="cn.app.library.picture.lib.PictureFileProvider"
-            android:authorities="dollar_openBracket_applicationId_closeBracket"
+            android:authorities="dollar_openBracket_applicationId_closeBracket.provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data

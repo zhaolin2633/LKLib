@@ -9,29 +9,29 @@ package com.github.siyamed.shapeimageview;
 public final class R {
     public static final class attr {
         public static final int siArrowPosition = 0x7f010036;
-        public static final int siBorderAlpha = 0x7f0102b4;
-        public static final int siBorderColor = 0x7f0102b2;
+        public static final int siBorderAlpha = 0x7f0102d4;
+        public static final int siBorderColor = 0x7f0102d2;
         public static final int siBorderType = 0x7f010037;
-        public static final int siBorderWidth = 0x7f0102b3;
-        public static final int siForeground = 0x7f0102b5;
-        public static final int siRadius = 0x7f0102b6;
-        public static final int siShape = 0x7f0102b8;
-        public static final int siSquare = 0x7f0102b1;
+        public static final int siBorderWidth = 0x7f0102d3;
+        public static final int siForeground = 0x7f0102d5;
+        public static final int siRadius = 0x7f0102d6;
+        public static final int siShape = 0x7f0102d8;
+        public static final int siSquare = 0x7f0102d1;
         public static final int siStrokeCap = 0x7f010038;
         public static final int siStrokeJoin = 0x7f010039;
-        public static final int siStrokeMiter = 0x7f0102b9;
-        public static final int siTriangleHeight = 0x7f0102b7;
+        public static final int siStrokeMiter = 0x7f0102d9;
+        public static final int siTriangleHeight = 0x7f0102d7;
     }
     public static final class id {
-        public static final int bevel = 0x7f1006a1;
-        public static final int butt = 0x7f10069e;
-        public static final int fill = 0x7f10069c;
-        public static final int left = 0x7f10069a;
-        public static final int miter = 0x7f1006a2;
-        public static final int right = 0x7f10069b;
-        public static final int round = 0x7f10069f;
-        public static final int square = 0x7f1006a0;
-        public static final int stroke = 0x7f10069d;
+        public static final int bevel = 0x7f1006ae;
+        public static final int butt = 0x7f1006ab;
+        public static final int fill = 0x7f1006a9;
+        public static final int left = 0x7f1006a7;
+        public static final int miter = 0x7f1006af;
+        public static final int right = 0x7f1006a8;
+        public static final int round = 0x7f1006ac;
+        public static final int square = 0x7f1006ad;
+        public static final int stroke = 0x7f1006aa;
     }
     public static final class raw {
         public static final int imgview_diamond = 0x7f080000;
@@ -42,19 +42,19 @@ public final class R {
         public static final int imgview_star = 0x7f080005;
     }
     public static final class styleable {
-        public static final int[] ShaderImageView = { 0x7f010036, 0x7f010037, 0x7f010038, 0x7f010039, 0x7f0102b1, 0x7f0102b2, 0x7f0102b3, 0x7f0102b4, 0x7f0102b5, 0x7f0102b6, 0x7f0102b7, 0x7f0102b8, 0x7f0102b9 };
+        public static final int[] ShaderImageView = { 0x7f010036, 0x7f010037, 0x7f010038, 0x7f010039, 0x7f0102d1, 0x7f0102d2, 0x7f0102d3, 0x7f0102d4, 0x7f0102d5, 0x7f0102d6, 0x7f0102d7, 0x7f0102d8, 0x7f0102d9 };
         public static final int ShaderImageView_siArrowPosition = 0;
-        public static final int ShaderImageView_siBorderAlpha = 7;
-        public static final int ShaderImageView_siBorderColor = 5;
         public static final int ShaderImageView_siBorderType = 1;
-        public static final int ShaderImageView_siBorderWidth = 6;
-        public static final int ShaderImageView_siForeground = 8;
-        public static final int ShaderImageView_siRadius = 9;
-        public static final int ShaderImageView_siShape = 11;
-        public static final int ShaderImageView_siSquare = 4;
         public static final int ShaderImageView_siStrokeCap = 2;
         public static final int ShaderImageView_siStrokeJoin = 3;
-        public static final int ShaderImageView_siStrokeMiter = 12;
+        public static final int ShaderImageView_siSquare = 4;
+        public static final int ShaderImageView_siBorderColor = 5;
+        public static final int ShaderImageView_siBorderWidth = 6;
+        public static final int ShaderImageView_siBorderAlpha = 7;
+        public static final int ShaderImageView_siForeground = 8;
+        public static final int ShaderImageView_siRadius = 9;
         public static final int ShaderImageView_siTriangleHeight = 10;
+        public static final int ShaderImageView_siShape = 11;
+        public static final int ShaderImageView_siStrokeMiter = 12;
     }
 }

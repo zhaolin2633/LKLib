@@ -8,30 +8,30 @@ package com.ms.square.android.expandabletextview;
 
 public final class R {
     public static final class attr {
-        public static int animAlphaStart = 0x7f0101ad;
-        public static int animDuration = 0x7f0101ac;
-        public static int collapseDrawable = 0x7f0101af;
-        public static int expandDrawable = 0x7f0101ae;
-        public static int maxCollapsedLines = 0x7f0101ab;
+        public static int animAlphaStart = 0x7f04004b;
+        public static int animDuration = 0x7f04004c;
+        public static int collapseDrawable = 0x7f04009f;
+        public static int expandDrawable = 0x7f04010d;
+        public static int maxCollapsedLines = 0x7f0401af;
     }
     public static final class drawable {
-        public static int ic_collapse_holo_light = 0x7f020094;
-        public static int ic_collapse_large_holo_light = 0x7f020095;
-        public static int ic_collapse_small_holo_light = 0x7f020096;
-        public static int ic_expand_holo_light = 0x7f020099;
-        public static int ic_expand_large_holo_light = 0x7f02009a;
-        public static int ic_expand_small_holo_light = 0x7f02009b;
+        public static int ic_collapse_holo_light = 0x7f09009c;
+        public static int ic_collapse_large_holo_light = 0x7f09009d;
+        public static int ic_collapse_small_holo_light = 0x7f09009e;
+        public static int ic_expand_holo_light = 0x7f0900a1;
+        public static int ic_expand_large_holo_light = 0x7f0900a2;
+        public static int ic_expand_small_holo_light = 0x7f0900a3;
     }
     public static final class id {
-        public static int expand_collapse = 0x7f100011;
-        public static int expandable_text = 0x7f100012;
+        public static int expand_collapse = 0x7f0c009e;
+        public static int expandable_text = 0x7f0c009f;
     }
     public static final class styleable {
-        public static int[] ExpandableTextView = { 0x7f0101ab, 0x7f0101ac, 0x7f0101ad, 0x7f0101ae, 0x7f0101af };
-        public static int ExpandableTextView_animAlphaStart = 2;
+        public static int[] ExpandableTextView = { 0x7f04004b, 0x7f04004c, 0x7f04009f, 0x7f04010d, 0x7f0401af };
+        public static int ExpandableTextView_animAlphaStart = 0;
         public static int ExpandableTextView_animDuration = 1;
-        public static int ExpandableTextView_collapseDrawable = 4;
+        public static int ExpandableTextView_collapseDrawable = 2;
         public static int ExpandableTextView_expandDrawable = 3;
-        public static int ExpandableTextView_maxCollapsedLines = 0;
+        public static int ExpandableTextView_maxCollapsedLines = 4;
     }
 }
