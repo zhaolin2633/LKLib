@@ -21,14 +21,14 @@ import cn.app.library.utils.RxImage;
 
 public class BigImageActivity extends BaseAppCompatActivity {
 
-    private static final String TAG = "BigImageActivity";
+    public static final String TAG = "BigImageActivity";
     public static final String IMAGES = "images";
     public static final String IMG_POSTION = "position";
-    ViewPager mVpBigImg;
-    TextView mTvImgIndicaor;
-    TextView tv_save;
-    private int mPosition = 0;
-    private ArrayList<String> mImages;
+    public ViewPager mVpBigImg;
+    public TextView mTvImgIndicaor;
+    public   TextView tv_save;
+    public int mPosition = 0;
+    public ArrayList<String> mImages;
 
     public static void start(Context context, int position, ArrayList<String> img) {
         Bundle bundle = new Bundle();

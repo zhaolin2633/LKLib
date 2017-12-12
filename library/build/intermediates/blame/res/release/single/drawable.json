@@ -24,20 +24,20 @@
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\drawable\\white_radius.xml"
     },
     {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable\\picture_layer_progress.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\drawable\\picture_layer_progress.xml"
-    },
-    {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable\\dialog_shadow.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\drawable\\dialog_shadow.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable\\gif_tag.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\drawable\\gif_tag.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable\\gif_tag.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\drawable\\gif_tag.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable\\dialog_shadow.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\drawable\\dialog_shadow.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable\\picture_layer_progress.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\drawable\\picture_layer_progress.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable\\selector_btn_press_all_top.xml",
@@ -52,12 +52,12 @@
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable\\point_selector.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\drawable\\point_selector.xml"
-    },
-    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable\\p_seekbar_thumb_normal.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\drawable\\p_seekbar_thumb_normal.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable\\point_selector.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\drawable\\point_selector.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
@@ -69,7 +69,7 @@
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable\\indexable_bg_center_overlay.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\4b497e08bd03b145712f470c6b9d98763ade2ac9\\output\\res\\drawable\\indexable_bg_center_overlay.xml"
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\a7927d0ce16abfc7a6b3607f40c2e0a09a03f61e\\output\\res\\drawable\\indexable_bg_center_overlay.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable\\loading_small.gif",
@@ -133,7 +133,7 @@
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable\\ic_collapse_holo_light.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7f71ebcf14521e0bff02af7cb090f9a457e0a278\\output\\res\\drawable\\ic_collapse_holo_light.xml"
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\e5b8ca1ae11c10b297fd298e2089e4cb9750960f\\output\\res\\drawable\\ic_collapse_holo_light.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable\\et_cursor.xml",
@@ -173,7 +173,7 @@
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable\\bga_banner_selector_point_hollow.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\d0abff41ac69a6c93b07d48bc0850db9f4fadf24\\output\\res\\drawable\\bga_banner_selector_point_hollow.xml"
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\5adaefe95194139bd9936666a24246b3d2fc3ce3\\output\\res\\drawable\\bga_banner_selector_point_hollow.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable\\design_bottom_navigation_item_background.xml",
@@ -205,7 +205,7 @@
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable\\ic_expand_holo_light.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\7f71ebcf14521e0bff02af7cb090f9a457e0a278\\output\\res\\drawable\\ic_expand_holo_light.xml"
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\e5b8ca1ae11c10b297fd298e2089e4cb9750960f\\output\\res\\drawable\\ic_expand_holo_light.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable\\dialog_custom_bg.xml",
@@ -225,7 +225,7 @@
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable\\bga_banner_selector_point_solid.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\d0abff41ac69a6c93b07d48bc0850db9f4fadf24\\output\\res\\drawable\\bga_banner_selector_point_solid.xml"
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\5adaefe95194139bd9936666a24246b3d2fc3ce3\\output\\res\\drawable\\bga_banner_selector_point_solid.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\drawable\\num_oval.xml",

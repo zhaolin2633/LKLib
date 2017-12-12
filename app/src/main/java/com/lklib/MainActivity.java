@@ -180,8 +180,7 @@ public class MainActivity extends BaseAppCompatActivity
     private void chooseImage() {
         PickImageHelper.PickImageOption option = new PickImageHelper.PickImageOption();
         option.titleResId = R.string.picture_set_header;
-        option.crop = true;
-        option.multiSelect = false;
+        option.multiSelect = true;
         option.cropOutputImageWidth = 400;
         option.cropOutputImageHeight = 400;
         PickImageHelper.pickImage(this, PickImageHelper.PICK_AVATAR_REQUEST, option);

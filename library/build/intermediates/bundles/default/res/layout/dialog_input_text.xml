@@ -57,7 +57,7 @@
             android:background="@drawable/dailog_input_text_btbg"
             android:gravity="center"
             android:text="取消"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/color_888888"
             android:textSize="15sp" />
 
         <include layout="@layout/line_layout_v" />

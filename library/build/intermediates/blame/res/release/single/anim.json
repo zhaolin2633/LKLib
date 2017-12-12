@@ -1,15 +1,15 @@
 [
     {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\anim\\fade_out.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\anim\\fade_out.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\anim\\design_bottom_sheet_slide_out.xml",
         "source": "C:\\Users\\SEELE\\.android\\build-cache\\7636fc1bfaa7036e3b13e7cad8516ad71f99e908\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\SEELE\\.android\\build-cache\\6da2ff9fecfb717d8e135e1a1ef76f0a313ea071\\output\\res\\anim\\abc_slide_out_top.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\anim\\fade_out.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\src\\main\\res\\anim\\fade_out.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_out.xml",

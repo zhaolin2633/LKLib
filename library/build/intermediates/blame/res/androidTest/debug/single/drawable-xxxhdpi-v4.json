@@ -136,6 +136,10 @@
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\tab_speech_select.png"
     },
     {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\icon_choose_gou.png",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\icon_choose_gou.png"
+    },
+    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\arrow_down.png",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\arrow_down.png"
     },

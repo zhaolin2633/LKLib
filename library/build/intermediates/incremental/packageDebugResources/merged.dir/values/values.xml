@@ -2326,6 +2326,7 @@
     <color name="theme_title_background">#F9F9F9</color>
     <color name="theme_title_textColor">#df000000</color>
     <color name="title_color_01d9ae">#01D9AE</color>
+    <color name="tram">#00000000</color>
     <color name="transparent">#00000000</color>
     <color name="transparent_db">#E0DBDBDB</color>
     <color name="transparent_white">#F0FFFFFF</color>
@@ -2395,6 +2396,7 @@
     <declare-styleable name="CustomTheme"><attr format="reference" name="gifMoviewViewStyle"/></declare-styleable>
     <declare-styleable name="CustomTitlebar"><attr format="color" name="title_background"/><attr format="reference" name="title_background_reference"/><attr format="reference" name="left_button_image"/><attr format="string" name="left_button_text"/><attr format="color" name="left_button_textColor"/><attr format="dimension" name="left_button_textSize"/><attr format="boolean" name="show_left_button"/><attr format="string" name="title_text"/><attr format="color" name="title_textColor"/><attr format="dimension" name="title_textSize"/><attr format="reference" name="right_button_image"/><attr format="string" name="right_button_text"/><attr format="color" name="right_button_textColor"/><attr format="dimension" name="right_button_textSize"/><attr format="boolean" name="show_right_button"/><attr format="boolean" name="show_line"/></declare-styleable>
     <declare-styleable name="DancingNumberView"><attr format="integer" name="dnv_duration"/><attr format="string" name="dnv_format"/></declare-styleable>
+    <declare-styleable name="DatePicker"><attr format="color" name="picker_text_color"/><attr format="color" name="picker_select_textColor"/><attr format="color" name="picker_split"/><attr format="dimension" name="picker_split_height"/></declare-styleable>
     <declare-styleable name="DropDownMenu"><attr format="color" name="ddunderlineColor"/><attr format="color" name="dddividerColor"/><attr format="color" name="ddtextSelectedColor"/><attr format="color" name="ddtextUnselectedColor"/><attr format="color" name="ddmenuBackgroundColor"/><attr format="color" name="ddmaskColor"/><attr format="dimension" name="ddmenuTextSize"/><attr format="dimension" name="ddmenuUnderLineSize"/><attr format="reference" name="ddmenuSelectedIcon"/><attr format="reference" name="ddmenuUnselectedIcon"/></declare-styleable>
     <declare-styleable name="EmptyView"><attr format="reference" name="EmptyView_image"/><attr format="string" name="EmptyView_label"/></declare-styleable>
     <declare-styleable name="FormEditView"><attr format="string" name="FormEditView_name"/><attr format="dimension" name="FormEditView_nameWidth"/><attr format="dimension" name="FormEditView_nameTextSize"/><attr format="color" name="FormEditView_nameTextColor"/><attr format="dimension" name="FormEditView_namePadding"/><attr format="string" name="FormEditView_valueHint"/><attr format="dimension" name="FormEditView_valueTextSize"/><attr format="color" name="FormEditView_valueTextColor"/><attr format="color" name="FormEditView_valueTextColorHint"/><attr format="dimension" name="FormEditView_valuePaddingRight"/><attr format="integer" name="FormEditView_valueMaxLength"/><attr format="enum" name="FormEditView_valueInputType">
@@ -2547,10 +2549,30 @@
             <enum name="bottom" value="0"/>
             <enum name="top" value="1"/>
         </attr><attr name="selectedColor"/><attr format="boolean" name="selectedBold"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="titlePadding"/><attr format="dimension" name="topPadding"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="TriangleViewStyle"><attr format="reference|color" name="triangleColor"/><attr name="shapeArrow">
+
+            
+            <enum name="UP" value="0"/>
+            
+            <enum name="DOWN" value="1"/>
+            
+            <enum name="RIGHT" value="2"/>
+            
+            <enum name="LEFT" value="3"/>
+        </attr></declare-styleable>
     <declare-styleable name="UnderlinePageIndicator"><attr format="boolean" name="fades"/><attr format="integer" name="fadeDelay"/><attr format="integer" name="fadeLength"/><attr name="selectedColor"/><attr name="android:background"/></declare-styleable>
     <declare-styleable name="VerticalInfiniteCycleViewPager"><attr name="icvp_min_page_scale_offset"/><attr name="icvp_center_page_scale_offset"/><attr name="icvp_min_page_scale"/><attr name="icvp_max_page_scale"/><attr name="icvp_medium_scaled"/><attr name="icvp_scroll_duration"/><attr name="icvp_page_duration"/><attr name="icvp_interpolator"/></declare-styleable>
     <declare-styleable name="VerticalRollingTextView"><attr name="android:textColor"/><attr name="android:textSize"/><attr name="android:duration"/><attr format="integer" name="animInterval"/></declare-styleable>
     <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
+    <declare-styleable name="WheelFullDatePickerStyle"><attr format="boolean" name="showTaiwanYear"/><attr format="boolean" name="addZeroIfSmallThanTen"/><attr format="boolean" name="setCurrentTimeVisible"/><attr format="boolean" name="canSetUpPastTime"/><attr format="boolean" name="canSetUpFutureTime"/><attr format="boolean" name="showDateLastString"/></declare-styleable>
+    <declare-styleable name="WheelSinglePickerStyle"><attr format="integer" name="visibleLine"/><attr format="integer" name="singleTextSize"/></declare-styleable>
+    <declare-styleable name="WheelTimerStyle"><attr name="timeMode">
+            
+            <enum name="select" value="0"/>
+            
+            <enum name="countDown" value="1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="WheelTwoDimensionPickerStyle"><attr format="boolean" name="alwaysShowTwoWheel"/><attr format="integer" name="leftWheelVisibleLine"/><attr format="integer" name="rightWheelVisibleLine"/><attr format="integer" name="wheelTwoDimensionTextSize"/><attr format="boolean" name="isCurrentSelectVisible"/></declare-styleable>
     <declare-styleable name="pickerview"><attr name="pickerview_gravity">
             <enum name="center" value="17"/>
             <enum name="left" value="3"/>
@@ -2800,6 +2822,10 @@
         <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/abc_slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/abc_slide_out_bottom</item>
     </style>
     <style name="DialogWindowStyle">
         <item name="android:windowEnterAnimation">@anim/modal_in</item>
@@ -3115,6 +3141,11 @@
         //进入时的动画
         <item name="@android:windowExitAnimation">@anim/dialog_exit_center</item>
         //退出时的动画
+    </style>
+    <style name="dialog_style" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/tram</item>
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
     </style>
     <style name="mystyle" parent="android:Animation">
         <item name="@android:windowEnterAnimation">@anim/dialog_enter</item>
