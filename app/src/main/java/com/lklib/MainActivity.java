@@ -166,7 +166,7 @@ public class MainActivity extends BaseAppCompatActivity
             list.add("http://img.alicdn.com/tfscom/i4/2934912349/TB2AKs1cbsTMeJjy1zbXXchlVXa_!!2934912349.jpg");
             BigImageActivity.start(MainActivity.this, 0, (ArrayList<String>) list);
         } else if (id == R.id.nav_send) {
-
+         showLoding();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

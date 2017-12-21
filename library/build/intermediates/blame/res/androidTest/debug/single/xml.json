@@ -4,6 +4,14 @@
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\xml\\provider_paths.xml"
     },
     {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\file_paths.xml",
+        "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\provider_paths.xml",
+        "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\xml\\provider_paths.xml"
+    },
+    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\file_paths.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\xml\\file_paths.xml"
     }

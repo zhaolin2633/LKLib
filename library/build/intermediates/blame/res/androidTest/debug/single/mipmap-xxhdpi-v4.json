@@ -4,6 +4,10 @@
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\common_default.png"
     },
     {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\common_default.png",
+        "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\common_default.png"
+    },
+    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\icon_capture_sao.png",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\icon_capture_sao.png"
     },
@@ -12,12 +16,28 @@
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\ic_empty.png"
     },
     {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\ic_no_network.png",
+        "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\ic_no_network.png"
+    },
+    {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\icon_capture_sao.png",
+        "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\icon_capture_sao.png"
+    },
+    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\ic_no_network.png",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\ic_no_network.png"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\img_cmmon_back.png",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\img_cmmon_back.png"
+    },
+    {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\ic_error.png",
+        "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\ic_error.png"
+    },
+    {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\scan_icon_scanline.png",
+        "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\scan_icon_scanline.png"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\ic_error.png",
@@ -30,5 +50,17 @@
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\ic_chevron_left_white_24dp.png",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\ic_chevron_left_white_24dp.png"
+    },
+    {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\img_cmmon_back.png",
+        "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\img_cmmon_back.png"
+    },
+    {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\ic_empty.png",
+        "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\ic_empty.png"
+    },
+    {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\ic_chevron_left_white_24dp.png",
+        "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\ic_chevron_left_white_24dp.png"
     }
 ]

@@ -2,5 +2,9 @@
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
         "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.1.aar\\2648b072947b9a0c70e9b35eaed3f25c\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\26106\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.2.aar\\ca76282b0be11b6edfc871071c1b921f\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     }
 ]

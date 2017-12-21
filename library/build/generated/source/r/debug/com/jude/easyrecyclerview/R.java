@@ -8,36 +8,36 @@ package com.jude.easyrecyclerview;
 
 public final class R {
     public static final class attr {
-        public static int layout_empty = 0x7f04017b;
-        public static int layout_error = 0x7f04017c;
-        public static int layout_progress = 0x7f040187;
-        public static int recyclerClipToPadding = 0x7f040274;
-        public static int recyclerPadding = 0x7f040275;
-        public static int recyclerPaddingBottom = 0x7f040276;
-        public static int recyclerPaddingLeft = 0x7f040277;
-        public static int recyclerPaddingRight = 0x7f040278;
-        public static int recyclerPaddingTop = 0x7f040279;
-        public static int scrollbarStyle = 0x7f0402a3;
-        public static int scrollbars = 0x7f0402a4;
+        public static int layout_empty = 0x7f04017c;
+        public static int layout_error = 0x7f04017d;
+        public static int layout_progress = 0x7f040188;
+        public static int recyclerClipToPadding = 0x7f040276;
+        public static int recyclerPadding = 0x7f040277;
+        public static int recyclerPaddingBottom = 0x7f040278;
+        public static int recyclerPaddingLeft = 0x7f040279;
+        public static int recyclerPaddingRight = 0x7f04027a;
+        public static int recyclerPaddingTop = 0x7f04027b;
+        public static int scrollbarStyle = 0x7f0402a5;
+        public static int scrollbars = 0x7f0402a6;
     }
     public static final class id {
-        public static int empty = 0x7f0c008e;
-        public static int error = 0x7f0c0096;
-        public static int horizontal = 0x7f0c0370;
-        public static int insideInset = 0x7f0c0389;
-        public static int insideOverlay = 0x7f0c038a;
-        public static int none = 0x7f0c077c;
-        public static int outsideInset = 0x7f0c078b;
-        public static int outsideOverlay = 0x7f0c078c;
-        public static int progress = 0x7f0c07bb;
-        public static int ptr_layout = 0x7f0c07be;
-        public static int vertical = 0x7f0c09b3;
+        public static int empty = 0x7f0c0090;
+        public static int error = 0x7f0c0098;
+        public static int horizontal = 0x7f0c0372;
+        public static int insideInset = 0x7f0c038b;
+        public static int insideOverlay = 0x7f0c038c;
+        public static int none = 0x7f0c077e;
+        public static int outsideInset = 0x7f0c078d;
+        public static int outsideOverlay = 0x7f0c078e;
+        public static int progress = 0x7f0c07bd;
+        public static int ptr_layout = 0x7f0c07c0;
+        public static int vertical = 0x7f0c09b5;
     }
     public static final class layout {
         public static int layout_progress_recyclerview = 0x7f0f0059;
     }
     public static final class styleable {
-        public static int[] EasyRecyclerView = { 0x7f04017b, 0x7f04017c, 0x7f040187, 0x7f040274, 0x7f040275, 0x7f040276, 0x7f040277, 0x7f040278, 0x7f040279, 0x7f0402a3, 0x7f0402a4 };
+        public static int[] EasyRecyclerView = { 0x7f04017c, 0x7f04017d, 0x7f040188, 0x7f040276, 0x7f040277, 0x7f040278, 0x7f040279, 0x7f04027a, 0x7f04027b, 0x7f0402a5, 0x7f0402a6 };
         public static int EasyRecyclerView_layout_empty = 0;
         public static int EasyRecyclerView_layout_error = 1;
         public static int EasyRecyclerView_layout_progress = 2;

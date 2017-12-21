@@ -12,6 +12,7 @@ import cn.app.library.dialog.flycoDialog.dialog.listener.OnBtnClickL;
 import cn.app.library.dialog.flycoDialog.dialog.widget.MaterialDialog;
 import cn.app.library.dialog.styleddialog.StyledDialog;
 import cn.app.library.utils.ScreenUtil;
+import cn.app.library.widget.dialog.DialogMaker;
 
 
 /**
@@ -19,6 +20,7 @@ import cn.app.library.utils.ScreenUtil;
  */
 
 public abstract class BaseAppFragment extends BaseFragment {
+
 
     /**
      * 显示加载提示框
@@ -28,16 +30,19 @@ public abstract class BaseAppFragment extends BaseFragment {
     }
 
     public void showLoading(String msg) {
-        StyledDialog.buildLoading(msg);
+        if (!DialogMaker.isShowing()) {
+            DialogMaker.showProgressDialog(getContext(), msg);
+        }
     }
 
     /**
      * 隐藏加载提示框
      */
     public void hideLoading() {
-        StyledDialog.dismissLoading();
+        if (DialogMaker.isShowing()) {
+            DialogMaker.dismissProgressDialog();
+        }
     }
-
 
     @Override
     public void onDestroy() {

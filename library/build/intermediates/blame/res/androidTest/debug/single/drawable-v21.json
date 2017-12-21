@@ -1,5 +1,13 @@
 [
     {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\26106\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.2.aar\\f9cc7d1746216141899548e26dd0b095\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\26106\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.2.aar\\f9cc7d1746216141899548e26dd0b095\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\avd_show_password.xml",
         "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.1.aar\\2648b072947b9a0c70e9b35eaed3f25c\\res\\drawable-v21\\avd_show_password.xml"
     },
@@ -8,8 +16,24 @@
         "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.1.aar\\e49abf5ce7a0425ac57868947eefe3f2\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\avd_show_password.xml",
+        "source": "C:\\Users\\26106\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.2.aar\\ca76282b0be11b6edfc871071c1b921f\\res\\drawable-v21\\avd_show_password.xml"
+    },
+    {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\26106\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.2.aar\\f9cc7d1746216141899548e26dd0b095\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\touch_bg.xml",
+        "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-v21\\touch_bg.xml"
+    },
+    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\design_password_eye.xml",
         "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.1.aar\\2648b072947b9a0c70e9b35eaed3f25c\\res\\drawable-v21\\design_password_eye.xml"
+    },
+    {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\26106\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.2.aar\\e9a4e81e31cb73a277fedc1cc84f9189\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
@@ -22,6 +46,18 @@
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_btn_colored_material.xml",
         "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\a347823b4a92fcdcdae533441fdfc45f\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\Users\\26106\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.2.aar\\ca76282b0be11b6edfc871071c1b921f\\res\\drawable-v21\\design_password_eye.xml"
+    },
+    {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\avd_hide_password.xml",
+        "source": "C:\\Users\\26106\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.2.aar\\ca76282b0be11b6edfc871071c1b921f\\res\\drawable-v21\\avd_hide_password.xml"
+    },
+    {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\26106\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.2.aar\\ca76282b0be11b6edfc871071c1b921f\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",

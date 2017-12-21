@@ -4,7 +4,15 @@
         "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.1.aar\\2648b072947b9a0c70e9b35eaed3f25c\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     },
     {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\26106\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.2.aar\\ca76282b0be11b6edfc871071c1b921f\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
         "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.1.aar\\2648b072947b9a0c70e9b35eaed3f25c\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\26106\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.2.aar\\ca76282b0be11b6edfc871071c1b921f\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     }
 ]

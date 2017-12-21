@@ -4,8 +4,24 @@
         "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\android-shape-imageview-0.9.3.aar\\a21e782366e07f5fcab635a5eef06631\\res\\raw\\imgview_star.svg"
     },
     {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\imgview_star.svg",
+        "source": "C:\\Users\\26106\\.gradle\\caches\\transforms-1\\files-1.1\\android-shape-imageview-0.9.3.aar\\7a8961a24c0873bcfa5d50aed88ebca2\\res\\raw\\imgview_star.svg"
+    },
+    {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\imgview_octogon.svg",
+        "source": "C:\\Users\\26106\\.gradle\\caches\\transforms-1\\files-1.1\\android-shape-imageview-0.9.3.aar\\7a8961a24c0873bcfa5d50aed88ebca2\\res\\raw\\imgview_octogon.svg"
+    },
+    {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\imgview_hexagon.svg",
+        "source": "C:\\Users\\26106\\.gradle\\caches\\transforms-1\\files-1.1\\android-shape-imageview-0.9.3.aar\\7a8961a24c0873bcfa5d50aed88ebca2\\res\\raw\\imgview_hexagon.svg"
+    },
+    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\imgview_hexagon.svg",
         "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\android-shape-imageview-0.9.3.aar\\a21e782366e07f5fcab635a5eef06631\\res\\raw\\imgview_hexagon.svg"
+    },
+    {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\imgview_pentagon.svg",
+        "source": "C:\\Users\\26106\\.gradle\\caches\\transforms-1\\files-1.1\\android-shape-imageview-0.9.3.aar\\7a8961a24c0873bcfa5d50aed88ebca2\\res\\raw\\imgview_pentagon.svg"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\music.wav",
@@ -16,12 +32,24 @@
         "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\android-shape-imageview-0.9.3.aar\\a21e782366e07f5fcab635a5eef06631\\res\\raw\\imgview_pentagon.svg"
     },
     {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\imgview_diamond.svg",
+        "source": "C:\\Users\\26106\\.gradle\\caches\\transforms-1\\files-1.1\\android-shape-imageview-0.9.3.aar\\7a8961a24c0873bcfa5d50aed88ebca2\\res\\raw\\imgview_diamond.svg"
+    },
+    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\imgview_diamond.svg",
         "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\android-shape-imageview-0.9.3.aar\\a21e782366e07f5fcab635a5eef06631\\res\\raw\\imgview_diamond.svg"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\imgview_octogon.svg",
         "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\android-shape-imageview-0.9.3.aar\\a21e782366e07f5fcab635a5eef06631\\res\\raw\\imgview_octogon.svg"
+    },
+    {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\music.wav",
+        "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\raw\\music.wav"
+    },
+    {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\imgview_heart.svg",
+        "source": "C:\\Users\\26106\\.gradle\\caches\\transforms-1\\files-1.1\\android-shape-imageview-0.9.3.aar\\7a8961a24c0873bcfa5d50aed88ebca2\\res\\raw\\imgview_heart.svg"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\imgview_heart.svg",

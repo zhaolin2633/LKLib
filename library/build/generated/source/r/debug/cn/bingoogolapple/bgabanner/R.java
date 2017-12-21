@@ -8,25 +8,25 @@ package cn.bingoogolapple.bgabanner;
 
 public final class R {
     public static final class attr {
-        public static int banner_contentBottomMargin = 0x7f04005e;
-        public static int banner_indicatorGravity = 0x7f040060;
-        public static int banner_isNeedShowIndicatorOnOnlyOnePage = 0x7f040061;
-        public static int banner_isNumberIndicator = 0x7f040062;
-        public static int banner_numberIndicatorBackground = 0x7f040064;
-        public static int banner_numberIndicatorTextColor = 0x7f040065;
-        public static int banner_numberIndicatorTextSize = 0x7f040066;
-        public static int banner_pageChangeDuration = 0x7f040067;
-        public static int banner_placeholderDrawable = 0x7f040068;
-        public static int banner_pointAutoPlayAble = 0x7f040069;
-        public static int banner_pointAutoPlayInterval = 0x7f04006a;
-        public static int banner_pointContainerBackground = 0x7f04006b;
-        public static int banner_pointContainerLeftRightPadding = 0x7f04006c;
-        public static int banner_pointDrawable = 0x7f04006d;
-        public static int banner_pointLeftRightMargin = 0x7f04006e;
-        public static int banner_pointTopBottomMargin = 0x7f04006f;
-        public static int banner_tipTextColor = 0x7f040070;
-        public static int banner_tipTextSize = 0x7f040071;
-        public static int banner_transitionEffect = 0x7f040072;
+        public static int banner_contentBottomMargin = 0x7f04005f;
+        public static int banner_indicatorGravity = 0x7f040061;
+        public static int banner_isNeedShowIndicatorOnOnlyOnePage = 0x7f040062;
+        public static int banner_isNumberIndicator = 0x7f040063;
+        public static int banner_numberIndicatorBackground = 0x7f040065;
+        public static int banner_numberIndicatorTextColor = 0x7f040066;
+        public static int banner_numberIndicatorTextSize = 0x7f040067;
+        public static int banner_pageChangeDuration = 0x7f040068;
+        public static int banner_placeholderDrawable = 0x7f040069;
+        public static int banner_pointAutoPlayAble = 0x7f04006a;
+        public static int banner_pointAutoPlayInterval = 0x7f04006b;
+        public static int banner_pointContainerBackground = 0x7f04006c;
+        public static int banner_pointContainerLeftRightPadding = 0x7f04006d;
+        public static int banner_pointDrawable = 0x7f04006e;
+        public static int banner_pointLeftRightMargin = 0x7f04006f;
+        public static int banner_pointTopBottomMargin = 0x7f040070;
+        public static int banner_tipTextColor = 0x7f040071;
+        public static int banner_tipTextSize = 0x7f040072;
+        public static int banner_transitionEffect = 0x7f040073;
     }
     public static final class drawable {
         public static int bga_banner_point_disabled = 0x7f09006f;
@@ -43,23 +43,23 @@ public final class R {
         public static int cube = 0x7f0c0078;
         public static int defaultEffect = 0x7f0c007f;
         public static int depth = 0x7f0c0081;
-        public static int fade = 0x7f0c0356;
-        public static int flip = 0x7f0c0363;
-        public static int left = 0x7f0c03a4;
-        public static int right = 0x7f0c07c8;
-        public static int rotate = 0x7f0c07d0;
-        public static int stack = 0x7f0c0804;
-        public static int top = 0x7f0c082f;
-        public static int zoom = 0x7f0c09cc;
-        public static int zoomCenter = 0x7f0c09cd;
-        public static int zoomFade = 0x7f0c09ce;
-        public static int zoomStack = 0x7f0c09cf;
+        public static int fade = 0x7f0c0358;
+        public static int flip = 0x7f0c0365;
+        public static int left = 0x7f0c03a6;
+        public static int right = 0x7f0c07ca;
+        public static int rotate = 0x7f0c07d2;
+        public static int stack = 0x7f0c0806;
+        public static int top = 0x7f0c0831;
+        public static int zoom = 0x7f0c09ce;
+        public static int zoomCenter = 0x7f0c09cf;
+        public static int zoomFade = 0x7f0c09d0;
+        public static int zoomStack = 0x7f0c09d1;
     }
     public static final class layout {
         public static int bga_banner_item_image = 0x7f0f0027;
     }
     public static final class styleable {
-        public static int[] BGABanner = { 0x0101011d, 0x7f04005e, 0x7f040060, 0x7f040061, 0x7f040062, 0x7f040064, 0x7f040065, 0x7f040066, 0x7f040067, 0x7f040068, 0x7f040069, 0x7f04006a, 0x7f04006b, 0x7f04006c, 0x7f04006d, 0x7f04006e, 0x7f04006f, 0x7f040070, 0x7f040071, 0x7f040072 };
+        public static int[] BGABanner = { 0x0101011d, 0x7f04005f, 0x7f040061, 0x7f040062, 0x7f040063, 0x7f040065, 0x7f040066, 0x7f040067, 0x7f040068, 0x7f040069, 0x7f04006a, 0x7f04006b, 0x7f04006c, 0x7f04006d, 0x7f04006e, 0x7f04006f, 0x7f040070, 0x7f040071, 0x7f040072, 0x7f040073 };
         public static int BGABanner_android_scaleType = 0;
         public static int BGABanner_banner_contentBottomMargin = 1;
         public static int BGABanner_banner_indicatorGravity = 2;

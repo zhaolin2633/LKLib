@@ -34,7 +34,7 @@
             android:gravity="center"
             android:text="内容"
             android:padding="5dp"
-            android:singleLine="true"
+            android:maxLines="3"
             android:textColor="@color/color_232323"
             android:textColorHint="@color/color_999999"
             android:textSize="15dp" />

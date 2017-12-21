@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import cn.app.library.R;
+import cn.app.library.widget.dialog.DialogMaker;
 import cn.app.library.widget.toast.ToastCustomUtils;
 import cn.app.library.widget.toast.ToastTextUtil;
 import cn.app.library.widget.toast.ToastUtil;
@@ -204,4 +205,26 @@ public class BaseNormalFragment extends Fragment {
     public void showSnackbarToast(String text, View view) {
         ToastUtil.showSnackbar(text, view);
     }
+    /**
+     * 显示加载提示框
+     */
+    public void showLoading() {
+        showLoading("加载中...");
+    }
+
+    public void showLoading(String msg) {
+        if (!DialogMaker.isShowing()) {
+            DialogMaker.showProgressDialog(getContext(), msg);
+        }
+    }
+
+    /**
+     * 隐藏加载提示框
+     */
+    public void hideLoading() {
+        if (DialogMaker.isShowing()) {
+            DialogMaker.dismissProgressDialog();
+        }
+    }
+
 }

@@ -10,6 +10,7 @@ import android.view.View;
 
 import cn.app.library.dialog.flycoDialog.dialog.listener.OnBtnClickL;
 import cn.app.library.dialog.flycoDialog.dialog.widget.MaterialDialog;
+import cn.app.library.widget.dialog.DialogMaker;
 import cn.app.library.widget.toast.ToastCustomUtils;
 import cn.app.library.widget.toast.ToastTextUtil;
 import cn.app.library.widget.toast.ToastUtil;
@@ -129,5 +130,34 @@ public class BaseFragmentActivity extends FragmentActivity {
 
     public void showSnackbarToast(String text, View view) {
         ToastUtil.showSnackbar(text, view);
+    }
+
+    /**
+     * 显示加载提示框
+     */
+    public void showLoding(boolean cancle) {
+        showLoding("加载中...", cancle);
+    }
+
+
+    public void showLoding(String msg) {
+        if (!DialogMaker.isShowing()) {
+            DialogMaker.showProgressDialog(this, msg);
+        }
+    }
+
+    public void showLoding(String msg, boolean cancle) {
+        if (!DialogMaker.isShowing()) {
+            DialogMaker.showProgressDialog(this, msg, cancle);
+        }
+    }
+
+    /**
+     * 隐藏加载提示框
+     */
+    public void dismissLoading() {
+        if (DialogMaker.isShowing()) {
+            DialogMaker.dismissProgressDialog();
+        }
     }
 }

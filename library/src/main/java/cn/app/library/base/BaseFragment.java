@@ -15,6 +15,7 @@ import com.trello.rxlifecycle2.components.support.RxFragment;
 
 import butterknife.ButterKnife;
 import cn.app.library.rxeasyhttp.http.utils.Utils;
+import cn.app.library.widget.dialog.DialogMaker;
 import cn.app.library.widget.toast.ToastCustomUtils;
 import cn.app.library.widget.toast.ToastTextUtil;
 import cn.app.library.widget.toast.ToastUtil;
@@ -299,4 +300,26 @@ public abstract class BaseFragment extends RxFragment {
     public void onActivityResult(int requestCode, int resultCode, Intent intent) {
         super.onActivityResult(requestCode, resultCode, intent);
     }
+    /**
+     * 显示加载提示框
+     */
+    public void showLoading() {
+        showLoading("加载中...");
+    }
+
+    public void showLoading(String msg) {
+        if (!DialogMaker.isShowing()) {
+            DialogMaker.showProgressDialog(getContext(), msg);
+        }
+    }
+
+    /**
+     * 隐藏加载提示框
+     */
+    public void hideLoading() {
+        if (DialogMaker.isShowing()) {
+            DialogMaker.dismissProgressDialog();
+        }
+    }
+
 }

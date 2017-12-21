@@ -37,6 +37,7 @@ import cn.app.library.picture.lib.permissions.Permission;
 import cn.app.library.picture.lib.permissions.RxPermissions;
 import cn.app.library.rxeasyhttp.http.utils.Utils;
 import cn.app.library.utils.ScreenUtil;
+import cn.app.library.widget.dialog.DialogMaker;
 import cn.app.library.widget.toast.ToastCustomUtils;
 import cn.app.library.widget.toast.ToastTextUtil;
 import cn.app.library.widget.toast.ToastUtil;
@@ -596,14 +597,42 @@ public abstract class BaseAppCompatActivity extends RxAppCompatActivity {
         ToastUtil.showSnackbar(text, view);
     }
 
+
+    /**
+     * 显示加载提示框
+     */
+    public void showLoding() {
+        showLoding("加载中...");
+    }
+
+    /**
+     * 显示加载提示框
+     */
+    public void showLoding(boolean cancle) {
+        showLoding("加载中...", cancle);
+    }
+
+
     public void showLoding(String msg) {
-        StyledDialog.buildLoading(msg).show();
+        if (!DialogMaker.isShowing()) {
+            DialogMaker.showProgressDialog(this, msg);
+        }
     }
 
+    public void showLoding(String msg, boolean cancle) {
+        if (!DialogMaker.isShowing()) {
+            DialogMaker.showProgressDialog(this, msg, cancle);
+        }
+    }
+
+    /**
+     * 隐藏加载提示框
+     */
     public void dismissLoading() {
-        StyledDialog.dismissLoading();
+        if (DialogMaker.isShowing()) {
+            DialogMaker.dismissProgressDialog();
+        }
     }
-
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent intent) {
         super.onActivityResult(requestCode, resultCode, intent);

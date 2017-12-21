@@ -72,21 +72,21 @@ public class BaseNotifyFragment extends BaseNormalFragment implements EmptyView.
         }
     }
 
-    protected void showLoading() {
+    public void showLoading() {
         checkEmptyView();
         loadingLayout.setBackgroundResource(android.R.color.transparent);
         emptyView.setVisibility(View.GONE);
         loadingLayout.setVisibility(View.VISIBLE);
     }
 
-    protected void showLoading(String text) {
+    public void showLoading(String text) {
         checkEmptyView();
         loadingLayout.setBackgroundResource(android.R.color.transparent);
         emptyView.setVisibility(View.GONE);
         loadingLayout.setVisibility(View.VISIBLE);
     }
 
-    protected void hideLoading() {
+    public void hideLoading() {
         checkEmptyView();
         loadingLayout.setVisibility(View.GONE);
     }
