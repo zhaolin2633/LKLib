@@ -26,15 +26,22 @@ public class ImageAdapter extends PagerAdapter {
     private ArrayList<String> imageList;
     private Context mContext;
     private onImageLayoutOnClickListener mOnClickListener;
+    private boolean isWarpImgUrl;
 
     public ImageAdapter(ArrayList<String> imageList, Context context) {
         this.imageList = imageList;
         mContext = context;
     }
 
+    public ImageAdapter(ArrayList<String> imageList, Context context, boolean isWarpImgUrl) {
+        this.imageList = imageList;
+        this.isWarpImgUrl = isWarpImgUrl;
+        mContext = context;
+    }
+
     @Override
     public int getCount() {
-        return imageList!=null?imageList.size():0;
+        return imageList != null ? imageList.size() : 0;
     }
 
     @Override
@@ -52,12 +59,12 @@ public class ImageAdapter extends PagerAdapter {
         imageView.setOnViewTapListener(new PhotoViewAttacher.OnViewTapListener() {
             @Override
             public void onViewTap(View view, float x, float y) {
-                if (mOnClickListener!=null){
+                if (mOnClickListener != null) {
                     mOnClickListener.OnImageOnClik();
                 }
             }
         });
-        Picasso.with(mContext).load(ImageUtils.getBigImageUrl(imageList.get(position))).into(imageView);
+        Picasso.with(mContext).load(isWarpImgUrl ? imageList.get(position) : ImageUtils.getBigImageUrl(imageList.get(position))).into(imageView);
         return imageLayout;
     }
 
