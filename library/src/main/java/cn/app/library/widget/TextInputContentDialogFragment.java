@@ -102,7 +102,7 @@ public class TextInputContentDialogFragment extends BaseDialogFragment {
 
         ed_input.setHint(text != null && !TextUtils.isEmpty(text.inputHintText) ? text.inputHintText : "请输入内容");
         if (text != null && !TextUtils.isEmpty(text.inputText)) {
-            ed_input.setSelection(text.inputHintText.length());
+            ed_input.setSelection(text.inputText.length());
             ed_input.setText(text.inputText);
             if (text.inputBg > 0) {
                 ed_input.setBackgroundResource(text.inputBg);
