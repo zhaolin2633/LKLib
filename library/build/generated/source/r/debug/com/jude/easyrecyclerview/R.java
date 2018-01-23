@@ -26,12 +26,12 @@ public final class R {
         public static int horizontal = 0x7f0c0372;
         public static int insideInset = 0x7f0c038b;
         public static int insideOverlay = 0x7f0c038c;
-        public static int none = 0x7f0c077e;
-        public static int outsideInset = 0x7f0c078d;
-        public static int outsideOverlay = 0x7f0c078e;
-        public static int progress = 0x7f0c07bd;
-        public static int ptr_layout = 0x7f0c07c0;
-        public static int vertical = 0x7f0c09b5;
+        public static int none = 0x7f0c077f;
+        public static int outsideInset = 0x7f0c078e;
+        public static int outsideOverlay = 0x7f0c078f;
+        public static int progress = 0x7f0c07be;
+        public static int ptr_layout = 0x7f0c07c1;
+        public static int vertical = 0x7f0c09b6;
     }
     public static final class layout {
         public static int layout_progress_recyclerview = 0x7f0f0059;

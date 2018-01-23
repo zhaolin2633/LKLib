@@ -27,11 +27,11 @@ public final class R {
         public static int butt = 0x7f0c0052;
         public static int fill = 0x7f0c0359;
         public static int left = 0x7f0c03a6;
-        public static int miter = 0x7f0c0775;
-        public static int right = 0x7f0c07ca;
-        public static int round = 0x7f0c07d4;
-        public static int square = 0x7f0c0802;
-        public static int stroke = 0x7f0c0811;
+        public static int miter = 0x7f0c0776;
+        public static int right = 0x7f0c07cb;
+        public static int round = 0x7f0c07d5;
+        public static int square = 0x7f0c0803;
+        public static int stroke = 0x7f0c0812;
     }
     public static final class raw {
         public static int imgview_diamond = 0x7f140001;

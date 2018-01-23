@@ -2,11 +2,13 @@ package cn.app.library.widget;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.content.ContextCompat;
 import android.text.InputType;
 import android.text.TextUtils;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.io.Serializable;
@@ -23,8 +25,9 @@ import cn.app.library.widget.toast.ToastUtil;
  */
 
 public class TextInputContentDialogFragment extends BaseDialogFragment {
+    public LinearLayout ll_layout;
     public ClearEditText ed_input;
-    public   TextView tv_title;
+    public TextView tv_title;
     public TextView tv_cancel;
     public TextView tv_ok;
     public TextType text;
@@ -37,6 +40,29 @@ public class TextInputContentDialogFragment extends BaseDialogFragment {
         return fragment;
     }
 
+    public void setInputEditBg(int resId) {
+        if (ed_input != null) {
+            ed_input.setBackgroundResource(resId);
+        }
+    }
+
+    public void setInputEditBgColor(int colorId) {
+        if (ed_input != null) {
+            ed_input.setBackgroundColor(ContextCompat.getColor(getContext(), colorId));
+        }
+    }
+
+    public void setLayoutBg(int resId) {
+        if (ll_layout != null) {
+            ll_layout.setBackgroundResource(resId);
+        }
+    }
+
+    public void setLayoutBgColor(int colorId) {
+        if (ll_layout != null) {
+            ll_layout.setBackgroundColor(ContextCompat.getColor(getContext(), colorId));
+        }
+    }
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -61,6 +87,7 @@ public class TextInputContentDialogFragment extends BaseDialogFragment {
     protected void initViews() {
         super.initViews();
         text = (TextType) getArguments().getSerializable("data");
+        ll_layout = findView(R.id.ll_layout);
         tv_title = findView(R.id.tv_title);
         ed_input = findView(R.id.ed_input);
         tv_cancel = findView(R.id.tv_cancel);

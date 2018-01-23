@@ -46,14 +46,14 @@ public final class R {
         public static int fade = 0x7f0c0358;
         public static int flip = 0x7f0c0365;
         public static int left = 0x7f0c03a6;
-        public static int right = 0x7f0c07ca;
-        public static int rotate = 0x7f0c07d2;
-        public static int stack = 0x7f0c0806;
-        public static int top = 0x7f0c0831;
-        public static int zoom = 0x7f0c09ce;
-        public static int zoomCenter = 0x7f0c09cf;
-        public static int zoomFade = 0x7f0c09d0;
-        public static int zoomStack = 0x7f0c09d1;
+        public static int right = 0x7f0c07cb;
+        public static int rotate = 0x7f0c07d3;
+        public static int stack = 0x7f0c0807;
+        public static int top = 0x7f0c0832;
+        public static int zoom = 0x7f0c09cf;
+        public static int zoomCenter = 0x7f0c09d0;
+        public static int zoomFade = 0x7f0c09d1;
+        public static int zoomStack = 0x7f0c09d2;
     }
     public static final class layout {
         public static int bga_banner_item_image = 0x7f0f0027;

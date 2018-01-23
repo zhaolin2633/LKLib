@@ -7,6 +7,7 @@ import android.text.TextUtils;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.io.Serializable;
@@ -22,6 +23,7 @@ import cn.app.library.utils.ScreenUtil;
  */
 
 public class TipsDialogFragment extends BaseDialogFragment {
+    LinearLayout ll_layout;
     TextView ed_input;
     TextView tv_title;
     TextView tv_cancel;
@@ -60,6 +62,7 @@ public class TipsDialogFragment extends BaseDialogFragment {
     protected void initViews() {
         super.initViews();
         text = (TextType) getArguments().getSerializable("data");
+        ll_layout = findView(R.id.ll_layout);
         tv_title = findView(R.id.tv_title);
         ed_input = findView(R.id.ed_input);
         tv_cancel = findView(R.id.tv_cancel);
@@ -127,6 +130,17 @@ public class TipsDialogFragment extends BaseDialogFragment {
 
         public TextType(String inputText) {
             this.inputText = inputText;
+        }
+    }
+    public void setLayoutBg(int resId) {
+        if (ll_layout != null) {
+            ll_layout.setBackgroundResource(resId);
+        }
+    }
+
+    public void setLayoutBgColor(int colorId) {
+        if (ll_layout != null) {
+            ll_layout.setBackgroundColor(ContextCompat.getColor(getContext(), colorId));
         }
     }
 
