@@ -32,12 +32,12 @@
         "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\a347823b4a92fcdcdae533441fdfc45f\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\ic_info_outline_white_48dp.png",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\ic_info_outline_white_48dp.png"
-    },
-    {
         "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\ic_check.png",
         "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\ic_check.png"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\ic_info_outline_white_48dp.png",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\ic_info_outline_white_48dp.png"
     },
     {
         "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\ic_check_white_48dp.png",

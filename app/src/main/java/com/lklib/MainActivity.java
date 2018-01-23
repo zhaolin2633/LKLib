@@ -145,7 +145,24 @@ public class MainActivity extends BaseAppCompatActivity
             });
             dialog.show(getSupportFragmentManager(), null);
         } else if (id == R.id.nav_gallery) {
-            chooseImage();
+            TextInputContentDialogFragment.TextType inpType = new TextInputContentDialogFragment.TextType();
+            inpType.inputHintText = "请输入商机备注";
+            TextInputContentDialogFragment contentDialogFragment = TextInputContentDialogFragment.newInstance(inpType);
+            contentDialogFragment.show(getSupportFragmentManager(), "");
+            contentDialogFragment.setOnItemClickLisnner(new TextInputContentDialogFragment.OnItemClickLisnner() {
+                @Override
+                public void onItemClick(View view, TextInputContentDialogFragment.TextType textType) {
+                    if (textType != null) {
+
+                    }
+                }
+
+                @Override
+                public void onCancelClick(View view, TextInputContentDialogFragment.TextType textType) {
+
+                }
+            });
+           // chooseImage();
         } else if (id == R.id.nav_slideshow) {
             StyledDialog.buildNormalInput("Title", "输入名字", "确定", "取消", new MyDialogListener() {
                 @Override

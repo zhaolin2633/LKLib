@@ -10,9 +10,9 @@ public final class R {
     public static final class attr {
         public static int animAlphaStart = 0x7f04004c;
         public static int animDuration = 0x7f04004d;
-        public static int collapseDrawable = 0x7f0400a0;
-        public static int expandDrawable = 0x7f04010e;
-        public static int maxCollapsedLines = 0x7f0401b0;
+        public static int collapseDrawable = 0x7f0400a6;
+        public static int expandDrawable = 0x7f040119;
+        public static int maxCollapsedLines = 0x7f0401bb;
     }
     public static final class drawable {
         public static int ic_collapse_holo_light = 0x7f09009c;
@@ -27,7 +27,7 @@ public final class R {
         public static int expandable_text = 0x7f0c00a1;
     }
     public static final class styleable {
-        public static int[] ExpandableTextView = { 0x7f04004c, 0x7f04004d, 0x7f0400a0, 0x7f04010e, 0x7f0401b0 };
+        public static int[] ExpandableTextView = { 0x7f04004c, 0x7f04004d, 0x7f0400a6, 0x7f040119, 0x7f0401bb };
         public static int ExpandableTextView_animAlphaStart = 0;
         public static int ExpandableTextView_animDuration = 1;
         public static int ExpandableTextView_collapseDrawable = 2;

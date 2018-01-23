@@ -8,19 +8,19 @@ package com.github.siyamed.shapeimageview;
 
 public final class R {
     public static final class attr {
-        public static int siArrowPosition = 0x7f0402c2;
-        public static int siBorderAlpha = 0x7f0402c3;
-        public static int siBorderColor = 0x7f0402c4;
-        public static int siBorderType = 0x7f0402c5;
-        public static int siBorderWidth = 0x7f0402c6;
-        public static int siForeground = 0x7f0402c7;
-        public static int siRadius = 0x7f0402c8;
-        public static int siShape = 0x7f0402c9;
-        public static int siSquare = 0x7f0402ca;
-        public static int siStrokeCap = 0x7f0402cb;
-        public static int siStrokeJoin = 0x7f0402cc;
-        public static int siStrokeMiter = 0x7f0402cd;
-        public static int siTriangleHeight = 0x7f0402ce;
+        public static int siArrowPosition = 0x7f0402cd;
+        public static int siBorderAlpha = 0x7f0402ce;
+        public static int siBorderColor = 0x7f0402cf;
+        public static int siBorderType = 0x7f0402d0;
+        public static int siBorderWidth = 0x7f0402d1;
+        public static int siForeground = 0x7f0402d2;
+        public static int siRadius = 0x7f0402d3;
+        public static int siShape = 0x7f0402d4;
+        public static int siSquare = 0x7f0402d5;
+        public static int siStrokeCap = 0x7f0402d6;
+        public static int siStrokeJoin = 0x7f0402d7;
+        public static int siStrokeMiter = 0x7f0402d8;
+        public static int siTriangleHeight = 0x7f0402d9;
     }
     public static final class id {
         public static int bevel = 0x7f0c003e;
@@ -42,7 +42,7 @@ public final class R {
         public static int imgview_star = 0x7f140006;
     }
     public static final class styleable {
-        public static int[] ShaderImageView = { 0x7f0402c2, 0x7f0402c3, 0x7f0402c4, 0x7f0402c5, 0x7f0402c6, 0x7f0402c7, 0x7f0402c8, 0x7f0402c9, 0x7f0402ca, 0x7f0402cb, 0x7f0402cc, 0x7f0402cd, 0x7f0402ce };
+        public static int[] ShaderImageView = { 0x7f0402cd, 0x7f0402ce, 0x7f0402cf, 0x7f0402d0, 0x7f0402d1, 0x7f0402d2, 0x7f0402d3, 0x7f0402d4, 0x7f0402d5, 0x7f0402d6, 0x7f0402d7, 0x7f0402d8, 0x7f0402d9 };
         public static int ShaderImageView_siArrowPosition = 0;
         public static int ShaderImageView_siBorderAlpha = 1;
         public static int ShaderImageView_siBorderColor = 2;

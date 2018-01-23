@@ -71,4 +71,5 @@ dependencies {
     compile 'cn.bingoogolapple:bga-banner:2.1.7@aar'
     compile 'com.android.support:multidex:1.0.1'
     compile 'com.google.zxing:core:3.3.0'
+    implementation 'com.android.support:cardview-v7:26.0.2'
 }

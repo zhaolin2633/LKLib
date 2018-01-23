@@ -42,9 +42,9 @@
 
         <ImageView
             android:id="@+id/iv_left"
-            android:layout_width="48dp"
+            android:layout_width="43dp"
             android:layout_height="48dp"
-            android:padding="12dp"
+            android:padding="10dp"
             android:scaleType="centerInside"
             android:src="@drawable/icon_back_black"
             android:visibility="visible" />
@@ -69,9 +69,9 @@
 
         <ImageView
             android:id="@+id/iv_right"
-            android:layout_width="48dp"
+            android:layout_width="43dp"
             android:layout_height="48dp"
-            android:padding="12dp"
+            android:padding="10dp"
             android:visibility="gone" />
 
         <TextView
