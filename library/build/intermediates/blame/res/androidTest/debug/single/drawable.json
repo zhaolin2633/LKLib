@@ -12,12 +12,12 @@
         "source": "C:\\Users\\26106\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.2.aar\\f9cc7d1746216141899548e26dd0b095\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\loading_large.gif",
-        "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\loading_large.gif"
-    },
-    {
         "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\loading_small.gif",
         "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\loading_small.gif"
+    },
+    {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\loading_large.gif",
+        "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\loading_large.gif"
     },
     {
         "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_borderless_material.xml",
@@ -32,12 +32,12 @@
         "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_toast.xml"
     },
     {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_ios_roundcorner_all_top_gray.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_ios_roundcorner_all_top_gray.xml"
-    },
-    {
         "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_left_true.xml",
         "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_left_true.xml"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_ios_roundcorner_all_top_gray.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_ios_roundcorner_all_top_gray.xml"
     },
     {
         "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_vector_test.xml",
@@ -54,6 +54,10 @@
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_check_material.xml",
         "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\a347823b4a92fcdcdae533441fdfc45f\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_grey_round_white.xml",
+        "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_grey_round_white.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_ios_roundcorner_right_bottom_white.xml",
@@ -84,24 +88,24 @@
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_placeholder.png"
     },
     {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_ios_roundcorner_all_bottom_white.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_ios_roundcorner_all_bottom_white.xml"
-    },
-    {
         "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_toast_loading.xml",
         "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_toast_loading.xml"
     },
     {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\picture_layer_progress.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\picture_layer_progress.xml"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_ios_roundcorner_all_bottom_white.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_ios_roundcorner_all_bottom_white.xml"
+    },
+    {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_check.png",
+        "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_check.png"
     },
     {
         "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "C:\\Users\\26106\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.2.aar\\f9cc7d1746216141899548e26dd0b095\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_check.png",
-        "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_check.png"
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\picture_layer_progress.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\picture_layer_progress.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_ios_roundcorner_right_bottom_gray.xml",
@@ -216,12 +220,12 @@
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_left_true.xml"
     },
     {
-        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\dialog_shadow.xml",
-        "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\dialog_shadow.xml"
-    },
-    {
         "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_back_black.png",
         "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_back_black.png"
+    },
+    {
+        "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\dialog_shadow.xml",
+        "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\dialog_shadow.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
@@ -308,16 +312,16 @@
         "source": "C:\\Users\\SEELE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\a347823b4a92fcdcdae533441fdfc45f\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "C:\\Users\\26106\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.2.aar\\f9cc7d1746216141899548e26dd0b095\\res\\drawable\\abc_ic_search_api_material.xml"
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_rec_a0000000_corner_4dp.xml",
+        "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_rec_a0000000_corner_4dp.xml"
     },
     {
         "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_collapse_holo_light.xml",
         "source": "C:\\Users\\26106\\.gradle\\caches\\transforms-1\\files-1.1\\expandableTextView-0.1.4.aar\\668fb29238638c8fda2826eeca1f72f9\\res\\drawable\\ic_collapse_holo_light.xml"
     },
     {
-        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_rec_a0000000_corner_4dp.xml",
-        "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_rec_a0000000_corner_4dp.xml"
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\26106\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.2.aar\\f9cc7d1746216141899548e26dd0b095\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
         "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_btn_press_right_bottom.xml",
@@ -926,6 +930,10 @@
     {
         "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cpb_background.xml",
         "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\cpb_background.xml"
+    },
+    {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_white_round_white.xml",
+        "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_white_round_white.xml"
     },
     {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\nim_align_bottom_green_btn_selector.xml",

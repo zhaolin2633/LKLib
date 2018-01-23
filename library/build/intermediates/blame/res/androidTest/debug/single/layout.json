@@ -608,6 +608,10 @@
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_no_network_view.xml"
     },
     {
+        "merged": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nim_easy_progress_dialog.xml",
+        "source": "F:\\androidstudio_lklib\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_easy_progress_dialog.xml"
+    },
+    {
         "merged": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nim_picker_photofolder_item.xml",
         "source": "E:\\androidstudio_lklib_\\lklib\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_picker_photofolder_item.xml"
     },

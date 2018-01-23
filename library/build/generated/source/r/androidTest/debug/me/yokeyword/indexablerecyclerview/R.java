@@ -11,12 +11,12 @@ public final class R {
         public static final int indexable_letter = 0x7f0f0001;
     }
     public static final class attr {
-        public static final int indexBar_background = 0x7f010209;
-        public static final int indexBar_layout_width = 0x7f01020a;
-        public static final int indexBar_selectedTextColor = 0x7f010205;
-        public static final int indexBar_textColor = 0x7f010206;
-        public static final int indexBar_textSize = 0x7f010207;
-        public static final int indexBar_textSpace = 0x7f010208;
+        public static final int indexBar_background = 0x7f01020a;
+        public static final int indexBar_layout_width = 0x7f01020b;
+        public static final int indexBar_selectedTextColor = 0x7f010206;
+        public static final int indexBar_textColor = 0x7f010207;
+        public static final int indexBar_textSize = 0x7f010208;
+        public static final int indexBar_textSpace = 0x7f010209;
     }
     public static final class color {
         public static final int default_indexBar_selectedTextColor = 0x7f0e00b4;
@@ -28,12 +28,12 @@ public final class R {
         public static final int default_indexBar_textSpace = 0x7f0a009a;
     }
     public static final class drawable {
-        public static final int dafault_indexBar_background = 0x7f02012f;
+        public static final int dafault_indexBar_background = 0x7f020131;
         public static final int indexable_bg_center_overlay = 0x7f0200b6;
         public static final int indexable_bg_md_overlay = 0x7f0200b7;
     }
     public static final class styleable {
-        public static final int[] IndexableRecyclerView = { 0x7f010205, 0x7f010206, 0x7f010207, 0x7f010208, 0x7f010209, 0x7f01020a };
+        public static final int[] IndexableRecyclerView = { 0x7f010206, 0x7f010207, 0x7f010208, 0x7f010209, 0x7f01020a, 0x7f01020b };
         public static final int IndexableRecyclerView_indexBar_selectedTextColor = 0;
         public static final int IndexableRecyclerView_indexBar_textColor = 1;
         public static final int IndexableRecyclerView_indexBar_textSize = 2;
