@@ -147,6 +147,7 @@ public class MainActivity extends BaseAppCompatActivity
         } else if (id == R.id.nav_gallery) {
             TextInputContentDialogFragment.TextType inpType = new TextInputContentDialogFragment.TextType();
             inpType.inputHintText = "请输入商机备注";
+            inpType.inputText = "请输入商机备注";
             TextInputContentDialogFragment contentDialogFragment = TextInputContentDialogFragment.newInstance(inpType);
             contentDialogFragment.show(getSupportFragmentManager(), "");
             contentDialogFragment.setOnItemClickLisnner(new TextInputContentDialogFragment.OnItemClickLisnner() {

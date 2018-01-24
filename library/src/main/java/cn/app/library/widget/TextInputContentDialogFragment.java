@@ -8,6 +8,7 @@ import android.text.TextUtils;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -26,7 +27,7 @@ import cn.app.library.widget.toast.ToastUtil;
 
 public class TextInputContentDialogFragment extends BaseDialogFragment {
     public LinearLayout ll_layout;
-    public ClearEditText ed_input;
+    public EditText ed_input;
     public TextView tv_title;
     public TextView tv_cancel;
     public TextView tv_ok;
@@ -102,8 +103,8 @@ public class TextInputContentDialogFragment extends BaseDialogFragment {
 
         ed_input.setHint(text != null && !TextUtils.isEmpty(text.inputHintText) ? text.inputHintText : "请输入内容");
         if (text != null && !TextUtils.isEmpty(text.inputText)) {
-            ed_input.setSelection(text.inputText.length());
             ed_input.setText(text.inputText);
+            ed_input.setSelection(text.inputText.length());
             if (text.inputBg > 0) {
                 ed_input.setBackgroundResource(text.inputBg);
             }
