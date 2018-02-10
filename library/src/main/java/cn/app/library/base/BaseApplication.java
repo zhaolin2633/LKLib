@@ -10,6 +10,7 @@ import android.support.multidex.MultiDexApplication;
 import cn.app.library.BuildConfig;
 import cn.app.library.utils.AppLibInitTools;
 import cn.app.library.utils.AppManager;
+import cn.app.library.utils.utilcode.util.Utils;
 
 /**
  * Author：xiaohaibin
@@ -21,9 +22,11 @@ import cn.app.library.utils.AppManager;
 public abstract class BaseApplication extends MultiDexApplication {
     private static BaseApplication instance;
     private Context context;
+
     public static BaseApplication getInstance() {
         return instance;
     }
+
     @Override
     public void onCreate() {
         super.onCreate();
@@ -41,6 +44,7 @@ public abstract class BaseApplication extends MultiDexApplication {
                 .isDebug(true)
                 .isShowToast(true)
                 .build();
+        Utils.init(this);
     }
 
     public Context getContext() {

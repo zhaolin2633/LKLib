@@ -13816,6 +13816,8 @@ containing a value of this type.
         public static final int custom_dialog2=0x7f0b01b7;
         public static final int dialog_center=0x7f0b01b8;
         public static final int dialog_style=0x7f0b01b9;
+        /**  后面的activity变暗 
+         */
         public static final int easy_dialog_style=0x7f0b01ba;
         public static final int mystyle=0x7f0b01bb;
         public static final int notitle=0x7f0b01bc;
