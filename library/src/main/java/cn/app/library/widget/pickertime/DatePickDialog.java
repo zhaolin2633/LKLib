@@ -10,7 +10,6 @@ import android.view.WindowManager;
 import android.widget.*;
 
 
-
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -31,6 +30,8 @@ public class DatePickDialog extends Dialog implements OnChangeLisener {
     private TextView messgeTv;
 
     private String title;
+    private String leftText;
+    private String rightText;
     private String format;
     private DateType type = DateType.TYPE_ALL;
 
@@ -47,7 +48,7 @@ public class DatePickDialog extends Dialog implements OnChangeLisener {
 
     //设置标题
     public void setTitle(String title) {
-       this.title=title;
+        this.title = title;
     }
 
     //设置模式
@@ -78,6 +79,14 @@ public class DatePickDialog extends Dialog implements OnChangeLisener {
     //设置点击确定按钮，回调
     public void setOnSureLisener(OnSureLisener onSureLisener) {
         this.onSureLisener = onSureLisener;
+    }
+
+    public void setLeftText(String text) {
+        leftText = text;
+    }
+
+    public void setRightText(String text) {
+        rightText = text;
     }
 
     public DatePickDialog(Context context) {
@@ -114,7 +123,12 @@ public class DatePickDialog extends Dialog implements OnChangeLisener {
 
         //setValue
         this.titleTv.setText(title);
-
+        if(!TextUtils.isEmpty(rightText)){
+            sure.setText(rightText);
+        }
+        if(!TextUtils.isEmpty(leftText)){
+            cancel.setText(leftText);
+        }
         this.cancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
