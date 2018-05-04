@@ -152,10 +152,9 @@ public class PictureSelectorActivity extends PictureBaseActivity implements View
                             }
                         });
             }
-            if (Build.VERSION.SDK_INT < 25) {
-                getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN
-                        , WindowManager.LayoutParams.FLAG_FULLSCREEN);
-            }
+
+            getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN
+                    , WindowManager.LayoutParams.FLAG_FULLSCREEN);
             setContentView(R.layout.picture_empty);
         } else {
             setContentView(R.layout.picture_selector);
