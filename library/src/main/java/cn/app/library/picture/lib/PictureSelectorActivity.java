@@ -25,6 +25,11 @@ import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+import java.io.File;
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+
 import cn.app.library.R;
 import cn.app.library.picture.lib.adapter.PictureAlbumDirectoryAdapter;
 import cn.app.library.picture.lib.adapter.PictureImageGridAdapter;
@@ -54,12 +59,6 @@ import cn.app.library.picture.lib.widget.PhotoPopupWindow;
 import cn.app.library.picture.ucrop.UCrop;
 import cn.app.library.picture.ucrop.UCropMulti;
 import cn.app.library.picture.ucrop.model.CutInfo;
-
-import java.io.File;
-import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.List;
-
 import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;
 
@@ -153,8 +152,10 @@ public class PictureSelectorActivity extends PictureBaseActivity implements View
                             }
                         });
             }
-            getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN
-                    , WindowManager.LayoutParams.FLAG_FULLSCREEN);
+            if (Build.VERSION.SDK_INT < 25) {
+                getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN
+                        , WindowManager.LayoutParams.FLAG_FULLSCREEN);
+            }
             setContentView(R.layout.picture_empty);
         } else {
             setContentView(R.layout.picture_selector);
